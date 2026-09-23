@@ -71,12 +71,25 @@ jobs:
           ukazovat vedle. Postavený je včetně lemmatizace."
 
           # Smazat a založit znovu znamenalo půl minuty bez indexu, kdy stahování padalo.
-          # Soubory se proto přepisují v existujícím releasu a tag se jen posune.
+          # Release proto zůstává a vymění se jen soubory: nový se nahraje pod dočasným jménem,
+          # starý se smaže a nový přejmenuje. --clobber na to nestačí — seznam souborů podle
+          # tagu bývá po nahrání minuty zastaralý, gh starý soubor nevidí a nahrání pak narazí
+          # na „already exists“. Seznam podle id releasu je čerstvý.
+          REPO="${{ github.repository }}"
           git tag -f "$ZNACKA" && git push -f origin "refs/tags/$ZNACKA"
-          if gh release view "$ZNACKA" >/dev/null 2>&1; then
-            gh release upload "$ZNACKA" index.db.gz index.db.gz.sha256 --clobber
-            gh release edit "$ZNACKA" --title "Fulltextový index $DNES" --notes "$POZNAMKY" --latest
-          else
+          if ! ID=$(gh api "repos/$REPO/releases/tags/$ZNACKA" --jq .id 2>/dev/null); then
             gh release create "$ZNACKA" index.db.gz index.db.gz.sha256 \
               --title "Fulltextový index $DNES" --notes "$POZNAMKY" --latest
+            exit 0
           fi
+          for SOUBOR in index.db.gz index.db.gz.sha256; do
+            NOVE=$(gh api --method POST -H "Content-Type: application/octet-stream" \
+              "https://uploads.github.com/repos/$REPO/releases/$ID/assets?name=$SOUBOR.novy" \
+              --input "$SOUBOR" --jq .id)
+            for STARE in $(gh api "repos/$REPO/releases/$ID/assets" \
+                --jq ".[] | select(.name == \"$SOUBOR\") | .id"); do
+              gh api --method DELETE "repos/$REPO/releases/assets/$STARE"
+            done
+            gh api --method PATCH "repos/$REPO/releases/assets/$NOVE" -f name="$SOUBOR" >/dev/null
+          done
+          gh release edit "$ZNACKA" --title "Fulltextový index $DNES" --notes "$POZNAMKY" --latest
