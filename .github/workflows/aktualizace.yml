@@ -1,0 +1,91 @@
+name: Aktualizace sbírky
+
+# Sbírka se mění pořád, ale ne rychle: e-Sbírka vydává částky průběžně, judikatura přibývá
+# denně a právo EU po týdnech. Týdenní běh je kompromis mezi svěžestí a tím, aby historie
+# repozitáře nenarůstala o commit denně.
+on:
+  schedule:
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      od_roku:
+        description: "Od kterého roku stahovat (prázdné = jen změny)"
+        required: false
+
+concurrency:
+  group: aktualizace
+  cancel-in-progress: false
+
+jobs:
+  aktualizace:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # --od-roku musí být výslovně: výchozí 1990 by vynechalo 12 925 starších předpisů,
+      # které se pořád novelizují (občanský soudní řád je z roku 1963).
+      - name: Předpisy
+        run: python3 tools/stahni.py --od-roku ${{ inputs.od_roku || '1918' }}
+
+      # Bez --sbirka sm se stahuje jen řada Sb.; mezinárodní smlouvy mají vlastní řadu.
+      - name: Mezinárodní smlouvy
+        run: python3 tools/stahni.py --od-roku ${{ inputs.od_roku || '1918' }} --sbirka sm
+
+      - name: Právo EU
+        run: python3 tools/eu.py
+
+      - name: Judikatura
+        run: python3 tools/judikatura.py
+
+      # platnost.py mění frontmatter a index.py z něj čte, takže pořadí není libovolné.
+      - name: Platnost, changelog, rejstřík
+        run: |
+          python3 tools/platnost.py
+          python3 tools/platnost-eu.py
+          python3 tools/changelog.py
+          python3 tools/rejstrik.py
+
+      - name: Index
+        run: python3 tools/index.py
+
+      # Kontrola běží před commitem: rozbitá data se do repozitáře dostat nemají.
+      - name: Kontrola
+        run: python3 tools/kontrola.py
+
+      # Počty předpisů se každým během mění, jinak by dokumentace začala lhát.
+      - name: Srovnat čísla v dokumentaci
+        run: python3 tools/cisla.py --oprav
+
+      - name: Testy nástrojů
+        run: python3 tools/testy.py
+
+      - name: Měření hledání
+        run: python3 tools/dotazy.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet && git diff --cached --quiet; then
+            echo "beze změny"
+            exit 0
+          fi
+          git add -A
+          git commit -m "Aktualizace $(date '+%-d. %-m. %Y')
+
+          $(python3 -c "
+          import json, pathlib
+          p = pathlib.Path('.zmeny/posledni.json')
+          if p.exists():
+              d = json.loads(p.read_text(encoding='utf-8'))
+              print(f\"Nových {len(d.get('nove', []))}, změněných {len(d.get('zmenene', []))}.\")
+          ")"
+          git push

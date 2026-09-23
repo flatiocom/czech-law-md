@@ -1,0 +1,69 @@
+# Licence
+
+V repozitáři jsou dvě různé věci a platí pro ně různý režim.
+
+## Texty právních předpisů (`zakony/`, `smlouvy/`)
+
+**Volné dílo, bez autorskoprávní ochrany.**
+
+Podle § 3 písm. a) zákona č. 121/2000 Sb., o právu autorském, není autorským dílem „právní předpis,
+rozhodnutí, opatření obecné povahy, veřejná listina, veřejně přístupný rejstřík a sbírka jeho
+listin". Text zákona tedy nikomu nepatří a smí se užívat bez omezení a bez uvádění zdroje.
+
+Zdrojem je e-Sbírka Ministerstva vnitra, která je podle zákona č. 222/2016 Sb. od 1. 1. 2024
+jedinou právně závaznou formou Sbírky zákonů. **Zde uložená znění jsou informativní** — pro právní
+jistotu odkazuj na [e-sbirka.gov.cz](https://e-sbirka.gov.cz) přes ELI ve frontmatteru předpisu.
+
+## Právo EU (`eu/`)
+
+Texty pocházejí z [CELLARu](https://publications.europa.eu) Úřadu pro publikace Evropské unie.
+Podle jeho podmínek užití je opakované použití povolené, pokud **uvedeš zdroj a označíš změny**;
+tento repozitář z vyhlášeného XML skládá markdown, což je změna formátu, ne obsahu.
+
+Pozor: samotné vyhlášené znění je závazné jen v Úředním věstníku EU. Zde uložené texty jsou
+pracovní kopie.
+
+## Metadata a rejstřík judikatury (`judikatura/`, frontmatter, `Rejstřík.md`)
+
+**CC0**, jak datovou sadu „Rozhodnutí okresních, krajských a vrchních soudů" označuje
+[Národní katalog otevřených dat](https://data.gov.cz) — dílo bez autorskoprávní ochrany, užití
+bez podmínek. Uvedení zdroje tedy povinné není, ale sluší se:
+
+- právní předpisy a konsolidační vazby: Ministerstvo vnitra ČR, e-Sbírka
+- soudní rozhodnutí: Ministerstvo spravedlnosti ČR,
+  [rozhodnutí.justice.cz](https://rozhodnuti.justice.cz)
+
+**Plné texty rozhodnutí jména obsahují.** `judikatura.py --text` stáhne konkrétní rozhodnutí
+včetně jména soudce, které je v textu uvedeno; ukládá se do `.cache/`, které do repozitáře
+nepatří. Zveřejňovaná metadata jméno nenesou.
+
+**Osobní údaje CC0 neřeší.** Katalog sadu označuje zároveň jako obsahující osobní údaje; licence
+se týká autorského práva, nikoli ochrany osobních údajů. Rozhodnutí jsou zveřejňována
+v anonymizované podobě a anonymizaci provádí soud, ne tento repozitář. Jméno soudce, které API
+vrací v poli `autor`, se zde záměrně neukládá.
+
+## Nástroje (`tools/`)
+
+MIT.
+
+Copyright (c) 2026 Flatio s.r.o.
+
+Tímto se uděluje bezplatné svolení každé osobě, která získá kopii tohoto softwaru a souvisejících
+dokumentačních souborů (dále jen „software"), nakládat se softwarem bez omezení, včetně
+neomezeného práva jej užívat, kopírovat, upravovat, slučovat, zveřejňovat, šířit, poskytovat
+sublicence a prodávat kopie softwaru, a dovolit totéž osobám, kterým je software poskytnut, a to
+za následujících podmínek:
+
+Výše uvedené oznámení o autorském právu a toto oznámení o svolení musí být součástí všech kopií
+nebo podstatných částí softwaru.
+
+SOFTWARE JE POSKYTOVÁN „TAK, JAK JE", BEZ JAKÉKOLI ZÁRUKY, VÝSLOVNÉ ČI PŘEDPOKLÁDANÉ, VČETNĚ
+ZÁRUK PRODEJNOSTI, VHODNOSTI PRO URČITÝ ÚČEL A NEPORUŠENÍ PRÁV. AUTOŘI ANI DRŽITELÉ AUTORSKÝCH
+PRÁV NEODPOVÍDAJÍ ZA ŽÁDNÉ NÁROKY, ŠKODY ANI JINÉ ZÁVAZKY, AŤ UŽ V RÁMCI SMLUVNÍHO VZTAHU,
+DELIKTU ČI JINAK, VZNIKLÉ ZE SOFTWARU NEBO Z JEHO UŽITÍ ČI JINÉHO NAKLÁDÁNÍ S NÍM.
+
+---
+
+**Tohle není právní poradenství.** Repozitář je nástroj na práci s texty předpisů, ne jejich
+výklad. Že je zde předpis uložen, neříká nic o tom, jestli platí — viz „Co v repozitáři není"
+v README.

@@ -1,0 +1,2 @@
+# Předpisy nesou nedělitelné mezery a diakritiku; konce řádků držíme na LF, ať se diff nerozbije
+* text=auto eol=lf

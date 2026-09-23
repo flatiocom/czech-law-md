@@ -1,0 +1,63 @@
+filters:
+  or:
+    - 'file.hasTag("zakon")'
+    - 'file.hasTag("smlouva")'
+properties:
+  citace:
+    displayName: Citace
+  nazev:
+    displayName: Název
+  ucinnost_od:
+    displayName: Znění k
+  rok:
+    displayName: Rok
+  zruseno_k:
+    displayName: Zrušeno k
+views:
+  - type: table
+    name: Platné předpisy
+    filters:
+      and:
+        - '!file.hasTag("zruseno")'
+    order:
+      - citace
+      - nazev
+      - ucinnost_od
+    sort:
+      - property: rok
+        direction: DESC
+  - type: table
+    name: Zrušené předpisy
+    filters:
+      and:
+        - 'file.hasTag("zruseno")'
+    order:
+      - citace
+      - nazev
+      - zruseno_k
+    sort:
+      - property: zruseno_k
+        direction: DESC
+  - type: table
+    name: Všechny předpisy
+    order:
+      - citace
+      - nazev
+      - ucinnost_od
+      - zruseno_k
+    sort:
+      - property: rok
+        direction: DESC
+  - type: table
+    name: Od roku 2020
+    filters:
+      and:
+        - 'rok >= 2020'
+        - '!file.hasTag("zruseno")'
+    order:
+      - citace
+      - nazev
+      - ucinnost_od
+    sort:
+      - property: rok
+        direction: DESC

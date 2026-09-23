@@ -1,0 +1,11 @@
+.cache/*
+# Stav stahování patří do repozitáře: bez něj první `stahni.py` po klonu stáhne
+# všech 33 418 předpisů znovu, místo aby dotáhl jen to, co se změnilo.
+!.cache/stav.json
+!.cache/eu-stav.json
+!.cache/eu-seznam.json
+!.cache/stav-judikatura.json
+.obsidian/workspace*.json
+__pycache__/
+*.pyc
+.obsidian/graph.json

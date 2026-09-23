@@ -1,0 +1,82 @@
+name: Index do Releases
+
+# Index má 2,8 GB a do gitu nepatří, ale postavit si ho stojí deset minut. Kdo repozitář jen
+# čte a neaktualizuje, ušetří je stažením hotového: komprimovaný má kolem 880 MB a jako asset
+# release nezatěžuje ani velikost repozitáře, ani jeho historii.
+on:
+  workflow_run:
+    workflows: ["Aktualizace sbírky"]
+    types: [completed]
+  workflow_dispatch:
+
+concurrency:
+  group: index-release
+  cancel-in-progress: false
+
+jobs:
+  index:
+    # Po neúspěšné aktualizaci by se balil index nad daty, která neprošla kontrolou.
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Lemmatizace
+        run: pip install simplemma
+
+      - name: Postavit index
+        run: python3 tools/index.py
+
+      # Index bez kontroly by mohl nést rozbitá data; hlídá to i aktualizační workflow, ale
+      # tenhle běh se pouští i ručně.
+      - name: Kontrola
+        run: python3 tools/kontrola.py
+
+      - name: Zabalit
+        run: |
+          gzip -6 -c .cache/index.db > index.db.gz
+          ls -lh index.db.gz
+          sha256sum index.db.gz > index.db.gz.sha256
+
+      # Jeden přepisovaný release, ne nový každý týden: index ke starým datům je k ničemu,
+      # takže držet 52 verzí ročně by jen nafouklo úložiště.
+      - name: Nahrát jako release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ZNACKA="index-latest"
+          POCET=$(find zakony smlouvy eu -name '*.md' | wc -l)
+          DNES=$(date '+%-d. %-m. %Y')
+          POZNAMKY="Hotový index k datům z $DNES, $POCET předpisů.
+
+          Stáhni a rozbal do \`.cache/index.db\`, ušetříš deset minut stavby:
+
+          \`\`\`bash
+          gh release download index-latest --pattern 'index.db.gz'
+          mkdir -p .cache && gunzip -c index.db.gz > .cache/index.db
+          \`\`\`
+
+          Index odpovídá **datům v commitu $(git rev-parse --short HEAD)**. Jakmile si sbírku
+          zaktualizuješ, přestav ho (\`python3 tools/index.py\`) — jinak budou odkazy na řádky
+          ukazovat vedle. Postavený je včetně lemmatizace."
+
+          # Smazat a založit znovu znamenalo půl minuty bez indexu, kdy stahování padalo.
+          # Soubory se proto přepisují v existujícím releasu a tag se jen posune.
+          git tag -f "$ZNACKA" && git push -f origin "refs/tags/$ZNACKA"
+          if gh release view "$ZNACKA" >/dev/null 2>&1; then
+            gh release upload "$ZNACKA" index.db.gz index.db.gz.sha256 --clobber
+            gh release edit "$ZNACKA" --title "Fulltextový index $DNES" --notes "$POZNAMKY" --latest
+          else
+            gh release create "$ZNACKA" index.db.gz index.db.gz.sha256 \
+              --title "Fulltextový index $DNES" --notes "$POZNAMKY" --latest
+          fi

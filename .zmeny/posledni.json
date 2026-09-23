@@ -1,0 +1,4196 @@
+{
+ "datum": "2026-09-23",
+ "zaznamy": [
+  {
+   "novelizovano": [
+    "57/1965 Sb.",
+    "149/1969 Sb.",
+    "48/1973 Sb.",
+    "29/1978 Sb.",
+    "43/1980 Sb.",
+    "159/1989 Sb."
+   ],
+   "citace": "141/1961 Sb.",
+   "nazev": "Zákon o trestním řízení soudním (trestní řád)",
+   "druh": "změněný",
+   "soubor": "akony/1961/141-1961.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "36/1967 Sb.",
+    "158/1969 Sb.",
+    "49/1973 Sb.",
+    "20/1975 Sb.",
+    "133/1982 Sb.",
+    "180/1990 Sb."
+   ],
+   "citace": "99/1963 Sb.",
+   "nazev": "Občanský soudní řád",
+   "druh": "změněný",
+   "soubor": "zakony/1963/99-1963.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "147/1970 Sb.",
+    "25/1976 Sb.",
+    "118/1983 Sb.",
+    "60/1988 Sb.",
+    "173/1989 Sb.",
+    "203/1990 Sb."
+   ],
+   "citace": "2/1969 Sb.",
+   "nazev": "Zákon České národní rady  o zřízení ministerstev a jiných ústředních orgánů státní správy České socialistické republiky",
+   "druh": "změněný",
+   "soubor": "zakony/1969/2-1969.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "591/1992 Sb.",
+    "600/1992 Sb.",
+    "273/1993 Sb.",
+    "303/1993 Sb.",
+    "38/1994 Sb.",
+    "42/1994 Sb."
+   ],
+   "citace": "455/1991 Sb.",
+   "nazev": "Zákon o živnostenském podnikání (živnostenský zákon)",
+   "druh": "změněný",
+   "soubor": "zakony/1991/455-1991.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": [
+    "§ 8b"
+   ]
+  },
+  {
+   "novelizovano": [
+    "227/1997 Sb.",
+    "492/2000 Sb.",
+    "353/2001 Sb.",
+    "437/2003 Sb.",
+    "257/2004 Sb.",
+    "669/2004 Sb."
+   ],
+   "citace": "563/1991 Sb.",
+   "nazev": "Zákon o účetnictví",
+   "druh": "změněný",
+   "soubor": "zakony/1991/563-1991.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 21c"
+   ]
+  },
+  {
+   "novelizovano": [
+    "590/1992 Sb.",
+    "160/1993 Sb.",
+    "307/1993 Sb.",
+    "241/1994 Sb.",
+    "118/1995 Sb.",
+    "160/1995 Sb."
+   ],
+   "citace": "582/1991 Sb.",
+   "nazev": "Zákon České národní rady o organizaci a provádění sociálního zabezpečení",
+   "druh": "změněný",
+   "soubor": "zakony/1991/582-1991.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "347/1992 Sb.",
+    "289/1995 Sb.",
+    "16/1997 Sb.",
+    "3/1997 Sb.",
+    "123/1998 Sb.",
+    "161/1999 Sb."
+   ],
+   "citace": "114/1992 Sb.",
+   "nazev": "Zákon České národní rady o ochraně přírody a krajiny",
+   "druh": "změněný",
+   "soubor": "zakony/1992/114-1992.md",
+   "ucinnost_od": "2025-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "292/1993 Sb.",
+    "156/1994 Sb.",
+    "83/1995 Sb.",
+    "84/1995 Sb.",
+    "61/1996 Sb.",
+    "306/1997 Sb."
+   ],
+   "citace": "21/1992 Sb.",
+   "nazev": "Zákon o bankách",
+   "druh": "změněný",
+   "soubor": "zakony/1992/21-1992.md",
+   "ucinnost_od": "2026-01-11",
+   "paragrafy": [
+    "§ 17c",
+    "§ 17n"
+   ]
+  },
+  {
+   "novelizovano": [
+    "287/1995 Sb.",
+    "228/1997 Sb.",
+    "15/2002 Sb.",
+    "96/2005 Sb.",
+    "179/2005 Sb."
+   ],
+   "citace": "238/1992 Sb.",
+   "nazev": "Zákon České národní rady  o některých opatřeních souvisejících s ochranou veřejného zájmu",
+   "druh": "změněný",
+   "soubor": "zakony/1992/238-1992.md",
+   "ucinnost_od": "2006-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "162/1993 Sb.",
+    "193/1994 Sb.",
+    "243/1997 Sb.",
+    "77/2004 Sb.",
+    "413/2005 Sb.",
+    "77/2006 Sb."
+   ],
+   "citace": "246/1992 Sb.",
+   "nazev": "Zákon České národní rady na ochranu zvířat proti týrání",
+   "druh": "změněný",
+   "soubor": "zakony/1992/246-1992.md",
+   "ucinnost_od": "2025-04-01",
+   "paragrafy": [
+    "§ 12h"
+   ]
+  },
+  {
+   "novelizovano": [
+    "220/2000 Sb.",
+    "342/2005 Sb.",
+    "329/2025 Sb."
+   ],
+   "citace": "283/1992 Sb.",
+   "nazev": "Zákon České národní rady o Akademii věd České republiky",
+   "druh": "změněný",
+   "soubor": "zakony/1992/283-1992.md",
+   "ucinnost_od": "2005-09-13",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "35/1993 Sb.",
+    "157/1993 Sb.",
+    "96/1993 Sb.",
+    "196/1993 Sb.",
+    "323/1993 Sb.",
+    "114/1994 Sb."
+   ],
+   "citace": "586/1992 Sb.",
+   "nazev": "Zákon České národní rady o daních z příjmů",
+   "druh": "změněný",
+   "soubor": "zakony/1992/586-1992.md",
+   "ucinnost_od": "2026-08-01",
+   "paragrafy": [
+    "§ 38ha",
+    "§ 38hb",
+    "§ 38hc",
+    "§ 38hd",
+    "§ 38he",
+    "§ 38hf",
+    "§ 38hg",
+    "§ 38hh",
+    "§ 38hi",
+    "§ 38hj"
+   ]
+  },
+  {
+   "novelizovano": [
+    "10/1993 Sb.",
+    "160/1993 Sb.",
+    "307/1993 Sb.",
+    "42/1994 Sb.",
+    "241/1994 Sb.",
+    "59/1995 Sb."
+   ],
+   "citace": "589/1992 Sb.",
+   "nazev": "Zákon České národní rady o pojistném na sociální zabezpečení a příspěvku na státní politiku zaměstnanosti",
+   "druh": "změněný",
+   "soubor": "zakony/1992/589-1992.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "217/1993 Sb.",
+    "104/1995 Sb.",
+    "110/1997 Sb.",
+    "356/1999 Sb.",
+    "64/2000 Sb.",
+    "145/2000 Sb."
+   ],
+   "citace": "634/1992 Sb.",
+   "nazev": "Zákon o ochraně spotřebitele",
+   "druh": "změněný",
+   "soubor": "zakony/1992/634-1992.md",
+   "ucinnost_od": "2025-08-20",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "331/1993 Sb.",
+    "224/1994 Sb.",
+    "117/1994 Sb.",
+    "58/1995 Sb.",
+    "148/1998 Sb.",
+    "220/2000 Sb."
+   ],
+   "citace": "166/1993 Sb.",
+   "nazev": "Zákon o Nejvyšším kontrolním úřadu",
+   "druh": "změněný",
+   "soubor": "zakony/1993/166-1993.md",
+   "ucinnost_od": "2026-08-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "15/1998 Sb.",
+    "442/2000 Sb.",
+    "278/2001 Sb.",
+    "482/2001 Sb.",
+    "127/2002 Sb.",
+    "257/2004 Sb."
+   ],
+   "citace": "6/1993 Sb.",
+   "nazev": "Zákon České národní rady o České národní bance",
+   "druh": "změněný",
+   "soubor": "zakony/1993/6-1993.md",
+   "ucinnost_od": "2026-07-10",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "292/2001 Sb.",
+    "377/2004 Sb.",
+    "242/2006 Sb.",
+    "18/2015 Sb.",
+    "280/2017 Sb.",
+    "363/2020 Sb."
+   ],
+   "citace": "109/1994 Sb.",
+   "nazev": "Vyhláška Ministerstva spravedlnosti, kterou se vydává řád výkonu vazby",
+   "druh": "změněný",
+   "soubor": "zakony/1994/109-1994.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "189/1999 Sb.",
+    "23/2000 Sb.",
+    "71/2000 Sb.",
+    "132/2000 Sb.",
+    "77/2002 Sb.",
+    "175/2002 Sb."
+   ],
+   "citace": "266/1994 Sb.",
+   "nazev": "Zákon o dráhách",
+   "druh": "změněný",
+   "soubor": "zakony/1994/266-1994.md",
+   "ucinnost_od": "2025-09-10",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "126/2003 Sb.",
+    "253/2006 Sb.",
+    "269/2007 Sb.",
+    "179/2007 Sb.",
+    "345/2007 Sb.",
+    "130/2008 Sb."
+   ],
+   "citace": "269/1994 Sb.",
+   "nazev": "Zákon o Rejstříku trestů",
+   "druh": "změněný",
+   "soubor": "zakony/1994/269-1994.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": [
+    "§ 2d",
+    "§ 2e",
+    "§ 5",
+    "§ 6",
+    "§ 9b",
+    "§ 9c",
+    "§ 9d",
+    "§ 14a"
+   ]
+  },
+  {
+   "novelizovano": [
+    "137/1996 Sb.",
+    "242/1997 Sb.",
+    "91/1998 Sb.",
+    "158/1998 Sb.",
+    "360/1999 Sb.",
+    "118/2000 Sb."
+   ],
+   "citace": "117/1995 Sb.",
+   "nazev": "Zákon o státní sociální podpoře",
+   "druh": "změněný",
+   "soubor": "zakony/1995/117-1995.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": [
+    "§ 7a",
+    "§ 30d",
+    "§ 35",
+    "§ 36",
+    "§ 68",
+    "§ 68e",
+    "§ 69a",
+    "§ 71a"
+   ]
+  },
+  {
+   "novelizovano": [
+    "134/1997 Sb.",
+    "289/1997 Sb.",
+    "224/1999 Sb.",
+    "18/2000 Sb.",
+    "118/2000 Sb.",
+    "220/2000 Sb."
+   ],
+   "citace": "155/1995 Sb.",
+   "nazev": "Zákon o důchodovém pojištění",
+   "druh": "změněný",
+   "soubor": "zakony/1995/155-1995.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 18a",
+    "§ 18b"
+   ]
+  },
+  {
+   "novelizovano": [
+    "212/1996 Sb.",
+    "243/1999 Sb.",
+    "204/2000 Sb.",
+    "64/2001 Sb.",
+    "37/2002 Sb.",
+    "230/2002 Sb."
+   ],
+   "citace": "247/1995 Sb.",
+   "nazev": "Zákon o volbách do Parlamentu České republiky a o změně a doplnění některých dalších zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/1995/247-1995.md",
+   "ucinnost_od": "2026-06-26",
+   "paragrafy": [
+    "§ 59b"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "287/1995 Sb.",
+   "nazev": "Zákon, kterým se mění a doplňuje zákon České národní rady č. 238/1992 Sb., o některých opatřeních souvisejících s ochranou veřejného zájmu",
+   "druh": "změněný",
+   "soubor": "zakony/1995/287-1995.md",
+   "ucinnost_od": "1996-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "238/1999 Sb.",
+    "67/2000 Sb.",
+    "132/2000 Sb.",
+    "76/2002 Sb.",
+    "320/2002 Sb.",
+    "149/2003 Sb."
+   ],
+   "citace": "289/1995 Sb.",
+   "nazev": "Zákon o lesích a o změně a doplnění některých zákonů (lesní zákon)",
+   "druh": "změněný",
+   "soubor": "zakony/1995/289-1995.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 23c",
+    "§ 46b"
+   ]
+  },
+  {
+   "novelizovano": [
+    "60/1998 Sb.",
+    "188/1999 Sb.",
+    "282/2002 Sb.",
+    "377/2005 Sb.",
+    "23/2006 Sb.",
+    "293/2009 Sb."
+   ],
+   "citace": "58/1995 Sb.",
+   "nazev": "Zákon o pojišťování a financování vývozu se státní podporou a o doplnění zákona č. 166/1993 Sb., o Nejvyšším kontrolním úřadu, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/1995/58-1995.md",
+   "ucinnost_od": "2025-02-19",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "100/2000 Sb.",
+    "406/2001 Sb.",
+    "212/2002 Sb.",
+    "280/2004 Sb.",
+    "377/2005 Sb.",
+    "413/2005 Sb."
+   ],
+   "citace": "87/1995 Sb.",
+   "nazev": "Zákon o spořitelních a úvěrních družstvech a některých opatřeních s tím souvisejících a o doplnění zákona České národní rady č. 586/1992 Sb., o daních z příjmů, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/1995/87-1995.md",
+   "ucinnost_od": "2026-01-11",
+   "paragrafy": [
+    "§ 2cd"
+   ]
+  },
+  {
+   "novelizovano": [
+    "356/1999 Sb.",
+    "411/2000 Sb.",
+    "220/2000 Sb.",
+    "256/2000 Sb.",
+    "202/2002 Sb.",
+    "320/2002 Sb."
+   ],
+   "citace": "89/1995 Sb.",
+   "nazev": "Zákon o státní statistické službě",
+   "druh": "změněný",
+   "soubor": "zakony/1995/89-1995.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "47/2000 Sb.",
+    "39/2001 Sb.",
+    "78/2002 Sb.",
+    "192/2002 Sb.",
+    "282/2004 Sb.",
+    "359/2004 Sb."
+   ],
+   "citace": "90/1995 Sb.",
+   "nazev": "Zákon o jednacím řádu Poslanecké sněmovny",
+   "druh": "změněný",
+   "soubor": "zakony/1995/90-1995.md",
+   "ucinnost_od": "2026-09-15",
+   "paragrafy": [
+    "§ 106a",
+    "§ 106b"
+   ]
+  },
+  {
+   "novelizovano": [
+    "102/2000 Sb.",
+    "132/2000 Sb.",
+    "489/2001 Sb.",
+    "256/2002 Sb.",
+    "259/2002 Sb.",
+    "320/2002 Sb."
+   ],
+   "citace": "13/1997 Sb.",
+   "nazev": "Zákon o pozemních komunikacích",
+   "druh": "změněný",
+   "soubor": "zakony/1997/13-1997.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "71/2000 Sb.",
+    "205/2002 Sb.",
+    "226/2003 Sb.",
+    "277/2003 Sb.",
+    "229/2006 Sb.",
+    "186/2006 Sb."
+   ],
+   "citace": "22/1997 Sb.",
+   "nazev": "Zákon o technických požadavcích na výrobky a o změně a doplnění některých zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/1997/22-1997.md",
+   "ucinnost_od": "2025-10-01",
+   "paragrafy": [
+    "§ 6a",
+    "§ 6b",
+    "§ 6e",
+    "§ 6f"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "228/1997 Sb.",
+   "nazev": "Zákon, kterým se doplňuje zákon České národní rady č. 238/1992 Sb., o některých opatřeních souvisejících s ochranou veřejného zájmu (zákon o střetu zájmů), ve znění zákona č. 287/1995 Sb.",
+   "druh": "změněný",
+   "soubor": "zakony/1997/228-1997.md",
+   "ucinnost_od": "1998-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "242/1997 Sb.",
+    "2/1998 Sb.",
+    "127/1998 Sb.",
+    "225/1999 Sb.",
+    "363/1999 Sb.",
+    "18/2000 Sb."
+   ],
+   "citace": "48/1997 Sb.",
+   "nazev": "Zákon o veřejném zdravotním pojištění a o změně a doplnění některých souvisejících zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/1997/48-1997.md",
+   "ucinnost_od": "2026-06-12",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "210/2000 Sb.",
+    "147/2001 Sb.",
+    "362/2003 Sb.",
+    "96/2004 Sb.",
+    "121/2004 Sb.",
+    "436/2004 Sb."
+   ],
+   "citace": "111/1998 Sb.",
+   "nazev": "Zákon o vysokých školách a o změně a doplnění dalších zákonů (zákon o vysokých školách)",
+   "druh": "změněný",
+   "soubor": "zakony/1998/111-1998.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "30/2000 Sb.",
+    "362/2000 Sb.",
+    "370/2000 Sb.",
+    "308/2002 Sb.",
+    "257/2004 Sb.",
+    "626/2004 Sb."
+   ],
+   "citace": "15/1998 Sb.",
+   "nazev": "Zákon o Komisi pro cenné papíry a o změně a doplnění dalších zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/1998/15-1998.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "477/2000 Sb.",
+    "400/2004 Sb.",
+    "335/2017 Sb.",
+    "146/2026 Sb."
+   ],
+   "citace": "275/1998 Sb.",
+   "nazev": "Vyhláška Ministerstva zemědělství o agrochemickém zkoušení zemědělských půd a zjišťování půdních vlastností lesních pozemků",
+   "druh": "změněný",
+   "soubor": "zakony/1998/275-1998.md",
+   "ucinnost_od": "2026-08-14",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "140/2001 Sb.",
+    "217/2002 Sb.",
+    "222/2003 Sb.",
+    "436/2004 Sb.",
+    "559/2004 Sb.",
+    "539/2004 Sb."
+   ],
+   "citace": "326/1999 Sb.",
+   "nazev": "Zákon o pobytu cizinců na území České republiky a o změně některých zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/1999/326-1999.md",
+   "ucinnost_od": "2026-06-12",
+   "paragrafy": [
+    "§ 18a",
+    "§ 180l",
+    "§ 180m",
+    "§ 180n"
+   ]
+  },
+  {
+   "novelizovano": [
+    "378/2004 Sb.",
+    "243/2006 Sb.",
+    "19/2015 Sb.",
+    "279/2017 Sb.",
+    "362/2020 Sb.",
+    "225/2021 Sb."
+   ],
+   "citace": "345/1999 Sb.",
+   "nazev": "Vyhláška Ministerstva spravedlnosti, kterou se vydává řád výkonu trestu odnětí svobody",
+   "druh": "změněný",
+   "soubor": "zakony/1999/345-1999.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "257/2000 Sb.",
+    "272/2001 Sb.",
+    "518/2002 Sb.",
+    "320/2002 Sb.",
+    "222/2003 Sb.",
+    "52/2004 Sb."
+   ],
+   "citace": "359/1999 Sb.",
+   "nazev": "Zákon o sociálně-právní ochraně dětí",
+   "druh": "změněný",
+   "soubor": "zakony/1999/359-1999.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "482/2004 Sb.",
+    "179/2005 Sb.",
+    "80/2006 Sb.",
+    "152/2011 Sb.",
+    "196/2012 Sb.",
+    "239/2012 Sb."
+   ],
+   "citace": "104/2000 Sb.",
+   "nazev": "Zákon o Státním fondu dopravní infrastruktury a o změně zákona č. 171/1991 Sb., o působnosti orgánů České republiky ve věcech převodů majetku státu na jiné osoby a o Fondu národního majetku České republiky, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2000/104-2000.md",
+   "ucinnost_od": "2025-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "436/2004 Sb.",
+    "73/2006 Sb.",
+    "217/2009 Sb.",
+    "73/2011 Sb.",
+    "367/2011 Sb.",
+    "365/2011 Sb."
+   ],
+   "citace": "118/2000 Sb.",
+   "nazev": "Zákon o ochraně zaměstnanců při platební neschopnosti zaměstnavatele a o změně některých zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2000/118-2000.md",
+   "ucinnost_od": "2025-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "273/2001 Sb.",
+    "320/2001 Sb.",
+    "450/2001 Sb.",
+    "313/2002 Sb.",
+    "59/2003 Sb.",
+    "22/2004 Sb."
+   ],
+   "citace": "128/2000 Sb.",
+   "nazev": "Zákon o obcích (obecní zřízení)",
+   "druh": "změněný",
+   "soubor": "zakony/2000/128-2000.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 9a"
+   ]
+  },
+  {
+   "novelizovano": [
+    "450/2001 Sb.",
+    "320/2001 Sb.",
+    "273/2001 Sb.",
+    "231/2002 Sb.",
+    "229/2003 Sb.",
+    "216/2004 Sb."
+   ],
+   "citace": "129/2000 Sb.",
+   "nazev": "Zákon o krajích (krajské zřízení)",
+   "druh": "změněný",
+   "soubor": "zakony/2000/129-2000.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 21"
+   ]
+  },
+  {
+   "novelizovano": [
+    "145/2001 Sb.",
+    "273/2001 Sb.",
+    "450/2001 Sb.",
+    "320/2001 Sb.",
+    "312/2002 Sb.",
+    "311/2002 Sb."
+   ],
+   "citace": "131/2000 Sb.",
+   "nazev": "Zákon o hlavním městě Praze",
+   "druh": "změněný",
+   "soubor": "zakony/2000/131-2000.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 40"
+   ]
+  },
+  {
+   "novelizovano": [
+    "391/2002 Sb.",
+    "482/2004 Sb.",
+    "61/2005 Sb.",
+    "71/2010 Sb.",
+    "239/2012 Sb.",
+    "276/2012 Sb."
+   ],
+   "citace": "211/2000 Sb.",
+   "nazev": "Zákon o Státním fondu podpory investic",
+   "druh": "změněný",
+   "soubor": "zakony/2000/211-2000.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "493/2000 Sb.",
+    "141/2001 Sb.",
+    "187/2001 Sb.",
+    "320/2001 Sb.",
+    "450/2001 Sb.",
+    "202/2002 Sb."
+   ],
+   "citace": "218/2000 Sb.",
+   "nazev": "Zákon o rozpočtových pravidlech a o změně některých souvisejících zákonů (rozpočtová pravidla)",
+   "druh": "změněný",
+   "soubor": "zakony/2000/218-2000.md",
+   "ucinnost_od": "2026-08-29",
+   "paragrafy": [
+    "§ 39",
+    "§ 43"
+   ]
+  },
+  {
+   "novelizovano": [
+    "492/2000 Sb.",
+    "229/2001 Sb.",
+    "320/2001 Sb.",
+    "501/2001 Sb.",
+    "202/2002 Sb.",
+    "280/2002 Sb."
+   ],
+   "citace": "219/2000 Sb.",
+   "nazev": "Zákon o majetku České republiky a jejím vystupování v právních vztazích",
+   "druh": "změněný",
+   "soubor": "zakony/2000/219-2000.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "492/2000 Sb.",
+    "483/2001 Sb.",
+    "387/2004 Sb.",
+    "1/2005 Sb.",
+    "377/2007 Sb.",
+    "370/2011 Sb."
+   ],
+   "citace": "243/2000 Sb.",
+   "nazev": "Zákon o rozpočtovém určení výnosů některých daní územním samosprávným celkům a některým státním fondům (zákon o rozpočtovém určení daní)",
+   "druh": "změněný",
+   "soubor": "zakony/2000/243-2000.md",
+   "ucinnost_od": "2026-08-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "320/2002 Sb.",
+    "109/2006 Sb.",
+    "138/2006 Sb.",
+    "186/2006 Sb.",
+    "66/2007 Sb.",
+    "154/2009 Sb."
+   ],
+   "citace": "248/2000 Sb.",
+   "nazev": "Zákon o podpoře regionálního rozvoje",
+   "druh": "změněný",
+   "soubor": "zakony/2000/248-2000.md",
+   "ucinnost_od": "2025-02-19",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "320/2001 Sb.",
+    "450/2001 Sb.",
+    "320/2002 Sb.",
+    "557/2004 Sb.",
+    "562/2004 Sb.",
+    "635/2004 Sb."
+   ],
+   "citace": "250/2000 Sb.",
+   "nazev": "Zákon o rozpočtových pravidlech územních rozpočtů",
+   "druh": "změněný",
+   "soubor": "zakony/2000/250-2000.md",
+   "ucinnost_od": "2026-08-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "128/2003 Sb.",
+    "85/2004 Sb.",
+    "482/2004 Sb.",
+    "441/2005 Sb.",
+    "130/2006 Sb.",
+    "35/2008 Sb."
+   ],
+   "citace": "256/2000 Sb.",
+   "nazev": "Zákon o Státním zemědělském intervenčním fondu a o změně některých dalších zákonů (zákon o Státním zemědělském intervenčním fondu)",
+   "druh": "změněný",
+   "soubor": "zakony/2000/256-2000.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "254/2001 Sb.",
+    "274/2001 Sb.",
+    "86/2002 Sb.",
+    "13/2002 Sb.",
+    "120/2002 Sb.",
+    "320/2002 Sb."
+   ],
+   "citace": "258/2000 Sb.",
+   "nazev": "Zákon o ochraně veřejného zdraví a o změně některých souvisejících zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2000/258-2000.md",
+   "ucinnost_od": "2026-06-12",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "320/2002 Sb.",
+    "165/2004 Sb.",
+    "422/2004 Sb.",
+    "499/2004 Sb.",
+    "21/2006 Sb.",
+    "115/2006 Sb."
+   ],
+   "citace": "301/2000 Sb.",
+   "nazev": "Zákon o matrikách, jménu a příjmení a o změně některých souvisejících zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2000/301-2000.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": [
+    "§ 1a",
+    "§ 1b",
+    "§ 1c",
+    "§ 1d",
+    "§ 1e",
+    "§ 1f",
+    "§ 4c",
+    "§ 6a",
+    "§ 25c",
+    "§ 25d",
+    "§ 60a",
+    "§ 89"
+   ]
+  },
+  {
+   "novelizovano": [
+    "60/2001 Sb.",
+    "478/2001 Sb.",
+    "62/2002 Sb.",
+    "311/2002 Sb.",
+    "320/2002 Sb.",
+    "436/2003 Sb."
+   ],
+   "citace": "361/2000 Sb.",
+   "nazev": "Zákon o provozu na pozemních komunikacích a o změnách některých zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2000/361-2000.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "359/2003 Sb.",
+    "694/2004 Sb.",
+    "180/2005 Sb.",
+    "177/2006 Sb.",
+    "214/2006 Sb.",
+    "574/2006 Sb."
+   ],
+   "citace": "406/2000 Sb.",
+   "nazev": "Zákon o hospodaření energií",
+   "druh": "změněný",
+   "soubor": "zakony/2000/406-2000.md",
+   "ucinnost_od": "2026-08-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "262/2002 Sb.",
+    "278/2003 Sb.",
+    "670/2004 Sb.",
+    "186/2006 Sb.",
+    "124/2008 Sb.",
+    "158/2009 Sb."
+   ],
+   "citace": "458/2000 Sb.",
+   "nazev": "Zákon o podmínkách podnikání a o výkonu státní správy v energetických odvětvích a o změně některých zákonů (energetický zákon)",
+   "druh": "změněný",
+   "soubor": "zakony/2000/458-2000.md",
+   "ucinnost_od": "2026-08-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "360/2003 Sb.",
+    "279/2003 Sb.",
+    "53/2004 Sb.",
+    "257/2004 Sb.",
+    "284/2004 Sb.",
+    "377/2005 Sb."
+   ],
+   "citace": "120/2001 Sb.",
+   "nazev": "Zákon o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2001/120-2001.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 125b"
+   ]
+  },
+  {
+   "novelizovano": [
+    "146/2004 Sb.",
+    "515/2006 Sb.",
+    "120/2011 Sb.",
+    "48/2014 Sb.",
+    "448/2017 Sb.",
+    "244/2021 Sb."
+   ],
+   "citace": "428/2001 Sb.",
+   "nazev": "Vyhláška Ministerstva zemědělství, kterou se provádí zákon č. 274/2001 Sb., o vodovodech a kanalizacích pro veřejnou potřebu a o změně některých zákonů (zákon o vodovodech a kanalizacích)",
+   "druh": "změněný",
+   "soubor": "zakony/2001/428-2001.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "478/2001 Sb.",
+    "175/2002 Sb.",
+    "320/2002 Sb.",
+    "193/2003 Sb.",
+    "103/2004 Sb.",
+    "237/2004 Sb."
+   ],
+   "citace": "56/2001 Sb.",
+   "nazev": "Zákon o podmínkách provozu vozidel na pozemních komunikacích",
+   "druh": "změněný",
+   "soubor": "zakony/2001/56-2001.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "476/2004 Sb.",
+    "563/2004 Sb.",
+    "383/2005 Sb.",
+    "112/2006 Sb.",
+    "274/2008 Sb.",
+    "189/2008 Sb."
+   ],
+   "citace": "109/2002 Sb.",
+   "nazev": "Zákon o výkonu ústavní výchovy nebo ochranné výchovy ve školských zařízeních a o preventivně výchovné péči ve školských zařízeních a o změně dalších zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2002/109-2002.md",
+   "ucinnost_od": "2025-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "342/2005 Sb.",
+    "413/2005 Sb.",
+    "227/2006 Sb.",
+    "81/2006 Sb.",
+    "171/2007 Sb.",
+    "124/2008 Sb."
+   ],
+   "citace": "130/2002 Sb.",
+   "nazev": "Zákon o podpoře výzkumu a vývoje z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu a vývoje)",
+   "druh": "změněný",
+   "soubor": "zakony/2002/130-2002.md",
+   "ucinnost_od": "2024-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "495/2005 Sb.",
+    "86/2014 Sb.",
+    "64/2014 Sb.",
+    "270/2025 Sb."
+   ],
+   "citace": "198/2002 Sb.",
+   "nazev": "Zákon o dobrovolnické službě a o změně některých zákonů (zákon o dobrovolnické službě)",
+   "druh": "změněný",
+   "soubor": "zakony/2002/198-2002.md",
+   "ucinnost_od": "2014-06-05",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "426/2002 Sb.",
+    "518/2002 Sb.",
+    "22/2006 Sb."
+   ],
+   "citace": "320/2002 Sb.",
+   "nazev": "Zákon o změně a zrušení některých zákonů v souvislosti s ukončením činnosti okresních úřadů",
+   "druh": "změněný",
+   "soubor": "zakony/2002/320-2002.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "Čl. XX"
+   ]
+  },
+  {
+   "novelizovano": [
+    "1/2004 Sb.",
+    "690/2004 Sb.",
+    "149/2016 Sb.",
+    "35/2025 Sb.",
+    "329/2025 Sb."
+   ],
+   "citace": "47/2002 Sb.",
+   "nazev": "Zákon o podpoře malého a středního podnikání a o změně zákona č. 2/1969 Sb., o zřízení ministerstev a jiných ústředních orgánů státní správy České republiky, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2002/47-2002.md",
+   "ucinnost_od": "2025-02-19",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "383/2005 Sb.",
+    "253/2006 Sb.",
+    "345/2007 Sb.",
+    "129/2008 Sb.",
+    "41/2009 Sb.",
+    "181/2011 Sb."
+   ],
+   "citace": "218/2003 Sb.",
+   "nazev": "Zákon o odpovědnosti mládeže za protiprávní činy a o soudnictví ve věcech mládeže a o změně některých zákonů (zákon o soudnictví ve věcech mládeže)",
+   "druh": "změněný",
+   "soubor": "zakony/2003/218-2003.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 71",
+    "§ 93b"
+   ]
+  },
+  {
+   "novelizovano": [
+    "124/2008 Sb.",
+    "281/2009 Sb.",
+    "609/2020 Sb.",
+    "459/2022 Sb."
+   ],
+   "citace": "276/2003 Sb.",
+   "nazev": "Zákon o Antarktidě a o změně některých zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2003/276-2003.md",
+   "ucinnost_od": "2025-07-01",
+   "paragrafy": [
+    "§ 23a",
+    "§ 23b",
+    "§ 23c",
+    "§ 23d",
+    "§ 23e",
+    "§ 23f",
+    "§ 23g",
+    "§ 23h",
+    "§ 23i"
+   ]
+  },
+  {
+   "novelizovano": [
+    "479/2003 Sb.",
+    "237/2004 Sb.",
+    "313/2004 Sb.",
+    "558/2004 Sb.",
+    "693/2004 Sb.",
+    "217/2005 Sb."
+   ],
+   "citace": "353/2003 Sb.",
+   "nazev": "Zákon o spotřebních daních",
+   "druh": "změněný",
+   "soubor": "zakony/2003/353-2003.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "426/2003 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 218/2002 Sb., o službě státních zaměstnanců ve správních úřadech a o odměňování těchto zaměstnanců a ostatních zaměstnanců ve správních úřadech (služební zákon), ve znění pozdějších předpisů, a některé další zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2003/426-2003.md",
+   "ucinnost_od": "2014-11-06",
+   "paragrafy": [
+    "Čl. II"
+   ]
+  },
+  {
+   "novelizovano": [
+    "378/2005 Sb.",
+    "56/2006 Sb.",
+    "57/2006 Sb.",
+    "230/2008 Sb.",
+    "281/2009 Sb.",
+    "230/2009 Sb."
+   ],
+   "citace": "190/2004 Sb.",
+   "nazev": "Zákon o dluhopisech",
+   "druh": "změněný",
+   "soubor": "zakony/2004/190-2004.md",
+   "ucinnost_od": "2025-02-15",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "109/2009 Sb.",
+    "236/2012 Sb.",
+    "104/2017 Sb.",
+    "417/2021 Sb.",
+    "69/2025 Sb."
+   ],
+   "citace": "215/2004 Sb.",
+   "nazev": "Zákon o úpravě některých vztahů v oblasti veřejné podpory a o změně zákona o podpoře výzkumu a vývoje",
+   "druh": "změněný",
+   "soubor": "zakony/2004/215-2004.md",
+   "ucinnost_od": "2025-04-03",
+   "paragrafy": [
+    "§ 11",
+    "§ 12"
+   ]
+  },
+  {
+   "novelizovano": [
+    "635/2004 Sb.",
+    "377/2005 Sb.",
+    "179/2005 Sb.",
+    "56/2006 Sb.",
+    "57/2006 Sb.",
+    "62/2006 Sb."
+   ],
+   "citace": "256/2004 Sb.",
+   "nazev": "Zákon o podnikání na kapitálovém trhu",
+   "druh": "změněný",
+   "soubor": "zakony/2004/256-2004.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": [
+    "§ 121va",
+    "§ 127na"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "41/2004 Sb.",
+   "nazev": "Zákon, kterým se mění některé další zákony v souvislosti s přijetím zákona o veřejných zakázkách",
+   "druh": "změněný",
+   "soubor": "zakony/2004/41-2004.md",
+   "ucinnost_od": "2004-05-01",
+   "paragrafy": [
+    "Čl. V"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "421/2004 Sb.",
+   "nazev": "Zákon o změně zákonů souvisejících s přijetím zákona o přezkoumávání hospodaření územních samosprávných celků a dobrovolných svazků obcí",
+   "druh": "změněný",
+   "soubor": "zakony/2004/421-2004.md",
+   "ucinnost_od": "2004-08-01",
+   "paragrafy": [
+    "Čl. VI"
+   ]
+  },
+  {
+   "novelizovano": [
+    "168/2005 Sb.",
+    "253/2005 Sb.",
+    "382/2005 Sb.",
+    "428/2005 Sb.",
+    "350/2005 Sb.",
+    "202/2005 Sb."
+   ],
+   "citace": "435/2004 Sb.",
+   "nazev": "Zákon o zaměstnanosti",
+   "druh": "změněný",
+   "soubor": "zakony/2004/435-2004.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": [
+    "§ 21a"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "482/2004 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 218/2000 Sb., o rozpočtových pravidlech a o změně některých souvisejících zákonů (rozpočtová pravidla), ve znění pozdějších předpisů, a některé další zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2004/482-2004.md",
+   "ucinnost_od": "2013-01-01",
+   "paragrafy": [
+    "Čl. XIII"
+   ]
+  },
+  {
+   "novelizovano": [
+    "383/2005 Sb.",
+    "112/2006 Sb.",
+    "179/2006 Sb.",
+    "165/2006 Sb.",
+    "161/2006 Sb.",
+    "158/2006 Sb."
+   ],
+   "citace": "561/2004 Sb.",
+   "nazev": "Zákon o předškolním, základním, středním, vyšším odborném a jiném vzdělávání (školský zákon)",
+   "druh": "změněný",
+   "soubor": "zakony/2004/561-2004.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": [
+    "§ 47"
+   ]
+  },
+  {
+   "novelizovano": [
+    "383/2005 Sb.",
+    "179/2006 Sb.",
+    "384/2008 Sb.",
+    "189/2008 Sb.",
+    "422/2009 Sb.",
+    "223/2009 Sb."
+   ],
+   "citace": "563/2004 Sb.",
+   "nazev": "Zákon o pedagogických pracovnících a o změně některých zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2004/563-2004.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": [
+    "§ 8a"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "626/2004 Sb.",
+   "nazev": "Zákon o změně některých zákonů v návaznosti na realizaci reformy veřejných financí v oblasti odměňování",
+   "druh": "změněný",
+   "soubor": "zakony/2004/626-2004.md",
+   "ucinnost_od": "2019-04-24",
+   "paragrafy": [
+    "Čl. XVIII"
+   ]
+  },
+  {
+   "novelizovano": [
+    "217/2005 Sb.",
+    "228/2005 Sb.",
+    "361/2005 Sb.",
+    "553/2005 Sb.",
+    "545/2005 Sb.",
+    "357/2005 Sb."
+   ],
+   "citace": "634/2004 Sb.",
+   "nazev": "Zákon o správních poplatcích",
+   "druh": "změněný",
+   "soubor": "zakony/2004/634-2004.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "125/2005 Sb.",
+    "189/2008 Sb.",
+    "124/2008 Sb.",
+    "346/2011 Sb.",
+    "375/2011 Sb.",
+    "126/2016 Sb."
+   ],
+   "citace": "95/2004 Sb.",
+   "nazev": "Zákon o podmínkách získávání a uznávání odborné způsobilosti a specializované způsobilosti k výkonu zdravotnického povolání lékaře, zubního lékaře a farmaceuta",
+   "druh": "změněný",
+   "soubor": "zakony/2004/95-2004.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "125/2005 Sb.",
+    "111/2007 Sb.",
+    "189/2008 Sb.",
+    "105/2011 Sb.",
+    "346/2011 Sb.",
+    "375/2011 Sb."
+   ],
+   "citace": "96/2004 Sb.",
+   "nazev": "Zákon o podmínkách získávání a uznávání způsobilosti k výkonu nelékařských zdravotnických povolání a k výkonu činností souvisejících s poskytováním zdravotní péče a o změně některých souvisejících zákonů (zákon o nelékařských zdravotnických povoláních)",
+   "druh": "změněný",
+   "soubor": "zakony/2004/96-2004.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "107/2008 Sb.",
+    "463/2011 Sb.",
+    "17/2015 Sb.",
+    "210/2017 Sb.",
+    "272/2021 Sb.",
+    "13/2023 Sb."
+   ],
+   "citace": "107/2005 Sb.",
+   "nazev": "Vyhláška o školním stravování",
+   "druh": "změněný",
+   "soubor": "zakony/2005/107-2005.md",
+   "ucinnost_od": "2025-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "533/2006 Sb.",
+    "379/2007 Sb.",
+    "110/2009 Sb.",
+    "281/2009 Sb.",
+    "427/2010 Sb.",
+    "396/2012 Sb."
+   ],
+   "citace": "341/2005 Sb.",
+   "nazev": "Zákon o veřejných výzkumných institucích",
+   "druh": "změněný",
+   "soubor": "zakony/2005/341-2005.md",
+   "ucinnost_od": "2025-02-19",
+   "paragrafy": [
+    "§ 2a",
+    "§ 30a",
+    "§ 30b",
+    "§ 30c",
+    "§ 30d",
+    "§ 30e",
+    "§ 30f",
+    "§ 30g"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "342/2005 Sb.",
+   "nazev": "Zákon o změnách některých zákonů v souvislosti s přijetím zákona o veřejných výzkumných institucích",
+   "druh": "změněný",
+   "soubor": "zakony/2005/342-2005.md",
+   "ucinnost_od": "2014-01-01",
+   "paragrafy": [
+    "Čl. IV"
+   ]
+  },
+  {
+   "novelizovano": [
+    "57/2006 Sb.",
+    "230/2006 Sb.",
+    "281/2009 Sb.",
+    "228/2013 Sb.",
+    "135/2014 Sb.",
+    "304/2016 Sb."
+   ],
+   "citace": "377/2005 Sb.",
+   "nazev": "Zákon o doplňkovém dozoru nad bankami, spořitelními a úvěrními družstvy, institucemi elektronických peněz, pojišťovnami a obchodníky s cennými papíry ve finančních konglomerátech a o změně některých dalších zákonů (zákon o finančních konglomerátech)",
+   "druh": "změněný",
+   "soubor": "zakony/2005/377-2005.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": [
+    "§ 71"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "413/2005 Sb.",
+   "nazev": "Zákon o změně zákonů v souvislosti s přijetím zákona o ochraně utajovaných informací a o bezpečnostní způsobilosti",
+   "druh": "změněný",
+   "soubor": "zakony/2005/413-2005.md",
+   "ucinnost_od": "2019-04-24",
+   "paragrafy": [
+    "Čl. LII"
+   ]
+  },
+  {
+   "novelizovano": [
+    "56/2010 Sb.",
+    "62/2012 Sb.",
+    "340/2020 Sb.",
+    "406/2024 Sb."
+   ],
+   "citace": "76/2005 Sb.",
+   "nazev": "Vyhláška o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění",
+   "druh": "změněný",
+   "soubor": "zakony/2005/76-2005.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "78/2005 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 77/2003 Sb., kterou se stanoví požadavky pro mléko a mléčné výrobky, mražené krémy a jedlé tuky a oleje, ve znění vyhlášky č. 124/2004 Sb.",
+   "druh": "změněný",
+   "soubor": "zakony/2005/78-2005.md",
+   "ucinnost_od": "2017-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "29/2007 Sb.",
+    "213/2007 Sb.",
+    "261/2007 Sb.",
+    "129/2008 Sb.",
+    "274/2008 Sb.",
+    "479/2008 Sb."
+   ],
+   "citace": "108/2006 Sb.",
+   "nazev": "Zákon o sociálních službách",
+   "druh": "změněný",
+   "soubor": "zakony/2006/108-2006.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": [
+    "§ 23a",
+    "§ 24a",
+    "§ 24b",
+    "§ 27a",
+    "§ 52"
+   ]
+  },
+  {
+   "novelizovano": [
+    "261/2007 Sb.",
+    "239/2008 Sb.",
+    "306/2008 Sb.",
+    "129/2008 Sb.",
+    "85/2010 Sb.",
+    "73/2011 Sb."
+   ],
+   "citace": "110/2006 Sb.",
+   "nazev": "Zákon o životním a existenčním minimu",
+   "druh": "změněný",
+   "soubor": "zakony/2006/110-2006.md",
+   "ucinnost_od": "2026-03-31",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "138/2006 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o veřejných zakázkách",
+   "druh": "změněný",
+   "soubor": "zakony/2006/138-2006.md",
+   "ucinnost_od": "2006-07-01",
+   "paragrafy": [
+    "Čl. XIV"
+   ]
+  },
+  {
+   "novelizovano": [
+    "216/2008 Sb.",
+    "158/2009 Sb.",
+    "350/2009 Sb.",
+    "281/2009 Sb.",
+    "167/2012 Sb.",
+    "503/2012 Sb."
+   ],
+   "citace": "159/2006 Sb.",
+   "nazev": "Zákon o střetu zájmů",
+   "druh": "změněný",
+   "soubor": "zakony/2006/159-2006.md",
+   "ucinnost_od": "2026-08-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "312/2006 Sb.",
+    "108/2007 Sb.",
+    "362/2007 Sb.",
+    "458/2008 Sb.",
+    "301/2008 Sb.",
+    "217/2009 Sb."
+   ],
+   "citace": "182/2006 Sb.",
+   "nazev": "Zákon o úpadku a způsobech jeho řešení (insolvenční zákon)",
+   "druh": "změněný",
+   "soubor": "zakony/2006/182-2006.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 430c"
+   ]
+  },
+  {
+   "novelizovano": [
+    "405/2012 Sb.",
+    "167/2012 Sb.",
+    "49/2016 Sb.",
+    "225/2017 Sb.",
+    "169/2018 Sb.",
+    "403/2020 Sb."
+   ],
+   "citace": "184/2006 Sb.",
+   "nazev": "Zákon o odnětí nebo omezení vlastnického práva k pozemku nebo ke stavbě (zákon o vyvlastnění)",
+   "druh": "změněný",
+   "soubor": "zakony/2006/184-2006.md",
+   "ucinnost_od": "2024-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "375/2011 Sb.",
+    "167/2012 Sb.",
+    "298/2016 Sb.",
+    "609/2020 Sb.",
+    "329/2025 Sb."
+   ],
+   "citace": "227/2006 Sb.",
+   "nazev": "Zákon o výzkumu na lidských embryonálních kmenových buňkách a souvisejících činnostech a o změně některých souvisejících zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2006/227-2006.md",
+   "ucinnost_od": "2021-01-01",
+   "paragrafy": [
+    "§ 23",
+    "§ 24"
+   ]
+  },
+  {
+   "novelizovano": [
+    "585/2006 Sb.",
+    "181/2007 Sb.",
+    "261/2007 Sb.",
+    "362/2007 Sb.",
+    "296/2007 Sb.",
+    "116/2008 Sb."
+   ],
+   "citace": "262/2006 Sb.",
+   "nazev": "Zákon zákoník práce",
+   "druh": "změněný",
+   "soubor": "zakony/2006/262-2006.md",
+   "ucinnost_od": "2026-08-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "248/2008 Sb.",
+    "281/2009 Sb.",
+    "260/2011 Sb.",
+    "241/2013 Sb.",
+    "336/2014 Sb.",
+    "205/2015 Sb."
+   ],
+   "citace": "340/2006 Sb.",
+   "nazev": "Zákon o činnosti institucí zaměstnaneckého penzijního pojištění z členských států Evropské unie na území České republiky a o změně zákona č. 48/1997 Sb., o veřejném zdravotním pojištění a o změně a doplnění některých souvisejících zákonů, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2006/340-2006.md",
+   "ucinnost_od": "2025-02-15",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "342/2006 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony související s oblastí evidence obyvatel a některé další zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2006/342-2006.md",
+   "ucinnost_od": "2021-08-02",
+   "paragrafy": [
+    "Čl. XIII"
+   ]
+  },
+  {
+   "novelizovano": [
+    "244/2011 Sb.",
+    "124/2014 Sb.",
+    "198/2015 Sb.",
+    "133/2022 Sb.",
+    "48/2026 Sb."
+   ],
+   "citace": "438/2006 Sb.",
+   "nazev": "Vyhláška, kterou se upravují podrobnosti výkonu ústavní výchovy a ochranné výchovy ve školských zařízeních",
+   "druh": "změněný",
+   "soubor": "zakony/2006/438-2006.md",
+   "ucinnost_od": "2026-04-02",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "166/2007 Sb.",
+    "340/2007 Sb.",
+    "239/2009 Sb.",
+    "162/2010 Sb.",
+    "391/2011 Sb.",
+    "389/2013 Sb."
+   ],
+   "citace": "505/2006 Sb.",
+   "nazev": "Vyhláška, kterou se provádějí některá ustanovení zákona o sociálních službách",
+   "druh": "změněný",
+   "soubor": "zakony/2006/505-2006.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": [
+    "§ 18"
+   ]
+  },
+  {
+   "novelizovano": [
+    "39/2010 Sb.",
+    "269/2012 Sb.",
+    "9/2015 Sb.",
+    "444/2016 Sb.",
+    "462/2017 Sb.",
+    "371/2020 Sb."
+   ],
+   "citace": "522/2006 Sb.",
+   "nazev": "Vyhláška o státním odborném dozoru a kontrolách v silniční dopravě",
+   "druh": "změněný",
+   "soubor": "zakony/2006/522-2006.md",
+   "ucinnost_od": "2026-09-23",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "81/2006 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 365/2000 Sb., o informačních systémech veřejné správy a o změně některých dalších zákonů, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2006/81-2006.md",
+   "ucinnost_od": "2014-01-01",
+   "paragrafy": [
+    "Čl. VII"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "296/2007 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 182/2006 Sb., o úpadku a způsobech jeho řešení (insolvenční zákon), ve znění pozdějších předpisů, a některé zákony v souvislosti s jeho přijetím",
+   "druh": "změněný",
+   "soubor": "zakony/2007/296-2007.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": [
+    "Čl. XCIII"
+   ]
+  },
+  {
+   "novelizovano": [
+    "420/2009 Sb.",
+    "281/2009 Sb.",
+    "188/2011 Sb.",
+    "241/2013 Sb.",
+    "204/2019 Sb.",
+    "317/2025 Sb."
+   ],
+   "citace": "104/2008 Sb.",
+   "nazev": "Zákon o nabídkách převzetí a o změně některých dalších zákonů (zákon o nabídkách převzetí)",
+   "druh": "změněný",
+   "soubor": "zakony/2008/104-2008.md",
+   "ucinnost_od": "2019-10-01",
+   "paragrafy": [
+    "§ 57a"
+   ]
+  },
+  {
+   "novelizovano": [
+    "41/2009 Sb.",
+    "150/2011 Sb.",
+    "341/2011 Sb.",
+    "375/2011 Sb.",
+    "459/2011 Sb.",
+    "105/2013 Sb."
+   ],
+   "citace": "273/2008 Sb.",
+   "nazev": "Zákon o Policii České republiky",
+   "druh": "změněný",
+   "soubor": "zakony/2008/273-2008.md",
+   "ucinnost_od": "2026-06-12",
+   "paragrafy": [
+    "§ 90c"
+   ]
+  },
+  {
+   "novelizovano": [
+    "288/2010 Sb.",
+    "368/2012 Sb.",
+    "365/2013 Sb.",
+    "155/2016 Sb.",
+    "178/2017 Sb.",
+    "143/2019 Sb."
+   ],
+   "citace": "278/2008 Sb.",
+   "nazev": "Nařízení vlády o obsahových náplních jednotlivých živností",
+   "druh": "změněný",
+   "soubor": "zakony/2008/278-2008.md",
+   "ucinnost_od": "2026-09-10",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "110/2009 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu a vývoje z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu a vývoje), ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2009/110-2009.md",
+   "ucinnost_od": "2016-10-01",
+   "paragrafy": [
+    "Čl. I",
+    "§ 3",
+    "§ 4",
+    "§ 5",
+    "§ 7",
+    "§ 8",
+    "§ 16",
+    "§ 31",
+    "§ 32",
+    "Čl. II",
+    "Čl. III",
+    "Čl. IV"
+   ]
+  },
+  {
+   "novelizovano": [
+    "90/2010 Sb.",
+    "274/2010 Sb.",
+    "54/2011 Sb.",
+    "273/2011 Sb.",
+    "371/2012 Sb.",
+    "173/2014 Sb."
+   ],
+   "citace": "177/2009 Sb.",
+   "nazev": "Vyhláška o bližších podmínkách ukončování vzdělávání ve středních školách maturitní zkouškou",
+   "druh": "změněný",
+   "soubor": "zakony/2009/177-2009.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "306/2009 Sb."
+   ],
+   "citace": "227/2009 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o základních registrech",
+   "druh": "změněný",
+   "soubor": "zakony/2009/227-2009.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "Čl. CXXX"
+   ]
+  },
+  {
+   "novelizovano": [
+    "409/2010 Sb.",
+    "188/2011 Sb.",
+    "428/2011 Sb.",
+    "18/2012 Sb.",
+    "399/2012 Sb.",
+    "99/2013 Sb."
+   ],
+   "citace": "277/2009 Sb.",
+   "nazev": "Zákon o pojišťovnictví",
+   "druh": "změněný",
+   "soubor": "zakony/2009/277-2009.md",
+   "ucinnost_od": "2025-07-01",
+   "paragrafy": [
+    "§ 109d"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "281/2009 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím daňového řádu",
+   "druh": "změněný",
+   "soubor": "zakony/2009/281-2009.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "Čl. CIV"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "284/2009 Sb.",
+   "nazev": "Zákon o platebním styku",
+   "druh": "změněný",
+   "soubor": "zakony/2009/284-2009.md",
+   "ucinnost_od": "2017-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "188/2011 Sb.",
+    "428/2011 Sb.",
+    "52/2012 Sb.",
+    "167/2012 Sb.",
+    "334/2014 Sb.",
+    "221/2015 Sb."
+   ],
+   "citace": "93/2009 Sb.",
+   "nazev": "Zákon o auditorech a o změně některých zákonů (zákon o auditorech)",
+   "druh": "změněný",
+   "soubor": "zakony/2009/93-2009.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 12e",
+    "§ 12f",
+    "§ 12g"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "56/2010 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění",
+   "druh": "změněný",
+   "soubor": "zakony/2010/56-2010.md",
+   "ucinnost_od": "2010-02-26",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "140/2011 Sb.",
+   "nazev": "Vyhláška o platebních systémech s neodvolatelností zúčtování",
+   "druh": "změněný",
+   "soubor": "zakony/2011/140-2011.md",
+   "ucinnost_od": "2011-05-27",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "141/2011 Sb.",
+   "nazev": "Vyhláška o výkonu činnosti platebních institucí, institucí elektronických peněz, poskytovatelů platebních služeb malého rozsahu a vydavatelů elektronických peněz malého rozsahu",
+   "druh": "změněný",
+   "soubor": "zakony/2011/141-2011.md",
+   "ucinnost_od": "2016-12-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "142/2011 Sb.",
+   "nazev": "Vyhláška o předkládání informací platebními institucemi, institucemi elektronických peněz, poskytovateli platebních služeb malého rozsahu a vydavateli elektronických peněz malého rozsahu České národní bance",
+   "druh": "změněný",
+   "soubor": "zakony/2011/142-2011.md",
+   "ucinnost_od": "2011-05-27",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "331/2012 Sb.",
+    "141/2012 Sb.",
+    "313/2013 Sb.",
+    "306/2013 Sb.",
+    "329/2014 Sb.",
+    "140/2016 Sb."
+   ],
+   "citace": "329/2011 Sb.",
+   "nazev": "Zákon o poskytování dávek osobám se zdravotním postižením a o změně souvisejících zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2011/329-2011.md",
+   "ucinnost_od": "2026-06-11",
+   "paragrafy": [
+    "§ 21a",
+    "§ 22b",
+    "§ 22c",
+    "§ 23a",
+    "§ 24b"
+   ]
+  },
+  {
+   "novelizovano": [
+    "64/2014 Sb.",
+    "111/2019 Sb.",
+    "130/2022 Sb.",
+    "238/2024 Sb.",
+    "220/2025 Sb.",
+    "230/2025 Sb."
+   ],
+   "citace": "341/2011 Sb.",
+   "nazev": "Zákon o Generální inspekci bezpečnostních sborů a o změně souvisejících zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2011/341-2011.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 88"
+   ]
+  },
+  {
+   "novelizovano": [
+    "437/2012 Sb.",
+    "167/2012 Sb.",
+    "66/2013 Sb.",
+    "303/2013 Sb.",
+    "60/2014 Sb.",
+    "205/2015 Sb."
+   ],
+   "citace": "372/2011 Sb.",
+   "nazev": "Zákon o zdravotních službách a podmínkách jejich poskytování (zákon o zdravotních službách)",
+   "druh": "změněný",
+   "soubor": "zakony/2011/372-2011.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "356/2012 Sb.",
+    "409/2012 Sb.",
+    "388/2013 Sb.",
+    "333/2013 Sb.",
+    "116/2014 Sb.",
+    "337/2014 Sb."
+   ],
+   "citace": "388/2011 Sb.",
+   "nazev": "Vyhláška o provedení některých ustanovení zákona o poskytování dávek osobám se zdravotním postižením",
+   "druh": "změněný",
+   "soubor": "zakony/2011/388-2011.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "420/2011 Sb.",
+   "nazev": "Zákon o změně některých zákonů v souvislosti s přijetím zákona o trestní odpovědnosti právnických osob a řízení proti nim",
+   "druh": "změněný",
+   "soubor": "zakony/2011/420-2011.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "Čl. XXXI"
+   ]
+  },
+  {
+   "novelizovano": [
+    "458/2011 Sb.",
+    "407/2012 Sb.",
+    "164/2013 Sb.",
+    "241/2013 Sb.",
+    "250/2014 Sb.",
+    "267/2014 Sb."
+   ],
+   "citace": "456/2011 Sb.",
+   "nazev": "Zákon o Finanční správě České republiky",
+   "druh": "změněný",
+   "soubor": "zakony/2011/456-2011.md",
+   "ucinnost_od": "2025-07-01",
+   "paragrafy": [
+    "§ 4a"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "457/2011 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o Finanční správě České republiky",
+   "druh": "změněný",
+   "soubor": "zakony/2011/457-2011.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": [
+    "Čl. XIX"
+   ]
+  },
+  {
+   "novelizovano": [
+    "366/2011 Sb.",
+    "331/2012 Sb.",
+    "401/2012 Sb.",
+    "306/2013 Sb.",
+    "254/2014 Sb.",
+    "250/2014 Sb."
+   ],
+   "citace": "73/2011 Sb.",
+   "nazev": "Zákon o Úřadu práce České republiky a o změně souvisejících zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2011/73-2011.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "409/2013 Sb.",
+    "368/2015 Sb.",
+    "334/2017 Sb.",
+    "299/2018 Sb.",
+    "313/2020 Sb.",
+    "505/2021 Sb."
+   ],
+   "citace": "129/2012 Sb.",
+   "nazev": "Vyhláška o podrobnostech uvádění osiva a sadby pěstovaných rostlin do oběhu",
+   "druh": "změněný",
+   "soubor": "zakony/2012/129-2012.md",
+   "ucinnost_od": "2025-05-31",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "407/2012 Sb.",
+    "164/2013 Sb.",
+    "308/2013 Sb.",
+    "243/2016 Sb.",
+    "225/2017 Sb.",
+    "80/2019 Sb."
+   ],
+   "citace": "17/2012 Sb.",
+   "nazev": "Zákon o Celní správě České republiky",
+   "druh": "změněný",
+   "soubor": "zakony/2012/17-2012.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 5a"
+   ]
+  },
+  {
+   "novelizovano": [
+    "87/2014 Sb.",
+    "64/2014 Sb.",
+    "382/2015 Sb.",
+    "369/2016 Sb.",
+    "225/2017 Sb.",
+    "172/2018 Sb."
+   ],
+   "citace": "201/2012 Sb.",
+   "nazev": "Zákon o ochraně ovzduší",
+   "druh": "změněný",
+   "soubor": "zakony/2012/201-2012.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "239/2012 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 563/1991 Sb., o účetnictví, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2012/239-2012.md",
+   "ucinnost_od": "2013-01-01",
+   "paragrafy": [
+    "Čl. XXIX"
+   ]
+  },
+  {
+   "novelizovano": [
+    "110/2025 Sb.",
+    "307/2025 Sb."
+   ],
+   "citace": "296/2012 Sb.",
+   "nazev": "Vyhláška o požadavcích na vybavení poskytovatele zdravotnické dopravní služby, poskytovatele zdravotnické záchranné služby a poskytovatele přepravy pacientů neodkladné péče dopravními prostředky a o požadavcích na tyto dopravní prostředky",
+   "druh": "změněný",
+   "soubor": "zakony/2012/296-2012.md",
+   "ucinnost_od": "2025-08-27",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "407/2012 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 353/2003 Sb., o spotřebních daních, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2012/407-2012.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": [
+    "Čl. XI"
+   ]
+  },
+  {
+   "novelizovano": [
+    "155/2014 Sb.",
+    "406/2015 Sb.",
+    "171/2016 Sb.",
+    "452/2017 Sb.",
+    "190/2018 Sb.",
+    "216/2019 Sb."
+   ],
+   "citace": "415/2012 Sb.",
+   "nazev": "Vyhláška o přípustné úrovni znečišťování a jejím zjišťování a o provedení některých dalších ustanovení zákona o ochraně ovzduší",
+   "druh": "změněný",
+   "soubor": "zakony/2012/415-2012.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "299/2014 Sb.",
+    "158/2021 Sb.",
+    "496/2025 Sb.",
+    "31/2026 Sb."
+   ],
+   "citace": "419/2012 Sb.",
+   "nazev": "Vyhláška o ochraně pokusných zvířat",
+   "druh": "změněný",
+   "soubor": "zakony/2012/419-2012.md",
+   "ucinnost_od": "2026-03-15",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "391/2016 Sb.",
+    "101/2018 Sb.",
+    "146/2019 Sb.",
+    "121/2020 Sb.",
+    "344/2020 Sb.",
+    "334/2021 Sb."
+   ],
+   "citace": "481/2012 Sb.",
+   "nazev": "Nařízení vlády o omezení používání některých nebezpečných látek v elektrických a elektronických zařízeních",
+   "druh": "změněný",
+   "soubor": "zakony/2012/481-2012.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": [
+    "§ 11a",
+    "§ 11b"
+   ]
+  },
+  {
+   "novelizovano": [
+    "139/2016 Sb.",
+    "242/2022 Sb.",
+    "349/2023 Sb.",
+    "429/2023 Sb.",
+    "480/2024 Sb."
+   ],
+   "citace": "496/2012 Sb.",
+   "nazev": "Zákon o audiovizuálních dílech a podpoře kinematografie a o změně některých zákonů (zákon o audiovizi)",
+   "druh": "změněný",
+   "soubor": "zakony/2012/496-2012.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 28b",
+    "§ 28c"
+   ]
+  },
+  {
+   "novelizovano": [
+    "280/2013 Sb.",
+    "250/2014 Sb.",
+    "185/2016 Sb.",
+    "295/2017 Sb.",
+    "225/2017 Sb.",
+    "229/2019 Sb."
+   ],
+   "citace": "503/2012 Sb.",
+   "nazev": "Zákon o Státním pozemkovém úřadu a o změně některých souvisejících zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2012/503-2012.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 40"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "62/2012 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění, ve znění vyhlášky č. 56/2010 Sb.",
+   "druh": "změněný",
+   "soubor": "zakony/2012/62-2012.md",
+   "ucinnost_od": "2012-02-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "460/2016 Sb.",
+    "303/2017 Sb.",
+    "111/2018 Sb.",
+    "171/2018 Sb.",
+    "33/2020 Sb.",
+    "163/2020 Sb."
+   ],
+   "citace": "89/2012 Sb.",
+   "nazev": "Zákon občanský zákoník",
+   "druh": "změněný",
+   "soubor": "zakony/2012/89-2012.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "287/2013 Sb.",
+    "285/2017 Sb.",
+    "304/2019 Sb.",
+    "357/2020 Sb.",
+    "340/2022 Sb.",
+    "393/2023 Sb."
+   ],
+   "citace": "99/2012 Sb.",
+   "nazev": "Vyhláška o požadavcích na minimální personální zabezpečení zdravotních služeb",
+   "druh": "změněný",
+   "soubor": "zakony/2012/99-2012.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "206/2019 Sb.",
+    "251/2025 Sb.",
+    "218/2025 Sb."
+   ],
+   "citace": "226/2013 Sb.",
+   "nazev": "Zákon o uvádění dřeva a dřevařských výrobků na trh",
+   "druh": "změněný",
+   "soubor": "zakony/2013/226-2013.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "336/2014 Sb.",
+    "377/2015 Sb.",
+    "148/2016 Sb.",
+    "368/2016 Sb.",
+    "204/2017 Sb.",
+    "183/2017 Sb."
+   ],
+   "citace": "240/2013 Sb.",
+   "nazev": "Zákon o investičních společnostech a investičních fondech",
+   "druh": "změněný",
+   "soubor": "zakony/2013/240-2013.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": [
+    "§ 244a"
+   ]
+  },
+  {
+   "novelizovano": [
+    "11/2014 Sb.",
+    "133/2017 Sb.",
+    "97/2018 Sb.",
+    "432/2021 Sb."
+   ],
+   "citace": "243/2013 Sb.",
+   "nazev": "Nařízení vlády o investování investičních fondů a o technikách k jejich obhospodařování",
+   "druh": "změněný",
+   "soubor": "zakony/2013/243-2013.md",
+   "ucinnost_od": "2026-06-25",
+   "paragrafy": [
+    "§ 67a"
+   ]
+  },
+  {
+   "novelizovano": [
+    "185/2022 Sb.",
+    "197/2025 Sb.",
+    "147/2026 Sb."
+   ],
+   "citace": "246/2013 Sb.",
+   "nazev": "Vyhláška o statutu fondu kolektivního investování",
+   "druh": "změněný",
+   "soubor": "zakony/2013/246-2013.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "87/2015 Sb.",
+    "189/2016 Sb.",
+    "161/2016 Sb.",
+    "334/2016 Sb.",
+    "460/2016 Sb.",
+    "298/2016 Sb."
+   ],
+   "citace": "292/2013 Sb.",
+   "nazev": "Zákon o zvláštních řízeních soudních",
+   "druh": "změněný",
+   "soubor": "zakony/2013/292-2013.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "391/2013 Sb.",
+   "nazev": "Vyhláška o zdravotní způsobilosti k tělesné výchově a sportu",
+   "druh": "změněný",
+   "soubor": "zakony/2013/391-2013.md",
+   "ucinnost_od": "2026-09-11",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "104/2015 Sb.",
+    "163/2020 Sb.",
+    "424/2022 Sb.",
+    "176/2025 Sb."
+   ],
+   "citace": "67/2013 Sb.",
+   "nazev": "Zákon, kterým se upravují některé otázky související s poskytováním plnění spojených s užíváním bytů a nebytových prostorů v domě s byty",
+   "druh": "změněný",
+   "soubor": "zakony/2013/67-2013.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "179/2025 Sb."
+   ],
+   "citace": "122/2014 Sb.",
+   "nazev": "Vyhláška o jízdních řádech veřejné linkové dopravy",
+   "druh": "změněný",
+   "soubor": "zakony/2014/122-2014.md",
+   "ucinnost_od": "2025-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "392/2017 Sb.",
+    "354/2021 Sb.",
+    "197/2025 Sb.",
+    "337/2025 Sb."
+   ],
+   "citace": "163/2014 Sb.",
+   "nazev": "Vyhláška o výkonu činnosti bank, spořitelních a úvěrních družstev a obchodníků s cennými papíry",
+   "druh": "změněný",
+   "soubor": "zakony/2014/163-2014.md",
+   "ucinnost_od": "2026-01-11",
+   "paragrafy": [
+    "§ 54",
+    "§ 55",
+    "§ 56",
+    "§ 57",
+    "§ 58",
+    "§ 59",
+    "§ 60",
+    "§ 61",
+    "§ 62",
+    "§ 70a",
+    "§ 71",
+    "§ 72",
+    "§ 73",
+    "§ 74",
+    "§ 76",
+    "§ 78",
+    "§ 92"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "233/2014 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 141/2011 Sb., o výkonu činnosti platebních institucí, institucí elektronických peněz, poskytovatelů platebních služeb malého rozsahu a vydavatelů elektronických peněz malého rozsahu, ve znění vyhlášky č. 31/2014 Sb.",
+   "druh": "změněný",
+   "soubor": "zakony/2014/233-2014.md",
+   "ucinnost_od": "2014-12-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "298/2015 Sb.",
+    "199/2015 Sb.",
+    "131/2015 Sb.",
+    "26/2016 Sb.",
+    "195/2016 Sb.",
+    "47/2016 Sb."
+   ],
+   "citace": "234/2014 Sb.",
+   "nazev": "Zákon o státní službě",
+   "druh": "změněný",
+   "soubor": "zakony/2014/234-2014.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "127/2015 Sb.",
+    "329/2021 Sb.",
+    "407/2023 Sb.",
+    "263/2024 Sb.",
+    "84/2025 Sb.",
+    "270/2025 Sb."
+   ],
+   "citace": "247/2014 Sb.",
+   "nazev": "Zákon o poskytování služby péče o dítě v dětské skupině a o změně souvisejících zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2014/247-2014.md",
+   "ucinnost_od": "2026-05-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "308/2014 Sb.",
+   "nazev": "Nařízení vlády, kterým se mění některá nařízení vlády v souvislosti s přijetím nařízení vlády o stanovení důsledků porušení podmíněnosti poskytování některých zemědělských podpor a nařízení vlády o stanovení podrobností evidence využití půdy podle uživatelských vztahů",
+   "druh": "změněný",
+   "soubor": "zakony/2014/308-2014.md",
+   "ucinnost_od": "2015-10-01",
+   "paragrafy": [
+    "§ 23",
+    "§ 24"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "31/2014 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 141/2011 Sb., o výkonu činnosti platebních institucí, institucí elektronických peněz, poskytovatelů platebních služeb malého rozsahu a vydavatelů elektronických peněz malého rozsahu",
+   "druh": "změněný",
+   "soubor": "zakony/2014/31-2014.md",
+   "ucinnost_od": "2014-03-15",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "363/2014 Sb.",
+    "347/2015 Sb.",
+    "395/2016 Sb.",
+    "466/2017 Sb.",
+    "344/2019 Sb.",
+    "514/2021 Sb."
+   ],
+   "citace": "5/2014 Sb.",
+   "nazev": "Vyhláška o způsobu, termínech a rozsahu údajů předkládaných pro hodnocení plnění státního rozpočtu, rozpočtů státních fondů, rozpočtů územních samosprávných celků, rozpočtů dobrovolných svazků obcí a rozpočtů Regionálních rad regionů soudržnosti",
+   "druh": "změněný",
+   "soubor": "zakony/2014/5-2014.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "64/2014 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím kontrolního řádu",
+   "druh": "změněný",
+   "soubor": "zakony/2014/64-2014.md",
+   "ucinnost_od": "2024-12-13",
+   "paragrafy": [
+    "Čl. LII",
+    "Čl. LIII"
+   ]
+  },
+  {
+   "novelizovano": [
+    "182/2018 Sb.",
+    "307/2018 Sb.",
+    "111/2019 Sb.",
+    "96/2022 Sb.",
+    "425/2023 Sb.",
+    "162/2024 Sb."
+   ],
+   "citace": "374/2015 Sb.",
+   "nazev": "Zákon o ozdravných postupech a řešení krize na finančním trhu",
+   "druh": "změněný",
+   "soubor": "zakony/2015/374-2015.md",
+   "ucinnost_od": "2025-02-19",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "127/2017 Sb.",
+    "302/2020 Sb.",
+    "125/2021 Sb.",
+    "490/2021 Sb.",
+    "404/2022 Sb.",
+    "6/2024 Sb."
+   ],
+   "citace": "408/2015 Sb.",
+   "nazev": "Vyhláška o Pravidlech trhu s elektřinou",
+   "druh": "změněný",
+   "soubor": "zakony/2015/408-2015.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": [
+    "§ 53a",
+    "§ 54a",
+    "§ 62"
+   ]
+  },
+  {
+   "novelizovano": [
+    "368/2016 Sb.",
+    "147/2017 Sb.",
+    "287/2018 Sb.",
+    "277/2019 Sb.",
+    "543/2020 Sb.",
+    "527/2020 Sb."
+   ],
+   "citace": "134/2016 Sb.",
+   "nazev": "Zákon o zadávání veřejných zakázek",
+   "druh": "změněný",
+   "soubor": "zakony/2016/134-2016.md",
+   "ucinnost_od": "2025-04-03",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "135/2016 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o zadávání veřejných zakázek",
+   "druh": "změněný",
+   "soubor": "zakony/2016/135-2016.md",
+   "ucinnost_od": "2016-10-19",
+   "paragrafy": [
+    "Čl. V"
+   ]
+  },
+  {
+   "novelizovano": [
+    "277/2019 Sb.",
+    "261/2021 Sb.",
+    "177/2022 Sb.",
+    "346/2023 Sb.",
+    "196/2024 Sb.",
+    "23/2025 Sb."
+   ],
+   "citace": "222/2016 Sb.",
+   "nazev": "Zákon o Sbírce zákonů a mezinárodních smluv a o tvorbě právních předpisů vyhlašovaných ve Sbírce zákonů a mezinárodních smluv (zákon o Sbírce zákonů a mezinárodních smluv)",
+   "druh": "změněný",
+   "soubor": "zakony/2016/222-2016.md",
+   "ucinnost_od": "2026-08-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "183/2017 Sb.",
+    "303/2017 Sb.",
+    "307/2018 Sb.",
+    "186/2020 Sb.",
+    "237/2020 Sb.",
+    "353/2021 Sb."
+   ],
+   "citace": "257/2016 Sb.",
+   "nazev": "Zákon o spotřebitelském úvěru",
+   "druh": "změněný",
+   "soubor": "zakony/2016/257-2016.md",
+   "ucinnost_od": "2024-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "298/2016 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o službách vytvářejících důvěru pro elektronické transakce, zákon č. 106/1999 Sb., o svobodném přístupu k informacím, ve znění pozdějších předpisů, a zákon č. 121/2000 Sb., o právu autorském, o právech souvisejících s právem autorským a o změně některých zákonů (autorský zákon), ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2016/298-2016.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "Čl. XXXVIII"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "382/2016 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 141/2011 Sb., o výkonu činnosti platebních institucí, institucí elektronických peněz, poskytovatelů platebních služeb malého rozsahu a vydavatelů elektronických peněz malého rozsahu, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2016/382-2016.md",
+   "ucinnost_od": "2016-12-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "13/2026 Sb."
+   ],
+   "citace": "422/2016 Sb.",
+   "nazev": "Vyhláška o radiační ochraně a zabezpečení radionuklidového zdroje",
+   "druh": "změněný",
+   "soubor": "zakony/2016/422-2016.md",
+   "ucinnost_od": "2026-02-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "183/2017 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o odpovědnosti za přestupky a řízení o nich a zákona o některých přestupcích",
+   "druh": "změněný",
+   "soubor": "zakony/2017/183-2017.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "Čl. CXXIII"
+   ]
+  },
+  {
+   "novelizovano": [
+    "277/2019 Sb.",
+    "207/2020 Sb.",
+    "609/2020 Sb.",
+    "251/2021 Sb.",
+    "349/2023 Sb.",
+    "417/2024 Sb."
+   ],
+   "citace": "23/2017 Sb.",
+   "nazev": "Zákon o pravidlech rozpočtové odpovědnosti",
+   "druh": "změněný",
+   "soubor": "zakony/2017/23-2017.md",
+   "ucinnost_od": "2026-08-29",
+   "paragrafy": [
+    "§ 9a",
+    "§ 10a",
+    "§ 20a"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "367/2017 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 218/2000 Sb., o rozpočtových pravidlech a o změně některých souvisejících zákonů (rozpočtová pravidla), ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2017/367-2017.md",
+   "ucinnost_od": "2018-01-01",
+   "paragrafy": [
+    "Čl. IV"
+   ]
+  },
+  {
+   "novelizovano": [
+    "5/2019 Sb.",
+    "298/2021 Sb.",
+    "353/2021 Sb.",
+    "129/2022 Sb.",
+    "85/2024 Sb.",
+    "265/2024 Sb."
+   ],
+   "citace": "370/2017 Sb.",
+   "nazev": "Zákon o platebním styku",
+   "druh": "změněný",
+   "soubor": "zakony/2017/370-2017.md",
+   "ucinnost_od": "2025-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "119/2020 Sb.",
+    "524/2020 Sb.",
+    "96/2022 Sb.",
+    "91/2022 Sb.",
+    "396/2024 Sb.",
+    "317/2025 Sb."
+   ],
+   "citace": "170/2018 Sb.",
+   "nazev": "Zákon o distribuci pojištění a zajištění",
+   "druh": "změněný",
+   "soubor": "zakony/2018/170-2018.md",
+   "ucinnost_od": "2025-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "152/2022 Sb.",
+    "113/2023 Sb."
+   ],
+   "citace": "187/2018 Sb.",
+   "nazev": "Nařízení vlády o vyhlášení evropsky významných lokalit zařazených do evropského seznamu",
+   "druh": "změněný",
+   "soubor": "zakony/2018/187-2018.md",
+   "ucinnost_od": "2023-05-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "572/2020 Sb.",
+    "111/2022 Sb.",
+    "306/2025 Sb."
+   ],
+   "citace": "310/2018 Sb.",
+   "nazev": "Vyhláška o krajských normativech",
+   "druh": "změněný",
+   "soubor": "zakony/2018/310-2018.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "248/2021 Sb.",
+    "177/2022 Sb.",
+    "346/2023 Sb.",
+    "196/2024 Sb.",
+    "583/2025 Sb."
+   ],
+   "citace": "277/2019 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o Sbírce zákonů a mezinárodních smluv",
+   "druh": "změněný",
+   "soubor": "zakony/2019/277-2019.md",
+   "ucinnost_od": "2025-12-30",
+   "paragrafy": [
+    "Čl. XL"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "340/2020 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2020/340-2020.md",
+   "ucinnost_od": "2021-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "375/2023 Sb.",
+    "138/2024 Sb.",
+    "180/2025 Sb.",
+    "12/2026 Sb."
+   ],
+   "citace": "359/2020 Sb.",
+   "nazev": "Vyhláška o měření elektřiny",
+   "druh": "změněný",
+   "soubor": "zakony/2020/359-2020.md",
+   "ucinnost_od": "2026-08-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "380/2023 Sb."
+   ],
+   "citace": "362/2020 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 345/1999 Sb., kterou se vydává řád výkonu trestu odnětí svobody, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2020/362-2020.md",
+   "ucinnost_od": "2023-12-23",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "380/2023 Sb."
+   ],
+   "citace": "363/2020 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 109/1994 Sb., kterou se vydává řád výkonu vazby, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2020/363-2020.md",
+   "ucinnost_od": "2023-12-23",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "484/2020 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 218/2000 Sb., o rozpočtových pravidlech a o změně některých souvisejících zákonů (rozpočtová pravidla), ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2020/484-2020.md",
+   "ucinnost_od": "2022-01-01",
+   "paragrafy": [
+    "Čl. VI"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "501/2020 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 246/1992 Sb., na ochranu zvířat proti týrání, ve znění pozdějších předpisů, a zákon č. 634/2004 Sb., o správních poplatcích, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2020/501-2020.md",
+   "ucinnost_od": "2022-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "40/2022 Sb.",
+    "202/2022 Sb.",
+    "450/2022 Sb.",
+    "144/2026 Sb."
+   ],
+   "citace": "565/2020 Sb.",
+   "nazev": "Nařízení vlády o podmínkách poskytnutí kompenzací nepřímých nákladů pro odvětví, u kterých bylo zjištěno značné riziko úniku uhlíku v důsledku promítnutí nákladů spojených s emisemi skleníkových plynů do cen elektřiny",
+   "druh": "změněný",
+   "soubor": "zakony/2020/565-2020.md",
+   "ucinnost_od": "2026-08-14",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "195/2021 Sb.",
+   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 361/2007 Sb., kterým se stanoví podmínky ochrany zdraví při práci, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2021/195-2021.md",
+   "ucinnost_od": "2026-07-12",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "271/2022 Sb.",
+    "219/2024 Sb.",
+    "443/2025 Sb.",
+    "131/2026 Sb."
+   ],
+   "citace": "207/2021 Sb.",
+   "nazev": "Vyhláška o vyúčtování dodávek a souvisejících služeb v energetických odvětvích",
+   "druh": "změněný",
+   "soubor": "zakony/2021/207-2021.md",
+   "ucinnost_od": "2026-08-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "546/2025 Sb."
+   ],
+   "citace": "240/2021 Sb.",
+   "nazev": "Vyhláška o ochraně zemědělské půdy před erozí",
+   "druh": "změněný",
+   "soubor": "zakony/2021/240-2021.md",
+   "ucinnost_od": "2021-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "151/2023 Sb."
+   ],
+   "citace": "251/2021 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 248/2000 Sb., o podpoře regionálního rozvoje, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2021/251-2021.md",
+   "ucinnost_od": "2023-06-20",
+   "paragrafy": [
+    "Čl. X"
+   ]
+  },
+  {
+   "novelizovano": [
+    "89/2022 Sb.",
+    "271/2023 Sb.",
+    "197/2024 Sb."
+   ],
+   "citace": "261/2021 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s další elektronizací postupů orgánů veřejné moci",
+   "druh": "změněný",
+   "soubor": "zakony/2021/261-2021.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "Čl. XCV"
+   ]
+  },
+  {
+   "novelizovano": [
+    "78/2022 Sb.",
+    "445/2022 Sb.",
+    "18/2025 Sb.",
+    "557/2025 Sb."
+   ],
+   "citace": "273/2021 Sb.",
+   "nazev": "Vyhláška o podrobnostech nakládání s odpady",
+   "druh": "změněný",
+   "soubor": "zakony/2021/273-2021.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "274/2021 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 326/1999 Sb., o pobytu cizinců na území České republiky a o změně některých zákonů, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2021/274-2021.md",
+   "ucinnost_od": "2021-08-02",
+   "paragrafy": [
+    "§ 180l",
+    "§ 180m",
+    "§ 180n"
+   ]
+  },
+  {
+   "novelizovano": [
+    "195/2022 Sb.",
+    "465/2023 Sb.",
+    "152/2023 Sb.",
+    "126/2024 Sb.",
+    "183/2024 Sb.",
+    "437/2024 Sb."
+   ],
+   "citace": "283/2021 Sb.",
+   "nazev": "Zákon stavební zákon",
+   "druh": "změněný",
+   "soubor": "zakony/2021/283-2021.md",
+   "ucinnost_od": "2026-06-11",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "87/2025 Sb."
+   ],
+   "citace": "362/2021 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 458/2000 Sb., o podmínkách podnikání a o výkonu státní správy v energetických odvětvích a o změně některých zákonů (energetický zákon), ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2021/362-2021.md",
+   "ucinnost_od": "2025-08-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "407/2023 Sb.",
+    "242/2024 Sb."
+   ],
+   "citace": "363/2021 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 359/1999 Sb., o sociálně-právní ochraně dětí, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2021/363-2021.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "465/2023 Sb."
+   ],
+   "citace": "367/2021 Sb.",
+   "nazev": "Zákon o opatřeních k přechodu České republiky k nízkouhlíkové energetice a o změně zákona č. 165/2012 Sb., o podporovaných zdrojích energie, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2021/367-2021.md",
+   "ucinnost_od": "2026-08-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "245/2022 Sb.",
+    "263/2024 Sb.",
+    "232/2025 Sb."
+   ],
+   "citace": "37/2021 Sb.",
+   "nazev": "Zákon o evidenci skutečných majitelů",
+   "druh": "změněný",
+   "soubor": "zakony/2021/37-2021.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "505/2021 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 378/2010 Sb., o stanovení druhového seznamu pěstovaných rostlin, ve znění pozdějších předpisů, a další související vyhlášky",
+   "druh": "změněný",
+   "soubor": "zakony/2021/505-2021.md",
+   "ucinnost_od": "2022-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "152/2022 Sb.",
+   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 187/2018 Sb., o vyhlášení evropsky významných lokalit zařazených do evropského seznamu",
+   "druh": "změněný",
+   "soubor": "zakony/2022/152-2022.md",
+   "ucinnost_od": "2022-06-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "241/2022 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 106/1999 Sb., o svobodném přístupu k informacím, ve znění pozdějších předpisů, zákon č. 123/1998 Sb., o právu na informace o životním prostředí, ve znění pozdějších předpisů, a zákon č. 130/2002 Sb., o podpoře výzkumu, experimentálního vývoje a inovací z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu, experimentálního vývoje a inovací), ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2022/241-2022.md",
+   "ucinnost_od": "2024-01-01",
+   "paragrafy": [
+    "Čl. V",
+    "Čl. VI"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "424/2022 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 67/2013 Sb., kterým se upravují některé otázky související s poskytováním plnění spojených s užíváním bytů a nebytových prostorů v domě s byty, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2022/424-2022.md",
+   "ucinnost_od": "2024-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "459/2022 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 276/2003 Sb., o Antarktidě a o změně některých zákonů, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2022/459-2022.md",
+   "ucinnost_od": "2023-01-01",
+   "paragrafy": [
+    "§ 23a",
+    "§ 23b",
+    "§ 23c",
+    "§ 23d",
+    "§ 23e",
+    "§ 23f",
+    "§ 23g",
+    "§ 23h",
+    "§ 23i",
+    "Čl. II",
+    "Čl. III"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "78/2022 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 273/2021 Sb., o podrobnostech nakládání s odpady",
+   "druh": "změněný",
+   "soubor": "zakony/2022/78-2022.md",
+   "ucinnost_od": "2022-04-09",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "317/2025 Sb."
+   ],
+   "citace": "91/2022 Sb.",
+   "nazev": "Zákon o panevropském osobním penzijním produktu a o změně souvisejících zákonů (zákon o panevropském osobním penzijním produktu)",
+   "druh": "změněný",
+   "soubor": "zakony/2022/91-2022.md",
+   "ucinnost_od": "2022-05-11",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "93/2022 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 353/2003 Sb., o spotřebních daních, ve znění pozdějších předpisů, a zákon č. 235/2004 Sb., o dani z přidané hodnoty, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2022/93-2022.md",
+   "ucinnost_od": "2022-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "113/2023 Sb.",
+   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 187/2018 Sb., o vyhlášení evropsky významných lokalit zařazených do evropského seznamu, ve znění nařízení vlády č. 152/2022 Sb.",
+   "druh": "změněný",
+   "soubor": "zakony/2023/113-2023.md",
+   "ucinnost_od": "2023-05-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "44/2024 Sb.",
+    "185/2024 Sb.",
+    "41/2025 Sb.",
+    "25/2026 Sb.",
+    "167/2026 Sb."
+   ],
+   "citace": "140/2023 Sb.",
+   "nazev": "Nařízení vlády o stanovení podmínek provádění opatření agrolesnictví a o změně nařízení vlády č. 307/2014 Sb., o stanovení podrobností evidence využití půdy podle uživatelských vztahů, ve znění pozdějších předpisů, a nařízení vlády č. 69/2023 Sb., o stanovení podmínek provádění opatření v odvětví vína, (nařízení vlády o stanovení podmínek provádění opatření agrolesnictví)",
+   "druh": "změněný",
+   "soubor": "zakony/2023/140-2023.md",
+   "ucinnost_od": "2026-03-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "177/2023 Sb.",
+   "nazev": "Zákon o financování obrany České republiky a o změně zákona č. 218/2000 Sb., o rozpočtových pravidlech a o změně některých souvisejících zákonů (rozpočtová pravidla), ve znění pozdějších předpisů, (zákon o financování obrany)",
+   "druh": "změněný",
+   "soubor": "zakony/2023/177-2023.md",
+   "ucinnost_od": "2026-08-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "256/2023 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 428/2001 Sb., kterou se provádí zákon č. 274/2001 Sb., o vodovodech a kanalizacích pro veřejnou potřebu a o změně některých zákonů (zákon o vodovodech a kanalizacích), ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2023/256-2023.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "303/2023 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 266/1994 Sb., o dráhách, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2023/303-2023.md",
+   "ucinnost_od": "2023-11-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "417/2024 Sb.",
+    "214/2025 Sb."
+   ],
+   "citace": "321/2023 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 582/1991 Sb., o organizaci a provádění sociálního zabezpečení, ve znění pozdějších předpisů, a některé další zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2023/321-2023.md",
+   "ucinnost_od": "2025-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "163/2024 Sb.",
+    "23/2025 Sb."
+   ],
+   "citace": "349/2023 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s konsolidací veřejných rozpočtů",
+   "druh": "změněný",
+   "soubor": "zakony/2023/349-2023.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "414/2023 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 301/2000 Sb., o matrikách, jménu a příjmení a o změně některých souvisejících zákonů, ve znění pozdějších předpisů, zákon č. 89/2012 Sb., občanský zákoník, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2023/414-2023.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": [
+    "§ 1b",
+    "§ 1c",
+    "§ 1d",
+    "§ 1e",
+    "§ 1f",
+    "§ 25d",
+    "§ 60a",
+    "Čl. II",
+    "Čl. IV",
+    "Čl. V"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "451/2023 Sb.",
+   "nazev": "Nařízení vlády, kterým se mění některá nařízení vlády v souvislosti se zrušením technických průkazů vozidel",
+   "druh": "změněný",
+   "soubor": "zakony/2023/451-2023.md",
+   "ucinnost_od": "2025-03-01",
+   "paragrafy": [
+    "Čl. II",
+    "Čl. III"
+   ]
+  },
+  {
+   "novelizovano": [
+    "182/2024 Sb."
+   ],
+   "citace": "465/2023 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 416/2009 Sb., o urychlení výstavby dopravní, vodní a energetické infrastruktury a infrastruktury elektronických komunikací (liniový zákon), ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2023/465-2023.md",
+   "ucinnost_od": "2024-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "44/2024 Sb.",
+    "22/2026 Sb.",
+    "167/2026 Sb."
+   ],
+   "citace": "63/2023 Sb.",
+   "nazev": "Nařízení vlády o stanovení podmínek provádění opatření pro zalesňování zemědělské půdy",
+   "druh": "změněný",
+   "soubor": "zakony/2023/63-2023.md",
+   "ucinnost_od": "2026-03-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "62/2024 Sb.",
+    "185/2024 Sb.",
+    "80/2025 Sb.",
+    "167/2026 Sb."
+   ],
+   "citace": "73/2023 Sb.",
+   "nazev": "Nařízení vlády o stanovení pravidel podmíněnosti plateb zemědělcům",
+   "druh": "změněný",
+   "soubor": "zakony/2023/73-2023.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "44/2024 Sb.",
+    "27/2025 Sb.",
+    "32/2026 Sb.",
+    "167/2026 Sb."
+   ],
+   "citace": "81/2023 Sb.",
+   "nazev": "Nařízení vlády o stanovení podmínek provádění opatření ekologické zemědělství",
+   "druh": "změněný",
+   "soubor": "zakony/2023/81-2023.md",
+   "ucinnost_od": "2026-03-15",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "68/2024 Sb.",
+    "185/2024 Sb.",
+    "275/2024 Sb.",
+    "81/2025 Sb.",
+    "167/2026 Sb."
+   ],
+   "citace": "83/2023 Sb.",
+   "nazev": "Nařízení vlády o stanovení podmínek poskytování přímých plateb zemědělcům",
+   "druh": "změněný",
+   "soubor": "zakony/2023/83-2023.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "123/2024 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 89/2012 Sb., občanský zákoník, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2024/123-2024.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "138/2024 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 359/2020 Sb., o měření elektřiny, ve znění vyhlášky č. 375/2023 Sb.",
+   "druh": "změněný",
+   "soubor": "zakony/2024/138-2024.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "236/2024 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 90/2016 Sb., o posuzování shody stanovených výrobků při jejich dodávání na trh, ve znění pozdějších předpisů, a zákon č. 424/2023 Sb., o požadavcích na přístupnost některých výrobků a služeb",
+   "druh": "změněný",
+   "soubor": "zakony/2024/236-2024.md",
+   "ucinnost_od": "2025-06-28",
+   "paragrafy": [
+    "Čl. IV"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "242/2024 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 359/1999 Sb., o sociálně-právní ochraně dětí, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2024/242-2024.md",
+   "ucinnost_od": "2025-08-21",
+   "paragrafy": [
+    "Čl. IV"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "252/2024 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 182/2006 Sb., o úpadku a způsobech jeho řešení (insolvenční zákon), ve znění pozdějších předpisů, zákon č. 99/1963 Sb., občanský soudní řád, ve znění pozdějších předpisů, zákon č. 119/2001 Sb., kterým se stanoví pravidla pro případy souběžně probíhajících výkonů rozhodnutí, ve znění pozdějších předpisů, zákon č. 120/2001 Sb., o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů, ve znění pozdějších předpisů, a zákon č. 312/2006 Sb., o insolvenčních správcích, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2024/252-2024.md",
+   "ucinnost_od": "2024-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "263/2024 Sb.",
+   "nazev": "Zákon o veřejných kulturních institucích a o změně souvisejících zákonů (zákon o veřejných kulturních institucích)",
+   "druh": "změněný",
+   "soubor": "zakony/2024/263-2024.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": [
+    "§ 53"
+   ]
+  },
+  {
+   "novelizovano": [
+    "483/2025 Sb."
+   ],
+   "citace": "390/2024 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 428/2001 Sb., kterou se provádí zákon č. 274/2001 Sb., o vodovodech a kanalizacích pro veřejnou potřebu a o změně některých zákonů (zákon o vodovodech a kanalizacích), ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2024/390-2024.md",
+   "ucinnost_od": "2025-12-31",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "360/2025 Sb."
+   ],
+   "citace": "395/2024 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 187/2006 Sb., o nemocenském pojištění, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2024/395-2024.md",
+   "ucinnost_od": "2025-09-30",
+   "paragrafy": [
+    "Čl. VI"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "406/2024 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2024/406-2024.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "480/2025 Sb."
+   ],
+   "citace": "414/2024 Sb.",
+   "nazev": "Vyhláška o rovnocennosti vzdělání úředníků územních samosprávných celků",
+   "druh": "změněný",
+   "soubor": "zakony/2024/414-2024.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "417/2024 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 155/1995 Sb., o důchodovém pojištění, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2024/417-2024.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 18b"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "469/2024 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o integračním sociálním podniku",
+   "druh": "změněný",
+   "soubor": "zakony/2024/469-2024.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "480/2024 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 496/2012 Sb., o audiovizuálních dílech a podpoře kinematografie a o změně některých zákonů (zákon o audiovizi), ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2024/480-2024.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "365/2024 Sb."
+   ],
+   "citace": "6/2024 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 408/2015 Sb., o Pravidlech trhu s elektřinou, ve znění pozdějších předpisů, a vyhláška č. 490/2021 Sb., kterou se mění vyhláška č. 408/2015 Sb., o Pravidlech trhu s elektřinou, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2024/6-2024.md",
+   "ucinnost_od": "2025-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "89/2024 Sb.",
+   "nazev": "Zákon, kterým se mění volební a některé další zákony v souvislosti s přijetím zákona o správě voleb",
+   "druh": "změněný",
+   "soubor": "zakony/2024/89-2024.md",
+   "ucinnost_od": "2026-06-26",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "173/2025 Sb.",
+    "220/2025 Sb.",
+    "270/2025 Sb."
+   ],
+   "citace": "90/2024 Sb.",
+   "nazev": "Zákon o zbraních a střelivu",
+   "druh": "změněný",
+   "soubor": "zakony/2024/90-2024.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 133a"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "130/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 111/1994 Sb., o silniční dopravě, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2025/130-2025.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": [
+    "Čl. VI"
+   ]
+  },
+  {
+   "novelizovano": [
+    "360/2025 Sb.",
+    "509/2025 Sb."
+   ],
+   "citace": "151/2025 Sb.",
+   "nazev": "Zákon o dávce státní sociální pomoci",
+   "druh": "změněný",
+   "soubor": "zakony/2025/151-2025.md",
+   "ucinnost_od": "2026-03-31",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "152/2025 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o dávce státní sociální pomoci",
+   "druh": "změněný",
+   "soubor": "zakony/2025/152-2025.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "175/2025 Sb.",
+   "nazev": "Zákon o poskytování některých opatření v podpoře bydlení (zákon o podpoře bydlení)",
+   "druh": "změněný",
+   "soubor": "zakony/2025/175-2025.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": [
+    "§ 140a"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "179/2025 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 122/2014 Sb., o jízdních řádech veřejné linkové dopravy",
+   "druh": "změněný",
+   "soubor": "zakony/2025/179-2025.md",
+   "ucinnost_od": "2025-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "180/2025 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 359/2020 Sb., o měření elektřiny, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2025/180-2025.md",
+   "ucinnost_od": "2026-08-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "220/2025 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o zbraních a střelivu a zákona o munici",
+   "druh": "změněný",
+   "soubor": "zakony/2025/220-2025.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "Čl. VI",
+    "Čl. XXXIII"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "225/2025 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 408/2015 Sb., o Pravidlech trhu s elektřinou, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2025/225-2025.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "230/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 273/2008 Sb., o Policii České republiky, ve znění pozdějších předpisů, a některé další zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2025/230-2025.md",
+   "ucinnost_od": "2025-08-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "231/2025 Sb.",
+   "nazev": "Zákon o řízení a kontrole veřejných financí",
+   "druh": "změněný",
+   "soubor": "zakony/2025/231-2025.md",
+   "ucinnost_od": "2025-07-10",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "360/2025 Sb."
+   ],
+   "citace": "232/2025 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o řízení a kontrole veřejných financí",
+   "druh": "změněný",
+   "soubor": "zakony/2025/232-2025.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "239/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 561/2004 Sb., o předškolním, základním, středním, vyšším odborném a jiném vzdělávání (školský zákon), ve znění pozdějších předpisů, a zákon č. 563/2004 Sb., o pedagogických pracovnících a o změně některých zákonů, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2025/239-2025.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "104/2026 Sb."
+   ],
+   "citace": "242/2025 Sb.",
+   "nazev": "Vyhláška o dispečerském řízení elektrizační soustavy (dispečerská vyhláška)",
+   "druh": "změněný",
+   "soubor": "zakony/2025/242-2025.md",
+   "ucinnost_od": "2026-08-01",
+   "paragrafy": [
+    "§ 6",
+    "§ 5",
+    "§ 15",
+    "§ 16"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "250/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 289/1995 Sb., o lesích a o změně a doplnění některých zákonů (lesní zákon), ve znění pozdějších předpisů, zákon č. 114/1992 Sb., o ochraně přírody a krajiny, ve znění pozdějších předpisů, a zákon č. 40/2009 Sb., trestní zákoník, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2025/250-2025.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 23c",
+    "Čl. III"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "251/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 226/2013 Sb., o uvádění dřeva a dřevařských výrobků na trh, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2025/251-2025.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "267/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 561/2004 Sb., o předškolním, základním, středním, vyšším odborném a jiném vzdělávání (školský zákon), ve znění pozdějších předpisů, a některé další zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2025/267-2025.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "270/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 40/2009 Sb., trestní zákoník, ve znění pozdějších předpisů, zákon č. 141/1961 Sb., o trestním řízení soudním (trestní řád), ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2025/270-2025.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": [
+    "§ 239b",
+    "§ 239c",
+    "Čl. VII",
+    "Čl. VIII",
+    "§ 2e",
+    "§ 9c",
+    "§ 9d",
+    "Čl. XII",
+    "Čl. XIX",
+    "Čl. XX",
+    "Čl. XXI",
+    "Čl. XXIV",
+    "Čl. XXV",
+    "Čl. XXVI",
+    "Čl. XXVII",
+    "Čl. XXVIII",
+    "Čl. XXXIII",
+    "Čl. XXXIX",
+    "Čl. XL"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "280/2025 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v oblasti finančního trhu v souvislosti s úpravou činnosti poboček zahraničních bank z jiných než členských států, úpravou některých přestupků a v souvislosti s posílením pravomocí orgánu dohledu a jeho nezávislosti",
+   "druh": "změněný",
+   "soubor": "zakony/2025/280-2025.md",
+   "ucinnost_od": "2026-01-11",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "289/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 48/1997 Sb., o veřejném zdravotním pojištění a o změně a doplnění některých souvisejících zákonů, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2025/289-2025.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "300/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 108/2006 Sb., o sociálních službách, ve znění pozdějších předpisů, zákon č. 329/2011 Sb., o poskytování dávek osobám se zdravotním postižením a o změně souvisejících zákonů, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2025/300-2025.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "533/2025 Sb."
+   ],
+   "citace": "306/2025 Sb.",
+   "nazev": "Vyhláška, kterou se mění některé vyhlášky v oblasti školství",
+   "druh": "změněný",
+   "soubor": "zakony/2025/306-2025.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "307/2025 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 296/2012 Sb., o požadavcích na vybavení poskytovatele zdravotnické dopravní služby, poskytovatele zdravotnické záchranné služby a poskytovatele přepravy pacientů neodkladné péče dopravními prostředky a o požadavcích na tyto dopravní prostředky, ve znění vyhlášky č. 110/2025 Sb.",
+   "druh": "změněný",
+   "soubor": "zakony/2025/307-2025.md",
+   "ucinnost_od": "2025-08-27",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "31/2025 Sb.",
+   "nazev": "Zákon o implementaci předpisů Evropské unie v oblasti digitalizace finančního trhu (zákon o digitalizaci finančního trhu)",
+   "druh": "změněný",
+   "soubor": "zakony/2025/31-2025.md",
+   "ucinnost_od": "2025-02-15",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "310/2025 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 107/2005 Sb., o školním stravování, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2025/310-2025.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "317/2025 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v oblasti finančního trhu v souvislosti se zřízením a fungováním jednotného evropského přístupového místa",
+   "druh": "změněný",
+   "soubor": "zakony/2025/317-2025.md",
+   "ucinnost_od": "2026-07-10",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "323/2025 Sb.",
+   "nazev": "Zákon o jednotném měsíčním hlášení zaměstnavatele",
+   "druh": "změněný",
+   "soubor": "zakony/2025/323-2025.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "328/2025 Sb.",
+   "nazev": "Zákon o výzkumu, vývoji, inovacích a transferu znalostí",
+   "druh": "změněný",
+   "soubor": "zakony/2025/328-2025.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "329/2025 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o výzkumu, vývoji, inovacích a transferu znalostí",
+   "druh": "změněný",
+   "soubor": "zakony/2025/329-2025.md",
+   "ucinnost_od": "2025-09-09",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "330/2025 Sb.",
+   "nazev": "Zákon o správě informací o stavbě a vystavěném prostředí a o změně některých dalších zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2025/330-2025.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "337/2025 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 163/2014 Sb., o výkonu činnosti bank, spořitelních a úvěrních družstev a obchodníků s cennými papíry, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2025/337-2025.md",
+   "ucinnost_od": "2026-01-11",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "360/2025 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o jednotném měsíčním hlášení zaměstnavatele",
+   "druh": "změněný",
+   "soubor": "zakony/2025/360-2025.md",
+   "ucinnost_od": "2026-07-24",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "38/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 108/2006 Sb., o sociálních službách, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2025/38-2025.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "398/2025 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 415/2012 Sb., o přípustné úrovni znečišťování a jejím zjišťování a o provedení některých dalších ustanovení zákona o ochraně ovzduší, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2025/398-2025.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "399/2025 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 99/2012 Sb., o požadavcích na minimální personální zabezpečení zdravotních služeb, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2025/399-2025.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "414/2025 Sb.",
+   "nazev": "Vyhláška o školitelích pro obory specializačního vzdělávání a pro nástavbové obory lékařů, zubních lékařů a farmaceutů",
+   "druh": "změněný",
+   "soubor": "zakony/2025/414-2025.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "42/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 201/2012 Sb., o ochraně ovzduší, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2025/42-2025.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "427/2025 Sb.",
+   "nazev": "Nařízení vlády o koeficientech, kterými se násobí počty dětí, žáků a studentů pro účely stanovení podílu krajů a obcí na daňových příjmech ",
+   "druh": "změněný",
+   "soubor": "zakony/2025/427-2025.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 2"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "48/2025 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 505/2006 Sb., kterou se provádějí některá ustanovení zákona o sociálních službách, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2025/48-2025.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "546/2025 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 240/2021 Sb., o ochraně zemědělské půdy před erozí ",
+   "druh": "změněný",
+   "soubor": "zakony/2025/546-2025.md",
+   "ucinnost_od": "2025-12-17",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "558/2025 Sb.",
+   "nazev": "Vyhláška o typologickém systému lesů",
+   "druh": "změněný",
+   "soubor": "zakony/2025/558-2025.md",
+   "ucinnost_od": "2026-01-01",
+   "paragrafy": [
+    "§ 6"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "84/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 247/2014 Sb., o poskytování služby péče o dítě v dětské skupině a o změně souvisejících zákonů, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2025/84-2025.md",
+   "ucinnost_od": "2026-05-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "223/2025 Sb.",
+    "330/2025 Sb."
+   ],
+   "citace": "87/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 458/2000 Sb., o podmínkách podnikání a o výkonu státní správy v energetických odvětvích a o změně některých zákonů (energetický zákon), ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2025/87-2025.md",
+   "ucinnost_od": "2026-08-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "1/2026 Sb.",
+   "nazev": "Vyhláška,  kterou se mění vyhláška č. 355/2020 Sb., o žádostech a některých informacích podle zákona o bankách a zákona o spořitelních a úvěrních družstvech, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/1-2026.md",
+   "ucinnost_od": "2026-01-11",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "102/2026 Sb.",
+   "nazev": "Vyhláška o službě zdraví škodlivé nebo zvlášť obtížné a o okruhu služebních zařazení pro poskytování preventivní rehabilitace vojákům z povolání",
+   "druh": "změněný",
+   "soubor": "zakony/2026/102-2026.md",
+   "ucinnost_od": "2026-06-19",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "103/2026 Sb.",
+   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 243/2013 Sb., o investování investičních fondů a o technikách k jejich obhospodařování, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/103-2026.md",
+   "ucinnost_od": "2026-06-25",
+   "paragrafy": [
+    "Čl. I",
+    "Čl. II"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "112/2026 Sb.",
+   "nazev": "Vyhláška,  kterou se mění vyhláška č. 388/2011 Sb., o provedení některých ustanovení zákona o poskytování dávek osobám se zdravotním postižením, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/112-2026.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "12/2026 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 359/2020 Sb., o měření elektřiny, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/12-2026.md",
+   "ucinnost_od": "2026-08-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "129/2026 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 175/2025 Sb., o poskytování některých opatření v podpoře bydlení (zákon o podpoře bydlení), zákon č. 73/2011 Sb., o Úřadu práce České republiky a o změně souvisejících zákonů, ve znění pozdějších předpisů, a zákon č. 360/2025 Sb., kterým se mění některé zákony v souvislostis přijetím zákona o jednotném měsíčním hlášení zaměstnavatele",
+   "druh": "změněný",
+   "soubor": "zakony/2026/129-2026.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "13/2026 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 422/2016 Sb., o radiační ochraně a zabezpečení radionuklidového zdroje ",
+   "druh": "změněný",
+   "soubor": "zakony/2026/13-2026.md",
+   "ucinnost_od": "2026-02-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "130/2026 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 240/2013 Sb., o investičních společnostech a investičních fondech, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2026/130-2026.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "131/2026 Sb.",
+   "nazev": "Vyhláška,  kterou se mění vyhláška č. 207/2021 Sb., o vyúčtování dodávek a souvisejících služeb v energetických odvětvích, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/131-2026.md",
+   "ucinnost_od": "2026-08-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "132/2026 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 408/2015 Sb., o Pravidlech trhu s elektřinou, ve znění pozdějších předpisů ",
+   "druh": "změněný",
+   "soubor": "zakony/2026/132-2026.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": [
+    "§ 31",
+    "§ 32",
+    "§ 40b",
+    "§ 40c",
+    "§ 40d",
+    "§ 40e",
+    "§ 40f"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "141/2026 Sb.",
+   "nazev": "Vyhláška o podrobných náležitostech vyúčtování příspěvků podle zákona o podpoře bydlení",
+   "druh": "změněný",
+   "soubor": "zakony/2026/141-2026.md",
+   "ucinnost_od": "2026-08-06",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "144/2026 Sb.",
+   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 565/2020 Sb., o podmínkách poskytnutí kompenzací nepřímých nákladů pro odvětví, u kterých bylo zjištěno značné riziko úniku uhlíku v důsledku promítnutí nákladů spojených s emisemi skleníkových plynů do cen elektřiny, ve znění pozdějších předpisů ",
+   "druh": "změněný",
+   "soubor": "zakony/2026/144-2026.md",
+   "ucinnost_od": "2026-08-14",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "146/2026 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 275/1998 Sb., o agrochemickém zkoušení zemědělských půd a zjišťování půdních vlastností lesních pozemků, ve znění pozdějších předpisů ",
+   "druh": "změněný",
+   "soubor": "zakony/2026/146-2026.md",
+   "ucinnost_od": "2026-08-14",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "147/2026 Sb.",
+   "nazev": "Vyhláška, kterou se mění některé vyhlášky v souvislosti s přijetím zákona č. 130/2026 Sb., kterým se mění zákon č. 240/2013 Sb., o investičních společnostech a investičních fondech, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2026/147-2026.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "149/2026 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 5/2014 Sb., o způsobu, termínech a rozsahu údajů předkládaných pro hodnocení plnění státního rozpočtu, rozpočtů státních fondů, rozpočtů územních samosprávných celků a rozpočtů dobrovolných svazků obcí, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/149-2026.md",
+   "ucinnost_od": "2026-08-20",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "151/2026 Sb.",
+   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 278/2008 Sb., o obsahových náplních jednotlivých živností, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/151-2026.md",
+   "ucinnost_od": "2026-09-10",
+   "paragrafy": [
+    "Čl. I",
+    "Čl. II"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "152/2026 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 117/1995 Sb., o státní sociální podpoře, ve znění pozdějších předpisů, a zákon č. 151/2025 Sb., o dávce státní sociální pomoci, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/152-2026.md",
+   "ucinnost_od": "2026-08-26",
+   "paragrafy": [
+    "Čl. I",
+    "Čl. II",
+    "Čl. III",
+    "Čl. IV",
+    "Čl. V",
+    "Čl. VI"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "153/2026 Sb.",
+   "nazev": "Vyhláška o stanovení postupu a podmínek pro získání přístupových údajů do informačního systému Administrace vzdělávání ve zdravotnictví a o rozsahu vedených údajů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/153-2026.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": [
+    "§ 1",
+    "§ 2",
+    "§ 3",
+    "§ 4",
+    "§ 5",
+    "§ 6",
+    "§ 7",
+    "§ 8"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "154/2026 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 391/2013 Sb., o zdravotní způsobilosti k tělesné výchově a sportu",
+   "druh": "změněný",
+   "soubor": "zakony/2026/154-2026.md",
+   "ucinnost_od": "2026-09-11",
+   "paragrafy": [
+    "Čl. I",
+    "Čl. II",
+    "Čl. III"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "155/2026 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v oblasti veřejných rozpočtů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/155-2026.md",
+   "ucinnost_od": "2026-08-29",
+   "paragrafy": [
+    "Čl. I",
+    "Čl. II",
+    "§ 31",
+    "§ 32",
+    "Čl. III",
+    "Čl. IV",
+    "Čl. V",
+    "Čl. VI",
+    "Čl. VII",
+    "Čl. VIII",
+    "Čl. IX",
+    "Čl. X",
+    "Čl. XI",
+    "Čl. XII",
+    "Čl. XIII",
+    "Čl. XIV",
+    "Čl. XV",
+    "Čl. XVI",
+    "Čl. XVII",
+    "Čl. XVIII"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "157/2026 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 90/1995 Sb., o jednacím řádu Poslanecké sněmovny, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/157-2026.md",
+   "ucinnost_od": "2026-09-15",
+   "paragrafy": [
+    "Čl. I",
+    "§ 106b",
+    "Čl. II"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "158/2026 Sb.",
+   "nazev": "Vyhláška o vyhlášení národní přírodní památky Zlatý potok a stanovení jejích bližších ochranných podmínek ",
+   "druh": "změněný",
+   "soubor": "zakony/2026/158-2026.md",
+   "ucinnost_od": "2026-09-02",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "159/2026 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti se smlouvami o finančních službách uzavíranými na dálku",
+   "druh": "změněný",
+   "soubor": "zakony/2026/159-2026.md",
+   "ucinnost_od": "2026-09-02",
+   "paragrafy": [
+    "Čl. I",
+    "Čl. II",
+    "Čl. III",
+    "Čl. IV",
+    "Čl. V",
+    "Čl. VI",
+    "Čl. VII",
+    "Čl. VIII",
+    "Čl. IX",
+    "Čl. X",
+    "Čl. XI",
+    "Čl. XII"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "161/2026 Sb.",
+   "nazev": "Sdělení Českého úřadu zeměměřického a katastrálního Seznam katastrálních pracovišť katastrálních úřadů, jejich názvy, sídla a územní obvody, ve kterých vykonávají působnost příslušného katastrálního úřadu k 1. říjnu 2026",
+   "druh": "změněný",
+   "soubor": "zakony/2026/161-2026.md",
+   "ucinnost_od": "0000-00-00",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "162/2026 Sb.",
+   "nazev": "Sdělení Ministerstva zahraničních věcí o sjednání Dohody o prodloužení platnosti Prováděcího programu spolupráce v oblasti školství a kultury mezi vládou České republiky a vládou Korejské republiky",
+   "druh": "nový",
+   "soubor": "zakony/2026/162-2026.md",
+   "ucinnost_od": "0000-00-00",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "163/2026 Sb.",
+   "nazev": "Sdělení Ministerstva zahraničních věcí, kterým se mění a doplňují sdělení Ministerstva zahraničních věcí č. 58/2007 Sb. m. s. a č. 46/2008 Sb. m. s.",
+   "druh": "změněný",
+   "soubor": "zakony/2026/163-2026.md",
+   "ucinnost_od": "0000-00-00",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "165/2026 Sb.",
+   "nazev": "Nařízení vlády o vyhlášení evropsky významných lokalit zařazených do evropského seznamu",
+   "druh": "změněný",
+   "soubor": "zakony/2026/165-2026.md",
+   "ucinnost_od": "2026-09-15",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "167/2026 Sb.",
+   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 83/2023 Sb., o stanovení podmínek poskytování přímých plateb zemědělcům, ve znění pozdějších předpisů, a některá další související nařízení vlády",
+   "druh": "nový",
+   "soubor": "zakony/2026/167-2026.md",
+   "ucinnost_od": "2026-09-16",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "168/2026 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 522/2006 Sb., o státním odborném dozoru a kontrolách v silniční dopravě, ve znění pozdějších předpisů ",
+   "druh": "nový",
+   "soubor": "zakony/2026/168-2026.md",
+   "ucinnost_od": "2026-09-23",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "24/2026 Sb.",
+   "nazev": "Nařízení vlády o podmínkách poskytování finančních příspěvků na hospodaření v lesích a na vybrané myslivecké činnosti a o změně souvisejících nařízení vlády",
+   "druh": "změněný",
+   "soubor": "zakony/2026/24-2026.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": [
+    "§ 47",
+    "§ 48",
+    "§ 49"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "31/2026 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 419/2012 Sb., o ochraně pokusných zvířat, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/31-2026.md",
+   "ucinnost_od": "2026-03-15",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "48/2026 Sb.",
+   "nazev": "Vyhláška,  kterou se mění vyhláška č. 438/2006 Sb., kterou se upravují podrobnosti výkonu ústavní výchovy a ochranné výchovy ve školských zařízeních, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/48-2026.md",
+   "ucinnost_od": "2026-04-02",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "60/2026 Sb.",
+   "nazev": "Zákon o správě dat, o řízeném přístupu k datům a o změně některých souvisejících zákonů (zákon o správě dat a o řízeném přístupu k datům)",
+   "druh": "změněný",
+   "soubor": "zakony/2026/60-2026.md",
+   "ucinnost_od": "2026-05-27",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "89/2026 Sb.",
+   "nazev": "Nařízení vlády o podmínkách pro ocenění mimořádných výsledků výzkumu, vývoje, inovací a transferu znalostí a ocenění propagace nebo popularizace výzkumu, vývoje, inovací a transferu znalostí",
+   "druh": "změněný",
+   "soubor": "zakony/2026/89-2026.md",
+   "ucinnost_od": "2026-06-09",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "92/2026 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 108/2006 Sb., o sociálních službách, ve znění pozdějších předpisů, zákon č. 329/2011 Sb., o poskytování dávek osobám se zdravotním postižením a o změně souvisejících zákonů, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2026/92-2026.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "93/2026 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 117/1995 Sb., o státní sociální podpoře, ve znění pozdějších předpisů, a zákon č. 152/2025 Sb., kterým se mění některé zákony v souvislosti s přijetím zákona o dávce státní sociální pomoci, ve znění zákona č. 300/2025 Sb.",
+   "druh": "změněný",
+   "soubor": "zakony/2026/93-2026.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "98/2026 Sb.",
+   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 481/2012 Sb., o omezení používání některých nebezpečných látek v elektrických a elektronických zařízeních, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/98-2026.md",
+   "ucinnost_od": "2026-07-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "99/2026 Sb.",
+   "nazev": "Vyhláška,  kterou se mění vyhláška č. 177/2009 Sb., o bližších podmínkách ukončování vzdělávání ve středních školách maturitní zkouškou, ve znění pozdějších předpisů, a vyhláška č. 422/2023 Sb., o přijímacím řízení ke střednímu vzdělávání a vzdělávání v konzervatoři, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/99-2026.md",
+   "ucinnost_od": "2026-09-01",
+   "paragrafy": []
+  }
+ ]
+}
