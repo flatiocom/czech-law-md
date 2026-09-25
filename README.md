@@ -14,7 +14,7 @@ ustanoveních, takže agent dostane ten jeden paragraf místo celého kodexu.
 | **Sbírka zákonů** | 31 161 předpisů od roku 1918 |
 | **Mezinárodní smlouvy** | 2 263 |
 | **Právo EU** | 24 026 nařízení a směrnic česky |
-| **Judikatura** | 603 943 rozhodnutí, u 8 651 paragrafů |
+| **Judikatura** | 603 943 rozhodnutí, u 8 649 paragrafů |
 | dohromady | 57 450 předpisů, 482 473 ustanovení |
 
 Je to zároveň Obsidian trezor — otevři složku v Obsidianu a máš rejstřík, prokliky mezi předpisy
@@ -22,9 +22,11 @@ a tabulku v Bases. Bez Obsidianu je to obyčejný markdown, který přečte i po
 
 ## Co potřebuješ
 
-- **Python 3.10+** a nic dalšího. Žádné knihovny, žádný Docker, žádná databáze — funguje na
-  Linuxu, Macu i Windows.
-- **8 GB volného místa**: 1,6 GB data, 2,7 GB index, zbytek na stažení a stavbu.
+- **Python 3.9+** a nic dalšího. Žádné knihovny, žádný Docker, žádná databáze — funguje na
+  Linuxu, Macu i Windows. Na Macu stačí systémový `python3` (3.9); `python3 --version` ukáže,
+  co máš. Hledání potřebuje v SQLite modul FTS5, který běžné Pythony mají — pokud ne, server
+  a `tools/index.py` to řeknou a poradí.
+- **8 GB volného místa**: 1,6 GB data, 2,8 GB index, zbytek na stažení a stavbu.
 - **Deset minut** na postavení indexu.
 
 Volitelně `pip install simplemma`, viz [Skloňování](#skloňování).
@@ -47,7 +49,12 @@ V Claude Code pak stačí repozitář otevřít, konfigurace je v `.mcp.json`. D
 ```
 
 Ověř, že to jede — zeptej se asistenta „co říká § 2288 občanského zákoníku o výpovědi z nájmu".
-Měl by odpovědět zněním paragrafu, ne tím, že si otevřel soubor.
+Měl by odpovědět zněním paragrafu, ne tím, že si otevřel soubor. Pak ať něco vyhledá bez
+citace, třeba „kdy může pronajímatel vypovědět nájem bytu": první dotaz ověří jen čtení
+paragrafu, tenhle i fulltext.
+
+Když klient spouští jiný Python, než chceš (třeba kvůli FTS5), dej do `command` plnou cestu,
+v Claude Code `claude mcp add zakony -- /cesta/k/python3 tools/mcp.py`.
 
 ### Nebo si stáhni hotový index
 
@@ -60,11 +67,11 @@ mkdir -p .cache && gunzip -c index.db.gz > .cache/index.db
 ```
 
 Má 880 MB a je postavený včetně lemmatizace; `index.db.gz.sha256` vedle něj je kontrolní
-součet (`sha256sum -c index.db.gz.sha256`). Platí to ale jen do chvíle, než si sbírku
+součet (`sha256sum -c index.db.gz.sha256`, na Macu `shasum -a 256 -c index.db.gz.sha256`). Platí to ale jen do chvíle, než si sbírku
 zaktualizuješ — pak ho musíš přestavět, jinak budou odkazy na řádky ukazovat vedle. Kdo
 aktualizuje, ať si ho rovnou staví.
 
-Do gitu index nepatří a nebude: má 2,7 GB a měnil by se při každé aktualizaci celý, takže by
+Do gitu index nepatří a nebude: má 2,8 GB a měnil by se při každé aktualizaci celý, takže by
 historie během roku narostla o desítky gigabajtů. Jako asset release velikost repozitáře
 neovlivňuje.
 

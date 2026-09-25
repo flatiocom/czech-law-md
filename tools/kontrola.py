@@ -21,8 +21,8 @@ from __future__ import annotations
 
 import argparse
 import json
-import json
 import re
+import subprocess
 import sqlite3
 import sys
 from collections import defaultdict
@@ -208,6 +208,22 @@ def kontrola_stazeni(n: Nalezy) -> None:
         n.pridej("stahovani", f"{citace} se nepodařilo stáhnout ({duvod[:60]}) — zůstává starý")
 
 
+def kontrola_nazvy(n: Nalezy) -> None:
+    """Dva soubory, které se liší jen velikostí písmen, macOS ani Windows vedle sebe neudrží.
+
+    Git po klonu jeden z nich hlásí jako změněný a `git pull` pak odmítne pokračovat. Tak to
+    dopadlo s judikaturou k § 14b a § 14B advokátního tarifu."""
+    try:
+        vystup = subprocess.run(["git", "ls-files"], cwd=KOREN, capture_output=True,
+                                text=True, check=True).stdout.splitlines()
+    except (OSError, subprocess.CalledProcessError):
+        vystup = [str(c.relative_to(KOREN)) for c in KOREN.rglob("*") if ".git" not in c.parts]
+    videne: dict[str, str] = {}
+    for cesta in vystup:
+        if (drive := videne.setdefault(cesta.casefold(), cesta)) != cesta:
+            n.pridej("nazvy", f"{drive} a {cesta} se liší jen velikostí písmen")
+
+
 def kontrola_zneni(n: Nalezy) -> None:
     """Ohlášené budoucí znění musí být i nad textem a musí být opravdu pozdější než to uložené.
 
@@ -306,6 +322,7 @@ KONTROLY = {
     "eu": kontrola_eu,
     "stahovani": kontrola_stazeni,
     "zneni": kontrola_zneni,
+    "nazvy": kontrola_nazvy,
     "integrita": kontrola_integrity,
     "struktura": kontrola_struktury,
     "platnost": kontrola_platnosti,

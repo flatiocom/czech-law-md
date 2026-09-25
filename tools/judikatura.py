@@ -205,7 +205,11 @@ def postav_rejstrik(min_rozhodnuti: int) -> None:
                     m = USTANOVENI.search(u)
                     if not m:
                         continue
-                    klic = (m.group(3), m.group(1) + m.group(2))
+                    # Písmeno za číslem se v zákonech píše malé; soudy občas napíšou „§ 14B“.
+                    # Bez srovnání vznikly dva soubory lišící se jen velikostí písmen, které
+                    # macOS ani Windows vedle sebe neudrží, a menší z nich tvrdil, že
+                    # ustanovení v platném znění není.
+                    klic = (m.group(3), m.group(1) + m.group(2).lower())
                     if klic in videno:
                         continue
                     videno.add(klic)
@@ -230,6 +234,17 @@ def postav_rejstrik(min_rozhodnuti: int) -> None:
     if bez_kotvy:
         print(f"{bez_kotvy:,} paragrafů bez odkazu na text — ustanovení v platném znění není")
     print(f"paragrafů s odkazem: {len(podle_paragrafu):,}, z toho s ≥{min_rozhodnuti} rozhodnutími: {len(vybrane):,}")
+
+    # Přestavba dřív jen zapisovala, takže paragraf, který z rejstříku vypadl, tu zůstal navždy.
+    # Mazat se musí před zápisem: na souborovém systému bez rozlišení velikosti písmen je
+    # „14B.md“ týž soubor jako právě zapsaný „14b.md“ a úklid až po zápisu by ho smazal.
+    budou = {JUDIKATURA / nazev_predpisu(predpis) / f"{paragraf}.md" for predpis, paragraf in vybrane}
+    for stary in JUDIKATURA.glob("*/*.md"):
+        if stary.parent.name != "metadata" and stary not in budou:
+            stary.unlink()
+    for slozka in JUDIKATURA.iterdir():
+        if slozka.is_dir() and slozka.name != "metadata" and not any(slozka.iterdir()):
+            slozka.rmdir()
 
     for (predpis, paragraf), (rozhodnuti, kotva) in sorted(vybrane.items()):
         slozka = JUDIKATURA / nazev_predpisu(predpis)

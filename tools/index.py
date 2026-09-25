@@ -306,6 +306,15 @@ def main() -> int:
         zkus(DB, args.dotaz)
         return 0
 
+    # Bez FTS5 by stavba spadla až po načtení předpisů, s tracebackem místo rady.
+    try:
+        sqlite3.connect(":memory:").execute("CREATE VIRTUAL TABLE t USING fts5(x)")
+    except sqlite3.OperationalError:
+        print(f"SQLite v tomhle Pythonu ({sys.executable}) nemá FTS5, index nepostaví. Použij jiný "
+              f"Python, například z python.org nebo `uv python install 3.12`, nebo stáhni hotový "
+              f"index z Releases.", file=sys.stderr)
+        return 1
+
     postav(DB)
     return 0
 

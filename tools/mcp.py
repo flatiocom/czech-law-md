@@ -23,7 +23,17 @@ import sqlite3
 import sys
 from pathlib import Path
 
+# Systémový python3 na Macu je 3.9; starší by spadl až uprostřed volání nástroje.
+if sys.version_info < (3, 9):
+    sys.exit(f"czech-law-md potřebuje Python 3.9 nebo novější, tenhle je {sys.version.split()[0]}.")
+
 KOREN = Path(__file__).resolve().parent.parent
+
+# Fulltext stojí na FTS5 v SQLite, který Python přibaluje. Ne každý ho má — samostatné buildy
+# Pythonu z roku 2025 ho vynechávaly — a bez vysvětlení to agent čte jako chybu v dotazu.
+BEZ_FTS5 = ("Hledání nefunguje: SQLite v Pythonu, kterým server běží ({verze}), nemá modul FTS5. "
+            "`paragraf`, `predpis` a `judikatura` fungují dál. Pro hledání spusť server jiným "
+            "Pythonem, například z python.org nebo `uv python install 3.12`.")
 DB = KOREN / ".cache" / "index.db"
 JUDIKATURA = KOREN / "judikatura"
 ZMENY = KOREN / ".zmeny" / "posledni.json"
@@ -321,6 +331,9 @@ def hledej(a: dict) -> str:
         radky = spoj.execute(sql, param).fetchall()
     except sqlite3.OperationalError as e:
         spoj.close()
+        # Jen chybějící modul; „fts5: syntax error near …“ je chyba v dotazu.
+        if "no such module: fts5" in str(e):
+            return BEZ_FTS5.format(verze=sys.executable)
         return f"Dotaz se nepodařilo přečíst ({e}). Zkontroluj uvozovky a závorky."
 
     # Dotaz se pokládá ve třech podobách naráz — doslova, přes základní tvary slov a přes
@@ -517,7 +530,8 @@ def judikatura(a: dict) -> str:
                 f"Rozhodnutí českých soudů k tuzemské úpravě téhož tématu najdeš přes tento "
                 f"nástroj pod českou citací.")
     cislo, _, rok = citace.replace(" Sb.", "").partition("/")
-    par = normalizuj_paragraf(a["paragraf"], citace).replace("§", "").strip()
+    # Rejstřík vede písmeno za číslem malé (§ 14b), agent může napsat „14B“.
+    par = normalizuj_paragraf(a["paragraf"], citace).replace("§", "").strip().lower()
     # Cesta se skládá ze vstupu, takže „../“ v označení by pustilo čtení mimo repozitář.
     # Ověřuje se výsledná cesta, ne vstup: samotné filtrování „..“ obchází kódování.
     cesta = (JUDIKATURA / f"{cislo}-{rok}" / f"{par}.md").resolve()

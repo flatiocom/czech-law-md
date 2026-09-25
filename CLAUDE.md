@@ -41,7 +41,7 @@ indexuje po paragrafech a vrací ustanovení, ne kodexy:
 - `zmeny` — poslední aktualizace
 
 Server jede nad `.cache/index.db`, který se staví `python3 tools/index.py` — **po klonu je to
-jediné, co je potřeba udělat**, data jsou v repozitáři. Index sám v něm není, má 2,7 GB. Když
+jediné, co je potřeba udělat**, data jsou v repozitáři. Index sám v něm není, má 2,8 GB. Když
 chybí nebo je poškozený, nástroje řeknou, jak ho postavit. Bez serveru je nejlevnější
 `awk '/^#+ § 2235$/,/^#+ § 2236$/' soubor.md`.
 

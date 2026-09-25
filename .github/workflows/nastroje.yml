@@ -1,0 +1,44 @@
+name: Nástroje
+
+# Systémový python3 na Macu je 3.9 a na něm poběží MCP server nejednoho uživatele. Aktualizační
+# workflow jede na 3.12, takže by si nikdo nevšiml, kdyby nástroje 3.9 přestaly stačit.
+on:
+  push:
+    paths: ["tools/**", ".github/workflows/nastroje.yml"]
+  pull_request:
+    paths: ["tools/**"]
+
+jobs:
+  testy:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+        python: ["3.9", "3.12"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Všechny nástroje se dají načíst
+        run: |
+          cd tools
+          python -c "import cisla, changelog, dotazy, eu, index, judikatura, kontrola, mcp, platnost, prevod, rejstrik, stahni, testy, vrcholne"
+      - name: SQLite má FTS5
+        run: python -c "import sqlite3; sqlite3.connect(':memory:').execute('CREATE VIRTUAL TABLE t USING fts5(x)')"
+      - name: Testy bez indexu
+        run: python tools/testy.py --bez-indexu
+
+  # Ten, na který uživatel na Macu narazí jako první: /usr/bin/python3 z Command Line Tools.
+  # Má-li jeho SQLite FTS5, stačí na Macu nic neinstalovat.
+  mac-systemovy-python:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verze a FTS5
+        run: |
+          /usr/bin/python3 --version
+          /usr/bin/python3 -c "import sqlite3; print('SQLite', sqlite3.sqlite_version); sqlite3.connect(':memory:').execute('CREATE VIRTUAL TABLE t USING fts5(x)'); print('FTS5 OK')"
+      - name: Testy bez indexu
+        run: /usr/bin/python3 tools/testy.py --bez-indexu

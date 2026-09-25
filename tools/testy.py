@@ -7,6 +7,7 @@ jestli převod XML dá nadpis správnému paragrafu, jestli se cizí rozhodnutí
     python3 tools/testy.py            # vše, co nepotřebuje síť
     python3 tools/testy.py --se-siti  # i živé dotazy na e-Sbírku a Nejvyšší soud
     python3 tools/testy.py -v         # vypsat i to, co prošlo
+    python3 tools/testy.py --bez-indexu  # jen testy, které nepotřebují .cache/index.db (CI)
 """
 
 from __future__ import annotations
@@ -727,6 +728,8 @@ def main() -> int:
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--se-siti", action="store_true", help="i testy, které volají cizí weby")
     p.add_argument("-v", "--podrobne", action="store_true", help="vypsat i to, co prošlo")
+    p.add_argument("--bez-indexu", action="store_true",
+                   help="jen testy bez indexu — pro CI, kde se 2,8 GB index nestaví")
     args = p.parse_args()
     podrobne = args.podrobne
 
@@ -735,6 +738,10 @@ def main() -> int:
             test_retezec_nastroju, test_parametry_hledani, test_cesty_ze_zdroje, test_cizi_data, test_cisla_v_dokumentaci, test_rejstrik_eu,
             test_nepratelske_vstupy, test_chybna_volani, test_chybejici_predpis, test_protokol,
             test_poskozeny_index]
+    if args.bez_indexu:
+        sady = [test_normalizace, test_platne_zneni, test_prevod_nadpisu, test_index_useky,
+                test_vrcholne_soudy_offline, test_popisy_nastroju, test_cesty_ze_zdroje,
+                test_cizi_data, test_rejstrik_eu]
     if args.se_siti:
         sady.append(test_se_siti)
 
