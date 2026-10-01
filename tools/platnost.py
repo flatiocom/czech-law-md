@@ -11,6 +11,11 @@ Do frontmatteru se doplní `zruseno_k` a `zrusil`, přibude tag `zruseno` a nad 
 callout, protože kdo si vytáhne paragraf grepem, hlavičku souboru nikdy neuvidí. Strojově je
 totéž v `.zmeny/platnost.json`, aby index a MCP nemusely číst velké dávky.
 
+**Zrušení s odloženou účinností není zrušení.** Zákon vyhlášený dnes ruší jiné často až od
+1. ledna; 38 předpisů tu takhle stálo jako „nelze podle něj postupovat“, ačkoli platily. Do té doby
+dostanou `pozbude_platnosti_k` (poslední den účinnosti) a callout `[!warning] Bude zrušen`,
+strojově `.zmeny/pozbude.json`.
+
 **Pozor na obrácený závěr.** Že předpis záznam o zrušení nemá, pořád neznamená, že platí —
 jen že e-Sbírka jeho konec neeviduje. Zrušení je spolehlivé, platnost je nevyvrácená domněnka.
 
@@ -21,6 +26,7 @@ jen že e-Sbírka jeho konec neeviduje. Zrušení je spolehlivé, platnost je ne
 from __future__ import annotations
 
 import argparse
+import datetime
 import gzip
 import json
 import re
@@ -32,6 +38,7 @@ ZAKONY = KOREN / "zakony"
 SMLOUVY = KOREN / "smlouvy"
 CACHE = KOREN / ".cache"
 PLATNOST = KOREN / ".zmeny" / "platnost.json"
+POZBUDE = KOREN / ".zmeny" / "pozbude.json"
 
 DAVKY = {
     "006": "006PravniAktMetadata.json.gz",
@@ -68,21 +75,25 @@ def cim_zruseno() -> dict[str, str]:
 
 
 def nacti_zruseni() -> dict[str, dict[str, str]]:
-    """Mapa citace -> {k, cim}. Datum z metadat, rušící předpis z vazeb."""
+    """Mapa citace -> {k, cim, do}. Datum z metadat, rušící předpis z vazeb, `do` je poslední
+    den účinnosti: datum zrušení je první den, kdy předpis už neplatí."""
     cim = cim_zruseno()
     zruseni: dict[str, dict[str, str]] = {}
     for v in nacti_davku("006"):
-        kdy = v.get("metadata-datum-zrušení") or v.get("metadata-datum-účinnosti-do")
+        zrusen = v.get("metadata-datum-zrušení")
+        kdy = zrusen or v.get("metadata-datum-účinnosti-do")
         if not kdy:
             continue
         citace = v.get("akt-citace") or ""
         eli = ELI.search((v.get("akt-iri") or "") + "/")
         klic = f"{eli.group(1)}/{eli.group(3)}/{eli.group(2)}" if eli else ""
-        zruseni[citace] = {"k": kdy, "cim": cim.get(klic, "")}
+        do = (datetime.date.fromisoformat(zrusen[:10]) - datetime.timedelta(days=1)).isoformat() if zrusen else kdy
+        zruseni[citace] = {"k": kdy, "cim": cim.get(klic, ""), "do": do}
     return zruseni
 
 
 VAROVANI = "> [!danger] Zrušeno"
+BUDE_ZRUSEN = "> [!warning] Bude zrušen"
 
 
 def uprav_telo(telo: str, zaznam: dict[str, str] | None) -> str:
@@ -91,13 +102,23 @@ def uprav_telo(telo: str, zaznam: dict[str, str] | None) -> str:
     radky = telo.split("\n")
     # Staré varování pryč, ať se při opakovaném běhu nevrší — ale jen vlastní. Upozornění na
     # budoucí znění stojí na stejném místě a mazat ho by znamenalo ztratit ho každým během.
-    if radky and radky[0] == VAROVANI:
+    while radky and radky[0] in (VAROVANI, BUDE_ZRUSEN):
         while radky and radky[0].startswith(">"):
             radky.pop(0)
         while radky and not radky[0].strip():
             radky.pop(0)
     if not zaznam:
         return "\n".join(radky)
+
+    if "pozbude_platnosti_k" in zaznam:
+        kdo = f", pak ho ruší {zaznam['zrusi'].rstrip('.')}" if zaznam.get("zrusi") else ""
+        blok = [
+            BUDE_ZRUSEN,
+            f"> Tento předpis platí jen **do {zaznam['pozbude_platnosti_k']}**{kdo}. U vztahů, které "
+            "to datum přesáhnou, počítej s tím, co platí potom.",
+            "",
+        ]
+        return "\n".join(blok + radky)
 
     kdo = f" předpisem {zaznam['cim']}" if zaznam["cim"] else ""
     blok = [
@@ -110,7 +131,8 @@ def uprav_telo(telo: str, zaznam: dict[str, str] | None) -> str:
 
 
 def uprav_frontmatter(text: str, zaznam: dict[str, str] | None) -> str:
-    """Vloží nebo odstraní `zruseno_k`, `zrusil` a tag `zruseno`. Idempotentní."""
+    """Vloží nebo odstraní `zruseno_k`, `zrusil` a tag `zruseno`, u zrušení s odloženou
+    účinností `pozbude_platnosti_k` a `zrusi`. Idempotentní."""
     if not text.startswith("---\n"):
         return text
     konec = text.find("\n---\n", 4)
@@ -120,13 +142,20 @@ def uprav_frontmatter(text: str, zaznam: dict[str, str] | None) -> str:
     hlavicka = text[4:konec].split("\n")
     telo = text[konec + 5:]
 
-    ocistene = [r for r in hlavicka if not r.startswith(("zruseno_k:", "zrusil:")) and r.strip() != "- zruseno"]
+    vlastni = ("zruseno_k:", "zrusil:", "pozbude_platnosti_k:", "zrusi:")
+    ocistene = [r for r in hlavicka if not r.startswith(vlastni) and r.strip() != "- zruseno"]
     telo = uprav_telo(telo, zaznam)
     if not zaznam:
         return "---\n" + "\n".join(ocistene) + "\n---\n" + telo
 
     # klíče patří nad `tags:`, tag mezi ostatní tagy
     kam = next((i for i, r in enumerate(ocistene) if r.startswith("tags:")), len(ocistene))
+    if "pozbude_platnosti_k" in zaznam:
+        vlozit = [f"pozbude_platnosti_k: {zaznam['pozbude_platnosti_k']}"]
+        if zaznam.get("zrusi"):
+            vlozit.append(f"zrusi: {json.dumps(zaznam['zrusi'], ensure_ascii=False)}")
+        return "---\n" + "\n".join(ocistene[:kam] + vlozit + ocistene[kam:]) + "\n---\n" + telo
+
     vlozit = [f"zruseno_k: {zaznam['k']}"]
     if zaznam["cim"]:
         vlozit.append(f"zrusil: {json.dumps(zaznam['cim'], ensure_ascii=False)}")
@@ -147,6 +176,8 @@ def main() -> int:
 
     dotceno = zruseno_celkem = 0
     prehled: dict[str, dict[str, str]] = {}
+    budouci: dict[str, dict[str, str]] = {}
+    dnes = datetime.date.today().isoformat()
 
     for cesta in sorted(ZAKONY.rglob("*.md")) + sorted(SMLOUVY.rglob("*.md")):
         puvodni = cesta.read_text(encoding="utf-8")
@@ -156,7 +187,11 @@ def main() -> int:
         citace = m.group(1).strip().strip('"') if m else ""
 
         zaznam = zruseni.get(citace)
-        if zaznam:
+        if zaznam and zaznam["do"] >= dnes:
+            zaznam = {"pozbude_platnosti_k": zaznam["do"], **({"zrusi": zaznam["cim"]} if zaznam["cim"] else {})}
+            budouci[citace] = zaznam
+        elif zaznam:
+            zaznam = {"k": zaznam["k"], "cim": zaznam["cim"]}
             zruseno_celkem += 1
             prehled[citace] = zaznam
 
@@ -167,13 +202,15 @@ def main() -> int:
                 cesta.write_text(novy, encoding="utf-8")
 
     celkem = sum(1 for _ in ZAKONY.rglob("*.md")) + sum(1 for _ in SMLOUVY.rglob("*.md"))
-    print(f"předpisů: {celkem:,}, z toho zrušených: {zruseno_celkem:,} ({100 * zruseno_celkem / max(celkem, 1):.0f} %)")
+    print(f"předpisů: {celkem:,}, z toho zrušených: {zruseno_celkem:,} ({100 * zruseno_celkem / max(celkem, 1):.0f} %)"
+          f", zrušení teprve nabude účinnosti: {len(budouci):,}")
     print(f"{'dotklo by se' if args.nahled else 'upraveno'}: {dotceno:,} souborů")
 
     if not args.nahled:
         PLATNOST.parent.mkdir(parents=True, exist_ok=True)
         PLATNOST.write_text(json.dumps(prehled, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
-        print(f"strojový přehled: {PLATNOST}")
+        POZBUDE.write_text(json.dumps(budouci, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+        print(f"strojový přehled: {PLATNOST} a {POZBUDE.name}")
     return 0
 
 

@@ -110,7 +110,7 @@ v [NALUSu](https://nalus.usoud.cz) a ve [vyhledávači NSS](https://vyhledavac.n
 
 **Nejsou tu důvodové zprávy ani komentáře.**
 
-**Právo EU tu naopak je** — 24 026 nařízení a směrnic česky. Ptejte se na ně stejně jako na
+**Právo EU tu naopak je** — 39 034 nařízení a směrnic česky, včetně prováděcích a v přenesené pravomoci, a to v konsolidovaném znění platném dnes. Ptejte se na ně stejně jako na
 české předpisy („co říká GDPR o souhlasu se zpracováním"). Hledá se v nich hůř než v českém
 právu: měřeno na zlaté sadě najde asi tři ze čtyř dotazů, protože český zákon na stejné téma
 má obvykle stejná slova a bohatší judikaturu. Když hledáte konkrétní nařízení, pomůže dodat

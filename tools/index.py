@@ -97,6 +97,10 @@ def useky(telo: str, posun: int):
 
         # Strukturní nadpisy (ČÁST, HLAVA) uvnitř bloku do textu paragrafu nepatří.
         cisty = "\n".join(r for r in blok.split("\n") if not r.startswith("#")).strip()
+        # Článek z jediné tučné věty není nadpis bez textu, ta věta je jeho text — jinak
+        # z indexu vypadl celý, třeba čl. 1 směrnice 85/374/EHS o odpovědnosti za vadu výrobku.
+        if nadpis and not cisty:
+            nadpis, cisty = "", nadpis
         yield m.group(2), nadpis, cisty, posun + telo[:m.start()].count("\n")
 
 
@@ -215,7 +219,8 @@ def postav(db: Path) -> None:
         CREATE TABLE predpis (
             citace TEXT PRIMARY KEY, rok INTEGER, cislo TEXT, nazev TEXT, druh TEXT,
             eli TEXT, ucinnost_od TEXT, zruseno_k TEXT, zrusil TEXT, soubor TEXT,
-            uplne_zneni INTEGER DEFAULT 0, autorita REAL DEFAULT 0, pristi_zneni_od TEXT
+            uplne_zneni INTEGER DEFAULT 0, autorita REAL DEFAULT 0, pristi_zneni_od TEXT,
+            pozbude_k TEXT, pozbude_zcasti INTEGER DEFAULT 0, zrusi TEXT
         );
         CREATE TABLE usek (
             id INTEGER PRIMARY KEY, predpis TEXT, oznaceni TEXT, nadpis TEXT,
@@ -245,11 +250,13 @@ def postav(db: Path) -> None:
         citace = meta.get("citace") or meta.get("celex") or cesta.stem
         nazev = meta.get("nazev", "")
         spoj.execute(
-            "INSERT OR REPLACE INTO predpis VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT OR REPLACE INTO predpis VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (citace, int(meta.get("rok") or 0), meta.get("cislo", ""), nazev,
              meta.get("druh", ""), meta.get("eli", ""), meta.get("ucinnost_od", ""),
              meta.get("zruseno_k", ""), meta.get("zrusil", ""), str(cesta.relative_to(KOREN)),
-             int("plné znění" in nazev), vahy.get(citace, 0.0), meta.get("pristi_zneni_od", "")),
+             int("plné znění" in nazev), vahy.get(citace, 0.0), meta.get("pristi_zneni_od", ""),
+             meta.get("pozbude_platnosti_k", ""), int(meta.get("pozbude_zcasti") == "true"),
+             meta.get("zrusi", "")),
         )
         predpisu += 1
         davka = [(citace, o, n, t, r, nazev, lemmatizuj(t)) for o, n, t, r in useky(telo, posun) if t]

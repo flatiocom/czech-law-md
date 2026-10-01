@@ -11,18 +11,30 @@ web odpovídá na strojové požadavky kódem 202 a prázdným tělem, kdežto C
 Starší předpisy XHTML nemají a musí se brát jako `text/html`; u některých není ani to, jen PDF,
 a ty se přeskočí — extrakce z PDF by si vyžádala knihovnu navíc.
 
-Seznam předpisů dodá SPARQL nad týmž katalogem. Bere se řada REG (nařízení) a DIR (směrnice);
-řada DEC jsou z velké části jednotlivé akty typu schválení podpory nebo jmenování a do sbírky
-práva nepatří.
+Seznam předpisů dodá SPARQL nad týmž katalogem. Berou se nařízení a směrnice včetně prováděcích
+a v přenesené pravomoci — CELLAR je od roku 2013 vede jako samostatné typy (REG_IMPL, REG_DEL,
+DIR_IMPL, DIR_DEL) a bez nich chybělo skoro 15 tisíc předpisů, mezi nimi regulační technické
+normy k PSD2. Řada DEC jsou z velké části jednotlivé akty typu schválení podpory nebo jmenování
+a do sbírky práva nepatří. Každý běh obnoví seznam za letošní a loňský rok — dřív se stáhl jednou a nové
+předpisy už nepřibývaly.
+
+**Text článků je konsolidované znění platné dnes**, ne původní znění z Úředního věstníku.
+Původní znění PSD2 neobsahuje novely z let 2022 a 2024; konsolidace k 17. 1. 2025 ano.
+Konsolidace se jmenuje CELEXem s nulou místo sektoru a datem, od kterého platí:
+`02015L2366-20250117`. Odůvodnění v novějších konsolidacích není, a protože ho novely nemění,
+bere se z původního znění. Zrušený předpis dostane poslední znění před zrušením: konsolidace
+ke dni zrušení bývá prázdná obálka s jediným slovem „zrušeno“. Konsolidace je informativní,
+závazné zůstává znění v Úředním věstníku.
 
     python3 tools/eu.py --seznam          # jen zjistí, co je ke stažení, a uloží do .cache
-    python3 tools/eu.py                   # stáhne, co ještě není
+    python3 tools/eu.py                   # stáhne, co ještě není nebo má nové znění
     python3 tools/eu.py --celex 32016R0679   # jeden předpis
 """
 
 from __future__ import annotations
 
 import argparse
+import datetime
 import html
 import json
 import re
@@ -32,7 +44,9 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
+from html.parser import HTMLParser
 from pathlib import Path
 
 KOREN = Path(__file__).resolve().parent.parent
@@ -40,6 +54,7 @@ EU = KOREN / "eu"
 CACHE = KOREN / ".cache"
 SEZNAM = CACHE / "eu-seznam.json"
 STAV = CACHE / "eu-stav.json"
+ZRUSENE = KOREN / ".zmeny" / "platnost-eu.json"
 
 CELLAR = "https://publications.europa.eu/resource/celex"
 SPARQL = "https://publications.europa.eu/webapi/rdf/sparql"
@@ -49,7 +64,24 @@ TIMEOUT = 180
 SOUBEH = 3
 PAUZA = 0.3
 
-TYPY = {"REG": "nařízení", "DIR": "směrnice"}
+# Typ v CELLARu -> písmeno řady v CELEXu, druh do frontmatteru a tag. Tag zůstává obecný,
+# aby pohledy v Obsidianu nemusely znát každý podtyp.
+TYPY = {
+    "REG": ("R", "nařízení", "nařízení"),
+    "REG_IMPL": ("R", "prováděcí nařízení", "nařízení"),
+    "REG_DEL": ("R", "nařízení v přenesené pravomoci", "nařízení"),
+    "DIR": ("L", "směrnice", "směrnice"),
+    "DIR_IMPL": ("L", "prováděcí směrnice", "směrnice"),
+    "DIR_DEL": ("L", "směrnice v přenesené pravomoci", "směrnice"),
+}
+
+
+def druh_aktu(rada: str) -> str:
+    return TYPY[rada][1] if rada in TYPY else rada
+
+
+def tag_aktu(rada: str) -> str:
+    return TYPY[rada][2] if rada in TYPY else "predpis-eu"
 
 # 32016R0679 -> (2016, R, 0679); písmeno určuje řadu (R nařízení, L směrnice, D rozhodnutí)
 CELEX_ROZBOR = re.compile(r"^3(\d{4})([A-Z])(\d+)")
@@ -64,17 +96,19 @@ def sparql(dotaz: str) -> list[dict]:
         return json.loads(r.read().decode("utf-8"))["results"]["bindings"]
 
 
-def stahni_seznam(od_roku: int = 1952, do_roku: int = 2027) -> list[dict]:
-    """CELEX všech nařízení a směrnic, které mají české znění.
+def stahni_seznam(od_roku: int = 1952, do_roku: int | None = None) -> list[dict]:
+    """CELEX všech nařízení a směrnic, které mají české znění, za roky od–do včetně.
 
     Ptá se po jednotlivých letech. Dotaz přes celou řadu naráz endpoint odmítá chybou 500 —
     `ORDER BY` s `OFFSET` nad desítkami tisíc výsledků je pro něj příliš, kdežto jeden rok
     vrátí stovky řádků a projde vždy.
     """
+    do_roku = do_roku or datetime.date.today().year
     polozky: dict[str, dict] = {}
-    for zkratka, pismeno in (("REG", "R"), ("DIR", "L")):
-        print(f"  {TYPY[zkratka]} …", flush=True)
-        for rok in range(od_roku, do_roku):
+    for zkratka, (pismeno, nazev_druhu, _) in TYPY.items():
+        print(f"  {nazev_druhu} …", flush=True)
+        # Prováděcí a delegované předpisy vede CELLAR zvlášť až od roku 2013 (první je 32013R0246).
+        for rok in range(od_roku if zkratka in ("REG", "DIR") else max(od_roku, 2010), do_roku + 1):
             try:
                 radky = sparql(f"""
                     PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
@@ -98,11 +132,54 @@ def stahni_seznam(od_roku: int = 1952, do_roku: int = 2027) -> list[dict]:
             if radky:
                 print(f"    {rok}: {len(radky):>5,}   (celkem {len(polozky):,})", flush=True)
             time.sleep(0.5)
-
-    SEZNAM.parent.mkdir(parents=True, exist_ok=True)
-    SEZNAM.write_text(json.dumps(sorted(polozky.values(), key=lambda x: x["celex"]),
-                                 ensure_ascii=False), encoding="utf-8")
     return list(polozky.values())
+
+
+def uloz_seznam(polozky: list[dict]) -> None:
+    SEZNAM.parent.mkdir(parents=True, exist_ok=True)
+    SEZNAM.write_text(json.dumps(sorted(polozky, key=lambda x: x["celex"]), ensure_ascii=False),
+                      encoding="utf-8")
+
+
+# 02015L2366-20250117 -> základ 32015L2366, znění od 2025-01-17
+KONSOLIDACE_CELEX = re.compile(r"^0(\d{4}[A-Z]{1,2}\d{4}(?:\(\d{2}\))?)-(\d{4})(\d{2})(\d{2})$")
+
+
+def stahni_konsolidace() -> dict[str, list[str]]:
+    """Ke každému předpisu data jeho konsolidovaných znění, která existují česky, vzestupně.
+    Bez filtru na jazyk by se bralo i znění, které česky není — starší konsolidace vznikaly
+    před rokem 2004 a nové bývají přeložené s odstupem."""
+    radky = sparql("""
+        PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>
+        SELECT ?celex WHERE {
+          ?work cdm:resource_legal_id_celex ?celex .
+          FILTER(STRSTARTS(STR(?celex), "0"))
+          ?expr cdm:expression_belongs_to_work ?work ;
+                cdm:expression_uses_language
+                <http://publications.europa.eu/resource/authority/language/CES> .
+        }
+    """)
+    podle: dict[str, set[str]] = defaultdict(set)
+    for r in radky:
+        if m := KONSOLIDACE_CELEX.match(r["celex"]["value"]):
+            podle["3" + m.group(1)].add(f"{m.group(2)}-{m.group(3)}-{m.group(4)}")
+    return {celex: sorted(data) for celex, data in podle.items()}
+
+
+def celex_zneni(celex: str, od: str) -> str:
+    return f"0{celex[1:]}-{od.replace('-', '')}"
+
+
+def vyber_zneni(data: list[str], dnes: str, zruseno_k: str = "",
+                prazdne: tuple[str, ...] | list[str] = ()) -> tuple[list[str], str]:
+    """Kandidáti na dnes platné znění od nejnovějšího a nejbližší budoucí znění.
+
+    U zrušeného předpisu jen znění do konce platnosti: konsolidace ke dni zrušení bývá prázdná
+    obálka „zrušeno“. Znění, které se už jednou ukázalo prázdné, se znovu nezkouší."""
+    hranice = min(dnes, zruseno_k) if zruseno_k else dnes
+    kandidati = [d for d in reversed(data) if d <= hranice and d not in prazdne]
+    pristi = "" if zruseno_k else next((d for d in data if d > dnes), "")
+    return kandidati, pristi
 
 
 def stahni_dokument(celex: str) -> tuple[str, str]:
@@ -180,13 +257,13 @@ def na_markdown(dokument: str, meta: dict) -> str:
         "---",
         f"celex: {meta['celex']}",
         f"nazev: {json.dumps(nazev, ensure_ascii=False)}",
-        f"druh: {TYPY.get(meta['rada'], meta['rada'])}",
+        f"druh: {druh_aktu(meta['rada'])}",
         f"cislo: {rok}/{cislo}" if rok and cislo else "",
         f"rok: {rok}",
         f"eli: https://eur-lex.europa.eu/legal-content/CS/TXT/?uri=CELEX:{meta['celex']}",
         "tags:",
         "  - eu",
-        f"  - {TYPY.get(meta['rada'], 'predpis-eu')}",
+        f"  - {tag_aktu(meta['rada'])}",
         f"  - rok/{rok}" if rok else "",
         "---",
         "",
@@ -237,6 +314,191 @@ def na_markdown(dokument: str, meta: dict) -> str:
     return re.sub(r"\n{3,}", "\n\n", "\n".join(radky)) + "\n"
 
 
+# Značky konsolidace: ▼B (původní text), ►M1 … ◄ (novela), ►C1 (oprava). Do textu nepatří.
+_ZNACKY_NOVEL = re.compile(r"[►▼][A-Z]{0,2}\d*|◄")
+# Odstavce, které nesou jen značku novely nebo hlavičku dokumentu, ne text předpisu.
+_PRESKOCIT = {"modref", "arrow", "reference", "disclaimer", "hd-modifiers", "separator"}
+_BLOKOVE = {"p", "div", "td", "th", "tr", "table", "li", "ul", "ol", "dl", "dt", "dd",
+            "h1", "h2", "h3", "h4", "h5", "h6", "hr", "br", "body"}
+
+
+class _Zneni(HTMLParser):
+    """Konsolidované znění jako sled bloků (druh, text).
+
+    Konsolidace má jinou stavbu než Úřední věstník: číslo odstavce („1. “) a písmeno výčtu
+    („a) “) stojí ve vlastním `span`/`div` mimo odstavec, takže čtení po `<p>` by je ztratilo."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.bloky: list[tuple[str, str]] = []
+        self.zasobnik: list[tuple[str, str]] = []
+        self.text: list[str] = []
+        self.predpona: list[str] = []
+        self.druh_predpony = ""
+
+    def handle_starttag(self, tag: str, attrs: list) -> None:
+        tridy = set((dict(attrs).get("class") or "").split())
+        if tag in ("script", "style") or tridy & _PRESKOCIT:
+            role = "preskocit"
+        elif "no-parag" in tridy:
+            role = "cislo"
+        elif "grid-list-column-1" in tridy:
+            role = "pismeno"
+        elif "title-article-norm" in tridy:
+            role = "clanek"
+        elif "stitle-article-norm" in tridy:
+            role = "nadpis"
+        elif "title-annex-1" in tridy:
+            role = "priloha"
+        elif tag in _BLOKOVE:
+            role = "odstavec" if tag == "p" else "blok"
+        else:
+            role = "inline"
+        if role not in ("inline", "cislo", "pismeno", "preskocit"):
+            self._vypust("odstavec")
+        if role in ("cislo", "pismeno"):
+            self.predpona, self.druh_predpony = [], role
+        self.zasobnik.append((tag, role))
+
+    def handle_endtag(self, tag: str) -> None:
+        if not any(t == tag for t, _ in self.zasobnik):
+            return
+        while self.zasobnik:
+            t, role = self.zasobnik.pop()
+            if t == tag:
+                break
+        if role in ("clanek", "nadpis", "priloha", "odstavec", "blok"):
+            self._vypust(role if role in ("clanek", "nadpis", "priloha") else "odstavec")
+
+    def handle_data(self, data: str) -> None:
+        role = {r for _, r in self.zasobnik}
+        if "preskocit" in role:
+            return
+        (self.predpona if role & {"cislo", "pismeno"} else self.text).append(data)
+
+    def _vypust(self, druh: str) -> None:
+        text = _cisty("".join(self.text))
+        self.text = []
+        if not text:
+            return
+        predpona = _cisty("".join(self.predpona))
+        if druh == "odstavec" and predpona:
+            text = f"- {predpona} {text}" if self.druh_predpony == "pismeno" else f"{predpona} {text}"
+            self.predpona = []
+        self.bloky.append((druh, text))
+
+
+def _cisty(text: str) -> str:
+    # Konec novely před interpunkcí („… jiné ◄;“) by po náhradě mezerou nechal „jiné ;“.
+    text = re.sub(r"\s*◄\s*(?=[,.;:)])", "", text)
+    return re.sub(r"\s+", " ", _ZNACKY_NOVEL.sub(" ", text)).strip()
+
+
+def preambule(md: str) -> list[str]:
+    """Odůvodnění z dosavadního souboru: řádky mezi nadpisem předpisu a prvním článkem.
+    Předpis bez článků nese celý obsah v odůvodnění a dal by se tak dvakrát — pak nic."""
+    radky = md.split("\n")
+    zacatek = next((i for i, r in enumerate(radky) if r.startswith("# ")), None)
+    konec = next((i for i, r in enumerate(radky) if r.startswith("## ")), None)
+    if zacatek is None or konec is None or konec < zacatek:
+        return []
+    vyber = radky[zacatek + 1:konec]
+    while vyber and not vyber[-1].strip():
+        vyber.pop()
+    while vyber and not vyber[0].strip():
+        vyber.pop(0)
+    return vyber
+
+
+def novely(dokument: str) -> list[str]:
+    """CELEXy novel z tabulky „Ve znění“ v hlavičce konsolidace, v pořadí, jak jdou."""
+    i = dokument.find('class="hd-modifiers"')
+    if i == -1:
+        return []
+    # Jen tabulka „Ve znění“: dál v dokumentu jsou odkazy na předpisy, které nic neměnily.
+    konec = dokument.find("</table>", i)
+    opravy = dokument.find("Opravena", i)
+    blok = dokument[i:opravy if -1 < opravy < konec else konec]
+    vysledek: list[str] = []
+    for celex in re.findall(r'title="(3\d{4}[A-Z]{1,2}\d{4}(?:\(\d{2}\))?)', blok):
+        if celex not in vysledek:
+            vysledek.append(celex)
+    return vysledek
+
+
+def zneni_na_markdown(dokument: str, meta: dict, uvod: list[str], od: str, pristi: str,
+                      odkaz=str) -> str:
+    """Složí předpis z konsolidovaného znění: hlavička, odůvodnění z původního znění, články
+    a přílohy z konsolidace. Vrátí prázdno, když konsolidace žádný článek nemá — to je
+    obálka zrušeného předpisu, ne text."""
+    cteni = _Zneni()
+    cteni.feed(_SKRIPT.sub(" ", dokument))
+    cteni.close()
+    prvni = next((i for i, (druh, _) in enumerate(cteni.bloky) if druh == "clanek"), None)
+    if prvni is None:
+        return ""
+
+    # Titul stojí v hlavičce i nad textem; bere se jen z hlavičky, ať se nezdvojí.
+    konec_hlavicky = next((i for i in (dokument.find('class="hd-modifiers"'),
+                                       dokument.find('class="title-article-norm"')) if i != -1), len(dokument))
+    hlavicka = [_cisty(_text(x)) for x in re.findall(
+        r'<p class="title-doc-first"[^>]*>(.*?)</p>', dokument[:konec_hlavicky], re.S)]
+    nazev = " ".join(h for h in hlavicka if h) or meta.get("nazev") or meta["celex"]
+    rok, cislo = "", ""
+    if (m := CELEX_ROZBOR.match(meta["celex"])):
+        rok, cislo = m.group(1), m.group(3).lstrip("0")
+    zneni = celex_zneni(meta["celex"], od)
+    url = f"https://eur-lex.europa.eu/legal-content/CS/TXT/?uri=CELEX:{zneni}"
+
+    radky = [
+        "---",
+        f"celex: {meta['celex']}",
+        f"nazev: {json.dumps(nazev, ensure_ascii=False)}",
+        f"druh: {druh_aktu(meta['rada'])}",
+        f"cislo: {rok}/{cislo}" if rok and cislo else "",
+        f"rok: {rok}",
+        f"eli: https://eur-lex.europa.eu/legal-content/CS/TXT/?uri=CELEX:{meta['celex']}",
+        f"zneni: {zneni}",
+        f"ucinnost_od: {od}",
+        f"pristi_zneni_od: {pristi}" if pristi else "",
+        "tags:",
+        "  - eu",
+        f"  - {tag_aktu(meta['rada'])}",
+        f"  - rok/{rok}" if rok else "",
+        "---",
+    ]
+    radky = [r for r in radky if r != ""]
+    ve_zneni = ", ".join(odkaz(c) for c in novely(dokument))
+    radky += [
+        f"> [!info] Konsolidované znění od {od}",
+        f"> Články jsou ve znění platném od {od}" + (f", tedy včetně novel {ve_zneni}" if ve_zneni else "")
+        + ". Konsolidace je informativní, závazné je znění v Úředním věstníku"
+        + ("; odůvodnění je z původního znění" if uvod else "") + f". EUR-Lex: {url}",
+        "",
+    ]
+    if pristi:
+        radky += [
+            "> [!warning] Chystá se nové znění",
+            f"> Tady je znění platné dnes. Od {pristi} platí nové, už vyhlášené: "
+            f"https://eur-lex.europa.eu/legal-content/CS/TXT/?uri=CELEX:{celex_zneni(meta['celex'], pristi)}",
+            "",
+        ]
+    radky += [f"# {nazev}", ""] + uvod + [""]
+
+    predchozi = ""
+    for druh, text in cteni.bloky[prvni:]:
+        if druh == "clanek":
+            radky += ["", f"## {_POCESTI_CLANEK.sub('Článek', text)}"]
+        elif druh == "nadpis" and predchozi == "clanek":
+            radky.append(f"**{text}**")
+        elif druh == "priloha":
+            radky += ["", f"## {text}"]
+        else:
+            radky.append(text)
+        predchozi = druh
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(radky)) + "\n"
+
+
 # CELLAR u části českých dokumentů nechá označení článku anglicky, i když je tělo česky.
 # Je to označení struktury, ne text předpisu, takže se srovná — jinak by ta ustanovení
 # vypadla z dohledatelnosti jen kvůli jazyku nadpisu.
@@ -284,30 +546,80 @@ def soubor_pro(celex: str) -> Path:
     return EU / rok / f"{celex}.md"
 
 
-def zpracuj(polozka: dict, stav: dict) -> str:
+def puvodni_zneni(polozka: dict) -> tuple[str, str]:
+    dokument, format_ = stahni_dokument(polozka["celex"])
+    obsah = na_markdown(dokument, polozka)
+    # CELLAR u některých CELEXů vydá jen stylopis bez obsahu; prázdný soubor by v repozitáři
+    # vypadal jako stažený předpis, tak se počítá mezi nedostupné.
+    if not [r for r in obsah.split("---", 2)[-1].split("\n") if r.strip() and not r.startswith("#")]:
+        raise ValueError("dokument bez textu — CELLAR vydal jen obálku")
+    return obsah, format_
+
+
+def odkaz_na(celex: str) -> str:
+    try:
+        return f"[[{celex}]]" if soubor_pro(celex).exists() else celex
+    except ValueError:
+        return celex
+
+
+def zpracuj(polozka: dict, stav: dict, konsolidace: dict[str, list[str]],
+            zrusene: dict[str, str], dnes: str) -> str:
     celex = polozka["celex"]
     cil = soubor_pro(celex)
-    if celex in stav and cil.exists():
+    znamy = stav.get(celex, {})
+    kandidati, pristi = vyber_zneni(konsolidace.get(celex, []), dnes, zrusene.get(celex, ""),
+                                    znamy.get("prazdne", ()))
+    # Předpis bez konsolidace zůstává v původním znění a stav u něj „zneni“ nemá.
+    if (cil.exists() and celex in stav and znamy.get("zneni", "") == (kandidati[0] if kandidati else "")
+            and znamy.get("pristi", "") == pristi):
         return "beze-zmeny"
 
     time.sleep(PAUZA)
+    prazdne = list(znamy.get("prazdne", ()))
     try:
-        dokument, format_ = stahni_dokument(celex)
-        obsah = na_markdown(dokument, polozka)
-        # CELLAR u některých CELEXů vydá jen stylopis bez obsahu; prázdný soubor by v repozitáři
-        # vypadal jako stažený předpis, tak se počítá mezi nedostupné.
-        if not [r for r in obsah.split("---", 2)[-1].split("\n") if r.strip() and not r.startswith("#")]:
-            raise ValueError("dokument bez textu — CELLAR vydal jen obálku")
+        if cil.exists():
+            puvodni, format_ = cil.read_text(encoding="utf-8"), znamy.get("format", "")
+        else:
+            try:
+                puvodni, format_ = puvodni_zneni(polozka)
+            except ValueError:
+                # Část starých předpisů česky v Úředním věstníku není, ale konsolidace ano.
+                if not kandidati:
+                    raise
+                puvodni, format_ = "", ""
+        obsah, zneni = "", ""
+        for od in kandidati[:3]:
+            try:
+                dokument, format_zneni = stahni_dokument(celex_zneni(celex, od))
+            except ValueError:
+                continue
+            obsah = zneni_na_markdown(dokument, polozka, preambule(puvodni), od, pristi, odkaz_na)
+            if obsah:
+                zneni, format_ = od, format_zneni
+                break
+            prazdne.append(od)
+        if not obsah:
+            if not puvodni:
+                raise ValueError("není ani původní, ani konsolidované znění")
+            # Žádná použitelná konsolidace: zpátky na původní znění, i kdyby v souboru už
+            # byla starší konsolidace — jinak by tam zůstal text, který neplatí.
+            obsah, format_ = (puvodni, format_) if not znamy.get("zneni") else puvodni_zneni(polozka)
     except Exception as e:  # noqa: BLE001 — jeden nedostupný předpis nesmí shodit běh
         with tisk:
             print(f"  ! {celex}: {type(e).__name__}: {str(e)[:90]}", flush=True)
         return "chyba"
 
     cil.parent.mkdir(parents=True, exist_ok=True)
-    cil.write_text(obsah, encoding="utf-8")
+    zmena = not cil.exists() or cil.read_text(encoding="utf-8") != obsah
+    if zmena:
+        cil.write_text(obsah, encoding="utf-8")
+    zaznam = {"soubor": str(cil.relative_to(KOREN)), "format": format_}
+    zaznam.update({k: v for k, v in (("zneni", zneni), ("pristi", pristi if zneni else ""),
+                                     ("prazdne", sorted(set(prazdne)))) if v})
     with zamek:
-        stav[celex] = {"soubor": str(cil.relative_to(KOREN)), "format": format_}
-    return "novy"
+        stav[celex] = zaznam
+    return ("zneni" if zneni else "novy") if zmena else "beze-zmeny"
 
 
 def main() -> int:
@@ -317,49 +629,57 @@ def main() -> int:
     p.add_argument("--limit", type=int, help="zkušební dávka")
     args = p.parse_args()
 
+    dnes = datetime.date.today().isoformat()
+    zrusene = json.loads(ZRUSENE.read_text(encoding="utf-8")) if ZRUSENE.exists() else {}
+    stav = json.loads(STAV.read_text(encoding="utf-8")) if STAV.exists() else {}
+    seznam = json.loads(SEZNAM.read_text(encoding="utf-8")) if SEZNAM.exists() else []
+
     if args.celex:
         # jeden předpis se stahuje rovnou, seznam k tomu není potřeba
-        polozky = [{"celex": args.celex, "nazev": args.celex, "rada": "REG"}]
-        if SEZNAM.exists():
-            znamy = [x for x in json.loads(SEZNAM.read_text(encoding="utf-8")) if x["celex"] == args.celex]
-            polozky = znamy or polozky
-        stav = json.loads(STAV.read_text(encoding="utf-8")) if STAV.exists() else {}
+        polozky = [x for x in seznam if x["celex"] == args.celex] or \
+            [{"celex": args.celex, "nazev": args.celex, "rada": "REG"}]
         stav.pop(args.celex, None)
-        print(zpracuj(polozky[0], stav))
+        print(zpracuj(polozky[0], stav, stahni_konsolidace(), zrusene, dnes))
         STAV.write_text(json.dumps(stav, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
         return 0
 
-    if args.seznam or not SEZNAM.exists():
-        polozky = stahni_seznam()
-        print(f"seznam: {len(polozky):,} předpisů s českým zněním")
-        if args.seznam:
-            return 0
-    else:
-        polozky = json.loads(SEZNAM.read_text(encoding="utf-8"))
+    # Celý seznam jen poprvé nebo na požádání; jinak stačí letošní a loňský rok, starší
+    # předpisy už nepřibývají.
+    rok = datetime.date.today().year
+    nove = stahni_seznam() if args.seznam or not seznam else stahni_seznam(od_roku=rok - 1)
+    polozky = list({x["celex"]: x for x in seznam + nove}.values())
+    uloz_seznam(polozky)
+    print(f"seznam: {len(polozky):,} předpisů s českým zněním")
+    if args.seznam:
+        return 0
+
+    print("  konsolidovaná znění …", flush=True)
+    konsolidace = stahni_konsolidace()
+    print(f"  předpisů s českou konsolidací: {len(konsolidace):,}")
 
     if args.limit:
         polozky = polozky[: args.limit]
 
-    stav = json.loads(STAV.read_text(encoding="utf-8")) if STAV.exists() else {}
     zacatek = time.time()
-    pocty = {"novy": 0, "beze-zmeny": 0, "chyba": 0}
+    pocty = {"novy": 0, "zneni": 0, "beze-zmeny": 0, "chyba": 0}
 
     with ThreadPoolExecutor(max_workers=SOUBEH) as bazen:
-        for i, vysledek in enumerate(bazen.map(lambda x: zpracuj(x, stav), polozky), start=1):
+        for i, vysledek in enumerate(bazen.map(lambda x: zpracuj(x, stav, konsolidace, zrusene, dnes), polozky),
+                                     start=1):
             pocty[vysledek] += 1
-            if i % 100 == 0 or i == len(polozky):
+            if i % 500 == 0 or i == len(polozky):
                 uplynulo = time.time() - zacatek
                 tempo = i / uplynulo if uplynulo else 0
                 zbyva = (len(polozky) - i) / tempo / 60 if tempo else 0
                 with tisk:
-                    print(f"  {i:,}/{len(polozky):,}  nové {pocty['novy']}  "
+                    print(f"  {i:,}/{len(polozky):,}  nové {pocty['novy']}  nové znění {pocty['zneni']}  "
                           f"beze změny {pocty['beze-zmeny']}  chyby {pocty['chyba']}  "
                           f"{tempo:.1f}/s  zbývá ~{zbyva:.0f} min", flush=True)
                 STAV.write_text(json.dumps(stav, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
 
     STAV.write_text(json.dumps(stav, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
-    print(f"\nhotovo za {(time.time() - zacatek) / 60:.0f} min: "
-          f"nové {pocty['novy']:,}, beze změny {pocty['beze-zmeny']:,}, chyby {pocty['chyba']:,}")
+    print(f"\nhotovo za {(time.time() - zacatek) / 60:.0f} min: nové {pocty['novy']:,}, "
+          f"nové znění {pocty['zneni']:,}, beze změny {pocty['beze-zmeny']:,}, chyby {pocty['chyba']:,}")
     return 0
 
 

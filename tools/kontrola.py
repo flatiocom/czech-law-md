@@ -36,6 +36,9 @@ JUDIKATURA = KOREN / "judikatura"
 DB = KOREN / ".cache" / "index.db"
 STAV = KOREN / ".cache" / "stav.json"
 PLATNOST = KOREN / ".zmeny" / "platnost.json"
+POZBUDE = KOREN / ".zmeny" / "pozbude.json"
+PLATNOST_EU = KOREN / ".zmeny" / "platnost-eu.json"
+POZBUDE_EU = KOREN / ".zmeny" / "pozbude-eu.json"
 
 CITACE = re.compile(r"^citace: (.+)$", re.M)
 ZRUSENO_K = re.compile(r"^zruseno_k: (.+)$", re.M)
@@ -68,7 +71,7 @@ def soubory() -> list[Path]:
 
 
 def soubory_eu() -> list[Path]:
-    """Předpisy EU. Mají vlastní hlavičku (CELEX místo citace) a zrušení se u nich nesleduje,
+    """Předpisy EU. Mají vlastní hlavičku (CELEX místo citace) a konec platnosti z CELLARu,
     takže se kontrolují zvlášť."""
     return sorted(EU.rglob("*.md"))
 
@@ -142,6 +145,7 @@ def kontrola_platnosti(n: Nalezy) -> None:
         n.pridej("platnost", "chybí .zmeny/platnost.json — spusť tools/platnost.py")
         return
     zruseno = json.loads(PLATNOST.read_text(encoding="utf-8"))
+    budouci = json.loads(POZBUDE.read_text(encoding="utf-8")) if POZBUDE.exists() else {}
 
     for cesta in soubory():
         text = cesta.read_text(encoding="utf-8")
@@ -158,6 +162,12 @@ def kontrola_platnosti(n: Nalezy) -> None:
             n.pridej("platnost", f"{rel}: zrušený předpis, chybí {', '.join(chybi)}")
         if not ma_byt and (ma_klic or ma_tag or ma_callout):
             n.pridej("platnost", f"{rel}: není v platnost.json, ale nese značku zrušení")
+
+        # Zrušení s odloženou účinností: 38 platných předpisů tu stálo jako „nelze postupovat“.
+        konec = m.group(1) if (m := re.search(r"^pozbude_platnosti_k: (\S+)", text, re.M)) else None
+        if konec != (budouci.get(citace) or {}).get("pozbude_platnosti_k") \
+                or ("> [!warning] Bude zrušen" in text) != (citace in budouci):
+            n.pridej("platnost", f"{rel}: značka budoucího zrušení nesedí s pozbude.json")
 
 
 def kontrola_indexu(n: Nalezy) -> None:
@@ -229,11 +239,17 @@ def kontrola_zneni(n: Nalezy) -> None:
 
     Callout mazal `platnost.py` spolu se svým varováním; grepem vytažený paragraf by pak
     o chystané změně mlčel."""
-    for cesta in soubory():
-        hlava = cesta.read_text(encoding="utf-8")[:3000]
+    for cesta in soubory() + soubory_eu():
+        hlava = cesta.read_text(encoding="utf-8")[:4000]
+        rel = cesta.relative_to(KOREN)
+        # Konsolidované znění EU musí to říct i nad textem a datum musí sedět s CELEXem znění.
+        if (z := re.search(r"^zneni: 0\S+-(\d{4})(\d{2})(\d{2})$", hlava, re.M)):
+            od = f"{z.group(1)}-{z.group(2)}-{z.group(3)}"
+            if f"> [!info] Konsolidované znění od {od}" not in hlava \
+                    or not re.search(rf"^ucinnost_od: {od}$", hlava, re.M):
+                n.pridej("zneni", f"{rel}: konsolidované znění od {od} nesedí s hlavičkou nebo calloutem")
         if not (m := re.search(r"^pristi_zneni_od: (\S+)", hlava, re.M)):
             continue
-        rel = cesta.relative_to(KOREN)
         if "> [!warning] Chystá se nové znění" not in hlava:
             n.pridej("zneni", f"{rel}: ohlášené znění od {m.group(1)} chybí nad textem")
         ucinnost = re.search(r"^ucinnost_od: (\S+)", hlava, re.M)
@@ -245,6 +261,12 @@ def kontrola_eu(n: Nalezy) -> None:
     """Předpisy EU: hlavička s CELEXem, který sedí s názvem souboru, a aspoň jeden článek.
     Prázdný soubor by znamenal, že se stáhla obálka bez textu."""
     videny: dict[str, Path] = {}
+    platnost = None
+    if PLATNOST_EU.exists() and POZBUDE_EU.exists():
+        platnost = {c: {"zruseno_k": k} for c, k in json.loads(PLATNOST_EU.read_text(encoding="utf-8")).items()}
+        platnost.update(json.loads(POZBUDE_EU.read_text(encoding="utf-8")))
+    elif EU.exists():
+        n.pridej("platnost", "chybí .zmeny/platnost-eu.json nebo pozbude-eu.json — spusť tools/platnost-eu.py")
     for cesta in soubory_eu():
         text = cesta.read_text(encoding="utf-8")
         rel = cesta.relative_to(KOREN)
@@ -268,6 +290,25 @@ def kontrola_eu(n: Nalezy) -> None:
         obsah = "\n".join(r for r in telo.split("\n") if not r.startswith("#")).strip()
         if not obsah:
             n.pridej("eu", f"{rel}: prázdný — stáhla se obálka bez textu")
+
+        if platnost is not None:
+            kontrola_konce_eu(n, rel, text, platnost.get(celex, {}))
+
+
+def kontrola_konce_eu(n: Nalezy, rel: Path, text: str, zaznam: dict[str, str]) -> None:
+    """Značky konce platnosti sedí s přehledem, a to oběma směry: PSD2 nesla „nelze podle něj
+    postupovat“, ačkoli skončil jen její čl. 110, a značka se sama neodstranila."""
+    hlava = text.split("\n---\n", 1)[0] + "\n"
+    for klic in ("zruseno_k", "pozbude_platnosti_k"):
+        m = re.search(rf"^{klic}: (\S+)", hlava, re.M)
+        je, ma_byt = (m.group(1) if m else None), zaznam.get(klic)
+        if je != ma_byt:
+            n.pridej("platnost", f"{rel}: {klic} je {je or 'bez hodnoty'}, má být {ma_byt or 'bez hodnoty'}")
+    zrusen = "zruseno_k" in zaznam
+    if ("\n  - zruseno\n" in hlava) != zrusen or ("> [!danger]" in text) != zrusen:
+        n.pridej("platnost", f"{rel}: tag nebo callout zrušení nesedí s platnost-eu.json")
+    if ("> [!warning] Pozbude platnosti" in text) != ("pozbude_platnosti_k" in zaznam):
+        n.pridej("platnost", f"{rel}: callout o konci platnosti nesedí s pozbude-eu.json")
 
 
 def kontrola_odkazu(n: Nalezy) -> None:

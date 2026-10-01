@@ -17,7 +17,9 @@ CHANGELOG.md                    co se kdy změnilo, po dnech — generovaný
 smlouvy/<rok>/<číslo>-<rok>-ms.md  mezinárodní smlouvy; řady se číslují nezávisle, takže
                                 1/2000 Sb. a 1/2000 Sb. m. s. jsou různé předpisy
 judikatura/<předpis>/<§>.md     rozhodnutí, která ten paragraf vykládají
-.zmeny/platnost.json            co je zrušené, kdy a čím
+.zmeny/platnost.json            co je zrušené, kdy a čím; pozbude.json drží zrušení, která
+                                teprve nabudou účinnosti
+.zmeny/platnost-eu.json         totéž pro právo EU; pozbude-eu.json drží, čemu se blíží konec
 .cache/                         dávky z e-Sbírky, stav.json a index.db — negitované
 tools/                          stahni, prevod, platnost, judikatura, changelog, rejstrik, index, mcp
 ```
@@ -50,7 +52,7 @@ hledá na tvarech a dotaz chce hvězdičku.
 
 **Než změníš řazení, změř to.** `tools/dotazy.py` je zlatá sada 42 dotazů se známými odpověďmi;
 `--prohlidka` zkontroluje sadu samotnou, protože i měřidlo umí být rozbité. Stav: hledaný předpis
-ve výsledcích v 88 % případů, hledané ustanovení v první desítce v 79 %; u dotazů poučeného agenta
+ve výsledcích v 90 % případů, hledané ustanovení v první desítce v 80 %; u dotazů poučeného agenta
 95 a 90 %.
 
 Ladění vah je vyčerpané — `tools/ladeni.py` projel devět vah autority a sedm sestav vah sloupců
@@ -154,10 +156,29 @@ služba placená z daní, ne náš server. Nezrychluj to bez důvodu.
 
 **Zrušení ano, platnost ne.** `platnost.py` bere datum z metadat e-Sbírky
 (`006PravniAktMetadata`, pole `metadata-datum-zrušení`) a rušící předpis z vazeb `ZRUSPRED`.
-Když je ve frontmatteru `zruseno_k`, předpis k tomu datu skončil.
+Když je ve frontmatteru `zruseno_k`, předpis k tomu datu skončil. Zrušení s odloženou
+účinností (zákon vyhlášený teď ruší jiný od 1. ledna) zrušením není: do té doby má předpis
+`pozbude_platnosti_k` s posledním dnem účinnosti a callout `[!warning] Bude zrušen`.
 **Obrácený závěr neplatí** — chybějící `zruseno_k` neznamená, že předpis je účinný. U starých
 předpisů bývá zrušení jen v textu novely a do vazeb se nedostalo. Nikdy netvrď „platí", tvrď
 „zrušení není v datech zaznamenáno".
+
+**Prováděcí a delegované předpisy EU jsou samostatné typy** (`REG_IMPL`, `REG_DEL`, `DIR_IMPL`,
+`DIR_DEL`). Seznam, který bral jen `REG` a `DIR`, jich míjel skoro 15 tisíc. Druh je ve frontmatteru
+přesně („prováděcí nařízení“), tag zůstává `nařízení`/`směrnice`.
+
+**Právo EU je konsolidované znění platné dnes, ne původní znění z Úředního věstníku.**
+`eu.py` bere nejnovější českou konsolidaci (`02015L2366-20250117`) a odůvodnění z původního znění,
+protože ho novější konsolidace nemají. Zrušený předpis má poslední znění před zrušením — konsolidace
+ke dni zrušení bývá prázdná obálka „zrušeno“. Předpis bez české konsolidace zůstává v původním znění
+a `zneni` ve frontmatteru nemá. Konsolidace je stejně jako informativní znění e-Sbírky informativní.
+
+**U práva EU nestačí datum konce platnosti.** `platnost-eu.py` čte z CELLARu příznak
+`resource_legal_in-force` a data konce i s poznámkou, protože předpis jich mívá víc a část je
+jen částečný konec (`FIN/VAL/PART`, `REMPLPART`). PSD2 má 18. 6. 2026 jen proto, že k tomu dni
+skončil její čl. 110, a dlouho se hlásila jako zrušená — spolu s dalšími 345 platnými předpisy.
+Konec, který teprve přijde, je `pozbude_platnosti_k` a callout `[!warning]`, ne zrušení.
+Oprava (corrigendum, `…R(01)`) vlastní údaj o platnosti nemá a přebírá ho od opravovaného předpisu.
 
 **Terminologie se mění a hledání synonyma nezná.** Občanský zákoník z roku 2012 přejmenoval
 řadu institutů, takže starý termín v textu prostě není: `§ 1257` o služebnostech slovo „břemeno“

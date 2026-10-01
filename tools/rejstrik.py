@@ -71,6 +71,8 @@ def nacti_platnost() -> dict:
 
 def rejstrik(stav: dict) -> str:
     zruseno = nacti_platnost()
+    cesta = KOREN / ".zmeny" / "pozbude.json"
+    budouci = json.loads(cesta.read_text(encoding="utf-8")) if cesta.exists() else {}
     po_letech: dict[str, list[tuple[str, str, str, str]]] = defaultdict(list)
     for citace, udaje in stav.items():
         m = re.match(r"(\d+\w*)/(\d{4})", citace)
@@ -106,6 +108,8 @@ def rejstrik(stav: dict) -> str:
         for citace, nazev, kdy, stem in polozky:
             if kdy:
                 radky.append(f"- ~~[[{stem}|{citace}]]~~ {nazev} — *zrušeno {kdy}*".rstrip())
+            elif citace in budouci:
+                radky.append(f"- [[{stem}|{citace}]] {nazev} — *platí jen do {budouci[citace]['pozbude_platnosti_k']}*")
             else:
                 radky.append(f"- [[{stem}|{citace}]] {nazev}".rstrip())
         radky.append("")
@@ -220,21 +224,30 @@ def rejstrik_eu() -> str:
         hlavicka = text.split("\n---\n", 1)[0]
         nazev = m.group(1) if (m := re.search(r'^nazev: "?(.+?)"?$', hlavicka, re.M)) else ""
         # Konec platnosti zapisuje platnost-eu.py; bez něj by tu 95/46/ES stála jako živé právo.
-        kdy = m.group(1) if (m := re.search(r"^zruseno_k: (\S+)", hlavicka, re.M)) else ""
-        po_letech[soubor.parent.name].append((soubor.stem, nazev, kdy))
+        if m := re.search(r"^zruseno_k: (\S+)", hlavicka, re.M):
+            stav = "*pozbylo platnosti, datum neuvedeno*" if m.group(1) == "neuvedeno" \
+                else f"*pozbylo platnosti {m.group(1)}*"
+        elif m := re.search(r"^pozbude_platnosti_k: (\S+)", hlavicka, re.M):
+            cast = "část " if "\npozbude_zcasti: true" in hlavicka else ""
+            stav = f"*{cast}platí jen do {m.group(1)}*"
+        else:
+            stav = ""
+        po_letech[soubor.parent.name].append((soubor.stem, nazev, stav))
 
     radky = ["---", "tags:", "  - rejstřík", "---", "", "# Rejstřík práva EU", "",
              "Nařízení a směrnice v češtině, "
              + f"{sum(len(v) for v in po_letech.values()):,}".replace(",", " ")
              + " předpisů. Soubor se jmenuje podle CELEXu: `32016R0679` je GDPR.", "",
              "Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. "
-             "**Nepracuj s nimi jako s platným právem.**", ""]
+             "**Nepracuj s nimi jako s platným právem.** U platných, kterým se blíží konec "
+             "platnosti, stojí, do kdy platí.", ""]
     for rok in sorted(po_letech, reverse=True):
         polozky = sorted(po_letech[rok])
         radky += [f"## {rok} ({len(polozky)})", ""]
-        radky += [f"- ~~[[{celex}|{celex}]]~~ {nazev[:110]} — *pozbylo platnosti {kdy}*" if kdy
+        radky += [f"- ~~[[{celex}|{celex}]]~~ {nazev[:110]} — {stav}" if stav.startswith("*pozbylo")
+                  else f"- [[{celex}|{celex}]] {nazev[:110]} — {stav}" if stav
                   else f"- [[{celex}|{celex}]] {nazev[:110]}"
-                  for celex, nazev, kdy in polozky]
+                  for celex, nazev, stav in polozky]
         radky.append("")
     return "\n".join(radky)
 

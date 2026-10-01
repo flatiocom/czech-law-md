@@ -13,9 +13,9 @@ ustanoveních, takže agent dostane ten jeden paragraf místo celého kodexu.
 |---|---|
 | **Sbírka zákonů** | 31 165 předpisů od roku 1918 |
 | **Mezinárodní smlouvy** | 2 263 |
-| **Právo EU** | 24 026 nařízení a směrnic česky |
+| **Právo EU** | 39 034 nařízení a směrnic česky |
 | **Judikatura** | 603 943 rozhodnutí, u 8 666 paragrafů |
-| dohromady | 57 454 předpisů, 482 481 ustanovení |
+| dohromady | 72 462 předpisů, 540 816 ustanovení |
 
 Je to zároveň Obsidian trezor — otevři složku v Obsidianu a máš rejstřík, prokliky mezi předpisy
 a tabulku v Bases. Bez Obsidianu je to obyčejný markdown, který přečte i poznámkový blok.
@@ -62,9 +62,21 @@ Stavbu lze přeskočit — po každé týdenní aktualizaci se index balí do
 [Releases](https://github.com/flatiocom/czech-law-md/releases):
 
 ```bash
-gh release download --pattern 'index.db.gz'
+gh release download index-latest --pattern 'index.db.gz' --clobber
 mkdir -p .cache && gunzip -c index.db.gz > .cache/index.db
 ```
+
+Soubor má stovky megabajtů a spojení se při stahování občas přeruší (`curl: (56) Recv failure`).
+V automatické aktualizaci proto stahuj s opakováním, ať jeden výpadek nezastaví celý běh:
+
+```bash
+for pokus in 1 2 3 4 5; do
+  gh release download index-latest --pattern 'index.db.gz' --clobber && break
+  sleep 60
+done
+```
+
+Kdo stahuje přímo `curl`em, ať přidá `--retry 5 --retry-all-errors --retry-delay 30 -C -`.
 
 Má 880 MB a je postavený včetně lemmatizace; `index.db.gz.sha256` vedle něj je kontrolní
 součet (`sha256sum -c index.db.gz.sha256`, na Macu `shasum -a 256 -c index.db.gz.sha256`). Platí to ale jen do chvíle, než si sbírku
@@ -153,9 +165,11 @@ dodnes.
 **Mezinárodní smlouvy** ve složce `smlouvy/`. Řady se číslují nezávisle, takže `1/2000 Sb.`
 a `1/2000 Sb. m. s.` jsou dva různé předpisy — proto mají vlastní složku a příponu `-ms`.
 
-**Právo EU** ve složce `eu/`, stažené z CELLARu. Konec platnosti se bere z CELLARu zvlášť
+**Právo EU** ve složce `eu/`, stažené z CELLARu: nařízení a směrnice včetně prováděcích a v přenesené pravomoci, které CELLAR od roku 2013 vede jako samostatné typy. Články jsou v **konsolidovaném znění platném dnes**, ne v původním znění z Úředního věstníku — u PSD2 tak včetně novel z let 2022 a 2024. Které znění to je a kterými novelami, říká frontmatter (`zneni`, `ucinnost_od`) i callout nad textem; odůvodnění je z původního znění, protože ho konsolidace nemají. Konec platnosti se bere z CELLARu zvlášť
 (`tools/platnost-eu.py`), protože konsolidační vazby e-Sbírky o právu EU nic nevědí — bez toho
-se 10 669 předpisů, které už neplatí, tvářilo jako živé právo. Nařízení platí v Česku přímo, směrnice určují
+se 13 057 předpisů, které už neplatí, tvářilo jako živé právo. Částečný konec platnosti (PSD2 ho
+má kvůli jednomu článku) předpis nezruší a u platných předpisů, kterým se blíží konec, stojí,
+do kdy platí. Nařízení platí v Česku přímo, směrnice určují
 podobu českých zákonů, takže bez nich byla sbírka neúplná. Soubor se jmenuje podle CELEXu:
 `eu/2016/32016R0679.md` je GDPR. Nestažené předpisy jsou vlastnost zdroje — k části starších aktů
 české znění nikdy nevzniklo, část má jen PDF. Rozhodnutí (řada DEC) tu nejsou, jsou to z velké
@@ -165,7 +179,7 @@ podobu českých zákonů, takže bez nich byla sbírka neúplná. Soubor se jme
 značkou a ECLI. Staví se z otevřených dat Ministerstva spravedlnosti. Pokrytí: **říjen 2020 až
 dnes**.
 
-**Údaj o zrušení** u 21 137 předpisů, značený na čtyřech místech, aby na něj nešlo narazit omylem:
+**Údaj o zrušení** u 23 487 předpisů, značený na čtyřech místech, aby na něj nešlo narazit omylem:
 frontmatter (`zruseno_k`, `zrusil`, tag `zruseno`), varovný callout nad textem, přeškrtnutí
 v `Rejstřík.md` (u práva EU v `Rejstřík EU.md`) a táž hlavička v rejstříku judikatury.
 
@@ -188,6 +202,8 @@ nabude účinnosti, týdenní aktualizace ho stáhne sama.
 | `CHANGELOG.md` | co se kdy změnilo |
 | `.zmeny/posledni.json` | totéž strojově, pro agenta |
 | `.zmeny/platnost.json` | co je zrušené, kdy a čím |
+| `.zmeny/pozbude.json` | zrušení, která teprve nabudou účinnosti — do té doby předpis platí |
+| `.zmeny/platnost-eu.json`, `pozbude-eu.json` | totéž pro právo EU: co pozbylo platnosti a čemu se blíží konec |
 
 ## Co uvnitř není
 
@@ -270,7 +286,7 @@ ho napsal člověk a jak poučený agent. Dotazy jsou schválně psané jako pr�
 znění — jinak by se měřila jen přesná shoda slov.
 
 Aktuálně: u dotazů poučeného agenta je hledaný předpis ve výsledcích v **95 %** případů a hledané
-ustanovení mezi prvními deseti v **90 %**; přes obě podoby dohromady 88 a 79 %. Pro agenta je
+ustanovení mezi prvními deseti v **90 %**; přes obě podoby dohromady 90 a 80 %. Pro agenta je
 nejdůležitější to první číslo — dostane správný zákon a ustanovení si v něm dočte.
 
 Sada je nástroj jako každý jiný a umí být rozbitá, takže má vlastní kontrolu:

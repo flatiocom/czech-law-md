@@ -183,7 +183,7 @@ def spojeni() -> sqlite3.Connection:
     # Index stažený z Releases může být starší než kód; bez kontroly by nástroje padaly
     # na „no such column“ uprostřed odpovědi.
     sloupce = {r["name"] for r in spoj.execute("PRAGMA table_info(predpis)")}
-    if "pristi_zneni_od" not in sloupce:
+    if "pozbude_k" not in sloupce:
         spoj.close()
         raise RuntimeError(
             "index je ze starší verze nástrojů — přestav ho (`python3 tools/index.py`) "
@@ -320,7 +320,8 @@ def hledej(a: dict) -> str:
     # jsou staré, takže výhoda pro novější je vytlačí ve prospěch novel a prováděcích vyhlášek.
     # Úplná znění jdou vlastním klíčem dozadu pro případ, že si je někdo vyžádá přes i_historicke.
     sql = f"""
-        SELECT p.citace, p.nazev, p.zruseno_k, u.oznaceni, u.nadpis, u.text, u.radek, p.soubor
+        SELECT p.citace, p.nazev, p.zruseno_k, p.pozbude_k, p.pozbude_zcasti,
+               u.oznaceni, u.nadpis, u.text, u.radek, p.soubor
         FROM usek_fts JOIN usek u ON u.id = usek_fts.rowid
         JOIN predpis p ON p.citace = u.predpis
         WHERE {' AND '.join(podminky)}
@@ -383,7 +384,9 @@ def hledej(a: dict) -> str:
     for r in radky:
         hlava = f"## {r['citace']} {r['oznaceni']}"
         if r["zruseno_k"]:
-            hlava += f"  ⚠ předpis zrušen k {r['zruseno_k']}"
+            hlava += f"  ⚠ předpis zrušen{zrusen(r)}"
+        elif r["pozbude_k"]:
+            hlava += f"  ⚠ {'část předpisu' if r['pozbude_zcasti'] else 'předpis'} platí jen do {r['pozbude_k']}"
         radek = [hlava, f"*{r['nazev']}*"]
         if r["nadpis"]:
             radek.append(f"**{r['nadpis']}**")
@@ -405,9 +408,32 @@ def varianty_oznaceni(oznaceni: str) -> tuple[str, str, str, str, str, str]:
             clanek, clanek.upper(), f"Čl. {cislo}")
 
 
-def pristi_zneni(od: str) -> str:
+def pozbude(r: sqlite3.Row) -> str:
+    """Předpis EU, který platí, ale už je známé, kdy skončí — celý, nebo zčásti."""
+    # Česká citace končí tečkou („231/2025 Sb.“), za ní by věta skončila dvěma.
+    cim = f", ruší {'ji' if r['pozbude_zcasti'] else 'ho'} {r['zrusi'].rstrip('.')}" if r["zrusi"] else ""
+    if r["pozbude_zcasti"]:
+        return (f"⚠ **Část předpisu platí jen do {r['pozbude_k']}**{cim}. Které části se to týká, "
+                f"uvádí EUR-Lex; zbytek platí dál.")
+    return (f"⚠ **Předpis platí jen do {r['pozbude_k']}**{cim}. U vztahů, které to datum "
+            f"přesáhnou, počítej s tím, co platí potom.")
+
+
+def zrusen(r) -> str:
+    """„k 2018-05-24“, nebo u předpisu EU, kterému EUR-Lex datum konce neuvádí, nic."""
+    return "" if r["zruseno_k"] == "neuvedeno" else f" k {r['zruseno_k']}"
+
+
+def ohlasit_pristi(r) -> bool:
+    """Budoucí znění, které nastane až po konci platnosti předpisu, je stav po zrušení —
+    vedle „platí jen do“ by „od … platí nové znění“ jen mátlo (130/2002 Sb.)."""
+    return bool(r["pristi_zneni_od"]) and not (r["pozbude_k"] and r["pristi_zneni_od"] > r["pozbude_k"])
+
+
+def pristi_zneni(od: str, citace: str = "") -> str:
+    zdroj = "na EUR-Lexu" if CELEX.match(citace) else "v e-Sbírce"
     return (f"⚠ **Od {od} platí nové znění** (novela je už vyhlášená). Text tady je znění platné "
-            f"dnes; u lhůt a vztahů, které přesáhnou {od}, ověř nové znění v e-Sbírce.")
+            f"dnes; u lhůt a vztahů, které přesáhnou {od}, ověř nové znění {zdroj}.")
 
 
 def chybi_predpis(citace: str, zadano: str) -> str:
@@ -431,7 +457,8 @@ def paragraf(a: dict) -> str:
     citace = normalizuj_citaci(a["predpis"])
     oznaceni = normalizuj_paragraf(a["paragraf"], citace)
     vsechny = spoj.execute("""
-        SELECT p.citace, p.nazev, p.zruseno_k, p.zrusil, p.pristi_zneni_od, u.id, u.oznaceni,
+        SELECT p.citace, p.nazev, p.zruseno_k, p.zrusil, p.pristi_zneni_od, p.pozbude_k,
+               p.pozbude_zcasti, p.zrusi, u.id, u.oznaceni,
                u.nadpis, u.text, u.radek, p.soubor
         FROM usek u JOIN predpis p ON p.citace = u.predpis
         WHERE u.predpis = ? AND u.oznaceni IN (?, ?, ?, ?, ?, ?)
@@ -458,9 +485,11 @@ def paragraf(a: dict) -> str:
             f"částí s vlastním číslováním (přílohy, protokoly). Níže je první z nich; ostatní "
             f"jsou na {kde}{dalsi} v `{r['soubor']}`.")
     if r["zruseno_k"]:
-        casti.append(f"⚠ **Předpis byl zrušen k {r['zruseno_k']}**" + (f", a to předpisem {r['zrusil']}" if r["zrusil"] else "."))
-    if r["pristi_zneni_od"]:
-        casti.append(pristi_zneni(r["pristi_zneni_od"]))
+        casti.append(f"⚠ **Předpis byl zrušen{zrusen(r)}**" + (f", a to předpisem {r['zrusil']}" if r["zrusil"] else "."))
+    if r["pozbude_k"]:
+        casti.append(pozbude(r))
+    if ohlasit_pristi(r):
+        casti.append(pristi_zneni(r["pristi_zneni_od"], r["citace"]))
     if r["nadpis"]:
         casti.append(f"**{r['nadpis']}**")
     casti.append(orizni(r["text"], f"{r['soubor']}:{r['radek']}"))
@@ -498,13 +527,17 @@ def predpis(a: dict) -> str:
     popis = [f"druh: {p['druh']}" if p["druh"] else "", f"účinnost znění od: {p['ucinnost_od']}" if p["ucinnost_od"] else ""]
     casti.append("\n".join(x for x in popis if x))
     if p["zruseno_k"]:
-        casti.append(f"⚠ **Zrušen k {p['zruseno_k']}**" + (f", a to předpisem {p['zrusil']}" if p["zrusil"] else "."))
+        casti.append(f"⚠ **Zrušen{zrusen(p)}**" + (f", a to předpisem {p['zrusil']}" if p["zrusil"] else "."))
     else:
         casti.append("Zrušení není v datech zaznamenáno. Pozor: u starších předpisů to neznamená, že platí.")
-    if p["pristi_zneni_od"]:
-        casti.append(pristi_zneni(p["pristi_zneni_od"]))
+    if p["pozbude_k"]:
+        casti.append(pozbude(p))
+    if ohlasit_pristi(p):
+        casti.append(pristi_zneni(p["pristi_zneni_od"], p["citace"]))
     if p["eli"]:
-        casti.append(f"ELI: `{p['eli']}` — https://e-sbirka.gov.cz{p['eli']}")
+        # Předpis EU nese v `eli` rovnou odkaz na EUR-Lex, český jen cestu v e-Sbírce.
+        odkaz = p["eli"] if p["eli"].startswith("http") else f"https://e-sbirka.gov.cz{p['eli']}"
+        casti.append(f"ELI: `{p['eli']}` — {odkaz}" if odkaz != p["eli"] else f"Odkaz: {odkaz}")
     casti.append(f"soubor: `{p['soubor']}`")
 
     if a.get("osnova", True):

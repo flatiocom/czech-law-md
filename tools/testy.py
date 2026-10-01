@@ -398,6 +398,160 @@ def test_rejstrik_eu() -> None:
     overit(radek and "~~" not in radek, "GDPR v rejstříku EU přeškrtnuté není", radek[:80])
 
 
+def test_platnost_eu() -> None:
+    """PSD2 se hlásila jako zrušená, protože k 18. 6. 2026 skončil jen její čl. 110 — CELLAR
+    takový konec označí jako částečný a skript to přehlížel. Případy jsou ze skutečných dat."""
+    import importlib.util  # noqa: PLC0415
+    spec = importlib.util.spec_from_file_location("platnost_eu", KOREN / "tools" / "platnost-eu.py")
+    peu = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(peu)
+
+    def pozn(*kody: str) -> str:
+        return " ".join(f"{{{k}|http://publications.europa.eu/resource/authority/fd_330/x}} {c}"
+                        for k, c in (x.split(" ") for x in kody))
+
+    dnes = "2026-10-01"
+    psd2 = {"2026-06-18": {pozn("FIN/VAL/PART -", "AI/PAR 32023L2673")}, "9999-12-31": {""}}
+    overit(peu.urci(True, psd2, dnes) == {}, "částečný konec platnosti předpis nezruší (PSD2)",
+           str(peu.urci(True, psd2, dnes)))
+    vyrobky = {"2026-12-08": {pozn("FIN/VAL/PART -", "V 32024L2853")},
+               "9999-12-31": {pozn("A/PAR 32024L2853")}}
+    overit(peu.urci(True, vyrobky, dnes) == {"pozbude_platnosti_k": "2026-12-08", "pozbude_zcasti": "true",
+                                             "zrusi": "32024L2853"},
+           "budoucí konec se ohlásí jako „platí do“, ne jako zrušení (85/374/EHS)",
+           str(peu.urci(True, vyrobky, dnes)))
+    overit(peu.urci(False, {"2018-05-24": {pozn("A/PAR 32016R0679")}}, dnes) == {"zruseno_k": "2018-05-24"},
+           "zrušený předpis se dál hlásí jako zrušený (95/46/ES)")
+    overit(peu.urci(True, {"2022-01-17": {pozn("A/PAR 32017L2397")}}, dnes) == {"zruseno_k": "2022-01-17"},
+           "doložené zrušení platí i proti nepřepnutému příznaku (91/672/EHS)")
+    overit(peu.urci(True, {"2024-05-21": {pozn("REMPLPART -", "V 32024L1260")}}, dnes) == {},
+           "částečné nahrazení předpis nezruší (2014/42/EU)")
+    overit(peu.urci(True, {"2008-06-15": {pozn("V 31982D0043")}}, dnes) == {},
+           "odkaz „viz“ bez důvodu konce proti příznaku platnosti neobstojí (1792/2006)")
+    overit(peu.urci(False, {"9999-12-31": {""}}, dnes) == {"zruseno_k": peu.NEUVEDENO}
+           and "EUR-Lex datum neuvádí" in peu.uprav("---\ntags:\n  - eu\n---\n# X\n", {"zruseno_k": peu.NEUVEDENO}),
+           "neplatný předpis bez data se označí i bez data (306/2011)")
+
+    puvodni = ("---\ncelex: 32015L2366\neli: https://eur-lex.europa.eu/x\ntags:\n  - eu\n  - směrnice\n"
+               "---\n# SMĚRNICE\n\n## Článek 1\ntext\n")
+    zruseny = peu.uprav(puvodni, {"zruseno_k": "2026-06-18"})
+    # Takhle soubor zapisovala předchozí verze; 10 tisíc zrušených předpisů se nemá přepsat.
+    stary_tvar = ("---\ncelex: 32015L2366\neli: https://eur-lex.europa.eu/x\ntags:\n  - eu\n  - zruseno\n"
+                  "  - směrnice\nzruseno_k: 2026-06-18\n---\n" + peu.ZRUSENO + "\n"
+                  "> Tento předpis pozbyl platnosti k 2026-06-18 a **nelze podle něj postupovat**.\n"
+                  "> Zůstává tu kvůli posouzení právních vztahů vzniklých v době jeho platnosti.\n\n"
+                  "# SMĚRNICE\n\n## Článek 1\ntext\n")
+    overit(zruseny == stary_tvar, "zrušený předpis má stejný tvar jako dřív", repr(zruseny[:120]))
+    overit(peu.uprav(zruseny, {}) == puvodni, "značka zrušení jde zase odstranit beze stopy")
+    konci = peu.uprav(zruseny, {"pozbude_platnosti_k": "2026-12-08", "zrusi": "32024L2853"})
+    overit("[!danger]" not in konci and "  - zruseno" not in konci and "zruseno_k" not in konci
+           and konci.count(peu.POZBUDE) == 1 and "pozbude_platnosti_k: 2026-12-08" in konci,
+           "ze zrušeného se dá přejít na „platí do“", repr(konci[:160]))
+    overit(peu.uprav(konci, {"pozbude_platnosti_k": "2026-12-08", "zrusi": "32024L2853"}) == konci,
+           "úprava je idempotentní")
+
+    s = peu.s_opravami({"31995L0046": {"zruseno_k": "2018-05-24"}},
+                       ["31995L0046R(01)", "31995L0046R(02)R(01)", "31966R0017(01)", "32016R0679R(01)"])
+    overit(s.get("31995L0046R(02)R(01)") == {"zruseno_k": "2018-05-24"} and "32016R0679R(01)" not in s,
+           "oprava zrušeného předpisu je zrušená s ním, oprava platného ne", str(s))
+
+    psd2_soubor = KOREN / "eu" / "2015" / "32015L2366.md"
+    if psd2_soubor.exists():
+        hlava = psd2_soubor.read_text(encoding="utf-8").split("\n---\n", 1)[0]
+        overit("zruseno_k" not in hlava, "PSD2 v datech zrušená není")
+
+
+def test_konsolidace_eu() -> None:
+    """Text EU byl původní znění z Úředního věstníku: PSD2 bez novel z let 2022 a 2024, a nikde
+    to nestálo. Konsolidace má jinou stavbu — číslo odstavce a písmeno výčtu mimo `<p>`."""
+    import eu  # noqa: PLC0415
+
+    data = ["2016-01-12", "2018-01-13", "2025-01-17", "2027-01-01"]
+    overit(eu.vyber_zneni(data, "2026-10-01") == (["2025-01-17", "2018-01-13", "2016-01-12"], "2027-01-01"),
+           "vezme se dnes platné znění a ohlásí budoucí", str(eu.vyber_zneni(data, "2026-10-01")))
+    overit(eu.vyber_zneni(data, "2026-10-01", zruseno_k="2018-06-30") == (["2018-01-13", "2016-01-12"], ""),
+           "u zrušeného předpisu poslední znění před zrušením, ne obálka „zrušeno“")
+    overit(eu.vyber_zneni(data, "2026-10-01", prazdne=["2025-01-17"])[0][0] == "2018-01-13",
+           "znění, které se ukázalo prázdné, se znovu nezkouší")
+    overit(eu.celex_zneni("32015L2366", "2025-01-17") == "02015L2366-20250117", "CELEX konsolidace")
+    # Bez podtypů chybělo skoro 15 tisíc prováděcích a delegovaných předpisů, i 2018/389 k PSD2.
+    overit({"REG_IMPL", "REG_DEL", "DIR_IMPL", "DIR_DEL"} <= set(eu.TYPY) and eu.tag_aktu("REG_DEL") == "nařízení",
+           "seznam bere i prováděcí a delegované předpisy, tag zůstává obecný")
+
+    dokument = (
+        '<html><body><p class="reference">02015L2366 — CS</p><p class="disclaimer">Tento dokument</p>'
+        '<p class="title-doc-first">SMĚRNICE (EU) 2015/2366</p><p class="title-doc-first">o platebních službách</p>'
+        '<p class="hd-modifiers">Ve znění:</p><table><tr><td><a title="32022L2556">►M1</a></td></tr></table>'
+        '<div class="eli-subdivision" id="art_1"><p class="title-article-norm">Článek 1</p>'
+        '<div class="eli-title"><p class="stitle-article-norm">Předmět</p></div>'
+        '<p class="modref"><a title="32022L2556">▼M1</a></p>'
+        '<div class="norm"><span class="no-parag">1.\xa0</span><div class="norm inline-element">'
+        '<p class="norm inline-element">Tato směrnice stanoví:</p>'
+        '<div class="grid-container grid-list"><div class="list grid-list-column-1"><span>a) </span></div>'
+        '<div class="grid-list-column-2"><p class="norm">úvěrové instituce ►C1 a jiné ◄;</p></div></div>'
+        '</div></div></div><p class="title-annex-1">PŘÍLOHA I</p><p class="norm">Platební služby</p>'
+        '</body></html>')
+    uvod = ["s ohledem na Smlouvu,", "", "vzhledem k tomu, že:"]
+    md = eu.zneni_na_markdown(dokument, {"celex": "32015L2366", "rada": "DIR"}, uvod, "2025-01-17", "2027-01-01")
+    overit("zneni: 02015L2366-20250117\nucinnost_od: 2025-01-17\npristi_zneni_od: 2027-01-01" in md
+           and "> [!info] Konsolidované znění od 2025-01-17" in md and "32022L2556" in md,
+           "hlavička říká, které znění to je a kterými novelami", md[:300])
+    overit("## Článek 1\n**Předmět**\n1. Tato směrnice stanoví:\n- a) úvěrové instituce a jiné;" in md,
+           "číslo odstavce a písmeno výčtu zůstanou, značky novel zmizí", md[md.find("## Článek"):][:160])
+    overit("## PŘÍLOHA I\nPlatební služby" in md and "Tento dokument" not in md and "►" not in md,
+           "příloha je vlastní oddíl, hlavička konsolidace do textu nepatří")
+    overit(md.find("vzhledem k tomu") < md.find("## Článek 1") and 'nazev: "SMĚRNICE (EU) 2015/2366 o platebních' in md,
+           "odůvodnění z původního znění stojí před články, název je z konsolidace")
+    overit(eu.zneni_na_markdown('<p class="title-doc-first">X</p><p class="norm">zrušeno:</p>',
+                                {"celex": "32005R0833", "rada": "REG"}, [], "2017-07-19", "") == "",
+           "konsolidace bez článků je obálka zrušeného předpisu, ne text")
+    overit(eu.novely('<p class="hd-modifiers">Ve znění:</p><table><tr><td><a title="32022L2556">►M1</a></td></tr>'
+                     '</table><p>viz <a title="32019R0001">nařízení</a></p><p>Opravena v textu</p>') == ["32022L2556"],
+           "novely jen z tabulky „Ve znění“, ne odkazy z textu předpisu")
+    overit(eu.preambule("---\ncelex: x\n---\n> [!danger] Pozbylo\n\n# NÁZEV\n\nodůvodnění\n\n## Článek 1\ntext")
+           == ["odůvodnění"], "odůvodnění se z dosavadního souboru vezme bez hlavičky a calloutů")
+    overit(eu.preambule("---\ncelex: x\n---\n# NÁZEV\n\ncelý obsah v odůvodnění\n") == [],
+           "předpis bez článků odůvodnění nepředá, jinak by obsah byl v souboru dvakrát")
+
+
+def test_pristi_zneni_po_konci() -> None:
+    """130/2002 Sb. platí do konce roku 2026 a e-Sbírka k němu hlásí i znění od 1. 1. 2027 —
+    MCP pak říkalo zároveň „platí jen do“ a „od 1. 1. 2027 platí nové znění“."""
+    import mcp as server  # noqa: PLC0415
+    overit(not server.ohlasit_pristi({"pristi_zneni_od": "2027-01-01", "pozbude_k": "2026-12-31"}),
+           "znění po konci platnosti se neohlásí")
+    overit(server.ohlasit_pristi({"pristi_zneni_od": "2027-01-01", "pozbude_k": ""})
+           and server.ohlasit_pristi({"pristi_zneni_od": "2026-11-01", "pozbude_k": "2026-12-31"}),
+           "znění před koncem platnosti nebo u předpisu bez konce se ohlásí")
+    overit("EUR-Lex" in server.pristi_zneni("2027-01-01", "32015L2366")
+           and "e-Sbírce" in server.pristi_zneni("2027-01-01", "89/2012 Sb."),
+           "budoucí znění odkáže na správný zdroj")
+
+
+def test_zruseni_s_odkladem() -> None:
+    """Zákon vyhlášený dnes ruší jiný až od 1. ledna. 38 předpisů tu do té doby stálo jako
+    „nelze podle něj postupovat“, ačkoli platily — třeba 123/2003 Sb. do konce roku 2026."""
+    import platnost  # noqa: PLC0415
+
+    puvodni = "---\ncitace: 123/2003 Sb.\ntags:\n  - zakon\n---\n\n# 123/2003 Sb.\n\n##### § 1\ntext\n"
+    zruseny = platnost.uprav_frontmatter(puvodni, {"k": "2027-01-01", "cim": "231/2025 Sb."})
+    budouci = platnost.uprav_frontmatter(zruseny, {"pozbude_platnosti_k": "2026-12-31", "zrusi": "231/2025 Sb."})
+    overit("zruseno_k" not in budouci and "[!danger]" not in budouci and "  - zruseno" not in budouci
+           and "pozbude_platnosti_k: 2026-12-31" in budouci and budouci.count(platnost.BUDE_ZRUSEN) == 1,
+           "ze zrušeného se dá přejít na budoucí zrušení", repr(budouci[:160]))
+    overit(platnost.uprav_frontmatter(budouci, {"pozbude_platnosti_k": "2026-12-31", "zrusi": "231/2025 Sb."})
+           == budouci, "značka budoucího zrušení je idempotentní")
+    overit(platnost.uprav_frontmatter(budouci, None) == platnost.uprav_frontmatter(zruseny, None),
+           "značka budoucího zrušení jde odstranit beze stopy")
+
+    prehled = KOREN / ".zmeny" / "platnost.json"
+    if prehled.exists():
+        import datetime  # noqa: PLC0415
+        dnes = datetime.date.today().isoformat()
+        predcasne = [c for c, z in json.loads(prehled.read_text(encoding="utf-8")).items() if z["k"] > dnes]
+        overit(not predcasne, "v platnost.json není zrušení, které teprve nabude účinnosti", str(predcasne[:3]))
+
+
 def test_nepratelske_vstupy() -> None:
     """Vstupy, kterými jde nástroje rozbít nebo z nich dostat, co nemají vydat."""
     if not DB.exists():
@@ -645,6 +799,10 @@ def test_index_useky() -> None:
     overit("§ 5" in oznaceni, "paragraf se pozná")
     overit("Jediný článek" in oznaceni, "„Jediný článek“ se pozná jako ustanovení")
 
+    jen_tucne = list(index.useky("\n## Článek 1\n**Výrobce je odpovědný za škodu.**\n\n## Článek 2\ntext\n", 1))
+    overit(jen_tucne[0][1:3] == ("", "Výrobce je odpovědný za škodu."),
+           "článek z jediné tučné věty má text, ne jen nadpis (85/374/EHS)", str(jen_tucne[:1]))
+
     bez_cleneni = "\n# Nějaké nařízení\n\nText, který nemá jediný článek ani paragraf.\n"
     useky = list(index.useky(bez_cleneni, 1))
     overit(len(useky) == 1 and useky[0][0] == "(bez členění)",
@@ -735,13 +893,13 @@ def main() -> int:
 
     sady = [test_normalizace, test_platne_zneni, test_prevod_nadpisu, test_index_useky, test_zlata_sada,
             test_vrcholne_soudy_offline, test_popisy_nastroju, test_mcp_nastroje,
-            test_retezec_nastroju, test_parametry_hledani, test_cesty_ze_zdroje, test_cizi_data, test_cisla_v_dokumentaci, test_rejstrik_eu,
+            test_retezec_nastroju, test_parametry_hledani, test_cesty_ze_zdroje, test_cizi_data, test_cisla_v_dokumentaci, test_rejstrik_eu, test_platnost_eu, test_zruseni_s_odkladem, test_konsolidace_eu, test_pristi_zneni_po_konci,
             test_nepratelske_vstupy, test_chybna_volani, test_chybejici_predpis, test_protokol,
             test_poskozeny_index]
     if args.bez_indexu:
         sady = [test_normalizace, test_platne_zneni, test_prevod_nadpisu, test_index_useky,
                 test_vrcholne_soudy_offline, test_popisy_nastroju, test_cesty_ze_zdroje,
-                test_cizi_data, test_rejstrik_eu]
+                test_cizi_data, test_rejstrik_eu, test_platnost_eu, test_zruseni_s_odkladem, test_konsolidace_eu, test_pristi_zneni_po_konci]
     if args.se_siti:
         sady.append(test_se_siti)
 
