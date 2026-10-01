@@ -7,6 +7,9 @@ on:
     paths: ["tools/**", ".github/workflows/nastroje.yml"]
   pull_request:
     paths: ["tools/**"]
+  # GitHub vyhodnocuje `paths` jen nad prvními 300 soubory pushe. Když nástroje přijdou spolu
+  # s velkou dávkou dat (1. 10. 2026: 19 tisíc souborů), workflow se nespustí — pak ručně.
+  workflow_dispatch:
 
 jobs:
   testy:
