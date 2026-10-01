@@ -5,7 +5,7 @@ tags:
 
 # Rejstřík předpisů
 
-Celkem 27,075 předpisů, z toho 10,354 zrušených — ty jsou označené ~~přeškrtnutím~~ a datem. **Nepracuj s nimi jako s platným právem.**
+Celkem 27,075 předpisů, z toho 10,316 zrušených — ty jsou označené ~~přeškrtnutím~~ a datem. **Nepracuj s nimi jako s platným právem.**
 
 Generuje `tools/rejstrik.py`, needituj ručně.
 
@@ -184,7 +184,7 @@ Nejnovější změny jsou v [[CHANGELOG]].
 - [[169-2026|169/2026 Sb.]] Sdělení Ministerstva práce a sociálních věcí, kterým se vyhlašuje normativní nájemné a normativní nájemné pro domácnost, jejíž všichni členové domácnosti jsou zranitelnými osobami, pro účely dávky státní sociální pomoci pro období od 1. října do 31. prosince 2026
 - [[170-2026|170/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 72/2005 Sb., o poskytování poradenských služeb ve školách a školských poradenských zařízeních, ve znění pozdějších předpisů
 - [[171-2026|171/2026 Sb.]] Sdělení Ministerstva práce a sociálních věcí o vyhlášení minimální mzdy, nejnižších úrovní zaručeného platu a rozpětí výše příplatku za práci ve ztíženém pracovním prostředí pro rok 2027
-- ~~[[172-2026|172/2026 Sb.]]~~ Nařízení vlády, kterým se vydává cenový výměr regulující ceny některých pohonných hmot pro období od 1. října do 31. října 2026 — *zrušeno 2026-11-01*
+- [[172-2026|172/2026 Sb.]] Nařízení vlády, kterým se vydává cenový výměr regulující ceny některých pohonných hmot pro období od 1. října do 31. října 2026 — *platí jen do 2026-10-31*
 
 ## 2025
 
@@ -1183,7 +1183,7 @@ ke službě v bezpečnostních sborech
 - [[403-2024|403/2024 Sb.]] Vyhláška, kterou se mění vyhláška č. 67/2018 Sb., o některých požadavcích na systém vnitřních zásad, postupů a kontrolních opatření proti legalizaci výnosů z trestné činnosti a financování terorismu, ve znění pozdějších předpisů
 - [[404-2024|404/2024 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 407/2011 Sb., k provedení zákona o Generální inspekci bezpečnostních sborů
 - [[405-2024|405/2024 Sb.]] Vyhláška o vzdělávání ve středních a vyšších odborných školách a o školských zařízeních zřizovaných Ministerstvem obrany
-- ~~[[406-2024|406/2024 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění, ve znění pozdějších předpisů — *zrušeno 2027-01-01*
+- [[406-2024|406/2024 Sb.]] Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění, ve znění pozdějších předpisů — *platí jen do 2026-12-31*
 - [[407-2024|407/2024 Sb.]] Sdělení Ministerstva zahraničních věcí o výpovědi Programu spolupráce v oblasti školství, kultury, vědy, mládeže a sportu mezi vládou České republiky a vládou Maltské republiky na léta 2009–2011
 - [[408-2024|408/2024 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 63/2024 Sb., o některých podrobnostech poskytování ubytování a souvisejících služeb osobám s udělenou dočasnou ochranou
 - [[409-2024|409/2024 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 271/2017 Sb., o oceněních udělovaných Ministerstvem vnitra, ve znění pozdějších předpisů
@@ -1660,7 +1660,7 @@ ke službě v bezpečnostních sborech
 - [[347-2023|347/2023 Sb.]] Vyhláška, kterou se mění vyhláška č. 82/2019 Sb., o tabákových nálepkách
 - [[348-2023|348/2023 Sb.]] Vyhláška, kterou se mění vyhláška č. 412/2021 Sb., o rozpočtové skladbě, ve znění vyhlášky č. 402/2022 Sb.
 - [[349-2023|349/2023 Sb.]] Zákon, kterým se mění některé zákony v souvislosti s konsolidací veřejných rozpočtů
-- ~~[[350-2023|350/2023 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 71/2013 Sb., o podmínkách pro ocenění výsledků výzkumu, experimentálního vývoje a inovací, ve znění pozdějších předpisů — *zrušeno 2027-01-01*
+- [[350-2023|350/2023 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 71/2013 Sb., o podmínkách pro ocenění výsledků výzkumu, experimentálního vývoje a inovací, ve znění pozdějších předpisů — *platí jen do 2026-12-31*
 - [[351-2023|351/2023 Sb.]] Vyhláška, kterou se mění vyhláška č. 298/2014 Sb., o stanovení seznamu katastrálních území s přiřazenými průměrnými základními cenami zemědělských pozemků, ve znění pozdějších předpisů
 - [[352-2023|352/2023 Sb.]] Sdělení Ministerstva zdravotnictví o vydání Cenového předpisu č. 1/2024/CAU, o regulaci cen poskytovaných zdravotních služeb, stanovení maximálních cen zdravotních služeb poskytovaných zubními lékaři hrazených z veřejného zdravotního pojištění a specifických zdravotních výkonů
 - [[353-2023|353/2023 Sb.]] Rozhodnutí prezidenta republiky o přenesení pravomoci v řízení o udělení milosti
@@ -1747,7 +1747,7 @@ ke službě v bezpečnostních sborech
 - [[434-2023|434/2023 Sb.]] Vyhláška, kterou se mění vyhláška č. 441/2013 Sb., k provedení zákona o oceňování majetku (oceňovací vyhláška), ve znění pozdějších předpisů
 - [[435-2023|435/2023 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 172/2016 Sb., o stanovení finančních limitů a částek pro účely zákona o zadávání veřejných zakázek, ve znění pozdějších předpisů
 - [[436-2023|436/2023 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 220/2019 Sb., o maximálním počtu žádostí o vízum k pobytu nad 90 dnů za účelem podnikání, žádostí o povolení k dlouhodobému pobytu za účelem investování a žádostí o zaměstnaneckou kartu, které lze podat na zastupitelském úřadu, ve znění pozdějších předpisů
-- ~~[[437-2023|437/2023 Sb.]]~~ Nařzení vlády o mimořádném pracovním vízu pro státní příslušníky některých států pracující v zemědělství, potravinářství nebo lesnictví a o změně a zrušení některých souvisejících nařízení vlády — *zrušeno 2027-01-01*
+- [[437-2023|437/2023 Sb.]] Nařzení vlády o mimořádném pracovním vízu pro státní příslušníky některých států pracující v zemědělství, potravinářství nebo lesnictví a o změně a zrušení některých souvisejících nařízení vlády — *platí jen do 2026-12-31*
 - [[438-2023|438/2023 Sb.]] Vyhláška o náležitostech a formě ověřování výsledků zeměměřických činností pro potřeby obrany státu a obsahu a způsobu provádění zkoušky odborné způsobilosti
 - ~~[[439-2023|439/2023 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 220/2007 Sb., kterou se pro školy a školská zařízení zřizované Ministerstvem obrany provádějí některá ustanovení školského zákona, ve znění pozdějších předpisů — *zrušeno 2025-01-01*
 - [[440-2023|440/2023 Sb.]] Vyhláška, kterou se mění vyhláška č. 55/1999 Sb., o způsobu výpočtu výše újmy nebo škody způsobené na lesích, ve znění vyhlášky č. 296/2018 Sb.
@@ -2798,7 +2798,7 @@ ke službě v bezpečnostních sborech
 - [[452-2021|452/2021 Sb.]] Vyhláška, kterou se mění vyhláška č. 13/2014 Sb., o postupu při provádění pozemkových úprav a náležitostech návrhu pozemkových úprav
 - [[453-2021|453/2021 Sb.]] Vyhláška, kterou se mění vyhláška č. 298/2014 Sb., o stanovení seznamu katastrálních území s přiřazenými průměrnými základními cenami zemědělských pozemků, ve znění pozdějších předpisů
 - [[454-2021|454/2021 Sb.]] Vyhláška o stanovení druhů živočichů vyžadujících regulaci
-- ~~[[455-2021|455/2021 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 30/2014 Sb., o stanovení závazných pravidel poskytování finančních příspěvků na hospodaření v lesích a na vybrané myslivecké činnosti, ve znění pozdějších předpisů — *zrušeno 2029-01-01*
+- [[455-2021|455/2021 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 30/2014 Sb., o stanovení závazných pravidel poskytování finančních příspěvků na hospodaření v lesích a na vybrané myslivecké činnosti, ve znění pozdějších předpisů — *platí jen do 2028-12-31*
 - [[456-2021|456/2021 Sb.]] Vyhláška o podrobnostech přenosu reprodukčního materiálu lesních dřevin, o evidenci o původu reprodukčního materiálu a podrobnostech o obnově lesních porostů a o zalesňování pozemků prohlášených za pozemky určené k plnění funkcí lesa
 - [[457-2021|457/2021 Sb.]] Nařízení vlády o úpravě náhrady za ztrátu na služebním příjmu po skončení neschopnosti ke službě vzniklé služebním úrazem nebo nemocí z povolání a o úpravě náhrady nákladů na výživu pozůstalých
 - [[458-2021|458/2021 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 221/2019 Sb., o provedení některých ustanovení zákona o investičních pobídkách, ve znění nařízení vlády č. 514/2020 Sb.
@@ -2926,7 +2926,7 @@ ke službě v bezpečnostních sborech
 - [[22-2020-ms|22/2020 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí, kterým se vyhlašují změny pravidel Prováděcího předpisu ke Smlouvě o patentové spolupráci
 - [[23-2020|23/2020 Sb.]] Rozhodnutí prezidenta republiky o vyhlášení doplňovacích voleb do Senátu Parlamentu České republiky
 - [[23-2020-ms|23/2020 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o přijetí změn příloh I a II Úmluvy o ochraně stěhovavých druhů volně žijících živočichů
-- ~~[[24-2020|24/2020 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 416/2004 Sb., kterou se provádí zákon č. 320/2001 Sb., o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole), ve znění zákona č. 309/2002 Sb., zákona č. 320/2002 Sb. a zákona č. 123/2003 Sb., ve znění vyhlášky č. 274/2018 Sb. — *zrušeno 2027-01-01*
+- [[24-2020|24/2020 Sb.]] Vyhláška, kterou se mění vyhláška č. 416/2004 Sb., kterou se provádí zákon č. 320/2001 Sb., o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole), ve znění zákona č. 309/2002 Sb., zákona č. 320/2002 Sb. a zákona č. 123/2003 Sb., ve znění vyhlášky č. 274/2018 Sb. — *platí jen do 2026-12-31*
 - [[24-2020-ms|24/2020 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí, kterým se vyhlašuje odvolání dočasného pozastavení provádění readmisní Dohody mezi vládou České republiky a vládou Slovenské republiky o předávání a přebírání osob na společných státních hranicích
 - [[25-2020|25/2020 Sb.]] Vyhláška o předepisování léčivých přípravků při poskytování veterinární péče
 - [[25-2020-ms|25/2020 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí, kterým se vyhlašuje odvolání dočasného pozastavení provádění readmisní Dohody mezi vládou České republiky a Rakouskou spolkovou vládou o předávání a přebírání osob s neoprávněným pobytem (readmisní dohoda)
@@ -2978,7 +2978,7 @@ ke službě v bezpečnostních sborech
 - [[48-2020-ms|48/2020 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Protokolu mezi vládou České republiky a vládou Arménské republiky k provedení Dohody mezi Evropskou unií a Arménskou republikou o zpětném přebírání neoprávněně pobývajících osob
 - [[49-2020|49/2020 Sb.]] Zákon, kterým se mění zákon č. 21/1992 Sb., o bankách, ve znění pozdějších předpisů, a zákon č. 253/2008 Sb., o některých opatřeních proti legalizaci výnosů z trestné činnosti a financování terorismu, ve znění pozdějších předpisů, a některé další zákony
 - [[49-2020-ms|49/2020 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Smlouvy mezi vládou České republiky a vládou Botswanské republiky o zamezení dvojímu zdanění a zabránění daňovému úniku v oboru daní z příjmu
-- ~~[[50-2020|50/2020 Sb.]]~~ Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu, experimentálního vývoje a inovací z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu, experimentálního vývoje a inovací), ve znění pozdějších předpisů — *zrušeno 2027-01-01*
+- [[50-2020|50/2020 Sb.]] Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu, experimentálního vývoje a inovací z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu, experimentálního vývoje a inovací), ve znění pozdějších předpisů — *platí jen do 2026-12-31*
 - [[50-2020-ms|50/2020 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Smlouvy mezi vládou České republiky a vládou Kyrgyzské republiky o zamezení dvojímu zdanění v oboru daní z příjmu a o zabránění daňovému úniku a vyhýbání se daňové povinnosti
 - [[51-2020|51/2020 Sb.]] Zákon o územně správním členění státu a o změně souvisejících zákonů (zákon o územně správním členění státu)
 - [[52-2020|52/2020 Sb.]] Zákon, kterým se mění zákon č. 56/2001 Sb., o podmínkách provozu vozidel na pozemních komunikacích a o změně zákona č. 168/1999 Sb., o pojištění odpovědnosti za škodu způsobenou provozem vozidla a o změně některých souvisejících zákonů (zákon o pojištění odpovědnosti z provozu vozidla), ve znění zákona č. 307/1999 Sb.
@@ -3226,7 +3226,7 @@ ke službě v bezpečnostních sborech
 - [[294-2020|294/2020 Sb.]] Vyhláška o vyhlášení Národní přírodní rezervace Čtvrtě a stanovení jejích bližších ochranných podmínek
 - [[295-2020|295/2020 Sb.]] Vyhláška o vyhlášení Národní přírodní rezervace Děvín a stanovení jejích bližších ochranných podmínek
 - [[296-2020|296/2020 Sb.]] Vyhláška o změně a zrušení některých právních předpisů o vyhlášení zvláště chráněných území
-- ~~[[297-2020|297/2020 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 30/2014 Sb., o stanovení závazných pravidel poskytování finančních příspěvků na hospodaření v lesích a na vybrané myslivecké činnosti, ve znění pozdějších předpisů — *zrušeno 2029-01-01*
+- [[297-2020|297/2020 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 30/2014 Sb., o stanovení závazných pravidel poskytování finančních příspěvků na hospodaření v lesích a na vybrané myslivecké činnosti, ve znění pozdějších předpisů — *platí jen do 2028-12-31*
 - [[298-2020|298/2020 Sb.]] Vyhláška o obsahu a rozsahu údajů, které je poskytovatel podpory malého rozsahu povinen zaznamenat do centrálního registru podpor malého rozsahu, a o postupu při jejich zaznamenávání
 - [[299-2020|299/2020 Sb.]] Zákon, kterým se mění některé daňové zákony v souvislosti s výskytem koronaviru SARS CoV-2 a zákon č. 159/2020 Sb., o kompenzačním bonusu v souvislosti s krizovými opatřeními v souvislosti s výskytem koronaviru SARS CoV-2, ve znění pozdějších předpisů
 - [[300-2020|300/2020 Sb.]] Zákon o prominutí pojistného na sociální zabezpečení a příspěvku na státní politiku zaměstnanosti placeného některými zaměstnavateli jako poplatníky v souvislosti s mimořádnými opatřeními při epidemii v roce 2020 a o změně zákona č. 187/2006 Sb., o nemocenském pojištění, ve znění pozdějších předpisů
@@ -3269,7 +3269,7 @@ ke službě v bezpečnostních sborech
 - [[337-2020|337/2020 Sb.]] Zákon, kterým se mění zákon č. 111/1994 Sb., o silniční dopravě, ve znění pozdějších předpisů, a další související zákony
 - [[338-2020|338/2020 Sb.]] Zákon, kterým se mění zákon č. 21/1992 Sb., o bankách, ve znění pozdějších předpisů, a zákon č. 87/1995 Sb., o spořitelních a úvěrních družstvech a některých opatřeních s tím souvisejících a o doplnění zákona České národní rady č. 586/1992 Sb., o daních z příjmů, ve znění pozdějších předpisů, ve znění pozdějších předpisů
 - [[339-2020|339/2020 Sb.]] Zákon, kterým se mění zákon č. 61/2000 Sb., o námořní plavbě, ve znění pozdějších předpisů
-- ~~[[340-2020|340/2020 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění, ve znění pozdějších předpisů — *zrušeno 2027-01-01*
+- [[340-2020|340/2020 Sb.]] Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění, ve znění pozdějších předpisů — *platí jen do 2026-12-31*
 - [[341-2020|341/2020 Sb.]] Vyhláška, kterou se mění vyhláška Ministerstva spravedlnosti č. 196/2001 Sb., o odměnách a náhradách notářů, správců pozůstalosti a Notářské komory České republiky (notářský tarif), ve znění pozdějších předpisů
 - [[342-2020|342/2020 Sb.]] Sdělení Ministerstva vnitra o vyhlášení nových voleb do zastupitelstev obcí
 - [[343-2020|343/2020 Sb.]] Zákon, kterým se mění některé zákony v souvislosti s implementací daňových předpisů Evropské unie a v oblasti zamezení dvojímu zdanění
@@ -3422,7 +3422,7 @@ ke službě v bezpečnostních sborech
 - [[490-2020|490/2020 Sb.]] Vyhláška, kterou se provádějí některá ustanovení zákona č. 332/2020 Sb., o sčítání lidu, domů a bytů v roce 2021 a o změně zákona č. 89/1995 Sb., o státní statistické službě, ve znění pozdějších předpisů
 - [[491-2020|491/2020 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 342/2016 Sb., o příspěvku ke zmírnění sociálních dopadů souvisejících s restrukturalizací nebo útlumem činnosti právnických osob zabývajících se těžbou uhlí nebo uranu
 - [[492-2020|492/2020 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 189/2018 Sb., o kritériích udržitelnosti biopaliv a snižování emisí skleníkových plynů z pohonných hmot
-- ~~[[493-2020|493/2020 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 71/2013 Sb., o podmínkách pro ocenění výsledků výzkumu, experimentálního vývoje a inovací, ve znění nařízení vlády č. 66/2016 Sb. — *zrušeno 2027-01-01*
+- [[493-2020|493/2020 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 71/2013 Sb., o podmínkách pro ocenění výsledků výzkumu, experimentálního vývoje a inovací, ve znění nařízení vlády č. 66/2016 Sb. — *platí jen do 2026-12-31*
 - [[494-2020|494/2020 Sb.]] Vyhláška, kterou se mění vyhláška č. 207/2001 Sb., kterou se provádí zákon č. 301/2000 Sb., o matrikách, jménu a příjmení a o změně některých souvisejících zákonů, ve znění pozdějších předpisů
 - [[495-2020|495/2020 Sb.]] Zákon, kterým se mění zákon č. 111/1998 Sb., o vysokých školách a o změně a doplnění dalších zákonů (zákon o vysokých školách), ve znění pozdějších předpisů
 - ~~[[496-2020|496/2020 Sb.]]~~ Nařízení vlády o podmínkách použití peněžních prostředků Státního fondu podpory investic formou podpory poskytované na revitalizaci území se starou stavební zátěží (brownfieldů) pro jiné než hospodářské využití — *zrušeno 2024-07-01*
@@ -3730,7 +3730,7 @@ ke službě v bezpečnostních sborech
 - [[123-2019|123/2019 Sb.]] Sdělení Ministerstva práce a sociálních věcí o rozšíření závaznosti Kolektivní smlouvy vyššího stupně
 - [[124-2019|124/2019 Sb.]] Sdělení Ministerstva vnitra o vyhlášení nových voleb do zastupitelstev obcí a zastupitelstva městské části
 - [[125-2019|125/2019 Sb.]] Zákon, kterým se mění zákon č. 428/2012 Sb., o majetkovém vyrovnání s církvemi a náboženskými společnostmi a o změně některých zákonů (zákon o majetkovém vyrovnání s církvemi a náboženskými společnostmi) a zákon č. 586/1992 Sb., o daních z příjmů, ve znění pozdějších předpisů
-- ~~[[126-2019|126/2019 Sb.]]~~ Zákon, kterým se mění zákon č. 320/2001 Sb., o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole), ve znění pozdějších předpisů — *zrušeno 2027-01-01*
+- [[126-2019|126/2019 Sb.]] Zákon, kterým se mění zákon č. 320/2001 Sb., o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole), ve znění pozdějších předpisů — *platí jen do 2026-12-31*
 - [[127-2019|127/2019 Sb.]] Vyhláška o vydání zlaté mince „Hrad Veveří“ po 5 000 Kč
 - [[128-2019|128/2019 Sb.]] Vyhláška, kterou se mění vyhláška č. 427/2008 Sb., o stanovení výše náhrad výdajů za odborné úkony vykonávané v působnosti Státního ústavu pro kontrolu léčiv a Ústavu pro státní kontrolu veterinárních biopreparátů a léčiv, ve znění pozdějších předpisů
 - [[129-2019|129/2019 Sb.]] Vyhláška, kterou se mění vyhláška č. 132/2015 Sb., o sazebníku náhrad nákladů za rozbory prováděné laboratořemi Státní zemědělské a potravinářské inspekce pro účely kontroly, ve znění vyhlášky č. 396/2016 Sb.
@@ -4281,7 +4281,7 @@ ke službě v bezpečnostních sborech
 - [[242-2018|242/2018 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 463/2013 Sb., o seznamech návykových látek, ve znění pozdějších předpisů
 - [[243-2018|243/2018 Sb.]] Sdělení Ministerstva vnitra o vyhlášení dodatečných voleb do zastupitelstev obcí
 - [[244-2018|244/2018 Sb.]] Vyhláška, kterou se mění vyhláška č. 353/2016 Sb., o přijímacím řízení ke střednímu vzdělávání, ve znění vyhlášky č. 243/2017 Sb., a vyhláška č. 27/2016 Sb., o vzdělávání žáků se speciálními vzdělávacími potřebami a žáků nadaných, ve znění pozdějších předpisů
-- ~~[[245-2018|245/2018 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 30/2014 Sb., o stanovení závazných pravidel poskytování finančních příspěvků na hospodaření v lesích a na vybrané myslivecké činnosti, ve znění pozdějších předpisů — *zrušeno 2029-01-01*
+- [[245-2018|245/2018 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 30/2014 Sb., o stanovení závazných pravidel poskytování finančních příspěvků na hospodaření v lesích a na vybrané myslivecké činnosti, ve znění pozdějších předpisů — *platí jen do 2028-12-31*
 - [[246-2018|246/2018 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 361/2007 Sb., kterým se stanoví podmínky ochrany zdraví při práci, ve znění pozdějších předpisů
 - [[247-2018|247/2018 Sb.]] Vyhláška, kterou se mění vyhláška č. 470/2012 Sb., o užívání pozemních komunikací zpoplatněných mýtným, ve znění pozdějších předpisů
 - [[248-2018|248/2018 Sb.]] Vyhláška o požadavcích na nápoje, kvasný ocet a droždí
@@ -4310,7 +4310,7 @@ ke službě v bezpečnostních sborech
 - [[271-2018|271/2018 Sb.]] Vyhláška o vyhlášení Národní přírodní rezervace Rohová a stanovení jejích bližších ochranných podmínek
 - [[272-2018|272/2018 Sb.]] Vyhláška o změně a zrušení některých právních předpisů o vyhlášení zvláště chráněných území
 - ~~[[273-2018|273/2018 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 567/2006 Sb., o minimální mzdě, o nejnižších úrovních zaručené mzdy, o vymezení ztíženého pracovního prostředí a o výši příplatku ke mzdě za práci ve ztíženém pracovním prostředí, ve znění pozdějších předpisů — *zrušeno 2025-01-01*
-- ~~[[274-2018|274/2018 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 416/2004 Sb., kterou se provádí zákon č. 320/2001 Sb., o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole), ve znění zákona č. 309/2002 Sb., zákona č. 320/2002 Sb. a zákona č. 123/2003 Sb. — *zrušeno 2027-01-01*
+- [[274-2018|274/2018 Sb.]] Vyhláška, kterou se mění vyhláška č. 416/2004 Sb., kterou se provádí zákon č. 320/2001 Sb., o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole), ve znění zákona č. 309/2002 Sb., zákona č. 320/2002 Sb. a zákona č. 123/2003 Sb. — *platí jen do 2026-12-31*
 - [[275-2018|275/2018 Sb.]] Vyhláška o vydání pamětní stříbrné dvousetkoruny k 300. výročí úmrtí Jana Brokoffa
 - [[276-2018|276/2018 Sb.]] Sdělení Ministerstva vnitra o vyhlášení nových voleb do zastupitelstev obcí
 - [[277-2018|277/2018 Sb.]] Vyhláška, kterou se mění vyhláška č. 389/2017 Sb., o stanovení výše paušálních částek nákladů veterinárních kontrol spojených s dovozem nebo vývozem
@@ -4601,7 +4601,7 @@ ke službě v bezpečnostních sborech
 - [[143-2017|143/2017 Sb.]] Sdělení Ministerstva vnitra o vyhlášení nových voleb do zastupitelstva obce
 - [[144-2017|144/2017 Sb.]] Zákon, kterým se mění zákon č. 234/2014 Sb., o státní službě, ve znění pozdějších předpisů
 - [[145-2017|145/2017 Sb.]] Zákon, kterým se mění zákon č. 592/1992 Sb., o pojistném na veřejné zdravotní pojištění, ve znění pozdějších předpisů
-- ~~[[146-2017|146/2017 Sb.]]~~ Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu, experimentálního vývoje a inovací z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu, experimentálního vývoje a inovací), ve znění pozdějších předpisů — *zrušeno 2027-01-01*
+- [[146-2017|146/2017 Sb.]] Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu, experimentálního vývoje a inovací z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu, experimentálního vývoje a inovací), ve znění pozdějších předpisů — *platí jen do 2026-12-31*
 - [[147-2017|147/2017 Sb.]] Zákon, kterým se mění zákon č. 134/2016 Sb., o zadávání veřejných zakázek, ve znění pozdějších předpisů
 - [[148-2017|148/2017 Sb.]] Zákon, kterým se mění zákon č. 187/2006 Sb., o nemocenském pojištění, ve znění pozdějších předpisů, a další související zákony
 - [[149-2017|149/2017 Sb.]] Zákon, kterým se mění zákon č. 477/2001 Sb., o obalech a o změně některých zákonů (zákon o obalech), ve znění pozdějších předpisů
@@ -4615,7 +4615,7 @@ ke službě v bezpečnostních sborech
 - ~~[[157-2017|157/2017 Sb.]]~~ Nařízení vlády o ocenění udělovaném Ministerstvem zahraničních věcí — *zrušeno 2018-12-15*
 - [[158-2017|158/2017 Sb.]] Vyhláška, kterou se mění vyhláška č. 343/2014 Sb., o registraci vozidel, ve znění pozdějších předpisů
 - [[159-2017|159/2017 Sb.]] Nález Ústavního soudu ze dne 11. dubna 2017 sp. Zn. Pl. ÚS 3/17 ve věci návrhu na zrušení obecně závazné vyhlášky statutárního města Brna č. 11/2016 o regulaci plavby plavidel se spalovacími motory na části Brněnské vodní nádrže
-- ~~[[160-2017|160/2017 Sb.]]~~ Nařízení vlády o sbírce listin seznamu výzkumných organizací a způsobu vykazování příjmů z transferu znalostí — *zrušeno 2027-01-01*
+- [[160-2017|160/2017 Sb.]] Nařízení vlády o sbírce listin seznamu výzkumných organizací a způsobu vykazování příjmů z transferu znalostí — *platí jen do 2026-12-31*
 - [[161-2017|161/2017 Sb.]] Sdělení Ministerstva vnitra o vyhlášení nových voleb do zastupitelstva obce
 - [[162-2017|162/2017 Sb.]] Vyhláška o požadavcích na hodnocení bezpečnosti podle atomového zákona
 - [[163-2017|163/2017 Sb.]] Vyhláška, kterou se mění vyhláška č. 355/2006 Sb., o stanovení způsobu a podmínek registrace, provozu, způsobu a podmínek testování historických a sportovních vozidel a způsobu a podmínek testování silničního vozidla, které je registrováno v registru silničních vozidel, ve znění vyhlášky č. 144/2012 Sb.
@@ -4775,7 +4775,7 @@ ke službě v bezpečnostních sborech
 - [[317-2017|317/2017 Sb.]] Sdělení Ministerstva práce a sociálních věcí o rozšíření závaznosti kolektivní smlouvy vyššího stupně
 - ~~[[318-2017|318/2017 Sb.]]~~ Nařízení vlády o výši odměn členů zastupitelstev územních samosprávných celků — *zrušeno 2024-01-01*
 - [[319-2017|319/2017 Sb.]] Vyhláška o odborné způsobilosti pro distribuci na kapitálovém trhu
-- ~~[[320-2017|320/2017 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 176/2008 Sb., o technických požadavcích na strojní zařízení, ve znění pozdějších předpisů — *zrušeno 2027-01-20*
+- [[320-2017|320/2017 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 176/2008 Sb., o technických požadavcích na strojní zařízení, ve znění pozdějších předpisů — *platí jen do 2027-01-19*
 - ~~[[321-2017|321/2017 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 330/2016 Sb., kterým se stanoví stupnice základních tarifů pro příslušníky bezpečnostních sborů pro rok 2017, ve znění nařízení vlády č. 126/2017 Sb. — *zrušeno 2018-01-01*
 - [[322-2017|322/2017 Sb.]] Vyhláška o stanovení seznamu odvětví zaměstnání, která zahrnují činnosti závislé na ročním období
 - ~~[[323-2017|323/2017 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 268/2009 Sb., o technických požadavcích na stavby, ve znění vyhlášky č. 20/2012 Sb. — *zrušeno 2024-01-01*
@@ -4801,7 +4801,7 @@ ke službě v bezpečnostních sborech
 - [[343-2017|343/2017 Sb.]] Nařízení vlády o výši všeobecného vyměřovacího základu za rok 2016, přepočítacího koeficientu pro úpravu všeobecného vyměřovacího základu za rok 2016, redukčních hranic pro stanovení výpočtového základu pro rok 2018 a základní výměry důchodu stanovené pro rok 2018 a o zvýšení důchodů v roce 2018
 - [[344-2017|344/2017 Sb.]] Nařízení vlády o zvýšení příplatků k důchodu v roce 2018
 - [[345-2017|345/2017 Sb.]] Nález Ústavního soudu ze dne 8. srpna 2017 sp. zn. Pl. ÚS 32/16 ve věci návrhu na zrušení části ustanovení § 61 odst. 1 a § 143 odst. 1 trestního řádu
-- ~~[[346-2017|346/2017 Sb.]]~~ Vyhláška o závazném vzoru potvrzení o dočasné neschopnosti uchazeče o zaměstnání plnit povinnosti uchazeče o zaměstnání z důvodu nemoci nebo úrazu a o závazném vzoru potvrzení o ošetření nebo vyšetření uchazeče o zaměstnání ve zdravotnickém zařízení — *zrušeno 2027-01-01*
+- [[346-2017|346/2017 Sb.]] Vyhláška o závazném vzoru potvrzení o dočasné neschopnosti uchazeče o zaměstnání plnit povinnosti uchazeče o zaměstnání z důvodu nemoci nebo úrazu a o závazném vzoru potvrzení o ošetření nebo vyšetření uchazeče o zaměstnání ve zdravotnickém zařízení — *platí jen do 2026-12-31*
 - [[347-2017|347/2017 Sb.]] Sdělení Energetického regulačního úřadu o vydání cenových rozhodnutí
 - [[348-2017|348/2017 Sb.]] Vyhláška, kterou se stanoví odměny členům Prezidia Rady pro veřejný dohled nad auditem
 - [[349-2017|349/2017 Sb.]] Sdělení Ministerstva práce a sociálních věcí, kterým se vyhlašuje pro účely nemocenského pojištění výše redukčních hranic pro úpravu denního vyměřovacího základu platných v roce 2018
@@ -5065,7 +5065,7 @@ ke službě v bezpečnostních sborech
 - [[64-2016-ms|64/2016 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o přijetí změny Úmluvy o fyzické ochraně jaderných materiálů
 - ~~[[65-2016|65/2016 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 218/2014 Sb., o stanovení rezervy státních pozemků pro uskutečňování rozvojových programů státu — *zrušeno 2019-11-01*
 - [[65-2016-ms|65/2016 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Protokolu o změně Úmluvy o mezinárodní železniční přepravě (COTIF) z 9. května 1980, přijatého dne 3. června 1999 ve Vilniusu
-- ~~[[66-2016|66/2016 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 71/2013 Sb., o podmínkách pro ocenění výsledků výzkumu, experimentálního vývoje a inovací — *zrušeno 2027-01-01*
+- [[66-2016|66/2016 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 71/2013 Sb., o podmínkách pro ocenění výsledků výzkumu, experimentálního vývoje a inovací — *platí jen do 2026-12-31*
 - [[66-2016-ms|66/2016 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o přijetí změny Úmluvy COTIF z roku 2009 a o odvolání výhrady k Úmluvě COTIF učiněné v roce 2008
 - [[67-2016|67/2016 Sb.]] Sdělení Ministerstva vnitra o vyhlášení nových voleb do zastupitelstva obce
 - [[67-2016-ms|67/2016 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí, kterým se nahrazuje sdělení Ministerstva zahraničních věcí č. 53/2016 Sb. m. s., o skutečnostech k provádění Dohody mezi Českou republikou a Kanadou o usnadňování dočasných pracovních pobytů mládeže
@@ -5197,7 +5197,7 @@ ke službě v bezpečnostních sborech
 - [[191-2016|191/2016 Sb.]] Zákon o ochraně státních hranic České republiky a o změně souvisejících zákonů (zákon o ochraně státních hranic)
 - [[192-2016|192/2016 Sb.]] Zákon, kterým se mění zákon č. 111/2009 Sb., o základních registrech, ve znění pozdějších předpisů, a některé další zákony
 - [[193-2016|193/2016 Sb.]] Zákon, kterým se mění zákon č. 85/2012 Sb., o ukládání oxidu uhličitého do přírodních horninových struktur a o změně některých zákonů, ve znění pozdějších předpisů
-- ~~[[194-2016|194/2016 Sb.]]~~ Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu, experimentálního vývoje a inovací z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu, experimentálního vývoje a inovací), ve znění pozdějších předpisů — *zrušeno 2027-01-01*
+- [[194-2016|194/2016 Sb.]] Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu, experimentálního vývoje a inovací z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu, experimentálního vývoje a inovací), ve znění pozdějších předpisů — *platí jen do 2026-12-31*
 - [[195-2016|195/2016 Sb.]] Zákon, kterým se mění zákon č. 262/2011 Sb., o účastnících odboje a odporu proti komunismu, ve znění pozdějších předpisů, a zákon č. 234/2014 Sb., o státní službě, ve znění pozdějších předpisů
 - [[196-2016|196/2016 Sb.]] Vyhláška, kterou se mění vyhláška č. 33/2005 Sb., o jazykových školách s právem státní jazykové zkoušky a státních jazykových zkouškách
 - [[197-2016|197/2016 Sb.]] Vyhláška, kterou se mění vyhláška č. 72/2005 Sb., o poskytování poradenských služeb ve školách a školských poradenských zařízeních, ve znění pozdějších předpisů, a některé další vyhlášky
@@ -5212,7 +5212,7 @@ ke službě v bezpečnostních sborech
 - [[206-2016|206/2016 Sb.]] Sdělení Českého statistického úřadu o aktualizaci Číselníku měn a fondů (ČMF)
 - [[207-2016|207/2016 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 318/2013 Sb., o stanovení národního seznamu evropsky významných lokalit, ve znění nařízení vlády č. 73/2016 Sb.
 - ~~[[208-2016|208/2016 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 449/2006 Sb., o stanovení metodik zkoušek odlišnosti, uniformity, stálosti a užitné hodnoty odrůd, ve znění pozdějších předpisů — *zrušeno 2019-09-01*
-- ~~[[209-2016|209/2016 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 30/2014 Sb., o stanovení závazných pravidel poskytování finančních příspěvků na hospodaření v lesích a na vybrané myslivecké činnosti, ve znění pozdějších předpisů — *zrušeno 2029-01-01*
+- [[209-2016|209/2016 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 30/2014 Sb., o stanovení závazných pravidel poskytování finančních příspěvků na hospodaření v lesích a na vybrané myslivecké činnosti, ve znění pozdějších předpisů — *platí jen do 2028-12-31*
 - [[210-2016|210/2016 Sb.]] Sdělení Ministerstva vnitra o vyhlášení nových voleb do zastupitelstva obce
 - [[211-2016|211/2016 Sb.]] Nález Ústavního soudu ze dne 31. května 2016 sp. zn. Pl. ÚS 13/15 ve věci návrhu na zrušení § 114b odst. 5 a slov „§ 114b odst. 5“ v § 153a odst. 3 zákona č. 99/1963 Sb., občanský soudní řád, ve znění pozdějších předpisů
 - [[212-2016|212/2016 Sb.]] Zákon, kterým se mění zákon č. 155/1995 Sb., o důchodovém pojištění, ve znění pozdějších předpisů, a další související zákony
@@ -5573,7 +5573,7 @@ ke službě v bezpečnostních sborech
 - [[49-2015-ms|49/2015 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Dohody o spolupráci v oblasti obrany mezi vládou České republiky a vládou Alžírské demokratické a lidové republiky
 - [[50-2015|50/2015 Sb.]] Nařízení vlády o stanovení některých podmínek poskytování přímých plateb zemědělcům a o změně některých souvisejících nařízení vlády
 - [[50-2015-ms|50/2015 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Dohody mezi vládou České republiky a vládou Íránské islámské republiky o letecké dopravě
-- ~~[[51-2015|51/2015 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 30/2014 Sb., o stanovení závazných pravidel poskytování finančních příspěvků na hospodaření v lesích a na vybrané myslivecké činnosti, ve znění nařízení vlády č. 308/2014 Sb. — *zrušeno 2029-01-01*
+- [[51-2015|51/2015 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 30/2014 Sb., o stanovení závazných pravidel poskytování finančních příspěvků na hospodaření v lesích a na vybrané myslivecké činnosti, ve znění nařízení vlády č. 308/2014 Sb. — *platí jen do 2028-12-31*
 - [[51-2015-ms|51/2015 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Úmluvy o účasti cizinců na veřejném životě na místní úrovni
 - ~~[[52-2015|52/2015 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 37/2003 Sb., o odměnách za výkon funkce členům zastupitelstev, ve znění pozdějších předpisů — *zrušeno 2018-01-01*
 - [[52-2015-ms|52/2015 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o přístupu České republiky k Mezinárodní úmluvě o zamezení znečištění moří z lodí (MARPOL) a k Protokolu z roku 1978 týkajícího se Mezinárodní úmluvy o zamezení znečištění moří z lodí
@@ -6487,7 +6487,7 @@ ke službě v bezpečnostních sborech
 - [[47-2013-ms|47/2013 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Prováděcí dohody mezi Ministerstvem zahraničních věcí České republiky a Ministerstvem zahraničních věcí Maďarska k Dohodě mezi vládou České republiky a vládou Maďarské republiky o vzájemném zastupování jejich diplomatických misí a konzulárních úřadů při zpracování víz
 - [[48-2013|48/2013 Sb.]] Zákon, kterým se mění zákon č. 111/1998 Sb., o vysokých školách a o změně a doplnění dalších zákonů (zákon o vysokých školách), ve znění pozdějších předpisů, a zákon č. 117/1995 Sb., o státní sociální podpoře, ve znění pozdějších předpisů
 - [[48-2013-ms|48/2013 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí, kterým se vyhlašuje Rozhodnutí Evropské rady, kterým se mění článek 136 Smlouvy o fungování Evropské unie, pokud jde o mechanismus stability pro členské státy, jejichž měnou je euro
-- ~~[[49-2013|49/2013 Sb.]]~~ Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu, experimentálního vývoje a inovací z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu, experimentálního vývoje a inovací), ve znění pozdějších předpisů — *zrušeno 2027-01-01*
+- [[49-2013|49/2013 Sb.]] Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu, experimentálního vývoje a inovací z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu, experimentálního vývoje a inovací), ve znění pozdějších předpisů — *platí jen do 2026-12-31*
 - [[49-2013-ms|49/2013 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o přístupu České republiky k Protokolu o výsadách a imunitách Mezinárodní organizace pro pohyblivé služby
 - [[50-2013|50/2013 Sb.]] Zákon, kterým se mění zákon č. 378/2007 Sb., o léčivech a o změnách některých souvisejících zákonů (zákon o léčivech), ve znění pozdějších předpisů, zákon č. 167/1998 Sb., o návykových látkách a o změně některých dalších zákonů, ve znění pozdějších předpisů, a zákon č. 634/2004 Sb., o správních poplatcích, ve znění pozdějších předpisů
 - [[50-2013-ms|50/2013 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí, kterým se vyhlašuje Smlouva mezi Belgickým královstvím, Bulharskou republikou, Českou republikou, Dánským královstvím, Spolkovou republikou Německo, Estonskou republikou, Irskem, Řeckou republikou, Španělským královstvím, Francouzskou republikou, Italskou republikou, Kyperskou republikou, Lotyšskou republikou, Litevskou republikou, Lucemburským velkovévodstvím, Maďarskou republikou, Republikou Malta, Nizozemským královstvím, Rakouskou republikou, Polskou republikou, Portugalskou republikou, Rumunskem, Republikou Slovinsko, Slovenskou republikou, Finskou republikou, Švédským královstvím, Spojeným královstvím Velké Británie a Severního Irska (členskými státy Evropské unie) a Chorvatskou republikou o přistoupení Chorvatské republiky k Evropské unii
@@ -6531,7 +6531,7 @@ ke službě v bezpečnostních sborech
 - [[69-2013-ms|69/2013 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o přístupu České republiky k Ústavě a Úmluvě Mezinárodní telekomunikační unie, přijaté v Ženevě dne 22. října 1992, k Listině měnící Ústavu a Úmluvu Mezinárodní telekomunikační unie, přijaté v Kjótu dne 14. října 1994, k Listině měnící Ústavu a Úmluvu Mezinárodní telekomunikační unie, přijaté v Minneapolis dne 6. listopadu 1998, k Listině měnící Ústavu a Úmluvu Mezinárodní telekomunikační unie, přijaté v Marrákeši dne 18. října 2002, k Listině měnící Ústavu a Úmluvu Mezinárodní telekomunikační unie, přijaté v Antalyi dne 24. listopadu 2006, k Listině měnící Ústavu a Úmluvu Mezinárodní telekomunikační unie, přijaté v Guadalajaře dne 22. října 2010
 - [[70-2013|70/2013 Sb.]] Zákon, kterým se mění zákon č. 378/2007 Sb., o léčivech a o změnách některých souvisejících zákonů (zákon o léčivech), ve znění pozdějších předpisů
 - [[70-2013-ms|70/2013 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Dohody o provádění Rozhodnutí Evropské komise ze dne 10. června 2011, kterým se poskytuje grant z Fondu solidarity Evropské unie na financování nouzových opatření v České republice
-- ~~[[71-2013|71/2013 Sb.]]~~ Nařízení vlády o podmínkách pro ocenění výsledků výzkumu, experimentálního vývoje a inovací — *zrušeno 2027-01-01*
+- [[71-2013|71/2013 Sb.]] Nařízení vlády o podmínkách pro ocenění výsledků výzkumu, experimentálního vývoje a inovací — *platí jen do 2026-12-31*
 - [[71-2013-ms|71/2013 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Dohody o provádění Rozhodnutí Komise ze dne 22. srpna 2011, kterým se poskytuje grant z Fondu solidarity Evropské unie na financování nouzových opatření v České republice
 - ~~[[72-2013|72/2013 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 299/2003 Sb., o opatřeních pro předcházení a zdolávání nákaz a nemocí přenosných ze zvířat na člověka, ve znění pozdějších předpisů — *zrušeno 2022-10-01*
 - [[72-2013-ms|72/2013 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o přijetí Českou republikou změn Dohody zřizující Mnohostrannou agenturu pro investiční záruky vyplývající z Rezoluce Rady správců MIGA č. 86
@@ -7097,7 +7097,7 @@ ke službě v bezpečnostních sborech
 - [[60-2012-ms|60/2012 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí, kterým se doplňuje sdělení Ministerstva zahraničních věcí č. 55/2012 Sb. m. s. o sjednání Dohody mezi vládou České republiky a vládou Korejské republiky o programu pracovní dovolené
 - [[61-2012|61/2012 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 87/2010 Sb., o stanovení některých podmínek pro poskytování platby na krávy chované v systému s tržní produkcí mléka, ve znění nařízení vlády č. 369/2010 Sb., a nařízení vlády č. 79/2007 Sb., o podmínkách provádění agroenvironmentálních opatření, ve znění pozdějších předpisů
 - ~~[[61-2012-ms|61/2012 Sb. m. s.]]~~ Sdělení Ministerstva zahraničních věcí o sjednání Ujednání mezi Ministerstvem školství, mládeže a tělovýchovy České republiky a Ministerstvem školství a vědy Albánské republiky o spolupráci v oblasti školství a vědy na léta 2012 – 2015 — *zrušeno 2015-12-31*
-- ~~[[62-2012|62/2012 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění, ve znění vyhlášky č. 56/2010 Sb. — *zrušeno 2027-01-01*
+- [[62-2012|62/2012 Sb.]] Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění, ve znění vyhlášky č. 56/2010 Sb. — *platí jen do 2026-12-31*
 - [[62-2012-ms|62/2012 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o přijetí Dodatku k Dohodě o založení Evropské banky pro obnovu a rozvoj za účelem zařazení Mongolska mezi země, ve kterých banka působí
 - [[63-2012|63/2012 Sb.]] Vyhláška, kterou se mění vyhláška Ministerstva spravedlnosti č. 330/2001 Sb., o odměně a náhradách soudního exekutora, o odměně a náhradě hotových výdajů správce podniku a o podmínkách pojištění odpovědnosti za škody způsobené exekutorem, ve znění pozdějších předpisů
 - [[63-2012-ms|63/2012 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí, kterým se vyhlašují změny pravidel 17, 20, 34, 82 a 82quater prováděcího předpisu ke Smlouvě o patentové spolupráci
@@ -7306,7 +7306,7 @@ ke službě v bezpečnostních sborech
 - ~~[[226-2012|226/2012 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 327/2006 Sb., kterou se stanoví charakteristiky přiměřených požadavků na připojení v pevném místě k veřejné telefonní síti a na přístup v pevném místě k veřejně dostupné telefonní službě a podmínky přístupu k internetu v rámci univerzální služby — *zrušeno 2022-07-01*
 - ~~[[227-2012|227/2012 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 162/2005 Sb., o stanovení parametrů kvality univerzální služby a jejich mezních hodnot — *zrušeno 2022-07-01*
 - ~~[[228-2012|228/2012 Sb.]]~~ Vyhláška o stanovení kritérií pro posuzování, zda má více subjektů společnou významnou tržní sílu na relevantním trhu elektronických komunikací — *zrušeno 2022-01-01*
-- ~~[[229-2012|229/2012 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 176/2008 Sb., o technických požadavcích na strojní zařízení, ve znění nařízení vlády č. 170/2011 Sb. — *zrušeno 2027-01-20*
+- [[229-2012|229/2012 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 176/2008 Sb., o technických požadavcích na strojní zařízení, ve znění nařízení vlády č. 170/2011 Sb. — *platí jen do 2027-01-19*
 - ~~[[230-2012|230/2012 Sb.]]~~ Vyhláška, kterou se stanoví podrobnosti vymezení předmětu veřejné zakázky na stavební práce a rozsah soupisu stavebních prací, dodávek a služeb s výkazem výměr — *zrušeno 2016-10-01*
 - ~~[[231-2012|231/2012 Sb.]]~~ Vyhláška, kterou se stanoví obchodní podmínky pro veřejné zakázky na stavební práce — *zrušeno 2016-10-01*
 - ~~[[232-2012|232/2012 Sb.]]~~ Vyhláška o podrobnostech rozsahu odůvodnění účelnosti veřejné zakázky a odůvodnění veřejné zakázky — *zrušeno 2016-10-01*
@@ -7863,7 +7863,7 @@ ke službě v bezpečnostních sborech
 - [[167-2011|167/2011 Sb.]] Sdělení Českého statistického úřadu o aktualizaci Číselníku zemí (CZEM)
 - ~~[[168-2011|168/2011 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 369/2009 Sb., o podrobnostech uvádění osiva a sadby pěstovaných rostlin do oběhu, ve znění vyhlášky č. 298/2010 Sb. — *zrušeno 2012-04-18*
 - [[169-2011|169/2011 Sb.]] Vyhláška o stanovení pravidel tvorby čísla účtu v platebním styku
-- ~~[[170-2011|170/2011 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 176/2008 Sb., o technických požadavcích na strojní zařízení — *zrušeno 2027-01-20*
+- [[170-2011|170/2011 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 176/2008 Sb., o technických požadavcích na strojní zařízení — *platí jen do 2027-01-19*
 - ~~[[171-2011|171/2011 Sb.]]~~ Vyhláška, kterou se provádějí některá ustanovení celního zákona — *zrušeno 2013-01-01*
 - ~~[[172-2011|172/2011 Sb.]]~~ Vyhláška, kterou se zrušuje vyhláška č. 326/2006 Sb., o podrobnostech atestačního řízení pro elektronické nástroje, náležitostech žádosti o atest a o výši poplatku za podání žádosti o atest (vyhláška o atestačním řízení pro elektronické nástroje) — *zrušeno 2024-01-01*
 - ~~[[173-2011|173/2011 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 197/2005 Sb., o stanovení podmínek poskytnutí dotace na provádění opatření ke zlepšení obecných podmínek pro produkci včelařských produktů a jejich uvádění na trh, ve znění pozdějších předpisů — *zrušeno 2022-08-01*
@@ -8162,7 +8162,7 @@ ke službě v bezpečnostních sborech
 - [[466-2011|466/2011 Sb.]] Zákon, kterým se zrušuje zákon č. 245/2006 Sb., o veřejných neziskových ústavních zdravotnických zařízeních a o změně některých zákonů, ve znění pozdějších předpisů, a mění související zákony
 - [[467-2011|467/2011 Sb.]] Zákon, kterým se mění zákon č. 100/2004 Sb., o ochraně druhů volně žijících živočichů a planě rostoucích rostlin regulováním obchodu s nimi a dalších opatřeních k ochraně těchto druhů a o změně některých zákonů (zákon o obchodování s ohroženými druhy), ve znění pozdějších předpisů
 - [[468-2011|468/2011 Sb.]] Zákon, kterým se mění zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), ve znění pozdějších předpisů, a některé další zákony
-- ~~[[469-2011|469/2011 Sb.]]~~ Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu, experimentálního vývoje a inovací z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu, experimentálního vývoje a inovací), ve znění pozdějších předpisů — *zrušeno 2027-01-01*
+- [[469-2011|469/2011 Sb.]] Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu, experimentálního vývoje a inovací z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu, experimentálního vývoje a inovací), ve znění pozdějších předpisů — *platí jen do 2026-12-31*
 - [[470-2011|470/2011 Sb.]] Zákon, kterým se mění zákon č. 187/2006 Sb., o nemocenském pojištění, ve znění pozdějších předpisů, a některé další zákony
 - [[471-2011|471/2011 Sb.]] Zákon o mezinárodní pomoci při vymáhání některých finančních pohledávek
 - [[472-2011|472/2011 Sb.]] Zákon, kterým se mění zákon č. 561/2004 Sb., o předškolním, základním, středním, vyšším odborném a jiném vzdělávání (školský zákon), ve znění pozdějších předpisů
@@ -8279,7 +8279,7 @@ ke službě v bezpečnostních sborech
 - [[54-2010-ms|54/2010 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Protokolu mezi Českou republikou a Bosnou a Hercegovinou o změně Dohody mezi Českou republikou a Bosnou a Hercegovinou o podpoře a ochraně investic podepsané dne 17. dubna 2002 v Sarajevu
 - [[55-2010|55/2010 Sb.]] Sdělení Ministerstva financí, jímž se určují emisní podmínky Dluhopisu České republiky, 2010–2015, 3,40 %
 - [[55-2010-ms|55/2010 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o vypovězení Úmluvy o zaměstnávání žen podzemními pracemi v podzemí a dolech všech druhů
-- ~~[[56-2010|56/2010 Sb.]]~~ Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění — *zrušeno 2027-01-01*
+- [[56-2010|56/2010 Sb.]] Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění — *platí jen do 2026-12-31*
 - [[56-2010-ms|56/2010 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o vypovězení článku 8 odstavce 4 Evropské sociální charty
 - [[57-2010|57/2010 Sb.]] Vyhláška, kterou se mění vyhláška č. 64/2005 Sb., o evidenci úrazů dětí, žáků a studentů
 - [[57-2010-ms|57/2010 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Dohody mezi vládou České republiky a vládou Spojených států amerických o výzkumných, vývojových, testovacích a vyhodnocovacích aktivitách
@@ -9234,7 +9234,7 @@ ke službě v bezpečnostních sborech
 - [[394-2009|394/2009 Sb.]] Sdělení Energetického regulačního úřadu o vydání cenového rozhodnutí
 - [[395-2009|395/2009 Sb.]] Zákon o významné tržní síle a nekalých obchodních praktikách při prodeji zemědělských a potravinářských produktů
 - [[396-2009|396/2009 Sb.]] Usnesení Poslanecké sněmovny k zákonu o významné tržní síle při prodeji zemědělských a potravinářských produktů a jejím zneužití, přijatému Parlamentem dne 9. září 2009 a vrácenému prezidentem republiky dne 25. září 2009.
-- ~~[[397-2009|397/2009 Sb.]]~~ Nařízení vlády o informačním systému výzkumu, experimentálního vývoje a inovací — *zrušeno 2027-01-01*
+- [[397-2009|397/2009 Sb.]] Nařízení vlády o informačním systému výzkumu, experimentálního vývoje a inovací — *platí jen do 2026-12-31*
 - ~~[[398-2009|398/2009 Sb.]]~~ Vyhláška o obecných technických požadavcích zabezpečujících bezbariérové užívání staveb — *zrušeno 2024-01-01*
 - ~~[[399-2009|399/2009 Sb.]]~~ Vyhláška, kterou se zrušují některá obecně závazná nařízení národních výborů — *zrušeno 2024-01-01*
 - [[400-2009|400/2009 Sb.]] Vyhláška, kterou se mění vyhláška č. 13/2005 Sb., o středním vzdělávání a vzdělávání v konzervatoři, ve znění vyhlášky č. 374/2006 Sb.
@@ -9597,7 +9597,7 @@ ke službě v bezpečnostních sborech
 - ~~[[173-2008|173/2008 Sb.]]~~ Vyhláška o ukončení platnosti bankovek po 20 Kč vzoru 1994 a vzoru 1996 — *zrušeno 2024-01-01*
 - ~~[[174-2008|174/2008 Sb.]]~~ Vyhláška o ukončení platnosti mincí po 50 haléřích vzoru 1993 — *zrušeno 2024-01-01*
 - [[175-2008|175/2008 Sb.]] Sdělení Energetického regulačního úřadu o vydání cenového rozhodnutí
-- ~~[[176-2008|176/2008 Sb.]]~~ Nařízení vlády o technických požadavcích na strojní zařízení — *zrušeno 2027-01-20*
+- [[176-2008|176/2008 Sb.]] Nařízení vlády o technických požadavcích na strojní zařízení — *platí jen do 2027-01-19*
 - [[177-2008|177/2008 Sb.]] Zákon, kterým se mění zákon č. 141/1961 Sb., o trestním řízení soudním (trestní řád), ve znění pozdějších předpisů, a zákon č. 127/2005 Sb., o elektronických komunikacích a o změně některých souvisejících zákonů (zákon o elektronických komunikacích), ve znění pozdějších předpisů
 - [[178-2008|178/2008 Sb.]] Zákon, kterým se mění zákon č. 155/1995 Sb., o důchodovém pojištění, ve znění pozdějších předpisů
 - [[179-2008|179/2008 Sb.]] Zákon, kterým se mění zákon č. 77/2002 Sb., o akciové společnosti České dráhy, státní organizaci Správa železniční dopravní cesty a o změně zákona č. 266/1994 Sb., o dráhách, ve znění pozdějších předpisů, a zákona č. 77/1997 Sb., o státním podniku, ve znění pozdějších předpisů, ve znění nálezu Ústavního soudu vyhlášeného pod č. 83/2003 Sb., zákona č. 179/2003 Sb. a zákona č. 293/2004 Sb.
@@ -10170,7 +10170,7 @@ ke službě v bezpečnostních sborech
 - ~~[[168-2007|168/2007 Sb.]]~~ Vyhláška, kterou se mění vyhláška Ministerstva životního prostředí č. 381/2001 Sb., kterou se stanoví Katalog odpadů, Seznam nebezpečných odpadů a seznamy odpadů a států pro účely vývozu, dovozu a tranzitu odpadů a postup při udělování souhlasu k vývozu, dovozu a tranzitu odpadů (Katalog odpadů), ve znění vyhlášky č. 503/2004 Sb. — *zrušeno 2016-04-01*
 - [[169-2007|169/2007 Sb.]] Sdělení Ministerstva vnitra o vyhlášení nových voleb do zastupitelstva obce
 - [[170-2007|170/2007 Sb.]] Zákon, kterým se mění některé zákony v souvislosti se vstupem České republiky do schengenského prostoru
-- ~~[[171-2007|171/2007 Sb.]]~~ Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu a vývoje z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu a vývoje), ve znění pozdějších předpisů — *zrušeno 2027-01-01*
+- [[171-2007|171/2007 Sb.]] Zákon, kterým se mění zákon č. 130/2002 Sb., o podpoře výzkumu a vývoje z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu a vývoje), ve znění pozdějších předpisů — *platí jen do 2026-12-31*
 - [[172-2007|172/2007 Sb.]] Zákon, kterým se mění zákon č. 235/2004 Sb., o dani z přidané hodnoty, ve znění pozdějších předpisů
 - ~~[[173-2007|173/2007 Sb.]]~~ Zákon, kterým se mění zákon č. 191/1999 Sb., o opatřeních týkajících se dovozu, vývozu a zpětného vývozu zboží porušujícího některá práva duševního vlastnictví a o změně některých dalších zákonů, ve znění pozdějších předpisů — *zrušeno 2015-01-01*
 - [[174-2007|174/2007 Sb.]] Zákon, kterým se mění zákon č. 218/2000 Sb., o rozpočtových pravidlech a o změně některých souvisejících zákonů (rozpočtová pravidla), ve znění pozdějších předpisů, a zákon č. 97/1993 Sb., o působnosti Správy státních hmotných rezerv, ve znění pozdějších předpisů
@@ -10297,7 +10297,7 @@ ke službě v bezpečnostních sborech
 - [[295-2007|295/2007 Sb.]] Sdělení Energetického regulačního úřadu o vydání cenového rozhodnutí
 - [[296-2007|296/2007 Sb.]] Zákon, kterým se mění zákon č. 182/2006 Sb., o úpadku a způsobech jeho řešení (insolvenční zákon), ve znění pozdějších předpisů, a některé zákony v souvislosti s jeho přijetím
 - ~~[[297-2007|297/2007 Sb.]]~~ Zákon o poskytnutí státní záruky České republiky na zajištění úvěru poskytnutého společností EUROFIMA za účelem financování nákupu železničních kolejových vozidel — *zrušeno 2024-01-01*
-- ~~[[298-2007|298/2007 Sb.]]~~ Zákon, kterým se mění zákon č. 320/2001 Sb., o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole), ve znění pozdějších předpisů — *zrušeno 2027-01-01*
+- [[298-2007|298/2007 Sb.]] Zákon, kterým se mění zákon č. 320/2001 Sb., o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole), ve znění pozdějších předpisů — *platí jen do 2026-12-31*
 - [[299-2007|299/2007 Sb.]] Zákon, kterým se mění zákon č. 219/2003 Sb., o uvádění do oběhu osiva a sadby pěstovaných rostlin a o změně některých zákonů (zákon o oběhu osiva a sadby), ve znění zákona č. 444/2005 Sb. a zákona č. 178/2006 Sb.
 - [[300-2007|300/2007 Sb.]] Vyhláška o vyhlášení Národní přírodní památky Kopičácký rybník a stanovení jejích bližších ochranných podmínek
 - ~~[[301-2007|301/2007 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 132/2005 Sb., kterým se stanoví národní seznam evropsky významných lokalit — *zrušeno 2013-10-29*
@@ -11294,7 +11294,7 @@ ke službě v bezpečnostních sborech
 - [[74-2005-ms|74/2005 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Dohody mezi vládou České republiky a vládou Republiky Slovinsko o spolupráci v mezinárodní kombinované dopravě
 - [[75-2005|75/2005 Sb.]] Nařízení vlády o stanovení rozsahu přímé vyučovací, přímé výchovné, přímé speciálně pedagogické a přímé pedagogicko-psychologické činnosti pedagogických pracovníků
 - [[75-2005-ms|75/2005 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Smlouvy mezi Českou republikou a Spolkovou republikou Německo o změně průběhu společných státních hranic v prostoru dálničního mostu na hraničním přechodu Rozvadov - Waidhaus
-- ~~[[76-2005|76/2005 Sb.]]~~ Vyhláška o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění — *zrušeno 2027-01-01*
+- [[76-2005|76/2005 Sb.]] Vyhláška o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění — *platí jen do 2026-12-31*
 - [[76-2005-ms|76/2005 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí, kterým se mění sdělení č. 26/2005 Sb. m. s. o Smlouvě mezi Českou republikou a Slovenskou republikou o spolupráci v boji proti trestné činnosti, při ochraně veřejného pořádku a při ochraně státních hranic
 - ~~[[77-2005|77/2005 Sb.]]~~ Vyhláška, kterou se mění vyhláška Ministerstva zemědělství č. 451/2000 Sb., kterou se provádí zákon č. 91/1996 Sb., o krmivech, ve znění pozdějších předpisů — *zrušeno 2008-10-16*
 - [[77-2005-ms|77/2005 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o ukončení platnosti Smlouvy mezi Československou socialistickou republikou a Mongolskou lidovou republikou o úpravě dvojího státního občanství
@@ -12385,7 +12385,7 @@ ke službě v bezpečnostních sborech
 - [[413-2004|413/2004 Sb.]] Vyhláška o prohlášení území s historickým prostředím ve vybraných obcích a jejich částech za památkové zóny a určení podmínek pro jejich ochranu
 - ~~[[414-2004|414/2004 Sb.]]~~ Vyhláška o odměně nuceného správce, likvidátora a správce konkursní podstaty některých poskytovatelů služeb na kapitálovém trhu a o náhradě jejich hotových výdajů — *zrušeno 2014-01-01*
 - [[415-2004|415/2004 Sb.]] Rozhodnutí prezidenta republiky o vyhlášení doplňovacích voleb do Senátu Parlamentu České republiky
-- ~~[[416-2004|416/2004 Sb.]]~~ Vyhláška, kterou se provádí zákon č. 320/2001 Sb., o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole), ve znění zákona č. 309/2002 Sb., zákona č. 320/2002 Sb. a zákona č. 123/2003 Sb. — *zrušeno 2027-01-01*
+- [[416-2004|416/2004 Sb.]] Vyhláška, kterou se provádí zákon č. 320/2001 Sb., o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole), ve znění zákona č. 309/2002 Sb., zákona č. 320/2002 Sb. a zákona č. 123/2003 Sb. — *platí jen do 2026-12-31*
 - [[417-2004|417/2004 Sb.]] Zákon o patentových zástupcích a o změně zákona o opatřeních na ochranu průmyslového vlastnictví
 - [[418-2004|418/2004 Sb.]] Zákon, kterým se mění zákon č. 247/1995 Sb., o volbách do Parlamentu České republiky a o změně a doplnění některých dalších zákonů, ve znění pozdějších předpisů
 - [[419-2004|419/2004 Sb.]] Zákon, kterým se mění zákon č. 97/1993 Sb., o působnosti Správy státních hmotných rezerv, ve znění pozdějších předpisů
@@ -12917,7 +12917,7 @@ ke službě v bezpečnostních sborech
 - [[121-2003-ms|121/2003 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Dohody mezi vládou České republiky a vládou Slovenské republiky o válečných hrobech
 - ~~[[122-2003|122/2003 Sb.]]~~ Zákon o státním dluhopisovém programu na úhradu jistin státního dluhu splatných v letech 2003 a 2004 — *zrušeno 2024-01-01*
 - [[122-2003-ms|122/2003 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Dohody o spolupráci v oblasti obrany mezi vládou České republiky a vládou Indické republiky
-- ~~[[123-2003|123/2003 Sb.]]~~ Zákon, kterým se mění zákon č. 320/2001 Sb., o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole), ve znění pozdějších předpisů, a zákon č. 309/2002 Sb., o změně zákonů souvisejících s přijetím zákona o službě státních zaměstnanců ve správních úřadech a o odměňování těchto zaměstnanců a ostatních zaměstnanců ve správních úřadech (služební zákon) — *zrušeno 2027-01-01*
+- [[123-2003|123/2003 Sb.]] Zákon, kterým se mění zákon č. 320/2001 Sb., o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole), ve znění pozdějších předpisů, a zákon č. 309/2002 Sb., o změně zákonů souvisejících s přijetím zákona o službě státních zaměstnanců ve správních úřadech a o odměňování těchto zaměstnanců a ostatních zaměstnanců ve správních úřadech (služební zákon) — *platí jen do 2026-12-31*
 - [[123-2003-ms|123/2003 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o Úmluvě o sjednocení některých pravidel o mezinárodní letecké přepravě
 - [[124-2003|124/2003 Sb.]] Zákon, kterým se mění zákon č. 526/1990 Sb., o cenách, ve znění pozdějších předpisů
 - [[124-2003-ms|124/2003 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Dohody v oblasti sociálního zabezpečení mezi vládou České republiky a vládou Quebeku
@@ -13568,7 +13568,7 @@ ke službě v bezpečnostních sborech
 - [[128-2002-ms|128/2002 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Protokolu mezi Ministerstvem obrany České republiky a Ministerstvem národní obrany Litevské republiky o spolupráci litevského vojenského zdravotnického personálu s polní nemocnicí Armády České republiky
 - [[129-2002|129/2002 Sb.]] Zákon, kterým se mění zákon č. 221/1999 Sb., o vojácích z povolání, ve znění zákona č. 155/2000 Sb.
 - ~~[[129-2002-ms|129/2002 Sb. m. s.]]~~ Sdělení Ministerstva zahraničních věcí o sjednání Dohody mezi vládou České republiky a vládou Spojených států amerických o podpoře poskytované Ministerstvem obrany Spojených států amerických ozbrojeným silám České republiky během konání summitu NATO — *zrušeno 2002-12-01*
-- ~~[[130-2002|130/2002 Sb.]]~~ Zákon o podpoře výzkumu a vývoje z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu a vývoje) — *zrušeno 2027-01-01*
+- [[130-2002|130/2002 Sb.]] Zákon o podpoře výzkumu a vývoje z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu a vývoje) — *platí jen do 2026-12-31*
 - [[130-2002-ms|130/2002 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí o sjednání Smlouvy mezi Českou republikou a Svazovou republikou Jugoslávií o sociálním zabezpečení a Správního ujednání k provádění Smlouvy mezi Českou republikou a Svazovou republikou Jugoslávií o sociálním zabezpečení
 - [[131-2002|131/2002 Sb.]] Zákon o rozhodování některých kompetenčních sporů
 - [[131-2002-ms|131/2002 Sb. m. s.]] Sdělení Ministerstva zahraničních věcí, kterým se vyhlašuje nóta Ministerstva zahraničních věcí České republiky ke Smlouvě mezi Českou republikou a Spolkovou republikou Německo o spolupráci policejních orgánů a orgánů působících při ochraně státních hranic v příhraničních oblastech
@@ -14509,7 +14509,7 @@ ke službě v bezpečnostních sborech
 - [[317-2001|317/2001 Sb.]] Zákon, kterým se mění zákon č. 40/1964 Sb., občanský zákoník, ve znění pozdějších předpisů, a o změně dalších zákonů
 - ~~[[318-2001|318/2001 Sb.]]~~ Zákon o poskytování informací a další součinnosti pro účely řízení před Evropským soudem pro lidská práva a před Výborem OSN pro lidská práva — *zrušeno 2011-07-23*
 - [[319-2001|319/2001 Sb.]] Zákon, kterým se mění zákon č. 21/1992 Sb., o bankách, ve znění pozdějších předpisů
-- ~~[[320-2001|320/2001 Sb.]]~~ Zákon o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole) — *zrušeno 2027-01-01*
+- [[320-2001|320/2001 Sb.]] Zákon o finanční kontrole ve veřejné správě a o změně některých zákonů (zákon o finanční kontrole) — *platí jen do 2026-12-31*
 - ~~[[321-2001|321/2001 Sb.]]~~ Zákon o některých podmínkách sjednávání spotřebitelského úvěru a o změně zákona č. 64/1986 Sb. — *zrušeno 2011-01-01*
 - [[322-2001|322/2001 Sb.]] Nález Ústavního soudu ze dne 12. července 2001 ve věci návrhů na zrušení některých ustanovení zákona č. 148/1998 Sb., o ochraně utajovaných skutečností a o změně některých zákonů, ve znění pozdějších předpisů
 - ~~[[323-2001|323/2001 Sb.]]~~ Vyhláška Ministerstva vnitra, kterou se provádějí některá ustanovení zákona č. 238/2000 Sb., o Hasičském záchranném sboru České republiky a o změně některých zákonů — *zrušeno 2008-03-27*
@@ -15626,7 +15626,7 @@ ke službě v bezpečnostních sborech
 - ~~[[278-1999|278/1999 Sb.]]~~ Vyhláška Ministerstva obrany, kterou se stanoví rozsah odborné způsobilosti, podmínky k získání oprávnění k vedení vojenského plavidla, kvalifikační předpoklady vojenského zkušebního komisaře vůdců vojenských plavidel a vzory průkazů k vedení vojenských plavidel a vojenského zkušebního komisaře vůdců vojenských plavidel — *zrušeno 2010-08-01*
 - ~~[[279-1999|279/1999 Sb.]]~~ Vyhláška Ministerstva obrany , kterou se stanoví kategorie vojenského leteckého personálu, jejich kvalifikace a rozsah odborných znalostí a vzor průkazu vojenského leteckého personálu — *zrušeno 2026-01-01*
 - [[280-1999|280/1999 Sb.]] Vyhláška Ministerstva obrany, kterou se stanoví postup při uplatňování požadavku na určení věcných prostředků a jejich převzetí, postup při uplatňování požadavku na určení fyzických osob k pracovní výpomoci nebo k pracovní povinnosti a kterou se stanoví náležitosti a vzor dodávacího příkazu, náležitosti a vzor dokladu o převzetí věcného prostředku, náležitosti a vzor dokladu o vrácení věcného prostředku a náležitosti a vzor povolávacího příkazu
-- ~~[[281-1999|281/1999 Sb.]]~~ Vyhláška Ministerstva obrany, kterou se stanoví služba zdraví škodlivá nebo zvlášť obtížná a okruh služebních zařazení pro poskytování preventivní rehabilitace — *zrušeno 2027-01-01*
+- [[281-1999|281/1999 Sb.]] Vyhláška Ministerstva obrany, kterou se stanoví služba zdraví škodlivá nebo zvlášť obtížná a okruh služebních zařazení pro poskytování preventivní rehabilitace — *platí jen do 2026-12-31*
 - ~~[[282-1999|282/1999 Sb.]]~~ Vyhláška Ministerstva obrany o posuzování zdravotní způsobilosti vojenského leteckého personálu — *zrušeno 2025-05-15*
 - [[283-1999|283/1999 Sb.]] Nařízení vlády o úpravě náhrady za ztrátu na výdělku po skončení pracovní neschopnosti vzniklé pracovním úrazem nebo nemocí z povolání a o úpravě náhrady za ztrátu na výdělku po skončení pracovní neschopnosti nebo při invaliditě (úprava náhrady za ztrátu na výdělku)
 - ~~[[284-1999|284/1999 Sb.]]~~ Vyhláška Ministerstva financí, kterou se stanoví paušální částka za přijetí opatření celního úřadu — *zrušeno 2002-09-01*

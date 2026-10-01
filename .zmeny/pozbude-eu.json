@@ -1,0 +1,2371 @@
+{
+ "31970L0157": {
+  "pozbude_platnosti_k": "2027-06-30",
+  "zrusi": "32014R0540"
+ },
+ "31973L0350": {
+  "pozbude_platnosti_k": "2027-06-30",
+  "zrusi": "32014R0540"
+ },
+ "31977L0212": {
+  "pozbude_platnosti_k": "2027-06-30"
+ },
+ "31981L0334": {
+  "pozbude_platnosti_k": "2027-06-30"
+ },
+ "31984L0372": {
+  "pozbude_platnosti_k": "2027-06-30"
+ },
+ "31984L0424": {
+  "pozbude_platnosti_k": "2027-06-30"
+ },
+ "31985L0374": {
+  "pozbude_platnosti_k": "2026-12-08",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L2853"
+ },
+ "31987L0354": {
+  "pozbude_platnosti_k": "2027-06-30",
+  "zrusi": "32014R0540"
+ },
+ "31991L0271": {
+  "pozbude_platnosti_k": "2053-12-31",
+  "zrusi": "32024L3019"
+ },
+ "31992L0097": {
+  "pozbude_platnosti_k": "2027-06-30"
+ },
+ "31993L0109": {
+  "pozbude_platnosti_k": "2027-09-29",
+  "zrusi": "32025L1788"
+ },
+ "31994L0062": {
+  "pozbude_platnosti_k": "2028-12-31",
+  "pozbude_zcasti": "true",
+  "zrusi": "32025R0040"
+ },
+ "31994L0080": {
+  "pozbude_platnosti_k": "2028-06-25",
+  "zrusi": "32026L1194"
+ },
+ "31996L0020": {
+  "pozbude_platnosti_k": "2027-06-30"
+ },
+ "31996L0030": {
+  "pozbude_platnosti_k": "2028-06-25",
+  "zrusi": "32026L1194"
+ },
+ "31998L0015": {
+  "pozbude_platnosti_k": "2027-07-31",
+  "zrusi": "32024L3019"
+ },
+ "31998L0071": {
+  "pozbude_platnosti_k": "2027-12-08",
+  "zrusi": "32024L2823"
+ },
+ "31999L0034": {
+  "pozbude_platnosti_k": "2026-12-08",
+  "zrusi": "32024L2853"
+ },
+ "31999L0101": {
+  "pozbude_platnosti_k": "2027-06-30"
+ },
+ "31999L0105": {
+  "pozbude_platnosti_k": "2031-07-16",
+  "zrusi": "32026R1392"
+ },
+ "32000L0053": {
+  "pozbude_platnosti_k": "2032-08-30",
+  "zrusi": "32026R1738"
+ },
+ "32001L0034": {
+  "pozbude_platnosti_k": "2026-12-04",
+  "zrusi": "32024L2811"
+ },
+ "32001R2580": {
+  "pozbude_platnosti_k": "2027-02-22",
+  "pozbude_zcasti": "true"
+ },
+ "32002L0063": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R0765"
+ },
+ "32002L0098": {
+  "pozbude_platnosti_k": "2027-08-06",
+  "zrusi": "32024R1938"
+ },
+ "32003R0450": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32025R0941"
+ },
+ "32003R0807": {
+  "pozbude_platnosti_k": "2027-01-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023R1230"
+ },
+ "32003R1882": {
+  "pozbude_platnosti_k": "2027-07-31",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L3019"
+ },
+ "32004L0023": {
+  "pozbude_platnosti_k": "2027-08-06",
+  "zrusi": "32024R1938"
+ },
+ "32004L0107": {
+  "pozbude_platnosti_k": "2026-12-11",
+  "zrusi": "32024L2881"
+ },
+ "32004L0109": {
+  "pozbude_platnosti_k": "2026-12-04",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L2811"
+ },
+ "32004R0549": {
+  "pozbude_platnosti_k": "2026-12-02",
+  "zrusi": "32024R2803"
+ },
+ "32004R0550": {
+  "pozbude_platnosti_k": "2026-12-02",
+  "zrusi": "32024R2803"
+ },
+ "32004R0648": {
+  "pozbude_platnosti_k": "2029-09-22",
+  "zrusi": "32026R0405"
+ },
+ "32004R0885": {
+  "pozbude_platnosti_k": "2029-12-31",
+  "pozbude_zcasti": "true",
+  "zrusi": "32007D1482"
+ },
+ "32005L0001": {
+  "pozbude_platnosti_k": "2026-12-04",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L2811"
+ },
+ "32005L0064": {
+  "pozbude_platnosti_k": "2032-08-30",
+  "zrusi": "32026R1738"
+ },
+ "32005R0302": {
+  "pozbude_platnosti_k": "2028-10-15",
+  "zrusi": "32025R0974"
+ },
+ "32006L0042": {
+  "pozbude_platnosti_k": "2027-01-19",
+  "zrusi": "32023R1230"
+ },
+ "32006L0042R(02)": {
+  "pozbude_platnosti_k": "2027-01-19",
+  "zrusi": "32023R1230"
+ },
+ "32006L0042R(06)": {
+  "pozbude_platnosti_k": "2027-01-19",
+  "zrusi": "32023R1230"
+ },
+ "32006L0042R(07)": {
+  "pozbude_platnosti_k": "2027-01-19",
+  "zrusi": "32023R1230"
+ },
+ "32006L0066": {
+  "pozbude_platnosti_k": "2027-06-30",
+  "zrusi": "32023R1542"
+ },
+ "32006L0066R(01)": {
+  "pozbude_platnosti_k": "2027-06-30",
+  "zrusi": "32023R1542"
+ },
+ "32006L0066R(02)": {
+  "pozbude_platnosti_k": "2027-06-30",
+  "zrusi": "32023R1542"
+ },
+ "32006L0106": {
+  "pozbude_platnosti_k": "2028-06-25",
+  "zrusi": "32026L1194"
+ },
+ "32006L0126": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32006L0126R(05)": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32006L0126R(06)": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32006R0166": {
+  "pozbude_platnosti_k": "2027-12-31",
+  "zrusi": "32024R1244"
+ },
+ "32006R0401": {
+  "pozbude_platnosti_k": "2028-12-31",
+  "zrusi": "32023R2782"
+ },
+ "32006R0907": {
+  "pozbude_platnosti_k": "2029-09-22",
+  "zrusi": "32026R0405"
+ },
+ "32006R1013": {
+  "pozbude_platnosti_k": "2027-05-21",
+  "zrusi": "32024R1157"
+ },
+ "32006R1013R(02)": {
+  "pozbude_platnosti_k": "2027-05-21",
+  "zrusi": "32024R1157"
+ },
+ "32006R1013R(04)": {
+  "pozbude_platnosti_k": "2027-05-21",
+  "zrusi": "32024R1157"
+ },
+ "32006R1013R(06)": {
+  "pozbude_platnosti_k": "2027-05-21",
+  "zrusi": "32024R1157"
+ },
+ "32006R1893": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true",
+  "zrusi": "32025R0941"
+ },
+ "32006R1893R(02)": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true",
+  "zrusi": "32025R0941"
+ },
+ "32006R1950": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "zrusi": "32025R0901"
+ },
+ "32007L0034": {
+  "pozbude_platnosti_k": "2027-06-30"
+ },
+ "32007R0715": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32007R1418": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "zrusi": "32024R1157"
+ },
+ "32008L0033": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "zrusi": "32026R1738"
+ },
+ "32008L0048": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023L2225"
+ },
+ "32008L0048R(01)": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023L2225"
+ },
+ "32008L0048R(03)": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023L2225"
+ },
+ "32008L0048R(05)": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023L2225"
+ },
+ "32008L0048R(08)": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023L2225"
+ },
+ "32008L0050": {
+  "pozbude_platnosti_k": "2026-12-11",
+  "zrusi": "32024L2881"
+ },
+ "32008L0112": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "pozbude_zcasti": "true",
+  "zrusi": "32026R1738"
+ },
+ "32008R0453": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32025R0941"
+ },
+ "32008R0740": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "zrusi": "32024R1157"
+ },
+ "32008R0763": {
+  "pozbude_platnosti_k": "2027-12-31",
+  "zrusi": "32025R2458"
+ },
+ "32008R0889": {
+  "pozbude_platnosti_k": "2027-12-31",
+  "zrusi": "32021R1165"
+ },
+ "32008R1137": {
+  "pozbude_platnosti_k": "2027-07-31",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L3019"
+ },
+ "32008R1336": {
+  "pozbude_platnosti_k": "2029-09-22",
+  "zrusi": "32026R0405"
+ },
+ "32009L0001": {
+  "pozbude_platnosti_k": "2032-08-30",
+  "zrusi": "32026R1738"
+ },
+ "32009L0048": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32009L0048R(01)": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32009L0113": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32009L0125": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1781"
+ },
+ "32009L0127": {
+  "pozbude_platnosti_k": "2027-01-19",
+  "zrusi": "32023R1230"
+ },
+ "32009R0219": {
+  "pozbude_platnosti_k": "2026-12-11",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L2881"
+ },
+ "32009R0551": {
+  "pozbude_platnosti_k": "2029-09-22",
+  "zrusi": "32026R0405"
+ },
+ "32009R0595": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32009R0595R(02)": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32009R0596": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true",
+  "zrusi": "32025R0941"
+ },
+ "32009R0596R(01)": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true",
+  "zrusi": "32025R0941"
+ },
+ "32009R0967": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "zrusi": "32024R1157"
+ },
+ "32010R0461": {
+  "pozbude_platnosti_k": "2028-05-31"
+ },
+ "32010R0837": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "zrusi": "32024R1157"
+ },
+ "32010R0913": {
+  "pozbude_platnosti_k": "2030-12-13",
+  "zrusi": "32026R1184"
+ },
+ "32010R0995": {
+  "pozbude_platnosti_k": "2029-12-31"
+ },
+ "32010R1118": {
+  "pozbude_platnosti_k": "2026-10-10",
+  "zrusi": "32026R2086"
+ },
+ "32011L0037": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "zrusi": "32026R1738"
+ },
+ "32011L0090": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "zrusi": "32023L2225"
+ },
+ "32011L0094": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32011R0305": {
+  "pozbude_platnosti_k": "2040-01-07",
+  "zrusi": "32024R3110"
+ },
+ "32011R0305R(07)": {
+  "pozbude_platnosti_k": "2040-01-07",
+  "zrusi": "32024R3110"
+ },
+ "32011R0327": {
+  "pozbude_platnosti_k": "2037-07-23",
+  "zrusi": "32024R1834"
+ },
+ "32011R0404": {
+  "pozbude_platnosti_k": "2028-01-10",
+  "zrusi": "32025R2196"
+ },
+ "32011R0404R(01)": {
+  "pozbude_platnosti_k": "2028-01-10",
+  "zrusi": "32025R2196"
+ },
+ "32011R0547": {
+  "pozbude_platnosti_k": "2027-12-31",
+  "zrusi": "32026R1123"
+ },
+ "32011R0566": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32011R0582": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32011R0661": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "zrusi": "32024R1157"
+ },
+ "32011R1286": {
+  "pozbude_platnosti_k": "2027-06-26",
+  "zrusi": "32024L3017"
+ },
+ "32012L0007": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32012L0036": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32012R0064": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32012R0258": {
+  "pozbude_platnosti_k": "2029-02-11",
+  "zrusi": "32025R0041"
+ },
+ "32012R0258R(03)": {
+  "pozbude_platnosti_k": "2029-02-11",
+  "zrusi": "32025R0041"
+ },
+ "32012R0259": {
+  "pozbude_platnosti_k": "2029-09-22",
+  "zrusi": "32026R0405"
+ },
+ "32012R0383": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32012R0459": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32012R0674": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "zrusi": "32024R1157"
+ },
+ "32012R0978": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32012R0978R(02)": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32012R1081": {
+  "pozbude_platnosti_k": "2031-10-01",
+  "zrusi": "32026R1144"
+ },
+ "32012R1081R(01)": {
+  "pozbude_platnosti_k": "2031-10-01",
+  "zrusi": "32026R1144"
+ },
+ "32013L0001": {
+  "pozbude_platnosti_k": "2027-09-29",
+  "zrusi": "32025L1788"
+ },
+ "32013L0019": {
+  "pozbude_platnosti_k": "2028-06-25",
+  "zrusi": "32026L1194"
+ },
+ "32013L0022": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "pozbude_zcasti": "true",
+  "zrusi": "32025L2205"
+ },
+ "32013L0028": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "zrusi": "32026R1738"
+ },
+ "32013L0047": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32013L0064": {
+  "pozbude_platnosti_k": "2027-07-31",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L3019"
+ },
+ "32013R0057": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "zrusi": "32024R1157"
+ },
+ "32013R0122": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "zrusi": "32025R0901"
+ },
+ "32013R0154": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32013R0160": {
+  "pozbude_platnosti_k": "2026-10-10",
+  "pozbude_zcasti": "true",
+  "zrusi": "32026R2086"
+ },
+ "32013R0167": {
+  "pozbude_platnosti_k": "2027-01-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023R1230"
+ },
+ "32013R0519": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1157"
+ },
+ "32013R0519R(02)": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1157"
+ },
+ "32013R0667": {
+  "pozbude_platnosti_k": "2026-10-10",
+  "zrusi": "32026R2086"
+ },
+ "32013R0681": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32013R0952": {
+  "pozbude_platnosti_k": "2027-09-20",
+  "zrusi": "32026R2108"
+ },
+ "32013R0952R(01)": {
+  "pozbude_platnosti_k": "2027-09-20",
+  "zrusi": "32026R2108"
+ },
+ "32013R0952R(03)": {
+  "pozbude_platnosti_k": "2027-09-20",
+  "zrusi": "32026R2108"
+ },
+ "32013R0952R(06)": {
+  "pozbude_platnosti_k": "2027-09-20",
+  "zrusi": "32026R2108"
+ },
+ "32013R1260": {
+  "pozbude_platnosti_k": "2027-12-31",
+  "zrusi": "32025R2458"
+ },
+ "32013R1408": {
+  "pozbude_platnosti_k": "2032-12-31"
+ },
+ "32013R1421": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32014L0017": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023L2225"
+ },
+ "32014L0017R(03)": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023L2225"
+ },
+ "32014L0079": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32014L0081": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32014L0084": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32014L0085": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32014R0001": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32014R0133": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32014R0136": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32014R0182": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32014R0575": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32014R0627": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32014R0651": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32014R0651R(07)": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32014R0717": {
+  "pozbude_platnosti_k": "2029-12-31"
+ },
+ "32014R0733": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "zrusi": "32024R1157"
+ },
+ "32014R1015": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32014R1016": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32014R1386": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32015L0653": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32015L0849": {
+  "pozbude_platnosti_k": "2027-07-09",
+  "zrusi": "32024L1640"
+ },
+ "32015L1480": {
+  "pozbude_platnosti_k": "2026-12-11",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L2881"
+ },
+ "32015L1480R(01)": {
+  "pozbude_platnosti_k": "2026-12-11",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L2881"
+ },
+ "32015L1480R(02)": {
+  "pozbude_platnosti_k": "2026-12-11",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L2881"
+ },
+ "32015L2115": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32015L2116": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32015L2117": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32015R0602": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32015R1152": {
+  "pozbude_platnosti_k": "2026-10-10",
+  "zrusi": "32026R2084"
+ },
+ "32015R1426": {
+  "pozbude_platnosti_k": "2026-10-07",
+  "zrusi": "32026R2077"
+ },
+ "32015R1978": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32015R1979": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32015R2306": {
+  "pozbude_platnosti_k": "2026-10-14",
+  "zrusi": "32026R2129"
+ },
+ "32015R2307": {
+  "pozbude_platnosti_k": "2026-10-13",
+  "zrusi": "32026R2115"
+ },
+ "32016L0774": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "zrusi": "32026R1738"
+ },
+ "32016L1106": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32016L1106R(01)": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32016R0079": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32016R1011": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023L2225"
+ },
+ "32016R1718": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32016R2339": {
+  "pozbude_platnosti_k": "2027-09-20",
+  "zrusi": "32026R2108"
+ },
+ "32017L0738": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32017L0774": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32017L0898": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32017L2096": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "zrusi": "32026R1738"
+ },
+ "32017R0211": {
+  "pozbude_platnosti_k": "2026-10-10",
+  "zrusi": "32026R2130"
+ },
+ "32017R0217": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32017R0575": {
+  "pozbude_platnosti_k": "2028-08-11",
+  "zrusi": "32026R0825"
+ },
+ "32017R0575R(01)": {
+  "pozbude_platnosti_k": "2028-08-11",
+  "zrusi": "32026R0825"
+ },
+ "32017R0576": {
+  "pozbude_platnosti_k": "2028-08-11",
+  "zrusi": "32026R0825"
+ },
+ "32017R0576R(01)": {
+  "pozbude_platnosti_k": "2028-08-11",
+  "zrusi": "32026R0825"
+ },
+ "32017R0587": {
+  "pozbude_platnosti_k": "2027-01-01",
+  "pozbude_zcasti": "true"
+ },
+ "32017R0836": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32017R1084": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32017R1084R(02)": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32017R1151": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32017R1151R(02)": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32017R1154": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32017R1154R(01)": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32017R1347": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32017R1938": {
+  "pozbude_platnosti_k": "2027-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32017R2400": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32018L0645": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "pozbude_zcasti": "true",
+  "zrusi": "32025L2205"
+ },
+ "32018L0725": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32018L0843": {
+  "pozbude_platnosti_k": "2027-07-09",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L1640"
+ },
+ "32018L0849": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "pozbude_zcasti": "true",
+  "zrusi": "32026R1738"
+ },
+ "32018L0933": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32018R0148": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32018R0216": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32018R0858": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32018R0932": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32018R1832": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32018R1832R(05)": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32019L1922": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32019L1922R(01)": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32019L1929": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32019L2177": {
+  "pozbude_platnosti_k": "2027-07-09",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L1640"
+ },
+ "32019R0138": {
+  "pozbude_platnosti_k": "2026-10-10",
+  "pozbude_zcasti": "true",
+  "zrusi": "32026R2086"
+ },
+ "32019R0316": {
+  "pozbude_platnosti_k": "2032-12-31"
+ },
+ "32019R0318": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32019R0452": {
+  "pozbude_platnosti_k": "2028-01-16",
+  "zrusi": "32026R1386"
+ },
+ "32019R0474": {
+  "pozbude_platnosti_k": "2027-09-20",
+  "zrusi": "32026R2108"
+ },
+ "32019R0632": {
+  "pozbude_platnosti_k": "2027-09-20",
+  "zrusi": "32026R2108"
+ },
+ "32019R1010": {
+  "pozbude_platnosti_k": "2026-12-29",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1244"
+ },
+ "32019R1242": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32019R1243": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023L2225"
+ },
+ "32019R1782": {
+  "pozbude_platnosti_k": "2033-12-13",
+  "zrusi": "32025R2052"
+ },
+ "32019R1939": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32019R1939R(01)": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32020L0362": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "zrusi": "32026R1738"
+ },
+ "32020L0362R(01)": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "zrusi": "32026R1738"
+ },
+ "32020L0363": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "zrusi": "32026R1738"
+ },
+ "32020L0363R(01)": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "zrusi": "32026R1738"
+ },
+ "32020L0363R(02)": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "zrusi": "32026R1738"
+ },
+ "32020L0612": {
+  "pozbude_platnosti_k": "2029-11-25",
+  "zrusi": "32025L2205"
+ },
+ "32020L2088": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32020L2089": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32020R0049": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32020R0128": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32020R0129": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32020R0550": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32020R0972": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32020R1181": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024R1257"
+ },
+ "32020R1298": {
+  "pozbude_platnosti_k": "2028-01-16",
+  "zrusi": "32026R1386"
+ },
+ "32020R1377": {
+  "pozbude_platnosti_k": "2026-10-10",
+  "zrusi": "32026R2130"
+ },
+ "32020R1785": {
+  "pozbude_platnosti_k": "2027-12-31"
+ },
+ "32020R2008": {
+  "pozbude_platnosti_k": "2029-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32021L0903": {
+  "pozbude_platnosti_k": "2030-07-31",
+  "zrusi": "32025R2509"
+ },
+ "32021L2167": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023L2225"
+ },
+ "32021L2167R(02)": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023L2225"
+ },
+ "32021L2167R(04)": {
+  "pozbude_platnosti_k": "2026-11-19",
+  "pozbude_zcasti": "true",
+  "zrusi": "32023L2225"
+ },
+ "32021R0114": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32021R0451": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32024R3117"
+ },
+ "32021R0451R(01)": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32024R3117"
+ },
+ "32021R0452": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32021R0576": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32021R0637": {
+  "pozbude_platnosti_k": "2026-12-30",
+  "zrusi": "32024R3172"
+ },
+ "32021R1018": {
+  "pozbude_platnosti_k": "2026-12-30",
+  "zrusi": "32024R3172"
+ },
+ "32021R1237": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32021R1342": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32021R1413": {
+  "pozbude_platnosti_k": "2026-10-10",
+  "zrusi": "32026R2130"
+ },
+ "32021R1784": {
+  "pozbude_platnosti_k": "2026-10-12"
+ },
+ "32021R1805": {
+  "pozbude_platnosti_k": "2026-10-14"
+ },
+ "32021R1840": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "zrusi": "32024R1157"
+ },
+ "32021R1930": {
+  "pozbude_platnosti_k": "2026-11-10"
+ },
+ "32021R1976": {
+  "pozbude_platnosti_k": "2026-11-16"
+ },
+ "32021R2048": {
+  "pozbude_platnosti_k": "2031-12-31"
+ },
+ "32021R2126": {
+  "pozbude_platnosti_k": "2028-01-16",
+  "zrusi": "32026R1386"
+ },
+ "32021R2127": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32021R2170": {
+  "pozbude_platnosti_k": "2026-12-09"
+ },
+ "32021R2239": {
+  "pozbude_platnosti_k": "2026-12-17"
+ },
+ "32021R2287": {
+  "pozbude_platnosti_k": "2026-12-23"
+ },
+ "32022L2381": {
+  "pozbude_platnosti_k": "2038-12-31"
+ },
+ "32022R0030": {
+  "pozbude_platnosti_k": "2027-12-10",
+  "zrusi": "32026R0339"
+ },
+ "32022R0058": {
+  "pozbude_platnosti_k": "2027-01-18"
+ },
+ "32022R0072": {
+  "pozbude_platnosti_k": "2027-01-20"
+ },
+ "32022R0095": {
+  "pozbude_platnosti_k": "2027-01-26"
+ },
+ "32022R0116": {
+  "pozbude_platnosti_k": "2027-01-29"
+ },
+ "32022R0185": {
+  "pozbude_platnosti_k": "2026-12-30",
+  "zrusi": "32024R3117"
+ },
+ "32022R0191": {
+  "pozbude_platnosti_k": "2027-02-18"
+ },
+ "32022R0402": {
+  "pozbude_platnosti_k": "2027-03-11"
+ },
+ "32022R0468": {
+  "pozbude_platnosti_k": "2027-03-25"
+ },
+ "32022R0469": {
+  "pozbude_platnosti_k": "2027-01-20"
+ },
+ "32022R0478": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32022R0520": {
+  "pozbude_platnosti_k": "2027-05-20",
+  "zrusi": "32024R1157"
+ },
+ "32022R0547": {
+  "pozbude_platnosti_k": "2027-04-07"
+ },
+ "32022R0558": {
+  "pozbude_platnosti_k": "2027-04-08"
+ },
+ "32022R0558R(01)": {
+  "pozbude_platnosti_k": "2027-04-08"
+ },
+ "32022R0558R(03)": {
+  "pozbude_platnosti_k": "2027-04-08"
+ },
+ "32022R0612": {
+  "pozbude_platnosti_k": "2032-06-30"
+ },
+ "32022R0631": {
+  "pozbude_platnosti_k": "2026-12-30",
+  "zrusi": "32024R3172"
+ },
+ "32022R0632": {
+  "pozbude_platnosti_k": "2028-03-31"
+ },
+ "32022R0674": {
+  "pozbude_platnosti_k": "2027-01-26"
+ },
+ "32022R0720": {
+  "pozbude_platnosti_k": "2034-05-31"
+ },
+ "32022R0807": {
+  "pozbude_platnosti_k": "2027-02-18"
+ },
+ "32022R0926": {
+  "pozbude_platnosti_k": "2027-06-17"
+ },
+ "32022R0927": {
+  "pozbude_platnosti_k": "2027-06-17"
+ },
+ "32022R1013": {
+  "pozbude_platnosti_k": "2027-06-29"
+ },
+ "32022R1292": {
+  "pozbude_platnosti_k": "2026-11-16"
+ },
+ "32022R1305": {
+  "pozbude_platnosti_k": "2027-07-27"
+ },
+ "32022R1362": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32022R1379": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32022R1387": {
+  "pozbude_platnosti_k": "2027-01-18"
+ },
+ "32022R1395": {
+  "pozbude_platnosti_k": "2027-08-13"
+ },
+ "32022R1924": {
+  "pozbude_platnosti_k": "2027-10-12"
+ },
+ "32022R1994": {
+  "pozbude_platnosti_k": "2026-12-30"
+ },
+ "32022R2046": {
+  "pozbude_platnosti_k": "2032-12-31"
+ },
+ "32022R2068": {
+  "pozbude_platnosti_k": "2027-10-28"
+ },
+ "32022R2095": {
+  "pozbude_platnosti_k": "2029-12-31"
+ },
+ "32022R2189": {
+  "pozbude_platnosti_k": "2026-10-12"
+ },
+ "32022R2247": {
+  "pozbude_platnosti_k": "2027-11-17"
+ },
+ "32022R2383": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32022R2399": {
+  "pozbude_platnosti_k": "2027-09-20",
+  "pozbude_zcasti": "true",
+  "zrusi": "32026R2108"
+ },
+ "32022R2453": {
+  "pozbude_platnosti_k": "2026-12-30",
+  "zrusi": "32024R3172"
+ },
+ "32022R2472": {
+  "pozbude_platnosti_k": "2029-12-31"
+ },
+ "32022R2473": {
+  "pozbude_platnosti_k": "2029-12-31"
+ },
+ "32022R2514": {
+  "pozbude_platnosti_k": "2029-12-31"
+ },
+ "32023L0544": {
+  "pozbude_platnosti_k": "2028-08-31",
+  "zrusi": "32026R1738"
+ },
+ "32023R0099": {
+  "pozbude_platnosti_k": "2028-01-13"
+ },
+ "32023R0111": {
+  "pozbude_platnosti_k": "2028-01-20"
+ },
+ "32023R0112": {
+  "pozbude_platnosti_k": "2028-01-20"
+ },
+ "32023R0265": {
+  "pozbude_platnosti_k": "2028-02-11"
+ },
+ "32023R0265R(01)": {
+  "pozbude_platnosti_k": "2028-02-11"
+ },
+ "32023R0265R(02)": {
+  "pozbude_platnosti_k": "2028-02-11"
+ },
+ "32023R0265R(03)": {
+  "pozbude_platnosti_k": "2028-02-11"
+ },
+ "32023R0443": {
+  "pozbude_platnosti_k": "2030-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32023R0593": {
+  "pozbude_platnosti_k": "2028-03-18"
+ },
+ "32023R0594": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R0737": {
+  "pozbude_platnosti_k": "2028-04-06"
+ },
+ "32023R0737R(01)": {
+  "pozbude_platnosti_k": "2028-04-06"
+ },
+ "32023R0738": {
+  "pozbude_platnosti_k": "2028-04-06"
+ },
+ "32023R0738R(01)": {
+  "pozbude_platnosti_k": "2028-04-06"
+ },
+ "32023R0752": {
+  "pozbude_platnosti_k": "2028-04-14"
+ },
+ "32023R0809": {
+  "pozbude_platnosti_k": "2028-04-15"
+ },
+ "32023R0809R(01)": {
+  "pozbude_platnosti_k": "2028-04-15"
+ },
+ "32023R0917": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32023R0934": {
+  "pozbude_platnosti_k": "2028-05-13"
+ },
+ "32023R0935": {
+  "pozbude_platnosti_k": "2028-05-13"
+ },
+ "32023R0968": {
+  "pozbude_platnosti_k": "2028-05-18"
+ },
+ "32023R1050": {
+  "pozbude_platnosti_k": "2028-06-01"
+ },
+ "32023R1066": {
+  "pozbude_platnosti_k": "2035-06-30"
+ },
+ "32023R1067": {
+  "pozbude_platnosti_k": "2035-06-30"
+ },
+ "32023R1080": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R1102": {
+  "pozbude_platnosti_k": "2028-06-08"
+ },
+ "32023R1103": {
+  "pozbude_platnosti_k": "2028-06-08"
+ },
+ "32023R1113": {
+  "pozbude_platnosti_k": "2027-07-09",
+  "pozbude_zcasti": "true",
+  "zrusi": "32024L1640"
+ },
+ "32023R1122": {
+  "pozbude_platnosti_k": "2028-06-09"
+ },
+ "32023R1123": {
+  "pozbude_platnosti_k": "2028-06-09"
+ },
+ "32023R1134": {
+  "pozbude_platnosti_k": "2028-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32023R1159": {
+  "pozbude_platnosti_k": "2028-06-15"
+ },
+ "32023R1300": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R1310": {
+  "pozbude_platnosti_k": "2028-12-31"
+ },
+ "32023R1315": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32023R1315R(02)": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32023R1330": {
+  "pozbude_platnosti_k": "2028-07-01"
+ },
+ "32023R1404": {
+  "pozbude_platnosti_k": "2028-07-05"
+ },
+ "32023R1450": {
+  "pozbude_platnosti_k": "2028-07-15"
+ },
+ "32023R1452": {
+  "pozbude_platnosti_k": "2028-07-15"
+ },
+ "32023R1485": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R1590": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R1597": {
+  "pozbude_platnosti_k": "2028-02-11"
+ },
+ "32023R1618": {
+  "pozbude_platnosti_k": "2028-08-10"
+ },
+ "32023R1643": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R1647": {
+  "pozbude_platnosti_k": "2028-08-23"
+ },
+ "32023R1648": {
+  "pozbude_platnosti_k": "2028-08-23"
+ },
+ "32023R1677": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R1799": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R2159": {
+  "pozbude_platnosti_k": "2027-02-18"
+ },
+ "32023R2213": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R2391": {
+  "pozbude_platnosti_k": "2029-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32023R2396": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R2399": {
+  "pozbude_platnosti_k": "2031-06-30",
+  "zrusi": "32024R1257"
+ },
+ "32023R2421": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R2444": {
+  "pozbude_platnosti_k": "2027-12-10",
+  "zrusi": "32026R0339"
+ },
+ "32023R2459": {
+  "pozbude_platnosti_k": "2027-12-31"
+ },
+ "32023R2460": {
+  "pozbude_platnosti_k": "2027-12-31"
+ },
+ "32023R2462": {
+  "pozbude_platnosti_k": "2027-12-31"
+ },
+ "32023R2469": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R2602": {
+  "pozbude_platnosti_k": "2027-02-18"
+ },
+ "32023R2607": {
+  "pozbude_platnosti_k": "2029-12-31"
+ },
+ "32023R2623": {
+  "pozbude_platnosti_k": "2027-12-31"
+ },
+ "32023R2663": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32023R2708": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R2720": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32023R2720R(01)": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32023R2720R(02)": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32023R2757": {
+  "pozbude_platnosti_k": "2028-12-15"
+ },
+ "32023R2758": {
+  "pozbude_platnosti_k": "2028-12-14"
+ },
+ "32023R2831": {
+  "pozbude_platnosti_k": "2030-12-31"
+ },
+ "32023R2832": {
+  "pozbude_platnosti_k": "2030-12-31"
+ },
+ "32023R2832R(01)": {
+  "pozbude_platnosti_k": "2030-12-31"
+ },
+ "32023R2894": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32023R2918": {
+  "pozbude_platnosti_k": "2027-12-31"
+ },
+ "32024R0209": {
+  "pozbude_platnosti_k": "2029-01-12"
+ },
+ "32024R0257": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32024R0257R(01)": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32024R0257R(02)": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32024R0288": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32024R0323": {
+  "pozbude_platnosti_k": "2034-05-31"
+ },
+ "32024R0357": {
+  "pozbude_platnosti_k": "2029-01-25"
+ },
+ "32024R0360": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32024R0413": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R0483": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R0493": {
+  "pozbude_platnosti_k": "2029-02-14"
+ },
+ "32024R0670": {
+  "pozbude_platnosti_k": "2029-02-28"
+ },
+ "32024R0760": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R0770": {
+  "pozbude_platnosti_k": "2029-03-06"
+ },
+ "32024R0804": {
+  "pozbude_platnosti_k": "2028-02-11"
+ },
+ "32024R0808": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R0819": {
+  "pozbude_platnosti_k": "2029-03-12"
+ },
+ "32024R0823": {
+  "pozbude_platnosti_k": "2030-12-31"
+ },
+ "32024R0844": {
+  "pozbude_platnosti_k": "2029-03-15"
+ },
+ "32024R0855": {
+  "pozbude_platnosti_k": "2026-12-30",
+  "zrusi": "32024R3117"
+ },
+ "32024R0870": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R0892": {
+  "pozbude_platnosti_k": "2031-03-26"
+ },
+ "32024R0968": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R1040": {
+  "pozbude_platnosti_k": "2029-04-03"
+ },
+ "32024R1171": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R1221": {
+  "pozbude_platnosti_k": "2028-02-11"
+ },
+ "32024R1223": {
+  "pozbude_platnosti_k": "2028-02-11"
+ },
+ "32024R1269": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R1287": {
+  "pozbude_platnosti_k": "2026-11-10"
+ },
+ "32024R1296": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32024R1363": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32024R1388": {
+  "pozbude_platnosti_k": "2027-12-31"
+ },
+ "32024R1454": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R1475": {
+  "pozbude_platnosti_k": "2029-06-01"
+ },
+ "32024R1513": {
+  "pozbude_platnosti_k": "2027-02-18"
+ },
+ "32024R1661": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R1666": {
+  "pozbude_platnosti_k": "2029-06-08"
+ },
+ "32024R1679": {
+  "pozbude_platnosti_k": "2030-12-13",
+  "pozbude_zcasti": "true",
+  "zrusi": "32026R1184"
+ },
+ "32024R1679R(01)": {
+  "pozbude_platnosti_k": "2030-12-13",
+  "pozbude_zcasti": "true",
+  "zrusi": "32026R1184"
+ },
+ "32024R1742": {
+  "pozbude_platnosti_k": "2027-08-25"
+ },
+ "32024R1857": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R1919": {
+  "pozbude_platnosti_k": "2028-02-11"
+ },
+ "32024R1940": {
+  "pozbude_platnosti_k": "2029-04-03"
+ },
+ "32024R1946": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R1994": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2051": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2137": {
+  "pozbude_platnosti_k": "2029-06-01"
+ },
+ "32024R2139": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2160": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2167": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2187": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2211": {
+  "pozbude_platnosti_k": "2029-09-07"
+ },
+ "32024R2217": {
+  "pozbude_platnosti_k": "2028-04-06"
+ },
+ "32024R2219": {
+  "pozbude_platnosti_k": "2028-04-06"
+ },
+ "32024R2392": {
+  "pozbude_platnosti_k": "2027-02-18"
+ },
+ "32024R2415": {
+  "pozbude_platnosti_k": "2029-09-14"
+ },
+ "32024R2425": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2461": {
+  "pozbude_platnosti_k": "2028-08-10"
+ },
+ "32024R2491": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2526": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2656": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2661": {
+  "pozbude_platnosti_k": "2029-10-16"
+ },
+ "32024R2729": {
+  "pozbude_platnosti_k": "2028-12-31"
+ },
+ "32024R2754": {
+  "pozbude_platnosti_k": "2029-10-30"
+ },
+ "32024R2825": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2886": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2910": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32024R2928": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32024R2959": {
+  "pozbude_platnosti_k": "2031-12-22"
+ },
+ "32024R2960": {
+  "pozbude_platnosti_k": "2027-03-31"
+ },
+ "32024R2970": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32024R2992": {
+  "pozbude_platnosti_k": "2027-12-31"
+ },
+ "32024R3014": {
+  "pozbude_platnosti_k": "2029-12-17"
+ },
+ "32024R3118": {
+  "pozbude_platnosti_k": "2032-12-31"
+ },
+ "32024R3120": {
+  "pozbude_platnosti_k": "2028-12-31"
+ },
+ "32024R3122": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32024R3193": {
+  "pozbude_platnosti_k": "2029-12-21"
+ },
+ "32024R3201": {
+  "pozbude_platnosti_k": "2027-03-17"
+ },
+ "32024R3229": {
+  "pozbude_platnosti_k": "2027-05-21"
+ },
+ "32024R3245": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R0036": {
+  "pozbude_platnosti_k": "2030-01-11"
+ },
+ "32025R0045": {
+  "pozbude_platnosti_k": "2030-01-10"
+ },
+ "32025R0058": {
+  "pozbude_platnosti_k": "2030-01-17"
+ },
+ "32025R0060": {
+  "pozbude_platnosti_k": "2030-01-17"
+ },
+ "32025R0061": {
+  "pozbude_platnosti_k": "2030-01-17"
+ },
+ "32025R0100": {
+  "pozbude_platnosti_k": "2030-01-22"
+ },
+ "32025R0114": {
+  "pozbude_platnosti_k": "2030-01-25"
+ },
+ "32025R0120": {
+  "pozbude_platnosti_k": "2030-01-25"
+ },
+ "32025R0164": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R0202": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32025R0202R(01)": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "pozbude_zcasti": "true"
+ },
+ "32025R0214": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32025R0258": {
+  "pozbude_platnosti_k": "2031-06-30"
+ },
+ "32025R0261": {
+  "pozbude_platnosti_k": "2030-02-12"
+ },
+ "32025R0261R(01)": {
+  "pozbude_platnosti_k": "2030-02-12"
+ },
+ "32025R0266": {
+  "pozbude_platnosti_k": "2030-01-10"
+ },
+ "32025R0268": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R0325": {
+  "pozbude_platnosti_k": "2030-02-20"
+ },
+ "32025R0431": {
+  "pozbude_platnosti_k": "2030-01-25"
+ },
+ "32025R0448": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R0498": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R0500": {
+  "pozbude_platnosti_k": "2030-03-15"
+ },
+ "32025R0501": {
+  "pozbude_platnosti_k": "2030-03-20"
+ },
+ "32025R0505": {
+  "pozbude_platnosti_k": "2028-03-31"
+ },
+ "32025R0624": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R0659": {
+  "pozbude_platnosti_k": "2029-09-30"
+ },
+ "32025R0715": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R0796": {
+  "pozbude_platnosti_k": "2030-04-26"
+ },
+ "32025R0826": {
+  "pozbude_platnosti_k": "2030-02-12"
+ },
+ "32025R0828": {
+  "pozbude_platnosti_k": "2030-03-15"
+ },
+ "32025R0835": {
+  "pozbude_platnosti_k": "2030-05-07"
+ },
+ "32025R0854": {
+  "pozbude_platnosti_k": "2027-08-31",
+  "zrusi": "32026R0748"
+ },
+ "32025R0856": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32025R0862": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R0902": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R1042": {
+  "pozbude_platnosti_k": "2030-05-29"
+ },
+ "32025R1042R(01)": {
+  "pozbude_platnosti_k": "2030-05-29"
+ },
+ "32025R1072": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R1078": {
+  "pozbude_platnosti_k": "2028-04-30"
+ },
+ "32025R1082": {
+  "pozbude_platnosti_k": "2028-04-30"
+ },
+ "32025R1135": {
+  "pozbude_platnosti_k": "2029-12-17"
+ },
+ "32025R1151": {
+  "pozbude_platnosti_k": "2030-06-13"
+ },
+ "32025R1153": {
+  "pozbude_platnosti_k": "2028-06-05"
+ },
+ "32025R1202": {
+  "pozbude_platnosti_k": "2027-04-08"
+ },
+ "32025R1242": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R1289": {
+  "pozbude_platnosti_k": "2029-11-30"
+ },
+ "32025R1304": {
+  "pozbude_platnosti_k": "2030-07-03"
+ },
+ "32025R1309": {
+  "pozbude_platnosti_k": "2030-07-04"
+ },
+ "32025R1316": {
+  "pozbude_platnosti_k": "2029-04-30"
+ },
+ "32025R1330": {
+  "pozbude_platnosti_k": "2030-07-12"
+ },
+ "32025R1356": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R1459": {
+  "pozbude_platnosti_k": "2030-01-22"
+ },
+ "32025R1484": {
+  "pozbude_platnosti_k": "2030-12-31"
+ },
+ "32025R1501": {
+  "pozbude_platnosti_k": "2027-02-18"
+ },
+ "32025R1505": {
+  "pozbude_platnosti_k": "2030-07-29"
+ },
+ "32025R1506": {
+  "pozbude_platnosti_k": "2030-07-26"
+ },
+ "32025R1508": {
+  "pozbude_platnosti_k": "2030-07-26"
+ },
+ "32025R1543": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R1717": {
+  "pozbude_platnosti_k": "2030-08-07"
+ },
+ "32025R1720": {
+  "pozbude_platnosti_k": "2030-08-08"
+ },
+ "32025R1725": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R1748": {
+  "pozbude_platnosti_k": "2030-08-20"
+ },
+ "32025R1753": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R1763": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R1866": {
+  "pozbude_platnosti_k": "2030-02-12"
+ },
+ "32025R1868": {
+  "pozbude_platnosti_k": "2030-05-07"
+ },
+ "32025R1882": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R1890": {
+  "pozbude_platnosti_k": "2030-09-20"
+ },
+ "32025R1901": {
+  "pozbude_platnosti_k": "2030-09-24"
+ },
+ "32025R1909": {
+  "pozbude_platnosti_k": "2027-12-31"
+ },
+ "32025R1919": {
+  "pozbude_platnosti_k": "2030-09-27"
+ },
+ "32025R1924": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R1951": {
+  "pozbude_platnosti_k": "2026-12-31",
+  "zrusi": "32026R1395"
+ },
+ "32025R1981": {
+  "pozbude_platnosti_k": "2030-10-09"
+ },
+ "32025R1985": {
+  "pozbude_platnosti_k": "2029-12-17"
+ },
+ "32025R1989": {
+  "pozbude_platnosti_k": "2032-12-31"
+ },
+ "32025R2014": {
+  "pozbude_platnosti_k": "2030-12-31"
+ },
+ "32025R2051": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R2081": {
+  "pozbude_platnosti_k": "2030-10-21"
+ },
+ "32025R2118": {
+  "pozbude_platnosti_k": "2030-10-23"
+ },
+ "32025R2146": {
+  "pozbude_platnosti_k": "2030-10-24"
+ },
+ "32025R2147": {
+  "pozbude_platnosti_k": "2029-02-14"
+ },
+ "32025R2148": {
+  "pozbude_platnosti_k": "2028-02-11"
+ },
+ "32025R2149": {
+  "pozbude_platnosti_k": "2026-11-16"
+ },
+ "32025R2153": {
+  "pozbude_platnosti_k": "2030-10-24"
+ },
+ "32025R2189": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R2192": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32025R2235": {
+  "pozbude_platnosti_k": "2028-04-30"
+ },
+ "32025R2250": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R2294": {
+  "pozbude_platnosti_k": "2030-12-01"
+ },
+ "32025R2333": {
+  "pozbude_platnosti_k": "2030-11-21"
+ },
+ "32025R2337": {
+  "pozbude_platnosti_k": "2028-07-15"
+ },
+ "32025R2351": {
+  "pozbude_platnosti_k": "2028-11-17"
+ },
+ "32025R2386": {
+  "pozbude_platnosti_k": "2030-11-29"
+ },
+ "32025R2388": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32025R2454": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32025R2461": {
+  "pozbude_platnosti_k": "2029-12-31"
+ },
+ "32025R2537": {
+  "pozbude_platnosti_k": "2032-12-18"
+ },
+ "32025R2589": {
+  "pozbude_platnosti_k": "2030-12-20"
+ },
+ "32025R2592": {
+  "pozbude_platnosti_k": "2028-12-31"
+ },
+ "32025R2593": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32025R2599": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32025R2629": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026L0192": {
+  "pozbude_platnosti_k": "2030-07-31"
+ },
+ "32026R0059": {
+  "pozbude_platnosti_k": "2030-12-31"
+ },
+ "32026R0065": {
+  "pozbude_platnosti_k": "2031-01-08"
+ },
+ "32026R0071": {
+  "pozbude_platnosti_k": "2031-01-14"
+ },
+ "32026R0097": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R0099": {
+  "pozbude_platnosti_k": "2031-01-17"
+ },
+ "32026R0114": {
+  "pozbude_platnosti_k": "2031-01-17"
+ },
+ "32026R0157": {
+  "pozbude_platnosti_k": "2031-01-27"
+ },
+ "32026R0159": {
+  "pozbude_platnosti_k": "2027-01-22"
+ },
+ "32026R0160": {
+  "pozbude_platnosti_k": "2027-01-22"
+ },
+ "32026R0191": {
+  "pozbude_platnosti_k": "2028-02-11"
+ },
+ "32026R0198": {
+  "pozbude_platnosti_k": "2026-12-17"
+ },
+ "32026R0229": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R0244": {
+  "pozbude_platnosti_k": "2031-02-05"
+ },
+ "32026R0249": {
+  "pozbude_platnosti_k": "2026-11-30",
+  "pozbude_zcasti": "true"
+ },
+ "32026R0266": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32026R0266R(01)": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32026R0274": {
+  "pozbude_platnosti_k": "2030-10-09"
+ },
+ "32026R0274R(02)": {
+  "pozbude_platnosti_k": "2030-10-09"
+ },
+ "32026R0276": {
+  "pozbude_platnosti_k": "2031-02-07"
+ },
+ "32026R0280": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R0286": {
+  "pozbude_platnosti_k": "2029-12-31"
+ },
+ "32026R0292": {
+  "pozbude_platnosti_k": "2028-12-31"
+ },
+ "32026R0294": {
+  "pozbude_platnosti_k": "2028-04-30"
+ },
+ "32026R0316": {
+  "pozbude_platnosti_k": "2031-02-14"
+ },
+ "32026R0319": {
+  "pozbude_platnosti_k": "2031-02-14"
+ },
+ "32026R0339": {
+  "pozbude_platnosti_k": "2027-12-10"
+ },
+ "32026R0347": {
+  "pozbude_platnosti_k": "2031-02-19"
+ },
+ "32026R0356": {
+  "pozbude_platnosti_k": "2026-10-10",
+  "zrusi": "32026R2130"
+ },
+ "32026R0361": {
+  "pozbude_platnosti_k": "2031-06-30"
+ },
+ "32026R0428": {
+  "pozbude_platnosti_k": "2031-02-27"
+ },
+ "32026R0450": {
+  "pozbude_platnosti_k": "2028-01-10",
+  "pozbude_zcasti": "true"
+ },
+ "32026R0479": {
+  "pozbude_platnosti_k": "2031-03-05"
+ },
+ "32026R0483": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R0507": {
+  "pozbude_platnosti_k": "2027-12-31"
+ },
+ "32026R0562": {
+  "pozbude_platnosti_k": "2034-12-31"
+ },
+ "32026R0568": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R0586": {
+  "pozbude_platnosti_k": "2031-03-19"
+ },
+ "32026R0698": {
+  "pozbude_platnosti_k": "2029-12-17"
+ },
+ "32026R0701": {
+  "pozbude_platnosti_k": "2027-02-18"
+ },
+ "32026R0704": {
+  "pozbude_platnosti_k": "2027-04-08"
+ },
+ "32026R0709": {
+  "pozbude_platnosti_k": "2030-09-20"
+ },
+ "32026R0716": {
+  "pozbude_platnosti_k": "2028-07-15"
+ },
+ "32026R0767": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R0786": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32026R0801": {
+  "pozbude_platnosti_k": "2026-10-11"
+ },
+ "32026R0822": {
+  "pozbude_platnosti_k": "2031-04-16"
+ },
+ "32026R0824": {
+  "pozbude_platnosti_k": "2027-08-31"
+ },
+ "32026R0831": {
+  "pozbude_platnosti_k": "2031-04-16"
+ },
+ "32026R0843": {
+  "pozbude_platnosti_k": "2030-05-29"
+ },
+ "32026R0877": {
+  "pozbude_platnosti_k": "2038-04-30"
+ },
+ "32026R0913": {
+  "pozbude_platnosti_k": "2031-05-06"
+ },
+ "32026R0913R(02)": {
+  "pozbude_platnosti_k": "2031-05-06"
+ },
+ "32026R0921": {
+  "pozbude_platnosti_k": "2028-12-31"
+ },
+ "32026R0985": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R1002": {
+  "pozbude_platnosti_k": "2029-03-15"
+ },
+ "32026R1026": {
+  "pozbude_platnosti_k": "2029-04-30"
+ },
+ "32026R1027": {
+  "pozbude_platnosti_k": "2029-03-27"
+ },
+ "32026R1124": {
+  "pozbude_platnosti_k": "2027-05-27"
+ },
+ "32026R1136": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R1181": {
+  "pozbude_platnosti_k": "2027-05-31"
+ },
+ "32026R1192": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R1203": {
+  "pozbude_platnosti_k": "2031-06-10"
+ },
+ "32026R1371": {
+  "pozbude_platnosti_k": "2031-04-16"
+ },
+ "32026R1373": {
+  "pozbude_platnosti_k": "2031-06-25"
+ },
+ "32026R1376": {
+  "pozbude_platnosti_k": "2029-07-31"
+ },
+ "32026R1395": {
+  "pozbude_platnosti_k": "2036-12-31"
+ },
+ "32026R1409": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R1455": {
+  "pozbude_platnosti_k": "2029-12-31"
+ },
+ "32026R1457": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32026R1461": {
+  "pozbude_platnosti_k": "2030-07-31"
+ },
+ "32026R1540": {
+  "pozbude_platnosti_k": "2031-07-08"
+ },
+ "32026R1547": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32026R1547R(01)": {
+  "pozbude_platnosti_k": "2026-12-31"
+ },
+ "32026R1785": {
+  "pozbude_platnosti_k": "2027-02-18"
+ },
+ "32026R1788": {
+  "pozbude_platnosti_k": "2027-02-18"
+ },
+ "32026R1791": {
+  "pozbude_platnosti_k": "2030-06-30"
+ },
+ "32026R1794": {
+  "pozbude_platnosti_k": "2031-07-29"
+ },
+ "32026R1795": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R1823": {
+  "pozbude_platnosti_k": "2031-07-29"
+ },
+ "32026R1869": {
+  "pozbude_platnosti_k": "2028-06-30",
+  "pozbude_zcasti": "true"
+ },
+ "32026R1881": {
+  "pozbude_platnosti_k": "2028-04-03"
+ },
+ "32026R1904": {
+  "pozbude_platnosti_k": "2031-08-11"
+ },
+ "32026R1908": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R1926": {
+  "pozbude_platnosti_k": "2027-02-18"
+ },
+ "32026R1928": {
+  "pozbude_platnosti_k": "2031-08-11"
+ },
+ "32026R1961": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R1963": {
+  "pozbude_platnosti_k": "2027-09-30",
+  "pozbude_zcasti": "true"
+ },
+ "32026R1975": {
+  "pozbude_platnosti_k": "2030-12-31"
+ },
+ "32026R2047": {
+  "pozbude_platnosti_k": "2029-09-15"
+ },
+ "32026R2085": {
+  "pozbude_platnosti_k": "2029-07-02"
+ },
+ "32026R2088": {
+  "pozbude_platnosti_k": "2031-09-22"
+ },
+ "32026R2089": {
+  "pozbude_platnosti_k": "2027-02-18"
+ },
+ "32026R2094": {
+  "pozbude_platnosti_k": "2028-04-20"
+ },
+ "32026R2101": {
+  "pozbude_platnosti_k": "2031-09-26"
+ },
+ "32026R2107": {
+  "pozbude_platnosti_k": "2031-09-24"
+ },
+ "32026R2135": {
+  "pozbude_platnosti_k": "2028-04-20"
+ }
+}
