@@ -90042,7 +90042,7 @@
  "32013L0036": {
   "format": "application/xhtml+xml",
   "soubor": "eu/2013/32013L0036.md",
-  "zneni": "2025-01-17"
+  "zneni": "2026-07-11"
  },
  "32013L0036R(01)": {
   "format": "application/xhtml+xml",
@@ -93043,8 +93043,7 @@
  },
  "32013R0665": {
   "format": "application/xhtml+xml",
-  "soubor": "eu/2013/32013R0665.md",
-  "zneni": "2017-03-07"
+  "soubor": "eu/2013/32013R0665.md"
  },
  "32013R0665R(02)": {
   "format": "application/xhtml+xml",
@@ -96146,7 +96145,7 @@
  "32013R1371": {
   "format": "application/xhtml+xml",
   "soubor": "eu/2013/32013R1371.md",
-  "zneni": "2018-11-15"
+  "zneni": "2015-09-11"
  },
  "32013R1372": {
   "format": "application/xhtml+xml",
@@ -115248,9 +115247,8 @@
  },
  "32017R0373": {
   "format": "application/xhtml+xml",
-  "pristi": "2026-10-04",
   "soubor": "eu/2017/32017R0373.md",
-  "zneni": "2026-02-22"
+  "zneni": "2026-10-04"
  },
  "32017R0373R(04)": {
   "format": "application/xhtml+xml",
@@ -119406,7 +119404,8 @@
  },
  "32017R2417": {
   "format": "application/xhtml+xml",
-  "soubor": "eu/2017/32017R2417.md"
+  "soubor": "eu/2017/32017R2417.md",
+  "zneni": "2022-05-18"
  },
  "32017R2418": {
   "format": "application/xhtml+xml",
@@ -119758,7 +119757,8 @@
  },
  "32018R0033": {
   "format": "application/xhtml+xml",
-  "soubor": "eu/2018/32018R0033.md"
+  "soubor": "eu/2018/32018R0033.md",
+  "zneni": "2018-01-11"
  },
  "32018R0033R(02)": {
   "format": "application/xhtml+xml",
@@ -119768,6 +119768,10 @@
   "format": "application/xhtml+xml",
   "soubor": "eu/2018/32018R0034.md",
   "zneni": "2018-01-11"
+ },
+ "32018R0034R(02)": {
+  "format": "application/xhtml+xml",
+  "soubor": "eu/2018/32018R0034R(02).md"
  },
  "32018R0035": {
   "format": "application/xhtml+xml",
@@ -126601,7 +126605,7 @@
  "32019R1379": {
   "format": "application/xhtml+xml",
   "soubor": "eu/2019/32019R1379.md",
-  "zneni": "2025-10-24"
+  "zneni": "2022-01-18"
  },
  "32019R1381": {
   "format": "application/xhtml+xml",
@@ -127064,6 +127068,10 @@
  "32019R1784": {
   "format": "application/xhtml+xml",
   "soubor": "eu/2019/32019R1784.md"
+ },
+ "32019R1785": {
+  "format": "application/xhtml+xml",
+  "soubor": "eu/2019/32019R1785.md"
  },
  "32019R1786": {
   "format": "application/xhtml+xml",
@@ -128027,7 +128035,7 @@
  "32019R2238": {
   "format": "application/xhtml+xml",
   "soubor": "eu/2019/32019R2238.md",
-  "zneni": "2021-01-01"
+  "zneni": "2020-01-01"
  },
  "32019R2239": {
   "format": "application/xhtml+xml",
@@ -130506,7 +130514,7 @@
  "32020R1191": {
   "format": "application/xhtml+xml",
   "soubor": "eu/2020/32020R1191.md",
-  "zneni": "2023-09-01"
+  "zneni": "2021-11-03"
  },
  "32020R1192": {
   "format": "application/xhtml+xml",
@@ -131915,7 +131923,7 @@
  "32020R2015": {
   "format": "application/xhtml+xml",
   "soubor": "eu/2020/32020R2015.md",
-  "zneni": "2024-01-01"
+  "zneni": "2023-08-08"
  },
  "32020R2016": {
   "format": "application/xhtml+xml",
@@ -134642,8 +134650,7 @@
  },
  "32021R0983": {
   "format": "application/xhtml+xml",
-  "soubor": "eu/2021/32021R0983.md",
-  "zneni": "2022-06-02"
+  "soubor": "eu/2021/32021R0983.md"
  },
  "32021R0984": {
   "format": "application/xhtml+xml",
@@ -139242,6 +139249,10 @@
   "format": "application/xhtml+xml",
   "soubor": "eu/2022/32022R0829.md"
  },
+ "32022R0836": {
+  "format": "application/xhtml+xml",
+  "soubor": "eu/2022/32022R0836.md"
+ },
  "32022R0838": {
   "format": "application/xhtml+xml",
   "soubor": "eu/2022/32022R0838.md"
@@ -139249,6 +139260,14 @@
  "32022R0839": {
   "format": "application/xhtml+xml",
   "soubor": "eu/2022/32022R0839.md"
+ },
+ "32022R0840": {
+  "format": "application/xhtml+xml",
+  "soubor": "eu/2022/32022R0840.md"
+ },
+ "32022R0841": {
+  "format": "application/xhtml+xml",
+  "soubor": "eu/2022/32022R0841.md"
  },
  "32022R0842": {
   "format": "application/xhtml+xml",
@@ -150418,7 +150437,8 @@
  },
  "32024R1767": {
   "format": "application/xhtml+xml",
-  "soubor": "eu/2024/32024R1767.md"
+  "soubor": "eu/2024/32024R1767.md",
+  "zneni": "2026-10-04"
  },
  "32024R1768": {
   "format": "application/xhtml+xml",
@@ -151446,8 +151466,7 @@
  },
  "32024R2407": {
   "format": "application/xhtml+xml",
-  "soubor": "eu/2024/32024R2407.md",
-  "zneni": "2025-01-23"
+  "soubor": "eu/2024/32024R2407.md"
  },
  "32024R2409": {
   "format": "application/xhtml+xml",
@@ -152636,6 +152655,7 @@
  },
  "32024R3084": {
   "format": "application/xhtml+xml",
+  "pristi": "2026-10-15",
   "soubor": "eu/2024/32024R3084.md",
   "zneni": "2026-07-17"
  },
@@ -157182,8 +157202,7 @@
  },
  "32025R2158": {
   "format": "application/xhtml+xml",
-  "soubor": "eu/2025/32025R2158.md",
-  "zneni": "2026-05-01"
+  "soubor": "eu/2025/32025R2158.md"
  },
  "32025R2159": {
   "format": "application/xhtml+xml",
@@ -159716,6 +159735,10 @@
   "format": "application/xhtml+xml",
   "soubor": "eu/2026/32026R0771.md"
  },
+ "32026R0772": {
+  "format": "application/xhtml+xml",
+  "soubor": "eu/2026/32026R0772.md"
+ },
  "32026R0773": {
   "format": "application/xhtml+xml",
   "soubor": "eu/2026/32026R0773.md"
@@ -161738,6 +161761,10 @@
   "format": "application/xhtml+xml",
   "soubor": "eu/2026/32026R2184.md"
  },
+ "32026R2188": {
+  "format": "application/xhtml+xml",
+  "soubor": "eu/2026/32026R2188.md"
+ },
  "32026R2191": {
   "format": "application/xhtml+xml",
   "soubor": "eu/2026/32026R2191.md"
@@ -161746,8 +161773,20 @@
   "format": "application/xhtml+xml",
   "soubor": "eu/2026/32026R2193.md"
  },
+ "32026R2202": {
+  "format": "application/xhtml+xml",
+  "soubor": "eu/2026/32026R2202.md"
+ },
  "32026R2212": {
   "format": "application/xhtml+xml",
   "soubor": "eu/2026/32026R2212.md"
+ },
+ "32026R2220": {
+  "format": "application/xhtml+xml",
+  "soubor": "eu/2026/32026R2220.md"
+ },
+ "32026R2227": {
+  "format": "application/xhtml+xml",
+  "soubor": "eu/2026/32026R2227.md"
  }
 }

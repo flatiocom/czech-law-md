@@ -3,6 +3,70 @@
 Co se kdy změnilo ve sbírce. Zapisuje `tools/changelog.py` po každé aktualizaci;
 strojový tvar téhož je v `.zmeny/posledni.json`.
 
+## 2026-10-05
+
+17 nových, 37 změněných.
+
+- **[[32013R0665|32013R0665]]**
+- **[[32013R1371|32013R1371]]**
+- **[[32017R0373|32017R0373]]**
+- **[[32017R2417|32017R2417]]**
+- **[[32018R0033|32018R0033]]**
+- **[[32019R1379|32019R1379]]**
+- **[[32019R2238|32019R2238]]**
+- **[[32020R1191|32020R1191]]**
+- **[[32020R2015|32020R2015]]**
+- **[[32021R0983|32021R0983]]**
+- **[[32024R1767|32024R1767]]**
+- **[[32024R2407|32024R2407]]**
+- **[[32024R3084|32024R3084]]**
+- **[[32025R2158|32025R2158]]**
+- **[[32026R2168|32026R2168]]**
+- **[[32013L0036|u/2013/32013L0036.md]]**
+- **[[48-1997|48/1997 Sb.]]** Zákon o veřejném zdravotním pojištění a o změně a doplnění některých souvisejících zákonů — znění k 2026-10-01 (novelizuje: 242/1997 Sb., 2/1998 Sb., 127/1998 Sb., 225/1999 Sb., 363/1999 Sb., 18/2000 Sb.)
+- **[[120-2001|120/2001 Sb.]]** Zákon o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů — znění k 2026-10-01; dotčeno: § 125b (novelizuje: 360/2003 Sb., 279/2003 Sb., 53/2004 Sb., 257/2004 Sb., 284/2004 Sb., 377/2005 Sb.)
+- **[[110-2006|110/2006 Sb.]]** Zákon o životním a existenčním minimu — znění k 2026-10-01 (novelizuje: 261/2007 Sb., 239/2008 Sb., 306/2008 Sb., 129/2008 Sb., 85/2010 Sb., 73/2011 Sb.)
+- **[[177-2009|177/2009 Sb.]]** Vyhláška o bližších podmínkách ukončování vzdělávání ve středních školách maturitní zkouškou — znění k 2026-10-01 (novelizuje: 90/2010 Sb., 274/2010 Sb., 54/2011 Sb., 273/2011 Sb., 371/2012 Sb., 173/2014 Sb.)
+- **[[11-2023|11/2023 Sb.]]** Vyhláška o zdravotní způsobilosti ve vnitrozemské plavbě — znění k 2023-03-01 (novelizuje: 173/2026 Sb.)
+- **[[140-2023|140/2023 Sb.]]** Nařízení vlády o stanovení podmínek provádění opatření agrolesnictví a o změně nařízení vlády č. 307/2014 Sb., o stanovení podrobností evidence využití půdy podle uživatelských vztahů, ve znění pozdějších předpisů, a nařízení vlády č. 69/2023 Sb., o stanovení podmínek provádění opatření v odvětví vína, (nařízení vlády o stanovení podmínek provádění opatření agrolesnictví) — znění k 2026-10-01 (novelizuje: 44/2024 Sb., 185/2024 Sb., 41/2025 Sb., 25/2026 Sb., 167/2026 Sb.)
+- **[[63-2023|63/2023 Sb.]]** Nařízení vlády o stanovení podmínek provádění opatření pro zalesňování zemědělské půdy — znění k 2026-10-01 (novelizuje: 44/2024 Sb., 22/2026 Sb., 167/2026 Sb.)
+- **[[73-2023|73/2023 Sb.]]** Nařízení vlády o stanovení pravidel podmíněnosti plateb zemědělcům — znění k 2026-10-01 (novelizuje: 62/2024 Sb., 185/2024 Sb., 80/2025 Sb., 167/2026 Sb.)
+- **[[81-2023|81/2023 Sb.]]** Nařízení vlády o stanovení podmínek provádění opatření ekologické zemědělství — znění k 2026-10-01 (novelizuje: 44/2024 Sb., 27/2025 Sb., 32/2026 Sb., 167/2026 Sb.)
+- **[[83-2023|83/2023 Sb.]]** Nařízení vlády o stanovení podmínek poskytování přímých plateb zemědělcům — znění k 2026-10-01; dotčeno: § 25, § 38b (novelizuje: 68/2024 Sb., 185/2024 Sb., 275/2024 Sb., 81/2025 Sb., 167/2026 Sb.)
+- **[[252-2024|252/2024 Sb.]]** Zákon, kterým se mění zákon č. 182/2006 Sb., o úpadku a způsobech jeho řešení (insolvenční zákon), ve znění pozdějších předpisů, zákon č. 99/1963 Sb., občanský soudní řád, ve znění pozdějších předpisů, zákon č. 119/2001 Sb., kterým se stanoví pravidla pro případy souběžně probíhajících výkonů rozhodnutí, ve znění pozdějších předpisů, zákon č. 120/2001 Sb., o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů, ve znění pozdějších předpisů, a zákon č. 312/2006 Sb., o insolvenčních správcích, ve znění pozdějších předpisů — znění k 2026-10-01
+- **[[151-2025|151/2025 Sb.]]** Zákon o dávce státní sociální pomoci — znění k 2026-10-01 (novelizuje: 360/2025 Sb., 509/2025 Sb.)
+- **[[152-2025|152/2025 Sb.]]** Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o dávce státní sociální pomoci — znění k 2026-10-01
+- **[[289-2025|289/2025 Sb.]]** Zákon, kterým se mění zákon č. 48/1997 Sb., o veřejném zdravotním pojištění a o změně a doplnění některých souvisejících zákonů, ve znění pozdějších předpisů, a další související zákony — znění k 2026-10-01
+- **[[573-2025|573/2025 Sb.]]** Vyhláška o změně sazby základní náhrady za používání silničních motorových vozidel a stravného a o stanovení průměrné ceny pohonných hmot pro účely poskytování cestovních náhrad pro rok 2026 — znění k 2026-10-01 (novelizuje: 78/2026 Sb., 175/2026 Sb.)
+- **[[152-2026|152/2026 Sb.]]** Zákon, kterým se mění zákon č. 117/1995 Sb., o státní sociální podpoře, ve znění pozdějších předpisů, a zákon č. 151/2025 Sb., o dávce státní sociální pomoci, ve znění pozdějších předpisů — znění k 2026-10-01
+- **[[165-2026|165/2026 Sb.]]** Nařízení vlády o vyhlášení evropsky významných lokalit zařazených do evropského seznamu — znění k 2026-09-30
+- **[[167-2026|167/2026 Sb.]]** Nařízení vlády, kterým se mění nařízení vlády č. 83/2023 Sb., o stanovení podmínek poskytování přímých plateb zemědělcům, ve znění pozdějších předpisů, a některá další související nařízení vlády — znění k 2026-10-01
+- **[[171-2026|171/2026 Sb.]]** Sdělení Ministerstva práce a sociálních věcí o vyhlášení minimální mzdy, nejnižších úrovní zaručeného platu a rozpětí výše příplatku za práci ve ztíženém pracovním prostředí pro rok 2027 — znění k 0000-00-00
+- **[[172-2026|172/2026 Sb.]]** Nařízení vlády, kterým se vydává cenový výměr regulující ceny některých pohonných hmot pro období od 1. října do 31. října 2026 — znění k 2026-10-01
+- **[[99-2026|99/2026 Sb.]]** Vyhláška,  kterou se mění vyhláška č. 177/2009 Sb., o bližších podmínkách ukončování vzdělávání ve středních školách maturitní zkouškou, ve znění pozdějších předpisů, a vyhláška č. 422/2023 Sb., o přijímacím řízení ke střednímu vzdělávání a vzdělávání v konzervatoři, ve znění pozdějších předpisů — znění k 2026-10-01
+
+<details><summary>Nově přidáno (17)</summary>
+
+- [[32018R0034R(02)|32018R0034R(02)]]
+- [[32019R1785|32019R1785]]
+- [[32022R0836|32022R0836]]
+- [[32022R0840|32022R0840]]
+- [[32022R0841|32022R0841]]
+- [[32026R0772|32026R0772]]
+- [[32026R2188|32026R2188]]
+- [[32026R2202|32026R2202]]
+- [[32026R2220|32026R2220]]
+- [[32026R2227|32026R2227]]
+- [[173-2026|173/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 11/2023 Sb., o zdravotní způsobilosti ve vnitrozemské plavbě
+- [[174-2026|174/2026 Sb.]] Sdělení Českého statistického úřadu o aktualizaci Klasifikace hospitalizovaných pacientů (CZ-DRG)
+- [[175-2026|175/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 573/2025 Sb., o změně sazby základní náhrady za používání silničních motorových vozidel a stravného a o stanovení průměrné ceny pohonných hmot pro účely poskytování cestovních náhrad pro rok 2026, ve znění vyhlášky č. 78/2026 Sb.
+- [[176-2026|176/2026 Sb.]] Nařízení vlády o zvýšení příplatků k důchodu v roce 2027
+- [[177-2026|177/2026 Sb.]] Nařízení vlády o výši všeobecného vyměřovacího základu za rok 2025, přepočítacího koeficientu pro úpravu všeobecného vyměřovacího základu za rok 2025, redukčních hranic pro stanovení výpočtového základu pro rok 2027, základní výměry důchodu stanovené pro rok 2027, nejnižších částek procentních výměr důchodů pro rok 2027 a o zvýšení důchodů v roce 2027
+- [[178-2026|178/2026 Sb.]] Vyhláška o portálu kritické infrastruktury
+- [[179-2026|179/2026 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 127/1995 Sb., o prohlášení území ucelených částí vybraných měst a obcí s dochovanými soubory lidové architektury za památkové rezervace
+
+</details>
+
 ## 2026-09-28
 
 4 nových, 8 změněných.

@@ -8325,8 +8325,9 @@
   "zmena": "2024-05-28T15:37:42.370"
  },
  "11/2023 Sb.": {
-  "dokument_id": "156241",
+  "dokument_id": "8578",
   "nazev": "Vyhláška o zdravotní způsobilosti ve vnitrozemské plavbě",
+  "pristi_zneni_od": "2026-10-14",
   "soubor": "zakony/2023/11-2023.md",
   "ucinnost_od": "2023-03-01",
   "zmena": "2024-05-23T08:14:43.994"
@@ -8801,12 +8802,12 @@
   "zmena": "2024-05-28T15:35:35.658"
  },
  "110/2006 Sb.": {
-  "dokument_id": "2069275",
+  "dokument_id": "2069279",
   "nazev": "Zákon o životním a existenčním minimu",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "2028-06-01",
   "soubor": "zakony/2006/110-2006.md",
-  "ucinnost_od": "2026-03-31",
-  "zmena": "2026-04-09T13:57:04.444"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-04-09T13:57:06.187"
  },
  "110/2006 Sb. m. s.": {
   "dokument_id": "221433",
@@ -15221,12 +15222,12 @@
   "zmena": "2024-05-28T15:34:39.749"
  },
  "120/2001 Sb.": {
-  "dokument_id": "1883245",
+  "dokument_id": "1883249",
   "nazev": "Zákon o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2001/120-2001.md",
-  "ucinnost_od": "2026-01-01",
-  "zmena": "2025-09-01T15:13:23.348"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2025-09-01T15:13:31.084"
  },
  "120/2001 Sb. m. s.": {
   "dokument_id": "220065",
@@ -27420,12 +27421,12 @@
   "zmena": "2024-05-23T08:06:57.337"
  },
  "140/2023 Sb.": {
-  "dokument_id": "8380",
+  "dokument_id": "8366",
   "nazev": "Nařízení vlády o stanovení podmínek provádění opatření agrolesnictví a o změně nařízení vlády č. 307/2014 Sb., o stanovení podrobností evidence využití půdy podle uživatelských vztahů, ve znění pozdějších předpisů, a nařízení vlády č. 69/2023 Sb., o stanovení podmínek provádění opatření v odvětví vína, (nařízení vlády o stanovení podmínek provádění opatření agrolesnictví)",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2023/140-2023.md",
-  "ucinnost_od": "2026-03-01",
-  "zmena": "2026-03-13T15:00:02.766"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-09-16T13:12:54.833"
  },
  "140/2024 Sb.": {
   "dokument_id": "389679",
@@ -33273,12 +33274,12 @@
   "zmena": "2024-07-01T17:22:50.444"
  },
  "151/2025 Sb.": {
-  "dokument_id": "2077833",
+  "dokument_id": "2077831",
   "nazev": "Zákon o dávce státní sociální pomoci",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "2027-01-01",
   "soubor": "zakony/2025/151-2025.md",
-  "ucinnost_od": "2026-03-31",
-  "zmena": "2026-09-17T13:18:00.016"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-09-17T13:17:59.940"
  },
  "151/2026 Sb.": {
   "dokument_id": "2077819",
@@ -33730,20 +33731,20 @@
   "zmena": "2024-07-01T17:29:59.273"
  },
  "152/2025 Sb.": {
-  "dokument_id": "2072059",
+  "dokument_id": "2072061",
   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o dávce státní sociální pomoci",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "2027-09-01",
   "soubor": "zakony/2025/152-2025.md",
-  "ucinnost_od": "2026-09-01",
-  "zmena": "2026-06-25T19:38:30.027"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-06-25T19:38:33.405"
  },
  "152/2026 Sb.": {
-  "dokument_id": "2077839",
+  "dokument_id": "2077841",
   "nazev": "Zákon, kterým se mění zákon č. 117/1995 Sb., o státní sociální podpoře, ve znění pozdějších předpisů, a zákon č. 151/2025 Sb., o dávce státní sociální pomoci, ve znění pozdějších předpisů",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "2027-01-01",
   "soubor": "zakony/2026/152-2026.md",
-  "ucinnost_od": "2026-08-26",
-  "zmena": "2026-09-17T13:18:08.697"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-09-17T13:18:09.345"
  },
  "153/1926 Sb.": {
   "dokument_id": "60297",
@@ -39946,11 +39947,11 @@
   "zmena": "2025-06-24T08:36:12.497"
  },
  "165/2026 Sb.": {
-  "dokument_id": "7540",
+  "dokument_id": "7542",
   "nazev": "Nařízení vlády o vyhlášení evropsky významných lokalit zařazených do evropského seznamu",
-  "pristi_zneni_od": "2026-09-30",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2026/165-2026.md",
-  "ucinnost_od": "2026-09-15",
+  "ucinnost_od": "2026-09-30",
   "zmena": "2026-09-15T09:03:50.582"
  },
  "166/1931 Sb.": {
@@ -40739,11 +40740,11 @@
   "zmena": "2025-06-24T15:18:43.849"
  },
  "167/2026 Sb.": {
-  "dokument_id": "8356",
+  "dokument_id": "8358",
   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 83/2023 Sb., o stanovení podmínek poskytování přímých plateb zemědělcům, ve znění pozdějších předpisů, a některá další související nařízení vlády",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2026/167-2026.md",
-  "ucinnost_od": "2026-09-16",
+  "ucinnost_od": "2026-10-01",
   "zmena": "2026-09-16T13:12:54.833"
  },
  "168/1924 Sb.": {
@@ -41497,12 +41498,12 @@
   "zmena": "2025-07-02T11:11:03.682"
  },
  "169/2026 Sb.": {
-  "dokument_id": "8470",
+  "dokument_id": "2078325",
   "nazev": "Sdělení Ministerstva práce a sociálních věcí, kterým se vyhlašuje normativní nájemné a normativní nájemné pro domácnost, jejíž všichni členové domácnosti jsou zranitelnými osobami, pro účely dávky státní sociální pomoci pro období od 1. října do 31. prosince 2026",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/169-2026.md",
   "ucinnost_od": "0000-00-00",
-  "zmena": "2026-09-24T08:48:30.667"
+  "zmena": "2026-09-29T15:37:26.085"
  },
  "17/1922 Sb.": {
   "dokument_id": "219",
@@ -43048,12 +43049,12 @@
   "zmena": "2025-06-12T08:44:10.314"
  },
  "171/2026 Sb.": {
-  "dokument_id": "8472",
+  "dokument_id": "2078321",
   "nazev": "Sdělení Ministerstva práce a sociálních věcí o vyhlášení minimální mzdy, nejnižších úrovní zaručeného platu a rozpětí výše příplatku za práci ve ztíženém pracovním prostředí pro rok 2027",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/171-2026.md",
   "ucinnost_od": "0000-00-00",
-  "zmena": "2026-09-24T08:58:20.689"
+  "zmena": "2026-09-29T10:02:15.585"
  },
  "172/1930 Sb.": {
   "dokument_id": "623",
@@ -43420,12 +43421,12 @@
   "zmena": "2025-06-16T09:24:31.903"
  },
  "172/2026 Sb.": {
-  "dokument_id": "8554",
+  "dokument_id": "2078319",
   "nazev": "Nařízení vlády, kterým se vydává cenový výměr regulující ceny některých pohonných hmot pro období od 1. října do 31. října 2026",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2026/172-2026.md",
-  "ucinnost_od": "2026-09-25",
-  "zmena": "2026-09-25T15:40:10.641"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-09-29T08:59:05.992"
  },
  "173/1926 Sb.": {
   "dokument_id": "411",
@@ -43790,6 +43791,14 @@
   "soubor": "zakony/2025/173-2025.md",
   "ucinnost_od": "2026-01-01",
   "zmena": "2025-07-02T12:37:39.108"
+ },
+ "173/2026 Sb.": {
+  "dokument_id": "8566",
+  "nazev": "Vyhláška, kterou se mění vyhláška č. 11/2023 Sb., o zdravotní způsobilosti ve vnitrozemské plavbě ",
+  "pristi_zneni_od": "2026-10-14",
+  "soubor": "zakony/2026/173-2026.md",
+  "ucinnost_od": "2026-09-29",
+  "zmena": "2026-09-29T08:22:12.171"
  },
  "174/1923 Sb.": {
   "dokument_id": "245",
@@ -44169,6 +44178,14 @@
   "ucinnost_od": "2025-07-01",
   "zmena": "2025-07-02T15:44:34.560"
  },
+ "174/2026 Sb.": {
+  "dokument_id": "2078331",
+  "nazev": "Sdělení Českého statistického úřadu o aktualizaci Klasifikace hospitalizovaných pacientů (CZ-DRG)",
+  "pristi_zneni_od": "",
+  "soubor": "zakony/2026/174-2026.md",
+  "ucinnost_od": "0000-00-00",
+  "zmena": "2026-09-30T14:35:23.814"
+ },
  "175/1923 Sb.": {
   "dokument_id": "247",
   "nazev": "Vládní vyhláška, kterou se uvádí v prozatímní platnost obchodní smlouva mezi Československou republikou a Spojeným královstvím Velké Britanie a Irska.",
@@ -44541,6 +44558,14 @@
   "ucinnost_od": "2026-09-01",
   "zmena": "2026-08-17T13:53:43.687"
  },
+ "175/2026 Sb.": {
+  "dokument_id": "8586",
+  "nazev": "Vyhláška, kterou se mění vyhláška č. 573/2025 Sb., o změně sazby základní náhrady za používání silničních motorových vozidel a stravného a o stanovení průměrné ceny pohonných hmot pro účely poskytování cestovních náhrad pro rok 2026, ve znění vyhlášky č. 78/2026 Sb.",
+  "pristi_zneni_od": "",
+  "soubor": "zakony/2026/175-2026.md",
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-09-29T08:48:31.591"
+ },
  "176/1923 Sb.": {
   "dokument_id": "249",
   "nazev": "Vyhláška ministra zahraničních věcí, kterou se uveřejňuje změna čl. 52 soudního řádu smíšeného rozhodčího soudu československo-německého podle čl. 304 mírové smlouvy versailleské, vyhlášeného ve Sb. z. a n., č. 1 z roku 1922.",
@@ -44912,6 +44937,14 @@
   "ucinnost_od": "2026-01-01",
   "zmena": "2025-07-02T17:43:21.832"
  },
+ "176/2026 Sb.": {
+  "dokument_id": "8600",
+  "nazev": "Nařízení vlády o zvýšení příplatků k důchodu v roce 2027",
+  "pristi_zneni_od": "2027-01-01",
+  "soubor": "zakony/2026/176-2026.md",
+  "ucinnost_od": "2026-09-29",
+  "zmena": "2026-09-29T10:55:40.883"
+ },
  "177/1929 Sb.": {
   "dokument_id": "563",
   "nazev": "Vyhláška ministra zahraničních věcí o mezinárodní působnosti Dodatkového protokolu k obchodní smlouvě, sjednané mezi republikou Československou a Hospodářskou Unií belgo-lucemburskou.",
@@ -45172,12 +45205,12 @@
   "zmena": "2024-05-23T04:33:29.730"
  },
  "177/2009 Sb.": {
-  "dokument_id": "6432",
+  "dokument_id": "6424",
   "nazev": "Vyhláška o bližších podmínkách ukončování vzdělávání ve středních školách maturitní zkouškou",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2009/177-2009.md",
-  "ucinnost_od": "2026-01-01",
-  "zmena": "2026-02-11T12:55:43.347"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-06-16T09:39:55.662"
  },
  "177/2010 Sb.": {
   "dokument_id": "134383",
@@ -45291,6 +45324,14 @@
   "soubor": "zakony/2025/177-2025.md",
   "ucinnost_od": "2025-07-01",
   "zmena": "2025-07-02T20:55:32.557"
+ },
+ "177/2026 Sb.": {
+  "dokument_id": "8612",
+  "nazev": "Nařízení vlády o výši všeobecného vyměřovacího základu za rok 2025, přepočítacího koeficientu pro úpravu všeobecného vyměřovacího základu za rok 2025, redukčních hranic pro stanovení výpočtového základu pro rok 2027, základní výměry důchodu stanovené pro rok 2027, nejnižších částek procentních výměr důchodů pro rok 2027 a o zvýšení důchodů v roce 2027",
+  "pristi_zneni_od": "2027-01-01",
+  "soubor": "zakony/2026/177-2026.md",
+  "ucinnost_od": "2026-09-29",
+  "zmena": "2026-09-29T11:43:10.625"
  },
  "178/1929 Sb.": {
   "dokument_id": "565",
@@ -45670,6 +45711,14 @@
   "ucinnost_od": "2025-07-01",
   "zmena": "2025-07-02T21:51:24.946"
  },
+ "178/2026 Sb.": {
+  "dokument_id": "8650",
+  "nazev": "Vyhláška o portálu kritické infrastruktury ",
+  "pristi_zneni_od": "",
+  "soubor": "zakony/2026/178-2026.md",
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-09-30T09:13:01.070"
+ },
  "179/1929 Sb.": {
   "dokument_id": "567",
   "nazev": "Vyhláška ministra zahraničních věcí o mezinárodní působnosti dodatkové dohody k obchodní úmluvě mezi republikou Československou a Španělskem ze dne 29. července 1925, podepsané v Madridě dne 13. prosince 1928.",
@@ -46041,6 +46090,14 @@
   "soubor": "zakony/2025/179-2025.md",
   "ucinnost_od": "2025-07-01",
   "zmena": "2025-07-02T22:17:53.679"
+ },
+ "179/2026 Sb.": {
+  "dokument_id": "2078327",
+  "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 127/1995 Sb., o prohlášení území ucelených částí vybraných měst a obcí s dochovanými soubory lidové architektury za památkové rezervace",
+  "pristi_zneni_od": "",
+  "soubor": "zakony/2026/179-2026.md",
+  "ucinnost_od": "0000-00-00",
+  "zmena": "2026-09-30T12:42:25.777"
  },
  "18/1918 Sb.": {
   "dokument_id": "60065",
@@ -75652,12 +75709,12 @@
   "zmena": "2024-05-23T08:19:19.983"
  },
  "252/2024 Sb.": {
-  "dokument_id": "391253",
+  "dokument_id": "391255",
   "nazev": "Zákon, kterým se mění zákon č. 182/2006 Sb., o úpadku a způsobech jeho řešení (insolvenční zákon), ve znění pozdějších předpisů, zákon č. 99/1963 Sb., občanský soudní řád, ve znění pozdějších předpisů, zákon č. 119/2001 Sb., kterým se stanoví pravidla pro případy souběžně probíhajících výkonů rozhodnutí, ve znění pozdějších předpisů, zákon č. 120/2001 Sb., o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů, ve znění pozdějších předpisů, a zákon č. 312/2006 Sb., o insolvenčních správcích, ve znění pozdějších předpisů",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2024/252-2024.md",
-  "ucinnost_od": "2024-10-01",
-  "zmena": "2024-09-24T16:10:29.796"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2024-09-24T16:10:31.194"
  },
  "252/2025 Sb.": {
   "dokument_id": "1882553",
@@ -87872,12 +87929,12 @@
   "zmena": "2024-10-31T09:33:22.689"
  },
  "289/2025 Sb.": {
-  "dokument_id": "2055747",
+  "dokument_id": "2055749",
   "nazev": "Zákon, kterým se mění zákon č. 48/1997 Sb., o veřejném zdravotním pojištění a o změně a doplnění některých souvisejících zákonů, ve znění pozdějších předpisů, a další související zákony",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "2028-01-01",
   "soubor": "zakony/2025/289-2025.md",
-  "ucinnost_od": "2026-01-01",
-  "zmena": "2025-09-26T14:49:47.417"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2025-09-26T14:49:49.881"
  },
  "29/1937 Sb.": {
   "dokument_id": "1061",
@@ -141299,12 +141356,12 @@
   "zmena": "2024-05-22T10:02:43.137"
  },
  "48/1997 Sb.": {
-  "dokument_id": "2057015",
+  "dokument_id": "2057017",
   "nazev": "Zákon o veřejném zdravotním pojištění a o změně a doplnění některých souvisejících zákonů",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "2028-01-01",
   "soubor": "zakony/1997/48-1997.md",
-  "ucinnost_od": "2026-06-12",
-  "zmena": "2025-10-09T08:33:46.716"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2025-10-09T08:33:56.052"
  },
  "48/1998 Sb.": {
   "dokument_id": "101177",
@@ -156014,11 +156071,12 @@
   "zmena": "2025-08-18T10:00:25.458"
  },
  "573/2025 Sb.": {
-  "dokument_id": "6012",
+  "dokument_id": "8588",
   "nazev": "Vyhláška o změně sazby základní náhrady za používání silničních motorových vozidel a stravného a o stanovení průměrné ceny pohonných hmot pro účely poskytování cestovních náhrad pro rok 2026",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2025/573-2025.md",
-  "ucinnost_od": "2026-06-01",
-  "zmena": "2026-05-28T10:47:33.694"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-09-29T08:48:31.591"
  },
  "574/1990 Sb.": {
   "dokument_id": "84935",
@@ -163030,12 +163088,12 @@
   "zmena": "2025-01-28T09:26:06.212"
  },
  "63/2023 Sb.": {
-  "dokument_id": "8376",
+  "dokument_id": "8362",
   "nazev": "Nařízení vlády o stanovení podmínek provádění opatření pro zalesňování zemědělské půdy",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2023/63-2023.md",
-  "ucinnost_od": "2026-03-01",
-  "zmena": "2026-02-25T09:06:46.321"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-09-16T13:12:54.833"
  },
  "63/2024 Sb.": {
   "dokument_id": "750194",
@@ -171388,12 +171446,12 @@
   "zmena": "2024-05-23T08:05:51.809"
  },
  "73/2023 Sb.": {
-  "dokument_id": "8382",
+  "dokument_id": "8368",
   "nazev": "Nařízení vlády o stanovení pravidel podmíněnosti plateb zemědělcům",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2023/73-2023.md",
-  "ucinnost_od": "2026-07-01",
-  "zmena": "2026-04-23T19:25:58.017"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-09-16T13:12:54.833"
  },
  "73/2024 Sb.": {
   "dokument_id": "59999",
@@ -177553,12 +177611,12 @@
   "zmena": "2024-05-22T10:13:37.098"
  },
  "81/2023 Sb.": {
-  "dokument_id": "8378",
+  "dokument_id": "8364",
   "nazev": "Nařízení vlády o stanovení podmínek provádění opatření ekologické zemědělství",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2023/81-2023.md",
-  "ucinnost_od": "2026-03-15",
-  "zmena": "2026-03-12T09:44:55.626"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-09-16T13:12:54.833"
  },
  "81/2024 Sb.": {
   "dokument_id": "2062695",
@@ -178863,12 +178921,12 @@
   "zmena": "2024-05-22T10:13:37.098"
  },
  "83/2023 Sb.": {
-  "dokument_id": "8384",
+  "dokument_id": "8360",
   "nazev": "Nařízení vlády o stanovení podmínek poskytování přímých plateb zemědělcům",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2023/83-2023.md",
-  "ucinnost_od": "2026-07-01",
-  "zmena": "2026-04-23T19:26:06.199"
+  "ucinnost_od": "2026-10-01",
+  "zmena": "2026-09-16T13:12:54.833"
  },
  "83/2024 Sb.": {
   "dokument_id": "158221",
@@ -189817,11 +189875,11 @@
   "zmena": "2025-04-24T20:16:31.415"
  },
  "99/2026 Sb.": {
-  "dokument_id": "6418",
+  "dokument_id": "6420",
   "nazev": "Vyhláška,  kterou se mění vyhláška č. 177/2009 Sb., o bližších podmínkách ukončování vzdělávání ve středních školách maturitní zkouškou, ve znění pozdějších předpisů, a vyhláška č. 422/2023 Sb., o přijímacím řízení ke střednímu vzdělávání a vzdělávání v konzervatoři, ve znění pozdějších předpisů",
-  "pristi_zneni_od": "2026-10-01",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2026/99-2026.md",
-  "ucinnost_od": "2026-09-01",
+  "ucinnost_od": "2026-10-01",
   "zmena": "2026-06-16T09:39:55.662"
  },
  "n1/1960 Sb.": {

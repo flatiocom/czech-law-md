@@ -1,120 +1,474 @@
 {
- "datum": "2026-09-28",
+ "datum": "2026-10-05",
  "zaznamy": [
   {
-   "novelizovano": [
-    "342/2005 Sb.",
-    "413/2005 Sb.",
-    "227/2006 Sb.",
-    "81/2006 Sb.",
-    "171/2007 Sb.",
-    "124/2008 Sb."
-   ],
-   "citace": "130/2002 Sb.",
-   "nazev": "Zákon o podpoře výzkumu a vývoje z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu a vývoje)",
+   "novelizovano": [],
+   "citace": "32013R0665",
+   "nazev": "",
    "druh": "změněný",
-   "soubor": "akony/2002/130-2002.md",
-   "ucinnost_od": "2024-01-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [
-    "116/2011 Sb.",
-    "103/2014 Sb.",
-    "197/2016 Sb.",
-    "248/2019 Sb.",
-    "607/2020 Sb.",
-    "46/2025 Sb."
-   ],
-   "citace": "72/2005 Sb.",
-   "nazev": "Vyhláška o poskytování poradenských služeb ve školách a školských poradenských zařízeních",
-   "druh": "změněný",
-   "soubor": "zakony/2005/72-2005.md",
-   "ucinnost_od": "2026-01-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [
-    "56/2010 Sb.",
-    "62/2012 Sb.",
-    "340/2020 Sb.",
-    "406/2024 Sb."
-   ],
-   "citace": "76/2005 Sb.",
-   "nazev": "Vyhláška o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění",
-   "druh": "změněný",
-   "soubor": "zakony/2005/76-2005.md",
-   "ucinnost_od": "2025-01-01",
+   "soubor": "eu/2013/32013R0665.md",
+   "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "78/2005 Sb.",
-   "nazev": "Vyhláška, kterou se mění vyhláška č. 77/2003 Sb., kterou se stanoví požadavky pro mléko a mléčné výrobky, mražené krémy a jedlé tuky a oleje, ve znění vyhlášky č. 124/2004 Sb.",
+   "citace": "32013R1371",
+   "nazev": "",
    "druh": "změněný",
-   "soubor": "zakony/2005/78-2005.md",
-   "ucinnost_od": "2017-01-01",
+   "soubor": "eu/2013/32013R1371.md",
+   "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "56/2010 Sb.",
-   "nazev": "Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění",
+   "citace": "32017R0373",
+   "nazev": "",
    "druh": "změněný",
-   "soubor": "zakony/2010/56-2010.md",
-   "ucinnost_od": "2010-02-26",
+   "soubor": "eu/2017/32017R0373.md",
+   "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "62/2012 Sb.",
-   "nazev": "Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění, ve znění vyhlášky č. 56/2010 Sb.",
+   "citace": "32017R2417",
+   "nazev": "",
    "druh": "změněný",
-   "soubor": "zakony/2012/62-2012.md",
-   "ucinnost_od": "2012-02-29",
+   "soubor": "eu/2017/32017R2417.md",
+   "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "340/2020 Sb.",
-   "nazev": "Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění, ve znění pozdějších předpisů",
+   "citace": "32018R0033",
+   "nazev": "",
    "druh": "změněný",
-   "soubor": "zakony/2020/340-2020.md",
-   "ucinnost_od": "2021-01-01",
+   "soubor": "eu/2018/32018R0033.md",
+   "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "406/2024 Sb.",
-   "nazev": "Vyhláška, kterou se mění vyhláška č. 76/2005 Sb., o stanovení způsobu výpočtu rozdílu mezi příjmy pojistného na důchodové pojištění a výdaji na dávky důchodového pojištění, ve znění pozdějších předpisů",
-   "druh": "změněný",
-   "soubor": "zakony/2024/406-2024.md",
-   "ucinnost_od": "2025-01-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "169/2026 Sb.",
-   "nazev": "Sdělení Ministerstva práce a sociálních věcí, kterým se vyhlašuje normativní nájemné a normativní nájemné pro domácnost, jejíž všichni členové domácnosti jsou zranitelnými osobami, pro účely dávky státní sociální pomoci pro období od 1. října do 31. prosince 2026",
+   "citace": "32018R0034R(02)",
+   "nazev": "",
    "druh": "nový",
-   "soubor": "zakony/2026/169-2026.md",
-   "ucinnost_od": "0000-00-00",
+   "soubor": "eu/2018/32018R0034R(02).md",
+   "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "170/2026 Sb.",
-   "nazev": "Vyhláška, kterou se mění vyhláška č. 72/2005 Sb., o poskytování poradenských služeb ve školách a školských poradenských zařízeních, ve znění pozdějších předpisů ",
+   "citace": "32019R1379",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2019/32019R1379.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32019R1785",
+   "nazev": "",
    "druh": "nový",
-   "soubor": "zakony/2026/170-2026.md",
-   "ucinnost_od": "2026-09-24",
+   "soubor": "eu/2019/32019R1785.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32019R2238",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2019/32019R2238.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32020R1191",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2020/32020R1191.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32020R2015",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2020/32020R2015.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32021R0983",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2021/32021R0983.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32022R0836",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2022/32022R0836.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32022R0840",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2022/32022R0840.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32022R0841",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2022/32022R0841.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32024R1767",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2024/32024R1767.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32024R2407",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2024/32024R2407.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32024R3084",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2024/32024R3084.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32025R2158",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2025/32025R2158.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R0772",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R0772.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2168",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2168.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2188",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2188.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2202",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2202.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2220",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2220.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2227",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2227.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "u/2013/32013L0036.md",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "u/2013/32013L0036.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "242/1997 Sb.",
+    "2/1998 Sb.",
+    "127/1998 Sb.",
+    "225/1999 Sb.",
+    "363/1999 Sb.",
+    "18/2000 Sb."
+   ],
+   "citace": "48/1997 Sb.",
+   "nazev": "Zákon o veřejném zdravotním pojištění a o změně a doplnění některých souvisejících zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/1997/48-1997.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "360/2003 Sb.",
+    "279/2003 Sb.",
+    "53/2004 Sb.",
+    "257/2004 Sb.",
+    "284/2004 Sb.",
+    "377/2005 Sb."
+   ],
+   "citace": "120/2001 Sb.",
+   "nazev": "Zákon o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů",
+   "druh": "změněný",
+   "soubor": "zakony/2001/120-2001.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": [
+    "§ 125b"
+   ]
+  },
+  {
+   "novelizovano": [
+    "261/2007 Sb.",
+    "239/2008 Sb.",
+    "306/2008 Sb.",
+    "129/2008 Sb.",
+    "85/2010 Sb.",
+    "73/2011 Sb."
+   ],
+   "citace": "110/2006 Sb.",
+   "nazev": "Zákon o životním a existenčním minimu",
+   "druh": "změněný",
+   "soubor": "zakony/2006/110-2006.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "90/2010 Sb.",
+    "274/2010 Sb.",
+    "54/2011 Sb.",
+    "273/2011 Sb.",
+    "371/2012 Sb.",
+    "173/2014 Sb."
+   ],
+   "citace": "177/2009 Sb.",
+   "nazev": "Vyhláška o bližších podmínkách ukončování vzdělávání ve středních školách maturitní zkouškou",
+   "druh": "změněný",
+   "soubor": "zakony/2009/177-2009.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "173/2026 Sb."
+   ],
+   "citace": "11/2023 Sb.",
+   "nazev": "Vyhláška o zdravotní způsobilosti ve vnitrozemské plavbě",
+   "druh": "změněný",
+   "soubor": "zakony/2023/11-2023.md",
+   "ucinnost_od": "2023-03-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "44/2024 Sb.",
+    "185/2024 Sb.",
+    "41/2025 Sb.",
+    "25/2026 Sb.",
+    "167/2026 Sb."
+   ],
+   "citace": "140/2023 Sb.",
+   "nazev": "Nařízení vlády o stanovení podmínek provádění opatření agrolesnictví a o změně nařízení vlády č. 307/2014 Sb., o stanovení podrobností evidence využití půdy podle uživatelských vztahů, ve znění pozdějších předpisů, a nařízení vlády č. 69/2023 Sb., o stanovení podmínek provádění opatření v odvětví vína, (nařízení vlády o stanovení podmínek provádění opatření agrolesnictví)",
+   "druh": "změněný",
+   "soubor": "zakony/2023/140-2023.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "44/2024 Sb.",
+    "22/2026 Sb.",
+    "167/2026 Sb."
+   ],
+   "citace": "63/2023 Sb.",
+   "nazev": "Nařízení vlády o stanovení podmínek provádění opatření pro zalesňování zemědělské půdy",
+   "druh": "změněný",
+   "soubor": "zakony/2023/63-2023.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "62/2024 Sb.",
+    "185/2024 Sb.",
+    "80/2025 Sb.",
+    "167/2026 Sb."
+   ],
+   "citace": "73/2023 Sb.",
+   "nazev": "Nařízení vlády o stanovení pravidel podmíněnosti plateb zemědělcům",
+   "druh": "změněný",
+   "soubor": "zakony/2023/73-2023.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "44/2024 Sb.",
+    "27/2025 Sb.",
+    "32/2026 Sb.",
+    "167/2026 Sb."
+   ],
+   "citace": "81/2023 Sb.",
+   "nazev": "Nařízení vlády o stanovení podmínek provádění opatření ekologické zemědělství",
+   "druh": "změněný",
+   "soubor": "zakony/2023/81-2023.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "68/2024 Sb.",
+    "185/2024 Sb.",
+    "275/2024 Sb.",
+    "81/2025 Sb.",
+    "167/2026 Sb."
+   ],
+   "citace": "83/2023 Sb.",
+   "nazev": "Nařízení vlády o stanovení podmínek poskytování přímých plateb zemědělcům",
+   "druh": "změněný",
+   "soubor": "zakony/2023/83-2023.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": [
+    "§ 25",
+    "§ 38b"
+   ]
+  },
+  {
+   "novelizovano": [],
+   "citace": "252/2024 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 182/2006 Sb., o úpadku a způsobech jeho řešení (insolvenční zákon), ve znění pozdějších předpisů, zákon č. 99/1963 Sb., občanský soudní řád, ve znění pozdějších předpisů, zákon č. 119/2001 Sb., kterým se stanoví pravidla pro případy souběžně probíhajících výkonů rozhodnutí, ve znění pozdějších předpisů, zákon č. 120/2001 Sb., o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů, ve znění pozdějších předpisů, a zákon č. 312/2006 Sb., o insolvenčních správcích, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2024/252-2024.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "360/2025 Sb.",
+    "509/2025 Sb."
+   ],
+   "citace": "151/2025 Sb.",
+   "nazev": "Zákon o dávce státní sociální pomoci",
+   "druh": "změněný",
+   "soubor": "zakony/2025/151-2025.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "152/2025 Sb.",
+   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o dávce státní sociální pomoci",
+   "druh": "změněný",
+   "soubor": "zakony/2025/152-2025.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "289/2025 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 48/1997 Sb., o veřejném zdravotním pojištění a o změně a doplnění některých souvisejících zákonů, ve znění pozdějších předpisů, a další související zákony",
+   "druh": "změněný",
+   "soubor": "zakony/2025/289-2025.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [
+    "78/2026 Sb.",
+    "175/2026 Sb."
+   ],
+   "citace": "573/2025 Sb.",
+   "nazev": "Vyhláška o změně sazby základní náhrady za používání silničních motorových vozidel a stravného a o stanovení průměrné ceny pohonných hmot pro účely poskytování cestovních náhrad pro rok 2026",
+   "druh": "změněný",
+   "soubor": "zakony/2025/573-2025.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "152/2026 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 117/1995 Sb., o státní sociální podpoře, ve znění pozdějších předpisů, a zákon č. 151/2025 Sb., o dávce státní sociální pomoci, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/152-2026.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "165/2026 Sb.",
+   "nazev": "Nařízení vlády o vyhlášení evropsky významných lokalit zařazených do evropského seznamu",
+   "druh": "změněný",
+   "soubor": "zakony/2026/165-2026.md",
+   "ucinnost_od": "2026-09-30",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "167/2026 Sb.",
+   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 83/2023 Sb., o stanovení podmínek poskytování přímých plateb zemědělcům, ve znění pozdějších předpisů, a některá další související nařízení vlády",
+   "druh": "změněný",
+   "soubor": "zakony/2026/167-2026.md",
+   "ucinnost_od": "2026-10-01",
    "paragrafy": []
   },
   {
    "novelizovano": [],
    "citace": "171/2026 Sb.",
    "nazev": "Sdělení Ministerstva práce a sociálních věcí o vyhlášení minimální mzdy, nejnižších úrovní zaručeného platu a rozpětí výše příplatku za práci ve ztíženém pracovním prostředí pro rok 2027",
-   "druh": "nový",
+   "druh": "změněný",
    "soubor": "zakony/2026/171-2026.md",
    "ucinnost_od": "0000-00-00",
    "paragrafy": []
@@ -123,9 +477,81 @@
    "novelizovano": [],
    "citace": "172/2026 Sb.",
    "nazev": "Nařízení vlády, kterým se vydává cenový výměr regulující ceny některých pohonných hmot pro období od 1. října do 31. října 2026",
-   "druh": "nový",
+   "druh": "změněný",
    "soubor": "zakony/2026/172-2026.md",
-   "ucinnost_od": "2026-09-25",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "173/2026 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 11/2023 Sb., o zdravotní způsobilosti ve vnitrozemské plavbě ",
+   "druh": "nový",
+   "soubor": "zakony/2026/173-2026.md",
+   "ucinnost_od": "2026-09-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "174/2026 Sb.",
+   "nazev": "Sdělení Českého statistického úřadu o aktualizaci Klasifikace hospitalizovaných pacientů (CZ-DRG)",
+   "druh": "nový",
+   "soubor": "zakony/2026/174-2026.md",
+   "ucinnost_od": "0000-00-00",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "175/2026 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 573/2025 Sb., o změně sazby základní náhrady za používání silničních motorových vozidel a stravného a o stanovení průměrné ceny pohonných hmot pro účely poskytování cestovních náhrad pro rok 2026, ve znění vyhlášky č. 78/2026 Sb.",
+   "druh": "nový",
+   "soubor": "zakony/2026/175-2026.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "176/2026 Sb.",
+   "nazev": "Nařízení vlády o zvýšení příplatků k důchodu v roce 2027",
+   "druh": "nový",
+   "soubor": "zakony/2026/176-2026.md",
+   "ucinnost_od": "2026-09-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "177/2026 Sb.",
+   "nazev": "Nařízení vlády o výši všeobecného vyměřovacího základu za rok 2025, přepočítacího koeficientu pro úpravu všeobecného vyměřovacího základu za rok 2025, redukčních hranic pro stanovení výpočtového základu pro rok 2027, základní výměry důchodu stanovené pro rok 2027, nejnižších částek procentních výměr důchodů pro rok 2027 a o zvýšení důchodů v roce 2027",
+   "druh": "nový",
+   "soubor": "zakony/2026/177-2026.md",
+   "ucinnost_od": "2026-09-29",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "178/2026 Sb.",
+   "nazev": "Vyhláška o portálu kritické infrastruktury ",
+   "druh": "nový",
+   "soubor": "zakony/2026/178-2026.md",
+   "ucinnost_od": "2026-10-01",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "179/2026 Sb.",
+   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 127/1995 Sb., o prohlášení území ucelených částí vybraných měst a obcí s dochovanými soubory lidové architektury za památkové rezervace",
+   "druh": "nový",
+   "soubor": "zakony/2026/179-2026.md",
+   "ucinnost_od": "0000-00-00",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "99/2026 Sb.",
+   "nazev": "Vyhláška,  kterou se mění vyhláška č. 177/2009 Sb., o bližších podmínkách ukončování vzdělávání ve středních školách maturitní zkouškou, ve znění pozdějších předpisů, a vyhláška č. 422/2023 Sb., o přijímacím řízení ke střednímu vzdělávání a vzdělávání v konzervatoři, ve znění pozdějších předpisů",
+   "druh": "změněný",
+   "soubor": "zakony/2026/99-2026.md",
+   "ucinnost_od": "2026-10-01",
    "paragrafy": []
   }
  ]

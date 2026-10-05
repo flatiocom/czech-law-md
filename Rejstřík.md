@@ -5,7 +5,7 @@ tags:
 
 # Rejstřík předpisů
 
-Celkem 27,075 předpisů, z toho 10,316 zrušených — ty jsou označené ~~přeškrtnutím~~ a datem. **Nepracuj s nimi jako s platným právem.**
+Celkem 27,082 předpisů, z toho 10,316 zrušených — ty jsou označené ~~přeškrtnutím~~ a datem. **Nepracuj s nimi jako s platným právem.**
 
 Generuje `tools/rejstrik.py`, needituj ručně.
 
@@ -185,6 +185,13 @@ Nejnovější změny jsou v [[CHANGELOG]].
 - [[170-2026|170/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 72/2005 Sb., o poskytování poradenských služeb ve školách a školských poradenských zařízeních, ve znění pozdějších předpisů
 - [[171-2026|171/2026 Sb.]] Sdělení Ministerstva práce a sociálních věcí o vyhlášení minimální mzdy, nejnižších úrovní zaručeného platu a rozpětí výše příplatku za práci ve ztíženém pracovním prostředí pro rok 2027
 - [[172-2026|172/2026 Sb.]] Nařízení vlády, kterým se vydává cenový výměr regulující ceny některých pohonných hmot pro období od 1. října do 31. října 2026 — *platí jen do 2026-10-31*
+- [[173-2026|173/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 11/2023 Sb., o zdravotní způsobilosti ve vnitrozemské plavbě
+- [[174-2026|174/2026 Sb.]] Sdělení Českého statistického úřadu o aktualizaci Klasifikace hospitalizovaných pacientů (CZ-DRG)
+- [[175-2026|175/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 573/2025 Sb., o změně sazby základní náhrady za používání silničních motorových vozidel a stravného a o stanovení průměrné ceny pohonných hmot pro účely poskytování cestovních náhrad pro rok 2026, ve znění vyhlášky č. 78/2026 Sb.
+- [[176-2026|176/2026 Sb.]] Nařízení vlády o zvýšení příplatků k důchodu v roce 2027
+- [[177-2026|177/2026 Sb.]] Nařízení vlády o výši všeobecného vyměřovacího základu za rok 2025, přepočítacího koeficientu pro úpravu všeobecného vyměřovacího základu za rok 2025, redukčních hranic pro stanovení výpočtového základu pro rok 2027, základní výměry důchodu stanovené pro rok 2027, nejnižších částek procentních výměr důchodů pro rok 2027 a o zvýšení důchodů v roce 2027
+- [[178-2026|178/2026 Sb.]] Vyhláška o portálu kritické infrastruktury
+- [[179-2026|179/2026 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 127/1995 Sb., o prohlášení území ucelených částí vybraných měst a obcí s dochovanými soubory lidové architektury za památkové rezervace
 
 ## 2025
 
