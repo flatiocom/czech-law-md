@@ -1,192 +1,327 @@
 {
- "datum": "2026-10-05",
+ "datum": "2026-10-12",
  "zaznamy": [
   {
    "novelizovano": [],
-   "citace": "32013R0665",
+   "citace": "32010R1118",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2013/32013R0665.md",
+   "soubor": "eu/2010/32010R1118.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32013R1371",
+   "citace": "32013R0160",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2013/32013R1371.md",
+   "soubor": "eu/2013/32013R0160.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32017R0373",
+   "citace": "32013R0667",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2017/32017R0373.md",
+   "soubor": "eu/2013/32013R0667.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32017R2417",
+   "citace": "32015R1152",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2017/32017R2417.md",
+   "soubor": "eu/2015/32015R1152.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32018R0033",
+   "citace": "32015R1426",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2018/32018R0033.md",
+   "soubor": "eu/2015/32015R1426.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32018R0034R(02)",
-   "nazev": "",
-   "druh": "nový",
-   "soubor": "eu/2018/32018R0034R(02).md",
-   "ucinnost_od": "",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "32019R1379",
+   "citace": "32017R0211",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2019/32019R1379.md",
+   "soubor": "eu/2017/32017R0211.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32019R1785",
-   "nazev": "",
-   "druh": "nový",
-   "soubor": "eu/2019/32019R1785.md",
-   "ucinnost_od": "",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "32019R2238",
+   "citace": "32019R0138",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2019/32019R2238.md",
+   "soubor": "eu/2019/32019R0138.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32020R1191",
+   "citace": "32020R0761",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2020/32020R1191.md",
+   "soubor": "eu/2020/32020R0761.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32020R2015",
+   "citace": "32020R1377",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2020/32020R2015.md",
+   "soubor": "eu/2020/32020R1377.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32021R0983",
+   "citace": "32021R0404",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2021/32021R0983.md",
+   "soubor": "eu/2021/32021R0404.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32022R0836",
-   "nazev": "",
-   "druh": "nový",
-   "soubor": "eu/2022/32022R0836.md",
-   "ucinnost_od": "",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "32022R0840",
-   "nazev": "",
-   "druh": "nový",
-   "soubor": "eu/2022/32022R0840.md",
-   "ucinnost_od": "",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "32022R0841",
-   "nazev": "",
-   "druh": "nový",
-   "soubor": "eu/2022/32022R0841.md",
-   "ucinnost_od": "",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "32024R1767",
+   "citace": "32021R1413",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2024/32024R1767.md",
+   "soubor": "eu/2021/32021R1413.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32024R2407",
+   "citace": "32021R1784",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2024/32024R2407.md",
+   "soubor": "eu/2021/32021R1784.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32024R3084",
+   "citace": "32022R2189",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2024/32024R3084.md",
+   "soubor": "eu/2022/32022R2189.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32025R2158",
+   "citace": "32024R1481",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2025/32025R2158.md",
+   "soubor": "eu/2024/32024R1481.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32026R0772",
-   "nazev": "",
-   "druh": "nový",
-   "soubor": "eu/2026/32026R0772.md",
-   "ucinnost_od": "",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "32026R2168",
+   "citace": "32025R2143",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "eu/2026/32026R2168.md",
+   "soubor": "eu/2025/32025R2143.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R0164",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R0164.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R0356",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R0356.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R0801",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R0801.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R1123",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R1123.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2031",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2031.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2042",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2042.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2044",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2044.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2046",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2046.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2050",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2050.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2051",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2051.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2053",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2053.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2054",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2054.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2061",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2061.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2072",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2072.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2074",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2074.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2076",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2076.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2077",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2077.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2078",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2078.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2079",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2079.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2106",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2106.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2155",
+   "nazev": "",
+   "druh": "změněný",
+   "soubor": "eu/2026/32026R2155.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
@@ -194,8 +329,26 @@
    "novelizovano": [],
    "citace": "32026R2188",
    "nazev": "",
-   "druh": "nový",
+   "druh": "změněný",
    "soubor": "eu/2026/32026R2188.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2199",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2199.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2201",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2201.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
@@ -203,275 +356,216 @@
    "novelizovano": [],
    "citace": "32026R2202",
    "nazev": "",
-   "druh": "nový",
+   "druh": "změněný",
    "soubor": "eu/2026/32026R2202.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32026R2220",
+   "citace": "32026R2203",
    "nazev": "",
    "druh": "nový",
-   "soubor": "eu/2026/32026R2220.md",
+   "soubor": "eu/2026/32026R2203.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "32026R2227",
+   "citace": "32026R2205",
    "nazev": "",
    "druh": "nový",
-   "soubor": "eu/2026/32026R2227.md",
+   "soubor": "eu/2026/32026R2205.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "u/2013/32013L0036.md",
+   "citace": "32026R2208",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2208.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2210",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2210.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2214",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2214.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2224",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2224.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2226",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2226.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2238",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2238.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2241",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2241.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2245",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2245.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2257",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2257.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2262",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2262.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2263",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2263.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2265",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2265.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2268",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2268.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2269",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2269.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "32026R2287",
+   "nazev": "",
+   "druh": "nový",
+   "soubor": "eu/2026/32026R2287.md",
+   "ucinnost_od": "",
+   "paragrafy": []
+  },
+  {
+   "novelizovano": [],
+   "citace": "u/2004/32004R0885.md",
    "nazev": "",
    "druh": "změněný",
-   "soubor": "u/2013/32013L0036.md",
+   "soubor": "u/2004/32004R0885.md",
    "ucinnost_od": "",
    "paragrafy": []
   },
   {
    "novelizovano": [
-    "242/1997 Sb.",
-    "2/1998 Sb.",
-    "127/1998 Sb.",
-    "225/1999 Sb.",
-    "363/1999 Sb.",
-    "18/2000 Sb."
+    "241/2024 Sb.",
+    "236/2025 Sb.",
+    "218/2025 Sb."
    ],
-   "citace": "48/1997 Sb.",
-   "nazev": "Zákon o veřejném zdravotním pojištění a o změně a doplnění některých souvisejících zákonů",
+   "citace": "375/2022 Sb.",
+   "nazev": "Zákon o zdravotnických prostředcích a diagnostických zdravotnických prostředcích in vitro",
    "druh": "změněný",
-   "soubor": "zakony/1997/48-1997.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [
-    "360/2003 Sb.",
-    "279/2003 Sb.",
-    "53/2004 Sb.",
-    "257/2004 Sb.",
-    "284/2004 Sb.",
-    "377/2005 Sb."
-   ],
-   "citace": "120/2001 Sb.",
-   "nazev": "Zákon o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů",
-   "druh": "změněný",
-   "soubor": "zakony/2001/120-2001.md",
-   "ucinnost_od": "2026-10-01",
+   "soubor": "zakony/2022/375-2022.md",
+   "ucinnost_od": "2026-09-16",
    "paragrafy": [
-    "§ 125b"
+    "§ 8a",
+    "§ 8b",
+    "§ 27a",
+    "§ 39a",
+    "§ 53a"
    ]
   },
   {
    "novelizovano": [
-    "261/2007 Sb.",
-    "239/2008 Sb.",
-    "306/2008 Sb.",
-    "129/2008 Sb.",
-    "85/2010 Sb.",
-    "73/2011 Sb."
+    "182/2026 Sb."
    ],
-   "citace": "110/2006 Sb.",
-   "nazev": "Zákon o životním a existenčním minimu",
+   "citace": "356/2024 Sb.",
+   "nazev": "Vyhláška o náležitostech formulářů žádosti o opis nebo výpis z rejstříku trestů a žádosti o opis z evidence přestupků",
    "druh": "změněný",
-   "soubor": "zakony/2006/110-2006.md",
-   "ucinnost_od": "2026-10-01",
+   "soubor": "zakony/2024/356-2024.md",
+   "ucinnost_od": "2025-01-01",
    "paragrafy": []
   },
   {
-   "novelizovano": [
-    "90/2010 Sb.",
-    "274/2010 Sb.",
-    "54/2011 Sb.",
-    "273/2011 Sb.",
-    "371/2012 Sb.",
-    "173/2014 Sb."
-   ],
-   "citace": "177/2009 Sb.",
-   "nazev": "Vyhláška o bližších podmínkách ukončování vzdělávání ve středních školách maturitní zkouškou",
+   "novelizovano": [],
+   "citace": "166/2026 Sb.",
+   "nazev": "Zákon, kterým se mění zákon č. 375/2022 Sb., o zdravotnických prostředcích a diagnostických zdravotnických prostředcích in vitro, ve znění pozdějších předpisů",
    "druh": "změněný",
-   "soubor": "zakony/2009/177-2009.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [
-    "173/2026 Sb."
-   ],
-   "citace": "11/2023 Sb.",
-   "nazev": "Vyhláška o zdravotní způsobilosti ve vnitrozemské plavbě",
-   "druh": "změněný",
-   "soubor": "zakony/2023/11-2023.md",
-   "ucinnost_od": "2023-03-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [
-    "44/2024 Sb.",
-    "185/2024 Sb.",
-    "41/2025 Sb.",
-    "25/2026 Sb.",
-    "167/2026 Sb."
-   ],
-   "citace": "140/2023 Sb.",
-   "nazev": "Nařízení vlády o stanovení podmínek provádění opatření agrolesnictví a o změně nařízení vlády č. 307/2014 Sb., o stanovení podrobností evidence využití půdy podle uživatelských vztahů, ve znění pozdějších předpisů, a nařízení vlády č. 69/2023 Sb., o stanovení podmínek provádění opatření v odvětví vína, (nařízení vlády o stanovení podmínek provádění opatření agrolesnictví)",
-   "druh": "změněný",
-   "soubor": "zakony/2023/140-2023.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [
-    "44/2024 Sb.",
-    "22/2026 Sb.",
-    "167/2026 Sb."
-   ],
-   "citace": "63/2023 Sb.",
-   "nazev": "Nařízení vlády o stanovení podmínek provádění opatření pro zalesňování zemědělské půdy",
-   "druh": "změněný",
-   "soubor": "zakony/2023/63-2023.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [
-    "62/2024 Sb.",
-    "185/2024 Sb.",
-    "80/2025 Sb.",
-    "167/2026 Sb."
-   ],
-   "citace": "73/2023 Sb.",
-   "nazev": "Nařízení vlády o stanovení pravidel podmíněnosti plateb zemědělcům",
-   "druh": "změněný",
-   "soubor": "zakony/2023/73-2023.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [
-    "44/2024 Sb.",
-    "27/2025 Sb.",
-    "32/2026 Sb.",
-    "167/2026 Sb."
-   ],
-   "citace": "81/2023 Sb.",
-   "nazev": "Nařízení vlády o stanovení podmínek provádění opatření ekologické zemědělství",
-   "druh": "změněný",
-   "soubor": "zakony/2023/81-2023.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [
-    "68/2024 Sb.",
-    "185/2024 Sb.",
-    "275/2024 Sb.",
-    "81/2025 Sb.",
-    "167/2026 Sb."
-   ],
-   "citace": "83/2023 Sb.",
-   "nazev": "Nařízení vlády o stanovení podmínek poskytování přímých plateb zemědělcům",
-   "druh": "změněný",
-   "soubor": "zakony/2023/83-2023.md",
-   "ucinnost_od": "2026-10-01",
+   "soubor": "zakony/2026/166-2026.md",
+   "ucinnost_od": "2026-09-16",
    "paragrafy": [
-    "§ 25",
-    "§ 38b"
+    "Čl. I",
+    "§ 8b",
+    "Čl. II",
+    "Čl. III"
    ]
-  },
-  {
-   "novelizovano": [],
-   "citace": "252/2024 Sb.",
-   "nazev": "Zákon, kterým se mění zákon č. 182/2006 Sb., o úpadku a způsobech jeho řešení (insolvenční zákon), ve znění pozdějších předpisů, zákon č. 99/1963 Sb., občanský soudní řád, ve znění pozdějších předpisů, zákon č. 119/2001 Sb., kterým se stanoví pravidla pro případy souběžně probíhajících výkonů rozhodnutí, ve znění pozdějších předpisů, zákon č. 120/2001 Sb., o soudních exekutorech a exekuční činnosti (exekuční řád) a o změně dalších zákonů, ve znění pozdějších předpisů, a zákon č. 312/2006 Sb., o insolvenčních správcích, ve znění pozdějších předpisů",
-   "druh": "změněný",
-   "soubor": "zakony/2024/252-2024.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [
-    "360/2025 Sb.",
-    "509/2025 Sb."
-   ],
-   "citace": "151/2025 Sb.",
-   "nazev": "Zákon o dávce státní sociální pomoci",
-   "druh": "změněný",
-   "soubor": "zakony/2025/151-2025.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "152/2025 Sb.",
-   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o dávce státní sociální pomoci",
-   "druh": "změněný",
-   "soubor": "zakony/2025/152-2025.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "289/2025 Sb.",
-   "nazev": "Zákon, kterým se mění zákon č. 48/1997 Sb., o veřejném zdravotním pojištění a o změně a doplnění některých souvisejících zákonů, ve znění pozdějších předpisů, a další související zákony",
-   "druh": "změněný",
-   "soubor": "zakony/2025/289-2025.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [
-    "78/2026 Sb.",
-    "175/2026 Sb."
-   ],
-   "citace": "573/2025 Sb.",
-   "nazev": "Vyhláška o změně sazby základní náhrady za používání silničních motorových vozidel a stravného a o stanovení průměrné ceny pohonných hmot pro účely poskytování cestovních náhrad pro rok 2026",
-   "druh": "změněný",
-   "soubor": "zakony/2025/573-2025.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "152/2026 Sb.",
-   "nazev": "Zákon, kterým se mění zákon č. 117/1995 Sb., o státní sociální podpoře, ve znění pozdějších předpisů, a zákon č. 151/2025 Sb., o dávce státní sociální pomoci, ve znění pozdějších předpisů",
-   "druh": "změněný",
-   "soubor": "zakony/2026/152-2026.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "165/2026 Sb.",
-   "nazev": "Nařízení vlády o vyhlášení evropsky významných lokalit zařazených do evropského seznamu",
-   "druh": "změněný",
-   "soubor": "zakony/2026/165-2026.md",
-   "ucinnost_od": "2026-09-30",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "167/2026 Sb.",
-   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 83/2023 Sb., o stanovení podmínek poskytování přímých plateb zemědělcům, ve znění pozdějších předpisů, a některá další související nařízení vlády",
-   "druh": "změněný",
-   "soubor": "zakony/2026/167-2026.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "171/2026 Sb.",
-   "nazev": "Sdělení Ministerstva práce a sociálních věcí o vyhlášení minimální mzdy, nejnižších úrovní zaručeného platu a rozpětí výše příplatku za práci ve ztíženém pracovním prostředí pro rok 2027",
-   "druh": "změněný",
-   "soubor": "zakony/2026/171-2026.md",
-   "ucinnost_od": "0000-00-00",
-   "paragrafy": []
   },
   {
    "novelizovano": [],
@@ -484,74 +578,29 @@
   },
   {
    "novelizovano": [],
-   "citace": "173/2026 Sb.",
-   "nazev": "Vyhláška, kterou se mění vyhláška č. 11/2023 Sb., o zdravotní způsobilosti ve vnitrozemské plavbě ",
+   "citace": "180/2026 Sb.",
+   "nazev": "Zákon o evidenci tržeb a o změně některých dalších zákonů",
    "druh": "nový",
-   "soubor": "zakony/2026/173-2026.md",
-   "ucinnost_od": "2026-09-29",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "174/2026 Sb.",
-   "nazev": "Sdělení Českého statistického úřadu o aktualizaci Klasifikace hospitalizovaných pacientů (CZ-DRG)",
-   "druh": "nový",
-   "soubor": "zakony/2026/174-2026.md",
+   "soubor": "zakony/2026/180-2026.md",
    "ucinnost_od": "0000-00-00",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "175/2026 Sb.",
-   "nazev": "Vyhláška, kterou se mění vyhláška č. 573/2025 Sb., o změně sazby základní náhrady za používání silničních motorových vozidel a stravného a o stanovení průměrné ceny pohonných hmot pro účely poskytování cestovních náhrad pro rok 2026, ve znění vyhlášky č. 78/2026 Sb.",
+   "citace": "181/2026 Sb.",
+   "nazev": "Nařízení vlády o zavedení letního času v letech 2027 až 2031 ",
    "druh": "nový",
-   "soubor": "zakony/2026/175-2026.md",
-   "ucinnost_od": "2026-10-01",
+   "soubor": "zakony/2026/181-2026.md",
+   "ucinnost_od": "2026-10-07",
    "paragrafy": []
   },
   {
    "novelizovano": [],
-   "citace": "176/2026 Sb.",
-   "nazev": "Nařízení vlády o zvýšení příplatků k důchodu v roce 2027",
+   "citace": "182/2026 Sb.",
+   "nazev": "Vyhláška, kterou se mění vyhláška č. 356/2024 Sb., o náležitostech formulářů žádosti o opis nebo výpis z rejstříku trestů a žádosti o opis z evidence přestupků ",
    "druh": "nový",
-   "soubor": "zakony/2026/176-2026.md",
-   "ucinnost_od": "2026-09-29",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "177/2026 Sb.",
-   "nazev": "Nařízení vlády o výši všeobecného vyměřovacího základu za rok 2025, přepočítacího koeficientu pro úpravu všeobecného vyměřovacího základu za rok 2025, redukčních hranic pro stanovení výpočtového základu pro rok 2027, základní výměry důchodu stanovené pro rok 2027, nejnižších částek procentních výměr důchodů pro rok 2027 a o zvýšení důchodů v roce 2027",
-   "druh": "nový",
-   "soubor": "zakony/2026/177-2026.md",
-   "ucinnost_od": "2026-09-29",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "178/2026 Sb.",
-   "nazev": "Vyhláška o portálu kritické infrastruktury ",
-   "druh": "nový",
-   "soubor": "zakony/2026/178-2026.md",
-   "ucinnost_od": "2026-10-01",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "179/2026 Sb.",
-   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 127/1995 Sb., o prohlášení území ucelených částí vybraných měst a obcí s dochovanými soubory lidové architektury za památkové rezervace",
-   "druh": "nový",
-   "soubor": "zakony/2026/179-2026.md",
-   "ucinnost_od": "0000-00-00",
-   "paragrafy": []
-  },
-  {
-   "novelizovano": [],
-   "citace": "99/2026 Sb.",
-   "nazev": "Vyhláška,  kterou se mění vyhláška č. 177/2009 Sb., o bližších podmínkách ukončování vzdělávání ve středních školách maturitní zkouškou, ve znění pozdějších předpisů, a vyhláška č. 422/2023 Sb., o přijímacím řízení ke střednímu vzdělávání a vzdělávání v konzervatoři, ve znění pozdějších předpisů",
-   "druh": "změněný",
-   "soubor": "zakony/2026/99-2026.md",
-   "ucinnost_od": "2026-10-01",
+   "soubor": "zakony/2026/182-2026.md",
+   "ucinnost_od": "2026-10-07",
    "paragrafy": []
   }
  ]

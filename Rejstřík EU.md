@@ -5,11 +5,11 @@ tags:
 
 # Rejstřík práva EU
 
-Nařízení a směrnice v češtině, 39 044 předpisů. Soubor se jmenuje podle CELEXu: `32016R0679` je GDPR.
+Nařízení a směrnice v češtině, 39 063 předpisů. Soubor se jmenuje podle CELEXu: `32016R0679` je GDPR.
 
 Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj s nimi jako s platným právem.** U platných, kterým se blíží konec platnosti, stojí, do kdy platí.
 
-## 2026 (895)
+## 2026 (914)
 
 - [[32026L0074|32026L0074]] SMĚRNICE KOMISE V PŘENESENÉ PRAVOMOCI (EU) 2026/74 ze dne 12. ledna 2026, kterou se mění příloha II směrnice E
 - [[32026L0192|32026L0192]] SMĚRNICE KOMISE (EU) 2026/192 ze dne 28. ledna 2026, kterou se mění dodatek A přílohy II směrnice Evropského p — *platí jen do 2030-07-31*
@@ -220,7 +220,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32026R0353|32026R0353]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/353 ze dne 18. února 2026 o povolení L-histidinu a L-histidin-monohydrochl
 - [[32026R0355|32026R0355]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/355 ze dne 18. února 2026, kterým se v souladu s nařízením Evropského parl
 - [[32026R0355R(01)|32026R0355R(01)]] Oprava prováděcího nařízení Komise (EU) 2026/355 ze dne 18. února 2026, kterým se v souladu s nařízením Evrops
-- [[32026R0356|32026R0356]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/356 ze dne 18. února 2026 o povolení přípravku endo-1,4-beta-xylanázy z Ba — *platí jen do 2026-10-10*
+- ~~[[32026R0356|32026R0356]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/356 ze dne 18. února 2026 o povolení přípravku endo-1,4-beta-xylanázy z Ba — *pozbylo platnosti 2026-10-10*
 - [[32026R0357|32026R0357]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/357 ze dne 18. února 2026, kterým se mění prováděcí nařízení (EU) 2023/220
 - [[32026R0358|32026R0358]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/358 ze dne 11. února 2026 o zápisu zeměpisného označení „Batog de sturion“
 - [[32026R0360|32026R0360]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/360 ze dne 10. února 2026 o zařazení určitého zboží do kombinované nomenkl
@@ -412,7 +412,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32026R0796|32026R0796]] NAŘÍZENÍ KOMISE V PŘENESENÉ PRAVOMOCI (EU) 2026/796 ze dne 27. března 2026, kterým se mění nařízení v přenesen
 - [[32026R0797|32026R0797]] NAŘÍZENÍ KOMISE V PŘENESENÉ PRAVOMOCI (EU) 2026/797 ze dne 27. března 2026, kterým se mění nařízení v přenesen
 - [[32026R0798|32026R0798]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/798 ze dne 7. dubna 2026, kterým se stanoví prováděcí pravidla k nařízení 
-- [[32026R0801|32026R0801]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/801 ze dne 9. dubna 2026, kterým se ukládá prozatímní antidumpingové clo n — *platí jen do 2026-10-11*
+- ~~[[32026R0801|32026R0801]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/801 ze dne 9. dubna 2026, kterým se ukládá prozatímní antidumpingové clo n — *pozbylo platnosti 2026-10-11*
 - [[32026R0807|32026R0807]] NAŘÍZENÍ KOMISE V PŘENESENÉ PRAVOMOCI (EU) 2026/807 ze dne 10. března 2026, kterým se mění regulační technické
 - [[32026R0808|32026R0808]] NAŘÍZENÍ EVROPSKÉHO PARLAMENTU A RADY (EU) 2026/808 ze dne 30. března 2026, kterým se mění nařízení (EU) č. 80
 - [[32026R0814|32026R0814]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/814 ze dne 1. dubna 2026, kterým se mění přílohy V a XIV prováděcího naříz
@@ -832,28 +832,28 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32026R2027|32026R2027]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2027 ze dne 10. září 2026 o povolení chelátu molybdenu s EDTA jako doplňko
 - [[32026R2028|32026R2028]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2028 ze dne 10. září 2026 o udělení povolení Unie pro jednotlivý biocidní 
 - [[32026R2029|32026R2029]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2029 ze dne 3. září 2026, kterým se od 7. září 2026 stanoví dovozní cla pr
-- ~~[[32026R2031|32026R2031]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2031 ze dne 11. září 2026, kterým se mění prováděcí nařízení (EU) 2017/373 — *pozbylo platnosti, datum neuvedeno*
+- [[32026R2031|32026R2031]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2031 ze dne 11. září 2026, kterým se mění prováděcí nařízení (EU) 2017/373
 - [[32026R2041|32026R2041]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2041 ze dne 11. září 2026, kterým se stanoví prováděcí pravidla ke směrnic
-- ~~[[32026R2042|32026R2042]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2042 ze dne 11. září 2026 o udělení povolení Unie pro biocidní přípravek „ — *pozbylo platnosti, datum neuvedeno*
-- ~~[[32026R2044|32026R2044]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2044 ze dne 11. září 2026, kterým se mění prováděcí nařízení (EU) 2024/176 — *pozbylo platnosti, datum neuvedeno*
+- [[32026R2042|32026R2042]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2042 ze dne 11. září 2026 o udělení povolení Unie pro biocidní přípravek „
+- [[32026R2044|32026R2044]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2044 ze dne 11. září 2026, kterým se mění prováděcí nařízení (EU) 2024/176
 - [[32026R2045|32026R2045]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2045 ze dne 14. září 2026, kterým se mění nařízení (EU) č. 468/2010, který
-- ~~[[32026R2046|32026R2046]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2046 ze dne 14. září 2026, kterým se mění prováděcí nařízení (EU) 2022/964 — *pozbylo platnosti, datum neuvedeno*
+- [[32026R2046|32026R2046]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2046 ze dne 14. září 2026, kterým se mění prováděcí nařízení (EU) 2022/964
 - [[32026R2047|32026R2047]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2047 ze dne 14. září 2026 o prodloužení zpětné kontroly Unie dovozu ethano — *platí jen do 2029-09-15*
 - [[32026R2049|32026R2049]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2049 ze dne 14. září 2026, kterým se zavádí celní evidence dovozu galvanic
-- ~~[[32026R2050|32026R2050]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2050 ze dne 11. září 2026 o udělení povolení Unie pro kategorii biocidních — *pozbylo platnosti, datum neuvedeno*
-- ~~[[32026R2051|32026R2051]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2051 ze dne 11. září 2026 o udělení povolení Unie pro kategorii biocidních — *pozbylo platnosti, datum neuvedeno*
-- ~~[[32026R2053|32026R2053]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2053 ze dne 10. září 2026 o udělení povolení Unie pro kategorii biocidních — *pozbylo platnosti, datum neuvedeno*
-- ~~[[32026R2054|32026R2054]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2054 ze dne 11. září 2026 o udělení povolení Unie pro kategorii biocidních — *pozbylo platnosti, datum neuvedeno*
+- [[32026R2050|32026R2050]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2050 ze dne 11. září 2026 o udělení povolení Unie pro kategorii biocidních
+- [[32026R2051|32026R2051]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2051 ze dne 11. září 2026 o udělení povolení Unie pro kategorii biocidních
+- [[32026R2053|32026R2053]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2053 ze dne 10. září 2026 o udělení povolení Unie pro kategorii biocidních
+- [[32026R2054|32026R2054]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2054 ze dne 11. září 2026 o udělení povolení Unie pro kategorii biocidních
 - [[32026R2057|32026R2057]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2057 ze dne 17. září 2026, kterým se podle čl. 4 odst. 2 nařízení Rady (ES
-- ~~[[32026R2061|32026R2061]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2061 ze dne 17. září 2026 o povolení přípravku z narasinu a diklazurilu (I — *pozbylo platnosti, datum neuvedeno*
+- [[32026R2061|32026R2061]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2061 ze dne 17. září 2026 o povolení přípravku z narasinu a diklazurilu (I
 - [[32026R2064|32026R2064]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2064 ze dne 17. září 2026, kterým se mění prováděcí nařízení (EU) 2025/4 o
 - [[32026R2070|32026R2070]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2070 ze dne 17. září 2026, kterým se opravuje prováděcí nařízení (EU) 2026
-- ~~[[32026R2072|32026R2072]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2072 ze dne 17. září 2026 o povolení perlitu jako doplňkové látky pro výkr — *pozbylo platnosti, datum neuvedeno*
-- ~~[[32026R2074|32026R2074]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2074 ze dne 17. září 2026 o povolení přípravku z Bacillus subtilis DSM 338 — *pozbylo platnosti, datum neuvedeno*
-- ~~[[32026R2076|32026R2076]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2076 ze dne 17. září 2026 o povolení esenciálního oleje z muškátového oříš — *pozbylo platnosti, datum neuvedeno*
-- ~~[[32026R2077|32026R2077]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2077 ze dne 17. září 2026 o obnovení povolení přípravku z kyseliny benzoov — *pozbylo platnosti, datum neuvedeno*
-- ~~[[32026R2078|32026R2078]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2078 ze dne 9. září 2026, o zápisu zeměpisného označení „Olio dei Colli di — *pozbylo platnosti, datum neuvedeno*
-- ~~[[32026R2079|32026R2079]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2079 ze dne 17. září 2026 o povolení přípravku z alfa-galaktosidázy z Aspe — *pozbylo platnosti, datum neuvedeno*
+- [[32026R2072|32026R2072]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2072 ze dne 17. září 2026 o povolení perlitu jako doplňkové látky pro výkr
+- [[32026R2074|32026R2074]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2074 ze dne 17. září 2026 o povolení přípravku z Bacillus subtilis DSM 338
+- [[32026R2076|32026R2076]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2076 ze dne 17. září 2026 o povolení esenciálního oleje z muškátového oříš
+- [[32026R2077|32026R2077]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2077 ze dne 17. září 2026 o obnovení povolení přípravku z kyseliny benzoov
+- [[32026R2078|32026R2078]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2078 ze dne 9. září 2026, o zápisu zeměpisného označení „Olio dei Colli di
+- [[32026R2079|32026R2079]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2079 ze dne 17. září 2026 o povolení přípravku z alfa-galaktosidázy z Aspe
 - ~~[[32026R2083|32026R2083]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2083 ze dne 18. září 2026 o platformě MyHealth@EU — *pozbylo platnosti, datum neuvedeno*
 - ~~[[32026R2084|32026R2084]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2084 ze dne 18. září 2026 o obnovení povolení tokoferolových extraktů z ro — *pozbylo platnosti, datum neuvedeno*
 - [[32026R2085|32026R2085]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2085 ze dne 18. září 2026, kterým se prodlužuje odchylka od nařízení Rady  — *platí jen do 2029-07-02*
@@ -873,7 +873,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32026R2102|32026R2102]] NAŘÍZENÍ KOMISE V PŘENESENÉ PRAVOMOCI (EU) 2026/2102 ze dne 13. července 2026, kterým se mění nařízení Evropsk
 - [[32026R2104|32026R2104]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2104 ze dne 17. září 2026, kterým se mění přílohy V a XIV prováděcího naří
 - ~~[[32026R2105|32026R2105]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2105 ze dne 14. září 2026 o zápisu zeměpisného označení „Nivegy-völgy / Ni — *pozbylo platnosti, datum neuvedeno*
-- ~~[[32026R2106|32026R2106]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2106 ze dne 14. září 2026 o schválení změny specifikace produktu s chráněn — *pozbylo platnosti, datum neuvedeno*
+- [[32026R2106|32026R2106]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2106 ze dne 14. září 2026 o schválení změny specifikace produktu s chráněn
 - [[32026R2107|32026R2107]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2107 ze dne 22. září 2026, kterým se ukládá konečné vyrovnávací clo na dov — *platí jen do 2031-09-24*
 - [[32026R2108|32026R2108]] NAŘÍZENÍ EVROPSKÉHO PARLAMENTU A RADY (EU) 2026/2108 ze dne 16. září 2026, kterým se stanoví celní kodex Unie 
 - ~~[[32026R2110|32026R2110]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2110 ze dne 23. září 2026 o povolení majoránového esenciálního oleje z Ori — *pozbylo platnosti, datum neuvedeno*
@@ -891,7 +891,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32026R2138|32026R2138]] PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) 2026/2138 ze dne 22. září 2026, kterým se provádí čl. 11 odst. 4 nařízení (EU) č.
 - [[32026R2143|32026R2143]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2143 ze dne 18. září 2026, kterým se po třísté šedesáté první mění nařízen
 - [[32026R2149|32026R2149]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2149 ze dne 21. září 2026, kterým se mění přílohy V a XIV prováděcího naří
-- ~~[[32026R2155|32026R2155]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2155 ze dne 28. září 2026, kterým se schvaluje zařazení přístavu Køge na s — *pozbylo platnosti, datum neuvedeno*
+- [[32026R2155|32026R2155]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2155 ze dne 28. září 2026, kterým se schvaluje zařazení přístavu Køge na s
 - ~~[[32026R2158|32026R2158]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2158 ze dne 28. září 2026 o povolení esenciálního oleje z poupat hřebíčku, — *pozbylo platnosti, datum neuvedeno*
 - [[32026R2160|32026R2160]] PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) 2026/2160 ze dne 22. září 2026, kterým se provádí nařízení (EU) č. 269/2014 o ome
 - [[32026R2162|32026R2162]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2162 ze dne 29. září 2026, kterým se zavádí celní evidence dovozu pevných 
@@ -899,13 +899,32 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - ~~[[32026R2167|32026R2167]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2167 ze dne 22. září 2026 o zápisu zeměpisného označení „Aceite Valle del  — *pozbylo platnosti, datum neuvedeno*
 - ~~[[32026R2168|32026R2168]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2168 ze dne 22. září 2026 o zápisu zeměpisného označení „Vlaams roodbruin  — *pozbylo platnosti, datum neuvedeno*
 - [[32026R2184|32026R2184]] PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) 2026/2184 ze dne 28. září 2026, kterým se provádí nařízení (EU) č. 269/2014 o ome
-- [[32026R2188|32026R2188]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2188 ze dne 1. října 2026, kterým se mění přílohy II a IV prováděcího naří
+- ~~[[32026R2188|32026R2188]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2188 ze dne 1. října 2026, kterým se mění přílohy II a IV prováděcího naří — *pozbylo platnosti, datum neuvedeno*
 - [[32026R2191|32026R2191]] PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) 2026/2191 ze dne 28. září 2026, kterým se provádí nařízení (ES) č. 1183/2005 o om
 - [[32026R2193|32026R2193]] PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) 2026/2193 ze dne 28. září 2026, kterým se provádí nařízení (EU) 2024/1485 o omezu
-- [[32026R2202|32026R2202]] NAŘÍZENÍ EVROPSKÉHO PARLAMENTU A RADY (EU) 2026/2202 ze dne 16. září 2026 o změně nařízení Evropského parlamen
+- ~~[[32026R2199|32026R2199]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2199 ze dne 2. října 2026, kterým se zrušuje povolení Unie pro jednotlivý  — *pozbylo platnosti, datum neuvedeno*
+- ~~[[32026R2201|32026R2201]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2201 ze dne 2. října 2026, kterým se mění prováděcí nařízení (EU) 2023/176 — *pozbylo platnosti, datum neuvedeno*
+- ~~[[32026R2202|32026R2202]]~~ NAŘÍZENÍ EVROPSKÉHO PARLAMENTU A RADY (EU) 2026/2202 ze dne 16. září 2026 o změně nařízení Evropského parlamen — *pozbylo platnosti, datum neuvedeno*
+- ~~[[32026R2203|32026R2203]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2203 ze dne 2. října 2026, kterým se mění prováděcí nařízení (EU) 2024/217 — *pozbylo platnosti, datum neuvedeno*
+- [[32026R2205|32026R2205]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2205 ze dne 5. října 2026 o výjimečných opatřeních na podporu trhu pro odv
+- [[32026R2208|32026R2208]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2208 ze dne 5. října 2026 o výjimečných opatřeních na podporu trhu pro odv
+- ~~[[32026R2210|32026R2210]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2210 ze dne 5. října 2026, kterým se mění prováděcí nařízení (EU) č. 79/20 — *pozbylo platnosti, datum neuvedeno*
 - [[32026R2212|32026R2212]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2212 ze dne 25. září 2026, kterým se stanoví reprezentativní ceny, dovozní
+- ~~[[32026R2214|32026R2214]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2214 ze dne 5. října 2026, kterým se opravují některá jazyková znění prová — *pozbylo platnosti, datum neuvedeno*
 - [[32026R2220|32026R2220]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2220 ze dne 1. října 2026, kterým se mění příloha I prováděcího nařízení ( — *platí jen do 2028-04-20*
+- ~~[[32026R2224|32026R2224]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2224 ze dne 29. září 2026, kterým se schvaluje změna specifikace produktu  — *pozbylo platnosti, datum neuvedeno*
+- ~~[[32026R2226|32026R2226]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2226 ze dne 29. září 2026, kterým se na úrovni Unie schvaluje změna specif — *pozbylo platnosti, datum neuvedeno*
 - [[32026R2227|32026R2227]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2227 ze dne 1. října 2026, kterým se mění přílohy V a XIV prováděcího naří
+- [[32026R2238|32026R2238]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2238 ze dne 2. října 2026, kterým se mění přílohy XIII a XV prováděcího na
+- [[32026R2241|32026R2241]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2241 ze dne 8. října 2026, kterým se mění prováděcí nařízení (EU) 2024/274
+- [[32026R2245|32026R2245]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2245 ze dne 8. října 2026, kterým se zavádí celní evidence dovozu určitých
+- [[32026R2257|32026R2257]] PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) 2026/2257 ze dne 8. října 2026, kterým se provádí nařízení (EU) 2024/2642 o omezu
+- [[32026R2262|32026R2262]] PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) 2026/2262 ze dne 9. října 2026, kterým se provádí nařízení (EU) 2023/2147 o omezu
+- [[32026R2263|32026R2263]] PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) 2026/2263 ze dne 8. října 2026, kterým se provádí nařízení (EU) č. 269/2014 o ome
+- [[32026R2265|32026R2265]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2265 ze dne 6. října 2026 o zařazení určitého zboží do kombinované nomenkl
+- [[32026R2268|32026R2268]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2268 ze dne 7. října 2026, kterým se mění přílohy V a XIV prováděcího naří
+- [[32026R2269|32026R2269]] NAŘÍZENÍ EVROPSKÉHO PARLAMENTU A RADY (EU) 2026/2269 ze dne 7. října 2026 o dočasných opatřeních pro liberaliz — *platí jen do 2028-10-11*
+- [[32026R2287|32026R2287]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2026/2287 ze dne 8. října 2026, kterým se po třísté šedesáté druhé mění nařízen
 
 ## 2025 (1284)
 
@@ -1934,7 +1953,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32025R2123|32025R2123]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2025/2123 ze dne 14. října 2025, kterým se po třísté padesáté mění nařízení Rad
 - [[32025R2137|32025R2137]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2025/2137 ze dne 22. října 2025, kterým se mění prováděcí nařízení (EU) 2024/16
 - [[32025R2138|32025R2138]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2025/2138 ze dne 21. října 2025, kterým se mění prováděcí nařízení (EU) 2021/13
-- [[32025R2143|32025R2143]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2025/2143 ze dne 23. října 2025, kterým se mění nařízení (EU) 2015/340, pokud j
+- [[32025R2143|32025R2143]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2025/2143 ze dne 23. října 2025,
 - [[32025R2144|32025R2144]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2025/2144 ze dne 21. října 2025,
 - [[32025R2145|32025R2145]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2025/2145 ze dne 21. října 2025, kterým se mění prováděcí nařízení (EU) 2024/27
 - [[32025R2146|32025R2146]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2025/2146 ze dne 22. října 2025, kterým se na základě přezkumu před pozbytím pl — *platí jen do 2030-10-24*
@@ -2801,7 +2820,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32024R1474|32024R1474]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2024/1474 ze dne 24. května 2024, kterým se stanoví prováděcí pravidla k čl. 14
 - [[32024R1475|32024R1475]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2024/1475 ze dne 30. května 2024, — *platí jen do 2029-06-01*
 - ~~[[32024R1478|32024R1478]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2024/1478 ze dne 29. května 2024 o udělení povolení Unie pro jednotlivý biocidn — *pozbylo platnosti 2025-10-01*
-- [[32024R1481|32024R1481]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2024/1481 ze dne 29. května 2024 o udělení povolení Unie pro jednotlivý biocidn
+- [[32024R1481|32024R1481]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2024/1481 ze dne 29. května 2024 o udělení povolení Unie pro jednotlivý biocidn — *platí jen do 2026-10-24*
 - ~~[[32024R1482|32024R1482]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2024/1482 ze dne 29. května 2024 o udělení povolení Unie pro jednotlivý biocidn — *pozbylo platnosti 2026-02-11*
 - [[32024R1485|32024R1485]] NAŘÍZENÍ RADY (EU) 2024/1485 ze dne 27. května 2024
 - [[32024R1486|32024R1486]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2024/1486 ze dne 29. května 2024 o udělení povolení Unie pro jednotlivý biocidn
@@ -5859,7 +5878,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32022R2181|32022R2181]] NAŘÍZENÍ KOMISE V PŘENESENÉ PRAVOMOCI (EU) 2022/2181 ze dne 29. června 2022, kterým se doplňuje nařízení Evrop
 - [[32022R2182|32022R2182]] NAŘÍZENÍ KOMISE V PŘENESENÉ PRAVOMOCI (EU) 2022/2182 ze dne 30. srpna 2022, kterým se mění nařízení v přenesen
 - [[32022R2183|32022R2183]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2022/2183 ze dne 8. listopadu 2022, kterým se mění přílohy V a XIV prováděcího 
-- [[32022R2189|32022R2189]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2022/2189 ze dne 9. listopadu 2022, kterým se mění prováděcí nařízení (EU) 2021 — *platí jen do 2026-10-12*
+- [[32022R2189|32022R2189]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2022/2189 ze dne 9. listopadu 2022, kterým se mění prováděcí nařízení (EU) 2021
 - [[32022R2192|32022R2192]] NAŘÍZENÍ EVROPSKÉHO PARLAMENTU A RADY (EU) 2022/2192 ze dne 9. listopadu 2022, kterým se stanoví zvláštní usta
 - [[32022R2194|32022R2194]] PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) 2022/2194 ze dne 10. listopadu 2022, kterým se provádí nařízení (EU) 2017/2063 o 
 - [[32022R2195|32022R2195]] NAŘÍZENÍ KOMISE (EU) 2022/2195 ze dne 10. listopadu 2022, kterým se mění nařízení Evropského parlamentu a Rady
@@ -6828,7 +6847,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32021R1410|32021R1410]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2021/1410 ze dne 27. srpna 2021 o povolení přípravku Bacillus licheniformis DSM
 - [[32021R1411|32021R1411]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2021/1411 ze dne 27. srpna 2021 o obnovení povolení Clostridium butyricum FERM 
 - [[32021R1412|32021R1412]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2021/1412 ze dne 27. srpna 2021 o povolení chelátu citronanu železitého jako do
-- [[32021R1413|32021R1413]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2021/1413 ze dne 27. srpna 2021 o povolení endo-1,4-beta-xylanázy z Bacillus su — *platí jen do 2026-10-10*
+- ~~[[32021R1413|32021R1413]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2021/1413 ze dne 27. srpna 2021 o povolení endo-1,4-beta-xylanázy z Bacillus su — *pozbylo platnosti 2026-10-10*
 - [[32021R1414|32021R1414]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2021/1414 ze dne 27. srpna 2021, kterým se opravuje prováděcí nařízení (EU) 202
 - [[32021R1415|32021R1415]] NAŘÍZENÍ KOMISE V PŘENESENÉ PRAVOMOCI (EU) 2021/1415 ze dne 5. května 2021, kterým se doplňuje nařízení Evrops
 - [[32021R1416|32021R1416]] NAŘÍZENÍ KOMISE V PŘENESENÉ PRAVOMOCI (EU) 2021/1416 ze dne 17. června 2021, kterým se mění směrnice Evropskéh
@@ -6923,7 +6942,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - ~~[[32021R1770|32021R1770]]~~ NAŘÍZENÍ KOMISE (EU) 2021/1770 ze dne 5. října 2021, kterým se stanoví zákaz rybolovu krevet druhu Aristaeomor — *pozbylo platnosti 2021-12-31*
 - [[32021R1771|32021R1771]] NAŘÍZENÍ KOMISE (EU) 2021/1771 ze dne 7. října 2021, kterým se mění příloha I nařízení Evropského parlamentu a
 - [[32021R1783|32021R1783]] NAŘÍZENÍ KOMISE V PŘENESENÉ PRAVOMOCI (EU) 2021/1783 ze dne 2. července 2021, kterým se doplňuje nařízení Evro
-- [[32021R1784|32021R1784]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2021/1784 ze dne 8. října 2021 — *platí jen do 2026-10-12*
+- [[32021R1784|32021R1784]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2021/1784 ze dne 8. října 2021
 - [[32021R1785|32021R1785]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2021/1785 ze dne 8. října 2021, kterým se opravuje prováděcí nařízení (EU) 2020
 - [[32021R1786|32021R1786]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2021/1786 ze dne 8. října 2021, kterým se opravuje prováděcí nařízení (EU) 2021
 - [[32021R1791|32021R1791]] PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) 2021/1791 ze dne 11. října 2021, kterým se provádí nařízení (EU) č. 269/2014 o om
@@ -7921,7 +7940,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32020R1374|32020R1374]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2020/1374 ze dne 1. října 2020 o povolení přípravku Saccharomyces cerevisiae CN
 - [[32020R1375|32020R1375]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2020/1375 ze dne 1. října 2020 o povolení přípravku z kyseliny citronové, kysel
 - [[32020R1376|32020R1376]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2020/1376 ze dne 1. října 2020 o povolení přípravku 6-fytázy z Komagataella pha
-- [[32020R1377|32020R1377]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2020/1377 ze dne 1. října 2020 o povolení přípravku endo-1,4-beta-xylanázy z Ba — *platí jen do 2026-10-10*
+- ~~[[32020R1377|32020R1377]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2020/1377 ze dne 1. října 2020 o povolení přípravku endo-1,4-beta-xylanázy z Ba — *pozbylo platnosti 2026-10-10*
 - [[32020R1378|32020R1378]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2020/1378 ze dne 1. října 2020 o povolení měďnatého chelátu lysinu a kyseliny g
 - [[32020R1379|32020R1379]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2020/1379 ze dne 1. října 2020 o povolení L-cystinu z Pantoea ananatis NITE BP-
 - [[32020R1380|32020R1380]] PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) 2020/... ze dne 1. října 2020, kterým se provádí čl. 21 odst. 2 nařízení (EU) 201
@@ -8430,7 +8449,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32019R0129|32019R0129]] NAŘÍZENÍ EVROPSKÉHO PARLAMENTU A RADY (EU) 2019/129 ze dne 16. ledna 2019 o změně nařízení (EU) č. 168/2013, p
 - [[32019R0132|32019R0132]] PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) 2019/132 ze dne 28. ledna 2019, kterým se provádí nařízení (EU) č. 101/2011 o ome
 - [[32019R0133|32019R0133]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2019/133 ze dne 28. ledna 2019, kterým se mění nařízení (EU) 2015/640, pokud jd
-- [[32019R0138|32019R0138]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2019/138 ze dne 29. ledna 2019, kterým se mění nařízení (ES) č. 1356/2004, (ES) — *část platí jen do 2026-10-10*
+- [[32019R0138|32019R0138]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2019/138 ze dne 29. ledna 2019, kterým se mění nařízení (ES) č. 1356/2004, (ES)
 - [[32019R0139|32019R0139]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2019/139 ze dne 29. ledna 2019, kterým se v souladu s nařízením Evropského parl
 - [[32019R0144|32019R0144]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2019/144 ze dne 28. ledna 2019 o povolení přípravku 3-fytázy z Komagataella pas
 - [[32019R0145|32019R0145]] NAŘÍZENÍ KOMISE (EU) 2019/145 ze dne 30. ledna 2019, kterým se opravuje nizozemské znění nařízení (EU) č. 68/2
@@ -10520,7 +10539,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32017R0208|32017R0208]] NAŘÍZENÍ KOMISE V PŘENESENÉ PRAVOMOCI (EU) 2017/208 ze dne 31. října 2016, kterým se doplňuje nařízení Evropsk
 - [[32017R0209|32017R0209]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2017/209 ze dne 2. února 2017 o zařazení určitého zboží do kombinované nomenkla
 - ~~[[32017R0210|32017R0210]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2017/210 ze dne 7. února 2017 o povolení přípravku z endo-1,4-beta-xylanázy a e — *pozbylo platnosti 2026-05-27*
-- [[32017R0211|32017R0211]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2017/211 ze dne 7. února 2017 týkající se povolení přípravku endo-1,4-beta-xyla — *platí jen do 2026-10-10*
+- ~~[[32017R0211|32017R0211]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2017/211 ze dne 7. února 2017 týkající se povolení přípravku endo-1,4-beta-xyla — *pozbylo platnosti 2026-10-10*
 - [[32017R0212|32017R0212]] NAŘÍZENÍ KOMISE (EU) 2017/212 ze dne 7. února 2017, kterým se určuje referenční laboratoř EU pro mor malých př
 - [[32017R0213|32017R0213]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2017/213 ze dne 7. února 2017 o stanovení paušálních dovozních hodnot pro určen
 - ~~[[32017R0214|32017R0214]]~~ NAŘÍZENÍ KOMISE V PŘENESENÉ PRAVOMOCI (EU) 2017/214 ze dne 30. listopadu 2016, kterým se mění nařízení Evropsk — *pozbylo platnosti 2021-01-31*
@@ -13677,7 +13696,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32015R1149|32015R1149]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1149 ze dne 1. července 2015 o zápisu názvu do rejstříku chráněných označe
 - [[32015R1150|32015R1150]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1150 ze dne 1. července 2015 o zápisu názvu do rejstříku chráněných označe
 - [[32015R1151|32015R1151]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1151 ze dne 2. července 2015 o zápisu názvu do rejstříku chráněných označe
-- [[32015R1152|32015R1152]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1152 ze dne 14. července 2015 o povolení tokoferolových extraktů z rostlin — *platí jen do 2026-10-10*
+- ~~[[32015R1152|32015R1152]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1152 ze dne 14. července 2015 o povolení tokoferolových extraktů z rostlin — *pozbylo platnosti 2026-10-10*
 - ~~[[32015R1153|32015R1153]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1153 ze dne 14. července 2015, kterým se mění příloha I nařízení (ES) č. 7 — *pozbylo platnosti 2021-04-20*
 - [[32015R1154|32015R1154]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1154 ze dne 14. července 2015, kterým se v souladu s nařízením Evropského 
 - [[32015R1155|32015R1155]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1155 ze dne 14. července 2015 o stanovení paušálních dovozních hodnot pro 
@@ -13816,7 +13835,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32015R1422|32015R1422]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1422 ze dne 24. srpna 2015 o stanovení paušálních dovozních hodnot pro urč
 - [[32015R1424|32015R1424]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1424 ze dne 20. srpna 2015, kterým se schvaluje změna specifikace názvu za
 - ~~[[32015R1425|32015R1425]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1425 ze dne 24. srpna 2015, kterým se zakazují rybolovné činnosti pro plav — *pozbylo platnosti 2015-12-31*
-- [[32015R1426|32015R1426]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1426 ze dne 25. srpna 2015 o povolení přípravku z kyseliny benzoové, thymo — *platí jen do 2026-10-07*
+- ~~[[32015R1426|32015R1426]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1426 ze dne 25. srpna 2015 o povolení přípravku z kyseliny benzoové, thymo — *pozbylo platnosti 2026-10-07*
 - [[32015R1427|32015R1427]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1427 ze dne 25. srpna 2015 o stanovení paušálních dovozních hodnot pro urč
 - ~~[[32015R1428|32015R1428]]~~ NAŘÍZENÍ KOMISE (EU) 2015/1428 ze dne 25. srpna 2015, kterým se mění nařízení Komise (ES) č. 244/2009, pokud j — *pozbylo platnosti 2021-08-31*
 - ~~[[32015R1429|32015R1429]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) 2015/1429 ze dne 26. srpna 2015 o uložení konečného antidumpingového cla na dov — *pozbylo platnosti 2021-09-16*
@@ -16213,7 +16232,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - ~~[[32013R0157|32013R0157]]~~ PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) č. 157/2013 ze dne 18. února 2013 o uložení konečného antidumpingového cla na dov — *pozbylo platnosti 2019-05-15*
 - ~~[[32013R0158|32013R0158]]~~ PROVÁDĚCÍ NAŘÍZENÍ RADY (EU) č. 158/2013 ze dne 18. února 2013 o opětovném uložení konečného antidumpingového  — *pozbylo platnosti 2013-12-31*
 - [[32013R0159|32013R0159]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) č. 159/2013 ze dne 21. února 2013 o povolení přípravku benzoátu sodného, kyseli
-- [[32013R0160|32013R0160]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) č. 160/2013 ze dne 21. února 2013, kterým se mění nařízení (ES) č. 162/2003, (E — *část platí jen do 2026-10-10*
+- [[32013R0160|32013R0160]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) č. 160/2013 ze dne 21. února 2013, kterým se mění nařízení (ES) č. 162/2003, (E
 - ~~[[32013R0161|32013R0161]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) č. 161/2013 ze dne 21. února 2013 o povolení přípravku hydroxidu sodného jako d — *pozbylo platnosti 2024-05-14*
 - [[32013R0162|32013R0162]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) č. 162/2013 ze dne 21. února 2013, kterým se mění příloha nařízení (ES) č. 3199
 - [[32013R0163|32013R0163]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) č. 163/2013 ze dne 21. února 2013 o stanovení paušálních dovozních hodnot pro u
@@ -16740,7 +16759,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - ~~[[32013R0665|32013R0665]]~~ NAŘÍZENÍ KOMISE V PŘENESENÉ PRAVOMOCI (EU) č. 665/2013 ze dne 3. května 2013, kterým se doplňuje směrnice Evro — *pozbylo platnosti 2013-08-02*
 - ~~[[32013R0665R(02)|32013R0665R(02)]]~~ Oprava nařízení Komise v přenesené pravomoci (EU) č. 665/2013 ze dne 3. května 2013, kterým se doplňuje směrni — *pozbylo platnosti 2013-08-02*
 - [[32013R0666|32013R0666]] NAŘÍZENÍ KOMISE (EU) č. 666/2013 ze dne 8. července 2013, kterým se provádí směrnice Evropského parlamentu a R
-- [[32013R0667|32013R0667]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) č. 667/2013 ze dne 12. července 2013 o povolení diklazurilu jako doplňkové látk — *platí jen do 2026-10-10*
+- ~~[[32013R0667|32013R0667]]~~ PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) č. 667/2013 ze dne 12. července 2013 o povolení diklazurilu jako doplňkové látk — *pozbylo platnosti 2026-10-10*
 - [[32013R0668|32013R0668]] NAŘÍZENÍ KOMISE (EU) č. 668/2013 ze dne 12. července 2013, kterým se mění přílohy II a III nařízení Evropského
 - [[32013R0668R(02)|32013R0668R(02)]] Oprava nařízení Komise (EU) č. 668/2013 ze dne 12. července 2013, kterým se mění přílohy II a III nařízení Evr
 - [[32013R0669|32013R0669]] PROVÁDĚCÍ NAŘÍZENÍ KOMISE (EU) č. 669/2013 ze dne 12. července 2013 o stanovení paušálních dovozních hodnot pr
@@ -21769,7 +21788,7 @@ Předpisy, které pozbyly platnosti, jsou ~~přeškrtnuté~~ s datem. **Nepracuj
 - [[32010R1115|32010R1115]] NAŘÍZENÍ KOMISE (EU) č. 1115/2010 ze dne 1. prosince 2010 o stanovení paušálních dovozních hodnot pro určení v
 - ~~[[32010R1116|32010R1116]]~~ NAŘÍZENÍ KOMISE (EU) č. 1116/2010 ze dne 2. prosince 2010, kterým se stanoví koeficienty použitelné na obilovi — *pozbylo platnosti 2011-09-30*
 - ~~[[32010R1117|32010R1117]]~~ NAŘÍZENÍ KOMISE (EU) č. 1117/2010 ze dne 2. prosince 2010 o povolení přípravku z kyseliny citronové, kyseliny  — *pozbylo platnosti 2021-01-05*
-- [[32010R1118|32010R1118]] NAŘÍZENÍ KOMISE (EU) č. 1118/2010 ze dne 2. prosince 2010 o povolení diclazurilu jako doplňkové látky pro výkr — *platí jen do 2026-10-10*
+- ~~[[32010R1118|32010R1118]]~~ NAŘÍZENÍ KOMISE (EU) č. 1118/2010 ze dne 2. prosince 2010 o povolení diclazurilu jako doplňkové látky pro výkr — *pozbylo platnosti 2026-10-10*
 - ~~[[32010R1119|32010R1119]]~~ NAŘÍZENÍ KOMISE (EU) č. 1119/2010 ze dne 2. prosince 2010 o povolení přípravku Saccharomyces cerevisiae MUCL 3 — *pozbylo platnosti 2020-08-15*
 - ~~[[32010R1120|32010R1120]]~~ NAŘÍZENÍ KOMISE (EU) č. 1120/2010 ze dne 2. prosince 2010 o povolení přípravku Pediococcus acidilactici CNCM M — *pozbylo platnosti 2020-02-24*
 - [[32010R1121|32010R1121]] NAŘÍZENÍ KOMISE (EU) č. 1121/2010 ze dne 2. prosince 2010 o zápisu názvu do rejstříku chráněných označení půvo

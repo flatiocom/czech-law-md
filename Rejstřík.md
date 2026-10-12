@@ -5,7 +5,7 @@ tags:
 
 # Rejstřík předpisů
 
-Celkem 27,082 předpisů, z toho 10,316 zrušených — ty jsou označené ~~přeškrtnutím~~ a datem. **Nepracuj s nimi jako s platným právem.**
+Celkem 27,085 předpisů, z toho 10,316 zrušených — ty jsou označené ~~přeškrtnutím~~ a datem. **Nepracuj s nimi jako s platným právem.**
 
 Generuje `tools/rejstrik.py`, needituj ručně.
 
@@ -192,6 +192,9 @@ Nejnovější změny jsou v [[CHANGELOG]].
 - [[177-2026|177/2026 Sb.]] Nařízení vlády o výši všeobecného vyměřovacího základu za rok 2025, přepočítacího koeficientu pro úpravu všeobecného vyměřovacího základu za rok 2025, redukčních hranic pro stanovení výpočtového základu pro rok 2027, základní výměry důchodu stanovené pro rok 2027, nejnižších částek procentních výměr důchodů pro rok 2027 a o zvýšení důchodů v roce 2027
 - [[178-2026|178/2026 Sb.]] Vyhláška o portálu kritické infrastruktury
 - [[179-2026|179/2026 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 127/1995 Sb., o prohlášení území ucelených částí vybraných měst a obcí s dochovanými soubory lidové architektury za památkové rezervace
+- [[180-2026|180/2026 Sb.]] Zákon o evidenci tržeb a o změně některých dalších zákonů
+- [[181-2026|181/2026 Sb.]] Nařízení vlády o zavedení letního času v letech 2027 až 2031
+- [[182-2026|182/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 356/2024 Sb., o náležitostech formulářů žádosti o opis nebo výpis z rejstříku trestů a žádosti o opis z evidence přestupků
 
 ## 2025
 
