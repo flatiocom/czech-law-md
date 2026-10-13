@@ -46,10 +46,11 @@ CITOVANY = re.compile(r"(?:z|zák|vyhl|nař\.?\s*vl|nař|opatř|sděl)\.\s*č\.\
 # "##### § 2235", "## čl. 1.", "## Článek 12" — úroveň nadpisu se liší podle hloubky struktury,
 # takže se na ni nedá vázat, a označení má v korpusu několik pravopisů: Čl./čl./Článek/ČLÁNEK,
 # s tečkou za číslem i bez. Původní regex uměl jen "§" a "Čl.", čímž vypadlo 16 236 předpisů —
-# skoro polovina, včetně souborů přes 10 MB. Strukturní nadpisy (ČÁST, HLAVA, Díl) sem nepatří.
+# skoro polovina, včetně souborů přes 10 MB. Strukturní nadpisy (ČÁST, HLAVA, Díl) sem nepatří;
+# „Poznámky pod čarou“ ano, jinak by spadly do posledního ustanovení.
 USEK = re.compile(
     r"^(#{1,6}) (§+\s?[\d\w/-]+|(?:Čl|čl|ČL)\.\s?[\d\w/-]+|(?:Článek|článek|ČLÁNEK)\s[\d\w/-]+"
-    r"|(?:Jediný|jediný|JEDINÝ)\s+(?:článek|ČLÁNEK))\.?\s*$",
+    r"|(?:Jediný|jediný|JEDINÝ)\s+(?:článek|ČLÁNEK)|Poznámky pod čarou)\.?\s*$",
     re.M,
 )
 NADPIS = re.compile(r"^\*\*(.+)\*\*$", re.M)

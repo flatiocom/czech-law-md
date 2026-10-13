@@ -124,7 +124,22 @@ def preved(xml: str, meta: dict) -> str:
     cekajici_nadpis: str | None = None
     struktura = 1  # úroveň poslední Části/Hlavy/Dílu, od které se odvíjí paragraf
 
+    # Poznámky pod čarou stojí v XML za posledním ustanovením a bez vlastního nadpisu se k němu
+    # přilepily: § 151 zákona o zaměstnanosti, jedna věta o účinnosti, vracel 14 tisíc znaků.
+    # Týkalo se to 4 671 předpisů a kazilo to i hledání. Jen blok na úplném konci: poznámka
+    # uvnitř citovaného textu novely (173/2018 Sb.) je součást bodu, nadpis by ji od něj utrhl.
+    zaver = len(fragmenty)
+    for i in range(len(fragmenty) - 1, -1, -1):
+        if not fragmenty[i].text:
+            continue
+        if fragmenty[i].typ != "PPC":
+            break
+        zaver = i
+
     for poradi, f in enumerate(fragmenty):
+        if poradi == zaver:
+            cekajici_nadpis = None
+            telo.append("\n## Poznámky pod čarou")
         if f.typ in PREFIX or not f.text and f.typ not in UROVNE and f.typ not in CLANKY:
             continue
 

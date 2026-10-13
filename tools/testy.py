@@ -691,6 +691,38 @@ def test_poskozeny_index() -> None:
         zaloha.unlink(missing_ok=True)
 
 
+def test_poznamky_pod_carou() -> None:
+    """Poznámky pod čarou se lepily k poslednímu ustanovení: § 151 zákona o zaměstnanosti,
+    jedna věta o účinnosti, vracel 14 tisíc znaků a hledání „kontrolní řád“ trefovalo paragraf
+    o účinnosti každého zákona, který na kontrolní řád odkazuje v poznámce."""
+    import index
+    import prevod
+
+    def xml(*fragmenty: tuple[int, str, str]) -> str:
+        return "".join(f"<fragmenty><fragmentId>{i}</fragmentId><hloubka>{h}</hloubka><typ>{t}</typ>"
+                       f"<xhtml>{x}</xhtml></fragmenty>" for i, (h, t, x) in enumerate(fragmenty))
+
+    md = prevod.preved(xml((3, "Paragraf", "§ 151"), (6, "Odstavec_Dc", "Tento zákon nabývá účinnosti."),
+                           (2, "Postfix", "Zaorálek v. r."), (2, "PPC", "1) Zákon č. 255/2012 Sb."),
+                           (2, "PPC", "2) § 11 zákoníku práce.")), {"citace": "1/2000 Sb."})
+    meta, telo, posun = index.rozdel_frontmatter(md)
+    useky = {o: t for o, _, t, _ in index.useky(telo, posun)}
+    overit("255/2012" not in useky.get("§ 151", "") and "255/2012" in useky.get("Poznámky pod čarou", ""),
+           "poznámky pod čarou jsou samostatný úsek, ne konec § 151", str(useky)[:120])
+
+    # Poznámka uvnitř citovaného textu novely (173/2018 Sb.) je součást bodu.
+    md = prevod.preved(xml((3, "Clanek", "Čl. I"), (5, "Bod_Dd", "1. § 5 zní:"), (6, "Block_Citace", ""),
+                           (7, "Odstavec_Dc", "„(1) Text"), (7, "PPC", "9) Zákon č. 250/2016 Sb.“."),
+                           (3, "Clanek", "Čl. II"), (5, "Odstavec_Dc", "Účinnost.")), {"citace": "2/2000 Sb."})
+    overit("Poznámky pod čarou" not in md, "poznámka uvnitř novely nadpis nedostane")
+
+    soubor = KOREN / "zakony" / "2004" / "435-2004.md"
+    if soubor.exists():
+        meta, telo, posun = index.rozdel_frontmatter(soubor.read_text(encoding="utf-8"))
+        posledni = {o: t for o, _, t, _ in index.useky(telo, posun)}.get("§ 151", "")
+        overit(0 < len(posledni) < 500, "435/2004 § 151 je jen článek o účinnosti", f"{len(posledni)} znaků")
+
+
 def test_novely() -> None:
     """Novela s odloženou účinností přicházela o body: z dnešního znění je e-Sbírka vynechá.
 
@@ -940,13 +972,13 @@ def main() -> int:
     args = p.parse_args()
     podrobne = args.podrobne
 
-    sady = [test_normalizace, test_novely, test_platne_zneni, test_prevod_nadpisu, test_index_useky, test_zlata_sada,
+    sady = [test_normalizace, test_poznamky_pod_carou, test_novely, test_platne_zneni, test_prevod_nadpisu, test_index_useky, test_zlata_sada,
             test_vrcholne_soudy_offline, test_popisy_nastroju, test_mcp_nastroje,
             test_retezec_nastroju, test_parametry_hledani, test_cesty_ze_zdroje, test_cizi_data, test_cisla_v_dokumentaci, test_rejstrik_eu, test_platnost_eu, test_zruseni_s_odkladem, test_konsolidace_eu, test_pristi_zneni_po_konci,
             test_nepratelske_vstupy, test_chybna_volani, test_chybejici_predpis, test_protokol,
             test_poskozeny_index]
     if args.bez_indexu:
-        sady = [test_normalizace, test_novely, test_platne_zneni, test_prevod_nadpisu, test_index_useky,
+        sady = [test_normalizace, test_poznamky_pod_carou, test_novely, test_platne_zneni, test_prevod_nadpisu, test_index_useky,
                 test_vrcholne_soudy_offline, test_popisy_nastroju, test_cesty_ze_zdroje,
                 test_cizi_data, test_rejstrik_eu, test_platnost_eu, test_zruseni_s_odkladem, test_konsolidace_eu, test_pristi_zneni_po_konci]
     if args.se_siti:

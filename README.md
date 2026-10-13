@@ -15,7 +15,7 @@ ustanoveních, takže agent dostane ten jeden paragraf místo celého kodexu.
 | **Mezinárodní smlouvy** | 2 263 |
 | **Právo EU** | 39 063 nařízení a směrnic česky |
 | **Judikatura** | 603 943 rozhodnutí, u 8 714 paragrafů |
-| dohromady | 72 501 předpisů, 540 961 ustanovení |
+| dohromady | 72 501 předpisů, 548 597 ustanovení |
 
 Je to zároveň Obsidian trezor — otevři složku v Obsidianu a máš rejstřík, prokliky mezi předpisy
 a tabulku v Bases. Bez Obsidianu je to obyčejný markdown, který přečte i poznámkový blok.
