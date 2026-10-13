@@ -1,0 +1,22 @@
+{
+ "eli": "/eli/cz/sb/2003/353/2027-01-01",
+ "od": "2027-01-01",
+ "zmeny": {
+  "§ 104": {
+   "nadpis": "Sazby a výpočet daně z tabákových výrobků",
+   "text": "(1) Sazby daně jsou stanoveny takto:\nTextSazba daněDruhProcentní částPevná částMinimálnícigarety30 %2,51 Kč/kuscelkem nejméně však 4,89 Kč/kusdoutníky, cigarillos2,92 Kč/kustabák ke kouřenízákladní sazba3 830 Kč/kgsnížená sazba pro tabák do vodní dýmky687 Kč/kg\n(2) Výše daně u doutníků, cigarillos a tabáku ke kouření se vypočítá jako součin základu daně a pevné sazby daně, přičemž pro výpočet daně z tabáku ke kouření je rozhodující hmotnost tabáku ke kouření v okamžiku vzniku povinnosti daň přiznat a zaplatit.\n(3) Výše daně u cigaret při použití pevné části a procentní části sazby daně se vypočítá jako součet následujících položek:\n- a) součin procentní části sazby daně a ceny pro konečného spotřebitele těchto cigaret dělený stem,\n- b) součin pevné části sazby daně a počtu kusů.\n(4) Výše daně u cigaret při použití minimální sazby daně se vypočítá jako součin minimální sazby daně a počtu kusů.\n(5) Tabákový provazec v délce do 80 mm včetně se považuje za 1 kus cigarety.\n(6) Tabákový provazec delší než 80 mm, ne však delší než 110 mm, se považuje za 2 kusy cigaret. Tabákový provazec delší než 110 mm, ne však delší než 140 mm, se považuje za 3 kusy cigaret. Každých dalších, i započatých, 30 mm tabákového provazce se považuje za další 1 kus cigarety.\n(7) Je-li výše daně u cigaret vypočtená při použití pevné a procentní části sazby daně nižší než výše daně vypočtená při použití minimální sazby daně, použije se výše daně vypočtená při použití minimální sazby daně."
+  },
+  "§ 130c": {
+   "nadpis": "Sazba a výpočet daně ze zahřívaných tabákových výrobků",
+   "text": "(1) Sazba daně ze zahřívaných tabákových výrobků se stanoví ve výši 5,26 Kč/g.\n(2) Daň ze zahřívaných tabákových výrobků se vypočte jako součin základu daně a sazby daně ze zahřívaných tabákových výrobků."
+  },
+  "§ 130k": {
+   "nadpis": "Sazba a výpočet daně z ostatních tabákových výrobků",
+   "text": "(1) Sazba daně z ostatních tabákových výrobků se stanoví ve výši 1,7 Kč/g.\n(2) Daň z ostatních tabákových výrobků se vypočte jako součin základu daně a sazby daně z ostatních tabákových výrobků."
+  },
+  "§ 130u": {
+   "nadpis": "Sazba a výpočet daně z výrobků souvisejících s tabákovými výrobky",
+   "text": "(1) Sazby daně z výrobků souvisejících s tabákovými výrobky jsou stanoveny takto:\nsazba daněnáplně do elektronických cigaret10 Kč/mlnikotinové sáčky1,7 Kč/gostatní nikotinové výrobky1,7 Kč/g\n(2) Daň z výrobků souvisejících s tabákovými výrobky se vypočte jako součin základu daně a sazby daně z výrobků souvisejících s tabákovými výrobky."
+  }
+ }
+}

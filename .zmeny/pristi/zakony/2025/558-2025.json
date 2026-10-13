@@ -1,0 +1,18 @@
+{
+ "eli": "/eli/cz/sb/2025/558/2028-01-01",
+ "od": "2028-01-01",
+ "zmeny": {
+  "§ 1": {
+   "nadpis": "Předmět úpravy",
+   "text": "Tato vyhláška provádí ustanovení zákona vztahující se k typologickému systému a stanoví\n- a) náležitosti popisu typologického systému a lesnických typologických jednotek,\n- b) postup zařazování pozemků do typologického systému,\n- c) způsob ověřování správnosti jejich zařazení a\n- d) rozsah údajů evidovaných v informačním systému lesnické typologie."
+  },
+  "§ 5": {
+   "nadpis": "",
+   "text": "(1) Shledal-li Institut důvody pro aktualizaci, oznámí zahájení a rozsah aktualizace, včetně termínu provádění terénního průzkumu a uveřejnění návrhu změněných map typologických jednotek na svých internetových stránkách, a stanoví termín, do kterého mohou dotčení vlastnící lesů k návrhu změněných map typologických jednotek uplatňovat připomínky.\n(2) Institut vyhodnotí připomínky dotčených vlastníků lesů a vyhotoví změněné mapy typologických jednotek.\n(3) Institut zajistí zobrazení změněných map typologických jednotek v informačním systému lesnické typologie."
+  },
+  "§ 6": {
+   "nadpis": "Rozsah údajů evidovaných v informačním systému lesnické typologie",
+   "text": "(1) Informační systém lesnické typologie obsahuje grafické a popisné informace o pozemcích a jejich zařazení do typologického systému.\n(2) Grafické informace jsou jednotně vedeny a zobrazovány formou digitální mapy typologických jednotek.\n(3) Popisné informace obsahují kromě údajů uvedených v § 23c odst. 2 zákona tyto údaje:\n- a) jednoznačnou identifikaci zařazeného pozemku ve formě identifikačního kódu,\n- b) označení a název typologické jednotky,\n- c) plochu pozemku zařazenou do typologického systému na úrovni lesního typu a\n- d) záznamy o zařazení nebo o poslední aktualizaci."
+  }
+ }
+}
