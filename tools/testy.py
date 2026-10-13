@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sqlite3
 import subprocess
 import sys
@@ -690,6 +691,54 @@ def test_poskozeny_index() -> None:
         zaloha.unlink(missing_ok=True)
 
 
+def test_novely() -> None:
+    """Novela s odloženou účinností přicházela o body: z dnešního znění je e-Sbírka vynechá.
+
+    U 38/2025 Sb. chybělo 20 bodů čl. I — přesně ty, které podle čl. X nabývají účinnosti
+    1. 1. 2027 a 1. 1. 2029. Na tom se ukázalo i to, že bod novely nejde poznat z markdownu:
+    citovaný nový text má vlastní seznam „1. druhu a formě sociální služby“."""
+    import prevod
+    import stahni
+
+    for nazev, ma_byt in (
+        ("Zákon, kterým se mění zákon č. 108/2006 Sb., o sociálních službách", True),
+        ("Vyhláška,  kterou se mění vyhláška č. 355/2020 Sb.", True),
+        ("Zákon o změnách některých zákonů v souvislosti s přijetím zákona", True),
+        ("Zákon České národní rady o změně a doplnění zákona č. 1/1990 Sb.", True),
+        ("Zákon o lesích a o změně a doplnění některých zákonů (lesní zákon)", False),
+        ("Zákon, kterým se upravují některé otázky související s poskytováním plnění", False),
+    ):
+        overit(stahni.je_novela(nazev) == ma_byt, f"novela podle názvu: {nazev[:45]}…",
+               f"čekal jsem {ma_byt}")
+
+    F = prevod.Fragment
+    fragmenty = [F("1", 3, "Clanek", "Čl. I"), F("2", 5, "Bod_Dd", "1. V § 79 odst. 1 písmeno f) zní:"),
+                 F("3", 6, "Block_Citace", ""), F("4", 8, "Bod_Dd", "1. druhu a formě sociální služby,"),
+                 F("5", 8, "Bod_Dd", "2. kapacitě sociální služby,"), F("6", 5, "Bod_Dd", "2. V § 80 se …")]
+    overit(prevod.body_novely(fragmenty) == {("Čl. I", 1): 1, ("Čl. I", 2): 5},
+           "bod v citovaném textu není bodem novely", str(prevod.body_novely(fragmenty)))
+
+    soubor = KOREN / "zakony" / "2025" / "38-2025.md"
+    if not soubor.exists():
+        return
+    md = soubor.read_text(encoding="utf-8")
+    clanek, oznacene = "", {}
+    for radek in md.splitlines():
+        if (m := re.match(r"^#+ (Čl\. [IVXLC]+)$", radek)):
+            clanek = m.group(1)
+        elif (m := re.match(r"^- (\d+)\. \*\(účinnost od ([0-9-]+)\)\*", radek)):
+            oznacene.setdefault((clanek, m.group(2)), []).append(int(m.group(1)))
+    # čl. X písm. c) a d) zákona 38/2025 Sb.
+    overit(oznacene.get(("Čl. I", "2027-01-01")) == [72, 78, 79], "38/2025: body k 1. 1. 2027",
+           str(oznacene.get(("Čl. I", "2027-01-01"))))
+    overit(oznacene.get(("Čl. I", "2029-01-01")) == [1, 2, 4, 5, 6, 7, 11, 16, 19, 25, 39, 40, 45, 47, 48, 62, 71],
+           "38/2025: body čl. I k 1. 1. 2029", str(oznacene.get(("Čl. I", "2029-01-01"))))
+    overit(oznacene.get(("Čl. V", "2029-01-01")) == [4, 6, 10, 11], "38/2025: body čl. V k 1. 1. 2029",
+           str(oznacene.get(("Čl. V", "2029-01-01"))))
+    overit("pristi_zneni_od:" not in md.split("\n---\n", 1)[0] and "[!info] Novela s odloženou" in md,
+           "novela neohlašuje „nové znění“, má všechny body")
+
+
 def test_platne_zneni() -> None:
     """Bralo se poslední znění, i když ještě neplatilo: zákoník práce ve znění od 1. 1. 2027.
 
@@ -891,13 +940,13 @@ def main() -> int:
     args = p.parse_args()
     podrobne = args.podrobne
 
-    sady = [test_normalizace, test_platne_zneni, test_prevod_nadpisu, test_index_useky, test_zlata_sada,
+    sady = [test_normalizace, test_novely, test_platne_zneni, test_prevod_nadpisu, test_index_useky, test_zlata_sada,
             test_vrcholne_soudy_offline, test_popisy_nastroju, test_mcp_nastroje,
             test_retezec_nastroju, test_parametry_hledani, test_cesty_ze_zdroje, test_cizi_data, test_cisla_v_dokumentaci, test_rejstrik_eu, test_platnost_eu, test_zruseni_s_odkladem, test_konsolidace_eu, test_pristi_zneni_po_konci,
             test_nepratelske_vstupy, test_chybna_volani, test_chybejici_predpis, test_protokol,
             test_poskozeny_index]
     if args.bez_indexu:
-        sady = [test_normalizace, test_platne_zneni, test_prevod_nadpisu, test_index_useky,
+        sady = [test_normalizace, test_novely, test_platne_zneni, test_prevod_nadpisu, test_index_useky,
                 test_vrcholne_soudy_offline, test_popisy_nastroju, test_cesty_ze_zdroje,
                 test_cizi_data, test_rejstrik_eu, test_platnost_eu, test_zruseni_s_odkladem, test_konsolidace_eu, test_pristi_zneni_po_konci]
     if args.se_siti:

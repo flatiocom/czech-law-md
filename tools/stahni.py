@@ -37,7 +37,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from prevod import preved  # noqa: E402
+from prevod import body_novely, nacti, preved  # noqa: E402
 
 KOREN = Path(__file__).resolve().parent.parent
 CACHE = KOREN / ".cache"
@@ -110,6 +110,28 @@ def vyber_zneni(zneni: list[dict], posledni: str, dnes: str) -> tuple[dict | Non
     if budouci:
         return min(budouci, key=od), None
     return next((z for z in s_textem if z["iri"] == posledni), None), None
+
+
+# „Zákon, kterým se mění …“, „Vyhláška Ministerstva …, kterou se mění …“, „Zákon o změně zákonů …“.
+# Smíšený zákon („Zákon o lesích a o změně některých zákonů“) novelou není: jeho vlastní paragrafy
+# se řídí účinností jako u každého jiného předpisu.
+_DRUH = r"(?:ústavní\s+)?(?:zákon|zákonné\s+opatření|nařízení\s+vlády|nařízení|vyhláška)"
+NOVELA = re.compile(
+    rf"^{_DRUH}(?:(?!\so\s)[^,])*,\s*kter\w+\s+se\s+(?:mění|doplňuje|zrušuje)"
+    rf"|^{_DRUH}(?:\s+(?:České|Slovenské)\s+národní\s+rady|\s+Federálního\s+shromáždění|\s+Senátu)?"
+    rf"\s+o\s+změn",
+    re.I)
+
+
+def je_novela(nazev: str) -> bool:
+    return bool(NOVELA.search(" ".join(nazev.split())))
+
+
+def budouci_zneni(zneni: list[dict], dnes: str) -> list[dict]:
+    """Znění s textem a účinností po `dnes`, od nejbližšího."""
+    s_textem = [z for z in zneni if z.get("iri") and z.get("znění-dokument-id")]
+    return sorted((z for z in s_textem if z["iri"].rsplit("/", 1)[-1] > dnes),
+                  key=lambda z: z["iri"].rsplit("/", 1)[-1])
 
 
 def json_get(url: str, pokusy: int = 3) -> dict:
@@ -192,6 +214,18 @@ def nacti_akty(od_roku: int, sbirky: set[str] | None = None) -> list[dict]:
         if not zneni:
             continue
 
+        # Novela platí celá od vyhlášení, jen část bodů nabývá účinnosti později. Dnešní znění
+        # ty body vynechá, a protože cílový zákon tu je taky v dnešním znění, nebylo by z dat
+        # vidět, co se k pozdějšímu dni mění (38/2025 Sb.: 20 bodů k 2027 a 2029).
+        odlozena: list[list[str]] = []
+        platne_id = ""
+        nazev = a.get("akt-název-vyhlášený", "")
+        if budouci and je_novela(nazev):
+            pozdejsi = budouci_zneni(a.get("právní-akt-znění", []), dnes)
+            odlozena = [[z["iri"].rsplit("/", 1)[-1], str(z["znění-dokument-id"])] for z in pozdejsi]
+            platne_id = str(zneni["znění-dokument-id"])
+            zneni, budouci = pozdejsi[-1], None
+
         akty.append({
             "citace": a.get("akt-citace", ""),
             "rok": str(rok),
@@ -204,8 +238,32 @@ def nacti_akty(od_roku: int, sbirky: set[str] | None = None) -> list[dict]:
             "ucinnost_od": zneni["iri"].rsplit("/", 1)[-1],
             "pristi_zneni_od": budouci["iri"].rsplit("/", 1)[-1] if budouci else "",
             "pristi_zneni_eli": budouci["iri"].replace("esel-esb:", "/") if budouci else "",
+            "odlozena": odlozena,
+            "platne_dokument_id": platne_id,
         })
     return akty
+
+
+def preved_novelu(xml: str, akt: dict) -> str:
+    """Poslední znění novely a u bodů, které ještě nenabyly účinnosti, datum, od kdy platí.
+
+    Datum se pozná podle toho, ve kterém znění se bod objeví poprvé — v textu novely ho sice
+    říká článek o účinnosti, ale slovy a po skupinách bodů."""
+    def body(dokument: str) -> set[tuple[str, int]]:
+        return set(body_novely(nacti(dokument)))
+
+    dnes = body(stahni_xml(akt["platne_dokument_id"]))
+    od_kdy: dict[tuple[str, int], str] = {}
+    for datum, dokument_id in akt["odlozena"][:-1]:
+        for bod in body(stahni_xml(dokument_id)) - dnes:
+            od_kdy.setdefault(bod, datum)
+    for bod in body(xml) - dnes:
+        od_kdy.setdefault(bod, akt["odlozena"][-1][0])
+
+    meta = dict(akt, odlozene_body=od_kdy)
+    if od_kdy:
+        meta["odlozena_ucinnost"] = ", ".join(sorted(set(od_kdy.values())))
+    return preved(xml, meta)
 
 
 def soubor_pro(akt: dict) -> Path:
@@ -236,7 +294,7 @@ def zpracuj(akt: dict, stav: dict, znovu: bool = False) -> str:
     time.sleep(PAUZA)
     try:
         xml = stahni_xml(akt["dokument_id"])
-        obsah = preved(xml, akt)
+        obsah = preved_novelu(xml, akt) if akt.get("odlozena") else preved(xml, akt)
     except Exception as e:  # noqa: BLE001 — jeden vadný předpis nesmí shodit celý běh
         with tisk:
             print(f"  ! {klic}: {type(e).__name__}: {e}", flush=True)

@@ -183,7 +183,7 @@ def spojeni() -> sqlite3.Connection:
     # Index stažený z Releases může být starší než kód; bez kontroly by nástroje padaly
     # na „no such column“ uprostřed odpovědi.
     sloupce = {r["name"] for r in spoj.execute("PRAGMA table_info(predpis)")}
-    if "pozbude_k" not in sloupce:
+    if "odlozena_ucinnost" not in sloupce:
         spoj.close()
         raise RuntimeError(
             "index je ze starší verze nástrojů — přestav ho (`python3 tools/index.py`) "
@@ -534,6 +534,9 @@ def predpis(a: dict) -> str:
         casti.append(pozbude(p))
     if ohlasit_pristi(p):
         casti.append(pristi_zneni(p["pristi_zneni_od"], p["citace"]))
+    if p["odlozena_ucinnost"]:
+        casti.append(f"Novela s odloženou účinností: text je v posledním znění, se všemi body. Ty, "
+                     f"které nabývají účinnosti později ({p['odlozena_ucinnost']}), mají datum u sebe.")
     if p["eli"]:
         # Předpis EU nese v `eli` rovnou odkaz na EUR-Lex, český jen cestu v e-Sbírce.
         odkaz = p["eli"] if p["eli"].startswith("http") else f"https://e-sbirka.gov.cz{p['eli']}"

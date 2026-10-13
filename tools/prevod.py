@@ -90,16 +90,41 @@ def nacti(xml: str) -> list[Fragment]:
     return fragmenty
 
 
+def body_novely(fragmenty: list[Fragment]) -> dict[tuple[str, int], int]:
+    """(článek, číslo bodu) -> index fragmentu, pro body novely.
+
+    Číslovaný seznam je i v citovaném novém textu („bod 11, který zní: 1. …“) a v markdownu
+    se od bodů novely neliší. V XML ano: citovaný text leží pod Block_Citace a všechno hlubší
+    za ním k němu patří, dokud nepřijde fragment stejně mělký nebo mělčí."""
+    clanek, citace, body = "", None, {}
+    for i, f in enumerate(fragmenty):
+        if citace is not None and f.hloubka <= citace:
+            citace = None
+        if citace is not None:
+            continue
+        if f.typ == "Block_Citace":
+            citace = f.hloubka
+        elif f.typ == "Clanek":
+            clanek = f.text
+        elif f.typ == "Bod_Dd" and (m := re.match(r"(\d+)\.", f.text or "")):
+            body.setdefault((clanek, int(m.group(1))), i)
+    return body
+
+
 def preved(xml: str, meta: dict) -> str:
-    """XML → markdown. `meta` doplní frontmatter o to, co v XML není (citace, ELI, datum znění)."""
+    """XML → markdown. `meta` doplní frontmatter o to, co v XML není (citace, ELI, datum znění).
+
+    `meta["odlozene_body"]` ({(článek, číslo): datum}) dá bodům novely datum účinnosti."""
     fragmenty = nacti(xml)
     hlavicka = {PREFIX[f.typ]: f.text for f in fragmenty if f.typ in PREFIX and f.text}
+    odlozene = meta.get("odlozene_body") or {}
+    datum_bodu = {i: odlozene[k] for k, i in body_novely(fragmenty).items() if k in odlozene} if odlozene else {}
 
     telo: list[str] = []
     cekajici_nadpis: str | None = None
     struktura = 1  # úroveň poslední Části/Hlavy/Dílu, od které se odvíjí paragraf
 
-    for f in fragmenty:
+    for poradi, f in enumerate(fragmenty):
         if f.typ in PREFIX or not f.text and f.typ not in UROVNE and f.typ not in CLANKY:
             continue
 
@@ -142,14 +167,17 @@ def preved(xml: str, meta: dict) -> str:
         if f.typ in SEZNAMY:
             # hloubka 7 je základní úroveň seznamu, každá další se odsadí
             odsazeni = "  " * max(0, f.hloubka - 8)
-            telo.append(f"{odsazeni}- {f.text}")
+            text = f.text
+            if poradi in datum_bodu:
+                text = re.sub(r"^(\d+\. )", rf"\1*(účinnost od {datum_bodu[poradi]})* ", text, count=1)
+            telo.append(f"{odsazeni}- {text}")
             continue
 
         telo.append(f.text)
 
     radky = ["---"]
     for klic in ("citace", "nazev", "druh", "datum", "ucinnost_od", "eli", "rok", "cislo",
-                 "pristi_zneni_od", "pristi_zneni_eli"):
+                 "pristi_zneni_od", "pristi_zneni_eli", "odlozena_ucinnost"):
         hodnota = meta.get(klic) or hlavicka.get(klic)
         if hodnota:
             radky.append(f"{klic}: {json_str(hodnota)}")
@@ -166,6 +194,13 @@ def preved(xml: str, meta: dict) -> str:
             "> [!warning] Chystá se nové znění",
             f"> Tady je znění platné dnes. Od {meta['pristi_zneni_od']} platí nové, už vyhlášené: "
             f"https://e-sbirka.gov.cz{meta.get('pristi_zneni_eli', '')}",
+            "",
+        ]
+    if meta.get("odlozena_ucinnost"):
+        radky += [
+            "> [!info] Novela s odloženou účinností",
+            "> Text obsahuje všechny body. Ty, které nabývají účinnosti později než zbytek novely, "
+            f"mají u sebe datum ({meta['odlozena_ucinnost']}).",
             "",
         ]
     radky.append(f"# {meta.get('citace') or hlavicka.get('nazev', 'Předpis')}")

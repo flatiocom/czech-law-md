@@ -234,6 +234,21 @@ def kontrola_nazvy(n: Nalezy) -> None:
             n.pridej("nazvy", f"{drive} a {cesta} se liší jen velikostí písmen")
 
 
+def kontrola_novely(n: Nalezy) -> None:
+    """Novela s budoucím zněním má být v posledním znění, ne v dnešním s ohlášením dalšího.
+
+    Z dnešního znění novely e-Sbírka vynechá body s odloženou účinností — 23. 9. 2026 se tak
+    ztratilo přes 370 bodů ve 49 novelách. Díry v číslování hlídat nejde: zdroj sám má bod
+    „67.“ dvakrát (221/2015 Sb.) a citovaný nový text má vlastní číslované seznamy."""
+    from stahni import je_novela  # noqa: PLC0415
+    for cesta in soubory():
+        hlava = cesta.read_text(encoding="utf-8")[:3000]
+        if "\npristi_zneni_od:" not in hlava:
+            continue
+        if (m := re.search(r"^nazev: (.+)$", hlava, re.M)) and je_novela(m.group(1)):
+            n.pridej("novely", f"{cesta.relative_to(KOREN)}: novela bez bodů s odloženou účinností")
+
+
 def kontrola_zneni(n: Nalezy) -> None:
     """Ohlášené budoucí znění musí být i nad textem a musí být opravdu pozdější než to uložené.
 
@@ -364,6 +379,7 @@ KONTROLY = {
     "stahovani": kontrola_stazeni,
     "zneni": kontrola_zneni,
     "nazvy": kontrola_nazvy,
+    "novely": kontrola_novely,
     "integrita": kontrola_integrity,
     "struktura": kontrola_struktury,
     "platnost": kontrola_platnosti,
