@@ -183,7 +183,7 @@ def spojeni() -> sqlite3.Connection:
     # Index stažený z Releases může být starší než kód; bez kontroly by nástroje padaly
     # na „no such column“ uprostřed odpovědi.
     sloupce = {r["name"] for r in spoj.execute("PRAGMA table_info(predpis)")}
-    if "odlozena_ucinnost" not in sloupce:
+    if "pristi_meni" not in sloupce:
         spoj.close()
         raise RuntimeError(
             "index je ze starší verze nástrojů — přestav ho (`python3 tools/index.py`) "
@@ -430,10 +430,38 @@ def ohlasit_pristi(r) -> bool:
     return bool(r["pristi_zneni_od"]) and not (r["pozbude_k"] and r["pristi_zneni_od"] > r["pozbude_k"])
 
 
-def pristi_zneni(od: str, citace: str = "") -> str:
+def pristi_zneni(od: str, citace: str = "", meni: str = "") -> str:
+    """Ohlášení nového znění u celého předpisu (nástroj `predpis`)."""
+    if meni:
+        return (f"⚠ **Od {od} platí nové znění** (novela je už vyhlášená), mění se: {meni}. Text tady "
+                f"je znění platné dnes; nové znění jednotlivého ustanovení vrátí `paragraf`.")
     zdroj = "na EUR-Lexu" if CELEX.match(citace) else "v e-Sbírce"
     return (f"⚠ **Od {od} platí nové znění** (novela je už vyhlášená). Text tady je znění platné "
             f"dnes; u lhůt a vztahů, které přesáhnou {od}, ověř nové znění {zdroj}.")
+
+
+def pristi_u_ustanoveni(r, zmena) -> str:
+    """Ohlášení nového znění u jednoho ustanovení.
+
+    Dřív stálo u každého ustanovení předpisu s budoucím zněním, ale mění se jen 3,4 % z nich:
+    u § 140 zákona o zaměstnanosti tvrdilo změnu, která se ho netýká."""
+    od = r["pristi_zneni_od"]
+    if zmena is not None:
+        if zmena["text"] is None:
+            return f"⚠ **Od {od} se toto ustanovení zrušuje** (novela je už vyhlášená). Text níže platí dnes."
+        return (f"⚠ **Od {od} se toto ustanovení mění** (novela je už vyhlášená). Text níže platí "
+                f"dnes, nové znění je na konci.")
+    if r["pristi_meni"]:
+        return f"Předpis má od {od} nové znění; toto ustanovení se v něm nemění."
+    zdroj = "na EUR-Lexu" if CELEX.match(r["citace"]) else "v e-Sbírce"
+    return (f"⚠ Předpis má od {od} nové znění; zda se mění i toto ustanovení, z dat nelze určit — "
+            f"ověř ho {zdroj}.")
+
+
+def zmena_v_pristim(spoj: sqlite3.Connection, citace: str, oznaceni: str):
+    return spoj.execute(
+        "SELECT oznaceni, nadpis, text FROM pristi WHERE predpis = ? AND oznaceni IN (?, ?, ?, ?, ?, ?)",
+        (citace, *varianty_oznaceni(oznaceni))).fetchone()
 
 
 def chybi_predpis(citace: str, zadano: str) -> str:
@@ -457,7 +485,7 @@ def paragraf(a: dict) -> str:
     citace = normalizuj_citaci(a["predpis"])
     oznaceni = normalizuj_paragraf(a["paragraf"], citace)
     vsechny = spoj.execute("""
-        SELECT p.citace, p.nazev, p.zruseno_k, p.zrusil, p.pristi_zneni_od, p.pozbude_k,
+        SELECT p.citace, p.nazev, p.zruseno_k, p.zrusil, p.pristi_zneni_od, p.pristi_meni, p.pozbude_k,
                p.pozbude_zcasti, p.zrusi, u.id, u.oznaceni,
                u.nadpis, u.text, u.radek, p.soubor
         FROM usek u JOIN predpis p ON p.citace = u.predpis
@@ -467,10 +495,19 @@ def paragraf(a: dict) -> str:
     r = vsechny[0] if vsechny else None
 
     if not r:
-        existuje = spoj.execute("SELECT 1 FROM predpis WHERE citace = ?", (citace,)).fetchone()
+        p = spoj.execute("SELECT * FROM predpis WHERE citace = ?", (citace,)).fetchone()
+        nove = zmena_v_pristim(spoj, citace, oznaceni) if p else None
         spoj.close()
-        if not existuje:
+        if not p:
             return chybi_predpis(citace, a["predpis"])
+        # Ustanovení, které teprve přibude (§ 21a zákona o zaměstnanosti od 1. 1. 2027).
+        if nove is not None and nove["text"] is not None and ohlasit_pristi(p):
+            return "\n\n".join(x for x in (
+                f"# {citace} {nove['oznaceni']}", f"*{p['nazev']}*",
+                f"⚠ **Toto ustanovení dnes neplatí** — přibude od {p['pristi_zneni_od']} (novela je už "
+                f"vyhlášená). Takhle bude znít:",
+                f"**{nove['nadpis']}**" if nove["nadpis"] else "",
+                orizni(nove["text"], f"{p['soubor']} (znění od {p['pristi_zneni_od']})")) if x)
         return f"{citace} {oznaceni} v indexu není."
 
     casti = [f"# {r['citace']} {r['oznaceni']}", f"*{r['nazev']}*"]
@@ -488,12 +525,18 @@ def paragraf(a: dict) -> str:
         casti.append(f"⚠ **Předpis byl zrušen{zrusen(r)}**" + (f", a to předpisem {r['zrusil']}" if r["zrusil"] else "."))
     if r["pozbude_k"]:
         casti.append(pozbude(r))
+    zmena = zmena_v_pristim(spoj, citace, r["oznaceni"]) if ohlasit_pristi(r) else None
     if ohlasit_pristi(r):
-        casti.append(pristi_zneni(r["pristi_zneni_od"], r["citace"]))
+        casti.append(pristi_u_ustanoveni(r, zmena))
     if r["nadpis"]:
         casti.append(f"**{r['nadpis']}**")
     casti.append(orizni(r["text"], f"{r['soubor']}:{r['radek']}"))
     casti.append(f"`{r['soubor']}:{r['radek']}`")
+    if zmena is not None and zmena["text"] is not None:
+        casti.append(f"## Znění od {r['pristi_zneni_od']}")
+        if zmena["nadpis"]:
+            casti.append(f"**{zmena['nadpis']}**")
+        casti.append(orizni(zmena["text"], f"{r['soubor']} (znění od {r['pristi_zneni_od']})"))
 
     # Sousedi se berou podle pořadí v předpisu (id roste, jak text jde za sebou), ne podle
     # čísla — § 141a leží mezi 141 a 142 a číselné řazení by ho minulo.
@@ -533,7 +576,7 @@ def predpis(a: dict) -> str:
     if p["pozbude_k"]:
         casti.append(pozbude(p))
     if ohlasit_pristi(p):
-        casti.append(pristi_zneni(p["pristi_zneni_od"], p["citace"]))
+        casti.append(pristi_zneni(p["pristi_zneni_od"], p["citace"], p["pristi_meni"]))
     if p["odlozena_ucinnost"]:
         casti.append(f"Novela s odloženou účinností: text je v posledním znění, se všemi body. Ty, "
                      f"které nabývají účinnosti později ({p['odlozena_ucinnost']}), mají datum u sebe.")

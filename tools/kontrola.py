@@ -34,6 +34,7 @@ SMLOUVY = KOREN / "smlouvy"
 EU = KOREN / "eu"
 JUDIKATURA = KOREN / "judikatura"
 DB = KOREN / ".cache" / "index.db"
+PRISTI = KOREN / ".zmeny" / "pristi"
 STAV = KOREN / ".cache" / "stav.json"
 PLATNOST = KOREN / ".zmeny" / "platnost.json"
 POZBUDE = KOREN / ".zmeny" / "pozbude.json"
@@ -270,6 +271,17 @@ def kontrola_zneni(n: Nalezy) -> None:
         ucinnost = re.search(r"^ucinnost_od: (\S+)", hlava, re.M)
         if ucinnost and ucinnost.group(1) >= m.group(1):
             n.pridej("zneni", f"{rel}: budoucí znění {m.group(1)} není pozdější než {ucinnost.group(1)}")
+        # U českých předpisů se budoucí znění porovnává po ustanoveních; bez toho by `paragraf`
+        # zase hlásil změnu u každého ustanovení předpisu.
+        if cesta.suffix == ".md" and not str(rel).startswith("eu/"):
+            vedle = PRISTI / rel.with_suffix(".json")
+            if "\npristi_meni:" not in hlava or not vedle.exists():
+                n.pridej("zneni", f"{rel}: budoucí znění od {m.group(1)} není porovnané po ustanoveních")
+
+    for vedle in sorted(PRISTI.rglob("*.json")) if PRISTI.exists() else []:
+        md = KOREN / vedle.relative_to(PRISTI).with_suffix(".md")
+        if not md.exists() or "\npristi_zneni_od:" not in md.read_text(encoding="utf-8")[:4000]:
+            n.pridej("zneni", f"{vedle.relative_to(KOREN)}: budoucí text bez předpisu, který by ho ohlašoval")
 
 
 def kontrola_eu(n: Nalezy) -> None:

@@ -44,6 +44,8 @@ CACHE = KOREN / ".cache"
 ZAKONY = KOREN / "zakony"
 SMLOUVY = KOREN / "smlouvy"
 STAV = KOREN / ".cache" / "stav.json"
+# Budoucí text ustanovení, která se změní. Mimo `zakony/`, aby se nepletl do indexu jako předpis.
+PRISTI = KOREN / ".zmeny" / "pristi"
 # Nestažené předpisy zůstávají ve starém znění; bez seznamu se to ztratí v logu.
 NESTAZENE_SOUBOR = KOREN / ".cache" / "nestazene.json"
 NESTAZENE: dict[str, str] = {}
@@ -238,6 +240,7 @@ def nacti_akty(od_roku: int, sbirky: set[str] | None = None) -> list[dict]:
             "ucinnost_od": zneni["iri"].rsplit("/", 1)[-1],
             "pristi_zneni_od": budouci["iri"].rsplit("/", 1)[-1] if budouci else "",
             "pristi_zneni_eli": budouci["iri"].replace("esel-esb:", "/") if budouci else "",
+            "pristi_dokument_id": str(budouci["znění-dokument-id"]) if budouci else "",
             "odlozena": odlozena,
             "platne_dokument_id": platne_id,
         })
@@ -266,6 +269,36 @@ def preved_novelu(xml: str, akt: dict) -> str:
     return preved(xml, meta)
 
 
+def zmeny_v_pristim(dnes: str, pristi: str) -> dict[str, dict | None]:
+    """Ustanovení, která budoucí znění změní, přidá nebo zruší: označení -> {nadpis, text} | None.
+
+    Upozornění „od … platí nové znění“ dřív stálo u každého ustanovení předpisu, ale mění se
+    jen 3,4 % z nich — zákoník práce ho měl u 430 paragrafů a mění se jediný. Dělí se stejně
+    jako v indexu, aby označení seděla; poznámky pod čarou se nepočítají."""
+    from index import rozdel_frontmatter, useky  # noqa: PLC0415 — index táhne lemmatizaci
+
+    def ustanoveni(md: str) -> dict[str, tuple[str, str]]:
+        _, telo, posun = rozdel_frontmatter(md)
+        vysledek = {}
+        for oznaceni, nadpis, text, _ in useky(telo, posun):
+            if oznaceni != "Poznámky pod čarou":
+                vysledek.setdefault(oznaceni, (nadpis, text))
+        return vysledek
+
+    def stejne(a: tuple[str, str], b: tuple[str, str]) -> bool:
+        return " ".join(f"{a[0]} {a[1]}".split()) == " ".join(f"{b[0]} {b[1]}".split())
+
+    d, p = ustanoveni(dnes), ustanoveni(pristi)
+    zmeny: dict[str, dict | None] = {o: {"nadpis": n, "text": t} for o, (n, t) in p.items()
+                                    if o not in d or not stejne(d[o], (n, t))}
+    zmeny.update({o: None for o in d if o not in p})
+    return zmeny
+
+
+def soubor_pristi(cil: Path) -> Path:
+    return PRISTI / cil.relative_to(KOREN).with_suffix(".json")
+
+
 def soubor_pro(akt: dict) -> Path:
     # číslo bývá i s písmenem (např. "138a"), lomítko v něm být nemůže, ale jistota je jistota
     cislo = re.sub(r"[^\w-]", "", akt["cislo"])
@@ -288,13 +321,27 @@ def zpracuj(akt: dict, stav: dict, znovu: bool = False) -> str:
     if (not znovu and znamy and cil.exists()
             and znamy.get("zmena") == akt["zmena"]
             and znamy.get("dokument_id") == akt["dokument_id"]
-            and (znamy.get("pristi_zneni_od") or "") == akt["pristi_zneni_od"]):
+            and (znamy.get("pristi_zneni_od") or "") == akt["pristi_zneni_od"]
+            and (znamy.get("pristi_dokument_id") or "") == akt["pristi_dokument_id"]):
         return "beze-zmeny"
 
     time.sleep(PAUZA)
+    pristi: dict | None = None
     try:
         xml = stahni_xml(akt["dokument_id"])
-        obsah = preved_novelu(xml, akt) if akt.get("odlozena") else preved(xml, akt)
+        if akt.get("odlozena"):
+            obsah = preved_novelu(xml, akt)
+        elif akt["pristi_zneni_od"]:
+            zmeny = zmeny_v_pristim(preved(xml, akt), preved(stahni_xml(akt["pristi_dokument_id"]), akt))
+            meta = dict(akt, pristi_meni=", ".join(zmeny))
+            if not zmeny:
+                # Liší se jen poznámky pod čarou nebo nic: ohlašovat nové znění by byl planý poplach.
+                meta.update(pristi_zneni_od="", pristi_zneni_eli="")
+            else:
+                pristi = {"od": akt["pristi_zneni_od"], "eli": akt["pristi_zneni_eli"], "zmeny": zmeny}
+            obsah = preved(xml, meta)
+        else:
+            obsah = preved(xml, akt)
     except Exception as e:  # noqa: BLE001 — jeden vadný předpis nesmí shodit celý běh
         with tisk:
             print(f"  ! {klic}: {type(e).__name__}: {e}", flush=True)
@@ -304,12 +351,19 @@ def zpracuj(akt: dict, stav: dict, znovu: bool = False) -> str:
 
     cil.parent.mkdir(parents=True, exist_ok=True)
     cil.write_text(obsah, encoding="utf-8")
+    vedle = soubor_pristi(cil)
+    if pristi:
+        vedle.parent.mkdir(parents=True, exist_ok=True)
+        vedle.write_text(json.dumps(pristi, ensure_ascii=False, indent=1, sort_keys=True), encoding="utf-8")
+    else:
+        vedle.unlink(missing_ok=True)
     vysledek = "zmeneny" if znamy else "novy"
     zaznam = {
         "zmena": akt["zmena"],
         "ucinnost_od": akt["ucinnost_od"],
         "dokument_id": akt["dokument_id"],
         "pristi_zneni_od": akt["pristi_zneni_od"],
+        "pristi_dokument_id": akt["pristi_dokument_id"],
         "soubor": str(cil.relative_to(KOREN)),
         "nazev": akt["nazev"],
     }

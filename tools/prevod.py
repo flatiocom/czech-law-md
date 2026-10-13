@@ -192,7 +192,7 @@ def preved(xml: str, meta: dict) -> str:
 
     radky = ["---"]
     for klic in ("citace", "nazev", "druh", "datum", "ucinnost_od", "eli", "rok", "cislo",
-                 "pristi_zneni_od", "pristi_zneni_eli", "odlozena_ucinnost"):
+                 "pristi_zneni_od", "pristi_zneni_eli", "pristi_meni", "odlozena_ucinnost"):
         hodnota = meta.get(klic) or hlavicka.get(klic)
         if hodnota:
             radky.append(f"{klic}: {json_str(hodnota)}")
@@ -209,6 +209,7 @@ def preved(xml: str, meta: dict) -> str:
             "> [!warning] Chystá se nové znění",
             f"> Tady je znění platné dnes. Od {meta['pristi_zneni_od']} platí nové, už vyhlášené: "
             f"https://e-sbirka.gov.cz{meta.get('pristi_zneni_eli', '')}",
+            *([f"> Mění se: {meta['pristi_meni']}."] if meta.get("pristi_meni") else []),
             "",
         ]
     if meta.get("odlozena_ucinnost"):

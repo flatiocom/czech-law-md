@@ -15,7 +15,7 @@ ustanoveních, takže agent dostane ten jeden paragraf místo celého kodexu.
 | **Mezinárodní smlouvy** | 2 263 |
 | **Právo EU** | 39 063 nařízení a směrnic česky |
 | **Judikatura** | 603 943 rozhodnutí, u 8 714 paragrafů |
-| dohromady | 72 501 předpisů, 548 597 ustanovení |
+| dohromady | 72 501 předpisů, 548 596 ustanovení |
 
 Je to zároveň Obsidian trezor — otevři složku v Obsidianu a máš rejstřík, prokliky mezi předpisy
 a tabulku v Bases. Bez Obsidianu je to obyčejný markdown, který přečte i poznámkový blok.
@@ -184,9 +184,20 @@ frontmatter (`zruseno_k`, `zrusil`, tag `zruseno`), varovný callout nad textem,
 v `Rejstřík.md` (u práva EU v `Rejstřík EU.md`) a táž hlavička v rejstříku judikatury.
 
 **Znění platné dnes, ne poslední vyhlášené.** Když už vyšla novela s pozdější účinností, soubor
-drží dnešní znění a nad textem i ve frontmatteru (`pristi_zneni_od`, `pristi_zneni_eli`) ohlásí,
-od kdy platí nové; nástroje `paragraf` a `predpis` to agentovi řeknou taky. Jakmile nové znění
-nabude účinnosti, týdenní aktualizace ho stáhne sama.
+drží dnešní znění a nad textem i ve frontmatteru (`pristi_zneni_od`, `pristi_meni`) ohlásí, od
+kdy platí nové a která ustanovení se v něm mění. Budoucí text těch ustanovení leží v
+`.zmeny/pristi/`, takže `paragraf` u změněného ustanovení ukáže dnešní i budoucí znění a
+u nezměněného jen řekne, že se nemění. Jakmile nové znění nabude účinnosti, týdenní aktualizace
+ho stáhne sama.
+
+**Novela je naopak v posledním znění.** Platí celá od vyhlášení, jen část bodů nabývá účinnosti
+později, a z dnešního znění by je e-Sbírka vynechala. Takové body mají u sebe
+„*(účinnost od 2027-01-01)*“ a frontmatter `odlozena_ucinnost`. Novelou je předpis, jehož název
+začíná „…, kterým se mění“ nebo „… o změně“; smíšený zákon („Zákon o lesích a o změně některých
+zákonů“) ne.
+
+**Poznámky pod čarou** jsou na konci předpisu pod vlastním nadpisem, v indexu jako samostatný
+úsek, ne jako konec posledního paragrafu.
 
 ### Kde co leží
 

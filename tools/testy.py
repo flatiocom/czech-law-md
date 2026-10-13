@@ -164,9 +164,11 @@ def test_mcp_nastroje() -> None:
     overit("⚠" in text(vicekrat) and m and int(m.group(1)) > 100,
            "paragraf hlásí, že označení je v předpisu víckrát",
            text(vicekrat)[:70])
-    # Jiná ⚠ tam být smějí: občanský zákoník má ohlášené znění od 1. 1. 2027.
     overit("je v tomto předpisu" not in text(v[0]), "u jednoznačného ustanovení varování není")
-    overit("platí nové znění" in text(v[0]), "paragraf ohlásí chystané nové znění", text(v[0])[:200])
+    # Občanský zákoník má nové znění od 1. 1. 2027, ale § 2288 se v něm nemění — říct to ano,
+    # varovat ne.
+    overit("nové znění; toto ustanovení se v něm nemění" in text(v[0]) and "⚠ **Od" not in text(v[0]),
+           "paragraf řekne, že se ustanovení v novém znění nemění", text(v[0])[:200])
 
     # § 3 zákona 1/1998 Sb. (celní sazebník) má přes sedm milionů znaků, tedy zhruba
     # 1,7 milionu tokenů. Server má kontext šetřit, ne ho zahltit.
@@ -691,6 +693,48 @@ def test_poskozeny_index() -> None:
         zaloha.unlink(missing_ok=True)
 
 
+def test_pristi_po_ustanovenich() -> None:
+    """„Od … platí nové znění“ stálo u každého ustanovení předpisu, ale mění se jen 3,4 % z nich.
+
+    Pavlína našla § 140 zákona o zaměstnanosti a § 107 zákona o sociálních službách, které
+    upozornění měly, a přitom se k 1. 1. 2027 nemění."""
+    import stahni
+
+    dnes = "---\ncitace: 1/2000 Sb.\n---\n#### § 1\nStejný text.\n#### § 2\nStarý text.\n#### § 3\nZmizí.\n" \
+           "\n## Poznámky pod čarou\n1) Stará poznámka.\n"
+    pristi = "---\ncitace: 1/2000 Sb.\n---\n#### § 1\nStejný   text.\n#### § 2\nNový text.\n#### § 2a\nPřibude.\n" \
+             "\n## Poznámky pod čarou\n1) Jiná poznámka.\n"
+    zmeny = stahni.zmeny_v_pristim(dnes, pristi)
+    overit(set(zmeny) == {"§ 2", "§ 2a", "§ 3"} and zmeny["§ 3"] is None and zmeny["§ 2"]["text"] == "Nový text.",
+           "porovnání najde změněné, nové a zrušené ustanovení, mezery a poznámky ignoruje", str(zmeny))
+
+    soubor = KOREN / "zakony" / "2004" / "435-2004.md"
+    if soubor.exists() and "\npristi_zneni_od:" in soubor.read_text(encoding="utf-8")[:3000]:
+        hlava = soubor.read_text(encoding="utf-8")[:3000]
+        # zákon č. 360/2025 Sb., čl. XVIII — účinnost 1. 1. 2027
+        overit("pristi_meni: § 5, § 21, § 21a, § 27, § 31, § 59, § 81, § 82, § 83, § 127" in hlava,
+               "435/2004: mění se přesně ustanovení z novely 360/2025",
+               (re.search(r"^pristi_meni: .*$", hlava, re.M) or [""])[0])
+
+    if not DB.exists():
+        return
+    v = mcp([
+        ("paragraf", {"predpis": "435/2004", "paragraf": "140"}),
+        ("paragraf", {"predpis": "435/2004", "paragraf": "21"}),
+        ("paragraf", {"predpis": "435/2004", "paragraf": "21a"}),
+        ("paragraf", {"predpis": "108/2006", "paragraf": "107"}),
+        ("predpis", {"citace": "435/2004", "osnova": False}),
+        ("paragraf", {"predpis": "262/2006", "paragraf": "52"}),
+    ])
+    overit("nemění" in text(v[0]) and "⚠" not in text(v[0]), "435/2004 § 140: bez planého poplachu", text(v[0])[:160])
+    overit("se toto ustanovení mění" in text(v[1]) and "## Znění od 2027-01-01" in text(v[1]),
+           "435/2004 § 21: změna i s novým zněním", text(v[1])[:160])
+    overit("dnes neplatí" in text(v[2]), "435/2004 § 21a: ustanovení, které teprve přibude", text(v[2])[:120])
+    overit("nemění" in text(v[3]) and "⚠" not in text(v[3]), "108/2006 § 107: bez planého poplachu", text(v[3])[:160])
+    overit("mění se: § 5, § 21" in text(v[4]), "predpis vypíše, která ustanovení se mění", text(v[4])[:300])
+    overit("⚠ **Od" not in text(v[5]), "zákoník práce § 52 bez upozornění (mění se jen § 316)", text(v[5])[:160])
+
+
 def test_poznamky_pod_carou() -> None:
     """Poznámky pod čarou se lepily k poslednímu ustanovení: § 151 zákona o zaměstnanosti,
     jedna věta o účinnosti, vracel 14 tisíc znaků a hledání „kontrolní řád“ trefovalo paragraf
@@ -972,13 +1016,13 @@ def main() -> int:
     args = p.parse_args()
     podrobne = args.podrobne
 
-    sady = [test_normalizace, test_poznamky_pod_carou, test_novely, test_platne_zneni, test_prevod_nadpisu, test_index_useky, test_zlata_sada,
+    sady = [test_normalizace, test_pristi_po_ustanovenich, test_poznamky_pod_carou, test_novely, test_platne_zneni, test_prevod_nadpisu, test_index_useky, test_zlata_sada,
             test_vrcholne_soudy_offline, test_popisy_nastroju, test_mcp_nastroje,
             test_retezec_nastroju, test_parametry_hledani, test_cesty_ze_zdroje, test_cizi_data, test_cisla_v_dokumentaci, test_rejstrik_eu, test_platnost_eu, test_zruseni_s_odkladem, test_konsolidace_eu, test_pristi_zneni_po_konci,
             test_nepratelske_vstupy, test_chybna_volani, test_chybejici_predpis, test_protokol,
             test_poskozeny_index]
     if args.bez_indexu:
-        sady = [test_normalizace, test_poznamky_pod_carou, test_novely, test_platne_zneni, test_prevod_nadpisu, test_index_useky,
+        sady = [test_normalizace, test_pristi_po_ustanovenich, test_poznamky_pod_carou, test_novely, test_platne_zneni, test_prevod_nadpisu, test_index_useky,
                 test_vrcholne_soudy_offline, test_popisy_nastroju, test_cesty_ze_zdroje,
                 test_cizi_data, test_rejstrik_eu, test_platnost_eu, test_zruseni_s_odkladem, test_konsolidace_eu, test_pristi_zneni_po_konci]
     if args.se_siti:

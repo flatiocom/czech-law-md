@@ -126,6 +126,16 @@ s pozdější účinností (v září 2026 u 255 předpisů, mezi nimi zákoník
 se jako `pristi_zneni_od` a callout `[!warning]` nad textem. `platnost.py` maže jen vlastní
 callout `[!danger]`, ne všechno, co začíná `>`.
 
+Budoucí znění se stáhne taky a porovná po ustanoveních (`stahni.zmeny_v_pristim`, dělí se
+`index.useky`, poznámky pod čarou se nepočítají): mění se jen asi 3 % ustanovení, a dřív stálo
+upozornění u všech. Výsledek je `pristi_meni` ve frontmatteru a budoucí text v
+`.zmeny/pristi/<cesta>.json` → tabulka `pristi` v indexu. Když se nemění nic, ohlášení zmizí.
+
+**Výjimka: novela se bere v posledním znění.** Z dnešního znění novely e-Sbírka vynechá body
+s odloženou účinností (23. 9.–13. 10. 2026 tak chybělo přes 370 bodů ve 49 novelách). Bod novely
+se pozná jen z XML — `Bod_Dd` mimo `Block_Citace`; v markdownu ho od číslovaného seznamu
+v citovaném textu nerozlišíš. Díry v číslování bodů nehlídej, zdroj má i bod „67.“ dvakrát.
+
 ## Odkud data jsou
 
 e-Sbírka Ministerstva vnitra, `e-sbirka.gov.cz` a `opendata.eselpoint.gov.cz`. Od 1. 1. 2024 je
