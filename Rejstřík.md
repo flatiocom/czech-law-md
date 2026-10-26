@@ -5,7 +5,7 @@ tags:
 
 # Rejstřík předpisů
 
-Celkem 27,093 předpisů, z toho 10,316 zrušených — ty jsou označené ~~přeškrtnutím~~ a datem. **Nepracuj s nimi jako s platným právem.**
+Celkem 27,101 předpisů, z toho 10,316 zrušených — ty jsou označené ~~přeškrtnutím~~ a datem. **Nepracuj s nimi jako s platným právem.**
 
 Generuje `tools/rejstrik.py`, needituj ručně.
 
@@ -203,6 +203,14 @@ Nejnovější změny jsou v [[CHANGELOG]].
 - [[188-2026|188/2026 Sb.]] Sdělení Státní volební komise o vyhlášení celkových výsledků voleb do Senátu Parlamentu České republiky konaných ve dnech 9. a 10. října 2026 (I. kolo)
 - [[189-2026|189/2026 Sb.]] Sdělení Státní volební komise o vyhlášení celkových výsledků voleb do zastupitelstev obcí konaných ve dnech 9. a 10. října 2026
 - [[190-2026|190/2026 Sb.]] Vyhláška,  kterou se mění vyhláška č. 418/2003 Sb., kterou se stanoví podrobnější vymezení okruhu a výše příjmů a výdajů fondů veřejného zdravotního pojištění zdravotních pojišťoven, podmínky jejich tvorby, užití, přípustnosti vzájemných převodů finančních prostředků a hospodaření s nimi, limit nákladů na činnost zdravotních pojišťoven krytých ze zdrojů základního fondu včetně postupu propočtu tohoto limitu, ve znění pozdějších předpisů
+- [[191-2026|191/2026 Sb.]] Sdělení Ministerstva vnitra o vyhlášení výše základny pro výpočet odměn členů zastupitelstev územních samosprávných celků podle zákona č. 128/2000 Sb., o obcích (obecní zřízení), ve znění pozdějších předpisů, zákona č. 129/2000 Sb., o krajích (krajské zřízení), ve znění pozdějších předpisů, a zákona č. 131/2000 Sb., o hlavním městě Praze, ve znění pozdějších předpisů
+- [[192-2026|192/2026 Sb.]] Vyhláška o požadavcích na formu a způsob tísňové komunikace
+- [[193-2026|193/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 393/2020 Sb., o digitální technické mapě kraje, ve znění pozdějších předpisů
+- [[194-2026|194/2026 Sb.]] Sdělení Státní volební komise o vyhlášení celkových výsledků voleb do Senátu Parlamentu České republiky konaných ve dnech 9. a 10. října 2026 (I. kolo) a ve dnech 16. a 17. října 2026 (II. kolo)
+- [[195-2026|195/2026 Sb.]] Zákon o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)
+- [[196-2026|196/2026 Sb.]] Usnesení Poslanecké sněmovny Parlamentu České republiky o setrvání na zákonu o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)
+- [[197-2026|197/2026 Sb.]] Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)
+- [[198-2026|198/2026 Sb.]] Usnesení Poslanecké sněmovny Parlamentu České republiky o setrvání na zákonu, kterým se mění některé zákony v souvislosti s přijetím zákona o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)
 
 ## 2025
 

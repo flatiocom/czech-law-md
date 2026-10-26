@@ -3,6 +3,87 @@
 Co se kdy změnilo ve sbírce. Zapisuje `tools/changelog.py` po každé aktualizaci;
 strojový tvar téhož je v `.zmeny/posledni.json`.
 
+## 2026-10-26
+
+37 nových, 34 změněných.
+
+- **[[32004R0885|32004R0885]]**
+- **[[32011R0749|32011R0749]]**
+- **[[32012R0079|32012R0079]]**
+- **[[32012R0380|32012R0380]]**
+- **[[32017R1151|32017R1151]]**
+- **[[32019R0980|32019R0980]]**
+- **[[32020R1080|32020R1080]]**
+- **[[32020R1081|32020R1081]]**
+- **[[32020R1524|32020R1524]]**
+- **[[32020R1534|32020R1534]]**
+- **[[32021R0404|32021R0404]]**
+- **[[32021R1447|32021R1447]]**
+- **[[32023R1033|32023R1033]]**
+- **[[32024R1028|32024R1028]]**
+- **[[32024R1481|32024R1481]]**
+- **[[32024R2215|32024R2215]]**
+- **[[32026R2158|32026R2158]]**
+- **[[32026R2167|32026R2167]]**
+- **[[32026R2168|32026R2168]]**
+- **[[32026R2188|32026R2188]]**
+- **[[32026R2202|32026R2202]]**
+- **[[32026R2248|32026R2248]]**
+- **[[32026R2249|32026R2249]]**
+- **[[32026R2289|32026R2289]]**
+- **[[32026R2299|32026R2299]]**
+- **[[31991L0412|u/1991/31991L0412.md]]**
+- **[[235-2004|235/2004 Sb.]]** Zákon o dani z přidané hodnoty — znění k 2026-01-01 (novelizuje: 635/2004 Sb., 669/2004 Sb., 124/2005 Sb., 215/2005 Sb., 377/2005 Sb., 217/2005 Sb.)
+- **[[432-2010|432/2010 Sb.]]** Nařízení vlády o kritériích pro určení prvku kritické infrastruktury — znění k 2022-03-22 (novelizuje: 315/2014 Sb., 154/2020 Sb., 61/2022 Sb.)
+- **[[315-2014|315/2014 Sb.]]** Nařízení vlády, kterým se mění nařízení vlády č. 432/2010 Sb., o kritériích pro určení prvku kritické infrastruktury — znění k 2015-01-01
+- **[[154-2020|154/2020 Sb.]]** Nařízení vlády, kterým se mění nařízení vlády č. 432/2010 Sb., o kritériích pro určení prvku kritické infrastruktury, ve znění nařízení vlády č. 315/2014 Sb. — znění k 2020-04-09
+- **[[140-2021|140/2021 Sb.]]** Vyhláška o energetickém auditu — znění k 2021-04-01
+- **[[61-2022|61/2022 Sb.]]** Nařízení vlády, kterým se mění nařízení vlády č. 432/2010 Sb., o kritériích pro určení prvku kritické infrastruktury, ve znění pozdějších předpisů — znění k 2022-03-22
+- **[[265-2024|265/2024 Sb.]]** Zákon, kterým se mění zákon č. 526/1990 Sb., o cenách, ve znění pozdějších předpisů, a další související zákony — znění k 2025-01-01 (novelizuje: 328/2024 Sb.)
+- **[[180-2026|180/2026 Sb.]]** Zákon o evidenci tržeb a o změně některých dalších zákonů — znění k 2026-10-08; dotčeno: § 1, § 2, § 3, § 4, § 5, § 6, § 7, § 8, § 9, § 10, § 11, § 12 a dalších 26
+
+<details><summary>Nově přidáno (37)</summary>
+
+- [[32025L2450R(01)|32025L2450R(01)]]
+- [[32026L2325|32026L2325]]
+- [[32026R0338R(04)|32026R0338R(04)]]
+- [[32026R1336R(01)|32026R1336R(01)]]
+- [[32026R1763|32026R1763]]
+- [[32026R1770|32026R1770]]
+- [[32026R2102R(01)|32026R2102R(01)]]
+- [[32026R2152|32026R2152]]
+- [[32026R2298|32026R2298]]
+- [[32026R2309|32026R2309]]
+- [[32026R2310|32026R2310]]
+- [[32026R2311|32026R2311]]
+- [[32026R2314|32026R2314]]
+- [[32026R2319|32026R2319]]
+- [[32026R2327|32026R2327]]
+- [[32026R2328|32026R2328]]
+- [[32026R2336|32026R2336]]
+- [[32026R2337|32026R2337]]
+- [[32026R2338|32026R2338]]
+- [[32026R2339|32026R2339]]
+- [[32026R2340|32026R2340]]
+- [[32026R2341|32026R2341]]
+- [[32026R2342|32026R2342]]
+- [[32026R2343|32026R2343]]
+- [[32026R2354|32026R2354]]
+- [[32026R2358|32026R2358]]
+- [[32026R2371|32026R2371]]
+- [[32026R2384|32026R2384]]
+- [[32026R2388|32026R2388]]
+- [[191-2026|191/2026 Sb.]] Sdělení Ministerstva vnitra o vyhlášení výše základny pro výpočet odměn členů zastupitelstev územních samosprávných celků podle zákona č. 128/2000 Sb., o obcích (obecní zřízení), ve znění pozdějších předpisů, zákona č. 129/2000 Sb., o krajích (krajské zřízení), ve znění pozdějších předpisů, a zákona č. 131/2000 Sb., o hlavním městě Praze, ve znění pozdějších předpisů
+- [[192-2026|192/2026 Sb.]] Vyhláška o požadavcích na formu a způsob tísňové komunikace
+- [[193-2026|193/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 393/2020 Sb., o digitální technické mapě kraje, ve znění pozdějších předpisů
+- [[194-2026|194/2026 Sb.]] Sdělení Státní volební komise o vyhlášení celkových výsledků voleb do Senátu Parlamentu České republiky konaných ve dnech 9. a 10. října 2026 (I. kolo) a ve dnech 16. a 17. října 2026 (II. kolo)
+- [[195-2026|195/2026 Sb.]] Zákon o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)
+- [[196-2026|196/2026 Sb.]] Usnesení Poslanecké sněmovny Parlamentu České republiky o setrvání na zákonu o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)
+- [[197-2026|197/2026 Sb.]] Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)
+- [[198-2026|198/2026 Sb.]] Usnesení Poslanecké sněmovny Parlamentu České republiky o setrvání na zákonu, kterým se mění některé zákony v souvislosti s přijetím zákona o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)
+
+</details>
+
 ## 2026-10-19
 
 39 nových, 49 změněných.
