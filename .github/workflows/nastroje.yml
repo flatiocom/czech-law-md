@@ -18,6 +18,10 @@ jobs:
       matrix:
         os: [ubuntu-latest, macos-latest]
         python: ["3.9", "3.12"]
+        # Ubuntu 26.04 (ubuntu-latest od 10/2026) Python 3.9 nenabízí; 3.9 hlídá Mac, kde ho uživatelé mají.
+        exclude:
+          - os: ubuntu-latest
+            python: "3.9"
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
