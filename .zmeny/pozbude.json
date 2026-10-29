@@ -1,4 +1,7 @@
 {
+ "110/2026 Sb.": {
+  "pozbude_platnosti_k": "2026-10-31"
+ },
  "123/2003 Sb.": {
   "pozbude_platnosti_k": "2026-12-31",
   "zrusi": "231/2025 Sb."
@@ -101,8 +104,14 @@
  "437/2023 Sb.": {
   "pozbude_platnosti_k": "2026-12-31"
  },
+ "450/2024 Sb.": {
+  "pozbude_platnosti_k": "2026-10-31"
+ },
  "455/2021 Sb.": {
   "pozbude_platnosti_k": "2028-12-31"
+ },
+ "463/2023 Sb.": {
+  "pozbude_platnosti_k": "2026-10-31"
  },
  "469/2011 Sb.": {
   "pozbude_platnosti_k": "2026-12-31",
@@ -139,5 +148,8 @@
  },
  "76/2005 Sb.": {
   "pozbude_platnosti_k": "2026-12-31"
+ },
+ "92/2015 Sb.": {
+  "pozbude_platnosti_k": "2026-10-31"
  }
 }

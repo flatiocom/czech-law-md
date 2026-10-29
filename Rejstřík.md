@@ -122,7 +122,7 @@ Nejnovější změny jsou v [[CHANGELOG]].
 - [[107-2026|107/2026 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 463/2013 Sb., o seznamech návykových látek, ve znění pozdějších předpisů, a nařízení vlády č. 11/2025 Sb., o seznamu zařazených psychoaktivních látek, ve znění pozdějších předpisů
 - [[108-2026|108/2026 Sb.]] Zákon, kterým se mění zákon č. 88/2024 Sb., o správě voleb, ve znění pozdějších předpisů, a některé další volební zákony
 - [[109-2026|109/2026 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 220/2019 Sb., o maximálním počtu žádostí o vízum k pobytu nad 90 dnů za účelem podnikání, žádostí o povolení k dlouhodobému pobytu za účelem investování a žádostí o zaměstnaneckou kartu, které lze podat na zastupitelském úřadu, ve znění pozdějších předpisů
-- [[110-2026|110/2026 Sb.]] Nařízení vlády, kterým se mění nařízení vlády  č. 92/2015 Sb., o pravidlech pro organizaci služebního úřadu, ve znění pozdějších předpisů
+- [[110-2026|110/2026 Sb.]] Nařízení vlády, kterým se mění nařízení vlády  č. 92/2015 Sb., o pravidlech pro organizaci služebního úřadu, ve znění pozdějších předpisů  — *platí jen do 2026-10-31*
 - [[111-2026|111/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 405/2024 Sb., o vzdělávání ve středních a vyšších odborných školách a o školských zařízeních zřizovaných Ministerstvem obrany
 - [[112-2026|112/2026 Sb.]] Vyhláška,  kterou se mění vyhláška č. 388/2011 Sb., o provedení některých ustanovení zákona o poskytování dávek osobám se zdravotním postižením, ve znění pozdějších předpisů
 - [[113-2026|113/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 53/1993 Sb., kterou se stanoví výše puncovních poplatků a způsob jejich placení, ve znění pozdějších předpisů
@@ -1253,7 +1253,7 @@ ke službě v bezpečnostních sborech
 - [[447-2024|447/2024 Sb.]] Vyhláška o zajištění kryptografické ochrany utajovaných informací a o některých náležitostech žádosti o uzavření smlouvy o zajištění činnosti
 - [[448-2024|448/2024 Sb.]] Zákon, kterým se mění zákon č. 234/2014 Sb., o státní službě, ve znění pozdějších předpisů, a další související zákony
 - [[449-2024|449/2024 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 136/2015 Sb., o rovnocennosti některých zkoušek a odborných kvalifikací zvláštní části úřednické zkoušky, ve znění pozdějších předpisů, a nařízení vlády č. 1/2019 Sb., o oborech státní služby, ve znění nařízení vlády č. 62/2022 Sb.
-- [[450-2024|450/2024 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 92/2015 Sb., o pravidlech pro organizaci služebního úřadu, ve znění nařízení vlády č. 463/2023 Sb.
+- [[450-2024|450/2024 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 92/2015 Sb., o pravidlech pro organizaci služebního úřadu, ve znění nařízení vlády č. 463/2023 Sb. — *platí jen do 2026-10-31*
 - [[451-2024|451/2024 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 36/2019 Sb., o podrobnostech služebního hodnocení státních zaměstnanců a vazbě osobního příplatku státního zaměstnance na výsledek služebního hodnocení a o změně nařízení vlády č. 304/2014 Sb., o platových poměrech státních zaměstnanců, ve znění pozdějších předpisů, ve znění nařízení vlády č. 231/2024 Sb.
 - [[452-2024|452/2024 Sb.]] Vyhláška o úřednické zkoušce
 - [[453-2024|453/2024 Sb.]] Zákon, kterým se mění zákon č. 150/2017 Sb., o zahraniční službě a o změně některých zákonů (zákon o zahraniční službě), ve znění pozdějších předpisů, a další související zákony
@@ -1799,7 +1799,7 @@ ke službě v bezpečnostních sborech
 - [[460-2023|460/2023 Sb.]] Vyhláška, kterou se mění vyhláška č. 228/2008 Sb., o registraci léčivých přípravků, ve znění pozdějších předpisů
 - [[461-2023|461/2023 Sb.]] Vyhláška, kterou se mění vyhláška č. 229/2008 Sb., o výrobě a distribuci léčiv, ve znění pozdějších předpisů
 - [[462-2023|462/2023 Sb.]] Zákon, kterým se mění některé zákony v souvislosti s rozvojem finančního trhu a s podporou zajištění na stáří
-- [[463-2023|463/2023 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 92/2015 Sb., o pravidlech pro organizaci služebního úřadu
+- [[463-2023|463/2023 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 92/2015 Sb., o pravidlech pro organizaci služebního úřadu — *platí jen do 2026-10-31*
 - [[464-2023|464/2023 Sb.]] Zákon, kterým se mění a ruší některé zákony v souvislosti se zrušením Úřadu pro přístup k dopravní infrastruktuře
 - [[465-2023|465/2023 Sb.]] Zákon, kterým se mění zákon č. 416/2009 Sb., o urychlení výstavby dopravní, vodní a energetické infrastruktury a infrastruktury elektronických komunikací (liniový zákon), ve znění pozdějších předpisů, a další související zákony
 - [[466-2023|466/2023 Sb.]] Vyhláška o podmínkách provozování hazardních her
@@ -5654,7 +5654,7 @@ ke službě v bezpečnostních sborech
 - [[89-2015|89/2015 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 508/2004 Sb., kterým se stanoví vzory hodnostního označení příslušníků bezpečnostních sborů, ve znění pozdějších předpisů
 - [[90-2015|90/2015 Sb.]] Vyhláška o vydání zlaté mince „Žďákovský obloukový most“ po 5 000 Kč
 - [[91-2015|91/2015 Sb.]] Sdělení Ministerstva práce a sociálních věcí, kterým se vyhlašuje částka odpovídající 50 % průměrné měsíční mzdy v národním hospodářství pro účely životního a existenčního minima a částka 50 % a 25 % průměrné měsíční mzdy v národním hospodářství pro účely státní sociální podpory
-- [[92-2015|92/2015 Sb.]] Nařízení vlády o pravidlech pro organizaci služebního úřadu
+- [[92-2015|92/2015 Sb.]] Nařízení vlády o pravidlech pro organizaci služebního úřadu — *platí jen do 2026-10-31*
 - ~~[[93-2015|93/2015 Sb.]]~~ Nařízení vlády, kterým se mění nařízení vlády č. 26/2003 Sb., kterým se stanoví technické požadavky na tlaková zařízení, ve znění nařízení vlády č. 621/2004 Sb. — *zrušeno 2016-07-19*
 - [[94-2015|94/2015 Sb.]] Sdělení Ministerstva práce a sociálních věcí o rozhodné částce pro určení celkové výše mzdových nároků vyplacených jednomu zaměstnanci podle zákona č. 118/2000 Sb., o ochraně zaměstnanců při platební neschopnosti zaměstnavatele a o změně některých zákonů
 - [[95-2015|95/2015 Sb.]] Sdělení Ministerstva práce a sociálních věcí o výši průměrné hrubé roční mzdy v České republice za rok 2014 pro účely vydávání modrých karet podle zákona č. 326/1999 Sb., o pobytu cizinců na území České republiky a o změně některých zákonů, ve znění pozdějších předpisů

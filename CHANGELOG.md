@@ -3,6 +3,31 @@
 Co se kdy změnilo ve sbírce. Zapisuje `tools/changelog.py` po každé aktualizaci;
 strojový tvar téhož je v `.zmeny/posledni.json`.
 
+## 2026-10-29
+
+0 nových, 20 změněných.
+
+- **[[127-1995|127/1995 Sb.]]** Nařízení vlády České republiky o prohlášení území ucelených částí vybraných měst a obcí s dochovanými soubory lidové architektury za památkové rezervace — znění k 1995-07-25 (novelizuje: 179/2026 Sb.)
+- **[[130-2002|130/2002 Sb.]]** Zákon o podpoře výzkumu a vývoje z veřejných prostředků a o změně některých souvisejících zákonů (zákon o podpoře výzkumu a vývoje) — znění k 2024-01-01 (novelizuje: 342/2005 Sb., 413/2005 Sb., 227/2006 Sb., 81/2006 Sb., 171/2007 Sb., 124/2008 Sb.)
+- **[[418-2003|418/2003 Sb.]]** Vyhláška, kterou se stanoví podrobnější vymezení okruhu a výše příjmů a výdajů fondů veřejného zdravotního pojištění zdravotních pojišťoven, podmínky jejich tvorby, užití, přípustnosti vzájemných převodů finančních prostředků a hospodaření s nimi, limit nákladů na činnost zdravotních pojišťoven krytých ze zdrojů základního fondu včetně postupu propočtu tohoto limitu — znění k 2026-01-01 (novelizuje: 656/2004 Sb., 519/2005 Sb., 356/2007 Sb., 127/2010 Sb., 302/2012 Sb., 280/2014 Sb.)
+- **[[235-2004|235/2004 Sb.]]** Zákon o dani z přidané hodnoty — znění k 2026-01-01 (novelizuje: 635/2004 Sb., 669/2004 Sb., 124/2005 Sb., 215/2005 Sb., 377/2005 Sb., 217/2005 Sb.)
+- **[[432-2010|432/2010 Sb.]]** Nařízení vlády o kritériích pro určení prvku kritické infrastruktury — znění k 2022-03-22 (novelizuje: 315/2014 Sb., 154/2020 Sb., 61/2022 Sb.)
+- **[[315-2014|315/2014 Sb.]]** Nařízení vlády, kterým se mění nařízení vlády č. 432/2010 Sb., o kritériích pro určení prvku kritické infrastruktury — znění k 2015-01-01
+- **[[92-2015|92/2015 Sb.]]** Nařízení vlády o pravidlech pro organizaci služebního úřadu — znění k 2026-07-01 (novelizuje: 463/2023 Sb., 450/2024 Sb., 110/2026 Sb.)
+- **[[154-2020|154/2020 Sb.]]** Nařízení vlády, kterým se mění nařízení vlády č. 432/2010 Sb., o kritériích pro určení prvku kritické infrastruktury, ve znění nařízení vlády č. 315/2014 Sb. — znění k 2020-04-09
+- **[[140-2021|140/2021 Sb.]]** Vyhláška o energetickém auditu — znění k 2021-04-01
+- **[[61-2022|61/2022 Sb.]]** Nařízení vlády, kterým se mění nařízení vlády č. 432/2010 Sb., o kritériích pro určení prvku kritické infrastruktury, ve znění pozdějších předpisů — znění k 2022-03-22
+- **[[11-2023|11/2023 Sb.]]** Vyhláška o zdravotní způsobilosti ve vnitrozemské plavbě — znění k 2026-10-14 (novelizuje: 173/2026 Sb.)
+- **[[463-2023|463/2023 Sb.]]** Nařízení vlády, kterým se mění nařízení vlády č. 92/2015 Sb., o pravidlech pro organizaci služebního úřadu — znění k 2024-07-01
+- **[[450-2024|450/2024 Sb.]]** Nařízení vlády, kterým se mění nařízení vlády č. 92/2015 Sb., o pravidlech pro organizaci služebního úřadu, ve znění nařízení vlády č. 463/2023 Sb. — znění k 2025-01-01
+- **[[110-2026|110/2026 Sb.]]** Nařízení vlády, kterým se mění nařízení vlády  č. 92/2015 Sb., o pravidlech pro organizaci služebního úřadu, ve znění pozdějších předpisů — znění k 2026-07-01
+- **[[179-2026|179/2026 Sb.]]** Nařízení vlády, kterým se mění nařízení vlády č. 127/1995 Sb., o prohlášení území ucelených částí vybraných měst a obcí s dochovanými soubory lidové architektury za památkové rezervace — znění k 2027-01-01
+- **[[180-2026|180/2026 Sb.]]** Zákon o evidenci tržeb a o změně některých dalších zákonů — znění k 2026-10-08
+- **[[183-2026|183/2026 Sb.]]** Vyhláška o energetickém auditu a systému hospodaření s energií — znění k 2026-10-13
+- **[[187-2026|187/2026 Sb.]]** Nařízení vlády o stanovení některých podmínek poskytnutí mimořádné finanční podpory pro zemědělce postižené zvláštními problémy, které mají dopad na jejich hospodářskou životaschopnost a které vyplývají z krize na Blízkém východě — znění k 2026-10-15
+- **[[190-2026|190/2026 Sb.]]** Vyhláška,  kterou se mění vyhláška č. 418/2003 Sb., kterou se stanoví podrobnější vymezení okruhu a výše příjmů a výdajů fondů veřejného zdravotního pojištění zdravotních pojišťoven, podmínky jejich tvorby, užití, přípustnosti vzájemných převodů finančních prostředků a hospodaření s nimi, limit nákladů na činnost zdravotních pojišťoven krytých ze zdrojů základního fondu včetně postupu propočtu tohoto limitu, ve znění pozdějších předpisů — znění k 2027-01-01
+- **[[192-2026|192/2026 Sb.]]** Vyhláška o požadavcích na formu a způsob tísňové komunikace — znění k 2026-10-20
+
 ## 2026-10-26
 
 37 nových, 34 změněných.

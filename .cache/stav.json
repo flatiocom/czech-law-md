@@ -8327,6 +8327,7 @@
  "11/2023 Sb.": {
   "dokument_id": "8570",
   "nazev": "Vyhláška o zdravotní způsobilosti ve vnitrozemské plavbě",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2023/11-2023.md",
   "ucinnost_od": "2026-10-14",
@@ -18965,6 +18966,7 @@
  "127/1995 Sb.": {
   "dokument_id": "2078653",
   "nazev": "Nařízení vlády České republiky o prohlášení území ucelených částí vybraných měst a obcí s dochovanými soubory lidové architektury za památkové rezervace",
+  "pristi_dokument_id": "2078961",
   "pristi_zneni_od": "2027-01-01",
   "soubor": "zakony/1995/127-1995.md",
   "ucinnost_od": "1995-07-25",
@@ -27410,6 +27412,7 @@
  "140/2021 Sb.": {
   "dokument_id": "2078635",
   "nazev": "Vyhláška o energetickém auditu",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2021/140-2021.md",
   "ucinnost_od": "2021-04-01",
@@ -34571,6 +34574,7 @@
  "154/2020 Sb.": {
   "dokument_id": "2078693",
   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 432/2010 Sb., o kritériích pro určení prvku kritické infrastruktury, ve znění nařízení vlády č. 315/2014 Sb.",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2020/154-2020.md",
   "ucinnost_od": "2020-04-09",
@@ -43799,6 +43803,7 @@
  "173/2026 Sb.": {
   "dokument_id": "8568",
   "nazev": "Vyhláška, kterou se mění vyhláška č. 11/2023 Sb., o zdravotní způsobilosti ve vnitrozemské plavbě ",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/173-2026.md",
   "ucinnost_od": "2026-10-14",
@@ -46096,12 +46101,13 @@
   "zmena": "2025-07-02T22:17:53.679"
  },
  "179/2026 Sb.": {
-  "dokument_id": "2078939",
+  "dokument_id": "2078941",
   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 127/1995 Sb., o prohlášení území ucelených částí vybraných měst a obcí s dochovanými soubory lidové architektury za památkové rezervace",
-  "pristi_zneni_od": "2027-01-01",
+  "pristi_dokument_id": "",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2026/179-2026.md",
-  "ucinnost_od": "2026-09-30",
-  "zmena": "2026-10-21T09:11:59.389"
+  "ucinnost_od": "2027-01-01",
+  "zmena": "2026-10-21T09:27:04.413"
  },
  "18/1918 Sb.": {
   "dokument_id": "60065",
@@ -47262,6 +47268,7 @@
  "180/2026 Sb.": {
   "dokument_id": "2078933",
   "nazev": "Zákon o evidenci tržeb a o změně některých dalších zákonů",
+  "pristi_dokument_id": "2078935",
   "pristi_zneni_od": "2027-01-01",
   "soubor": "zakony/2026/180-2026.md",
   "ucinnost_od": "2026-10-08",
@@ -48359,6 +48366,7 @@
  "183/2026 Sb.": {
   "dokument_id": "8780",
   "nazev": "Vyhláška o energetickém auditu a systému hospodaření s energií ",
+  "pristi_dokument_id": "8782",
   "pristi_zneni_od": "2026-11-01",
   "soubor": "zakony/2026/183-2026.md",
   "ucinnost_od": "2026-10-13",
@@ -48732,6 +48740,7 @@
  "184/2026 Sb.": {
   "dokument_id": "2078705",
   "nazev": "Sdělení Ministerstva práce a sociálních věcí, kterým se vyhlašuje výše částky rozhodné pro účast zaměstnanců činných na základě dohody o provedení práce na nemocenském pojištění",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/184-2026.md",
   "ucinnost_od": "0000-00-00",
@@ -49083,6 +49092,7 @@
  "185/2026 Sb.": {
   "dokument_id": "2078707",
   "nazev": "Sdělení Ministerstva práce a sociálních věcí, kterým se vyhlašuje pro účely nemocenského pojištění výše redukčních hranic pro úpravu denního vyměřovacího základu platných v roce 2027",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/185-2026.md",
   "ucinnost_od": "0000-00-00",
@@ -49420,6 +49430,7 @@
  "186/2026 Sb.": {
   "dokument_id": "2078703",
   "nazev": "Sdělení Ministerstva práce a sociálních věcí, kterým se vyhlašuje zvýšení částky rozhodné pro účast zaměstnanců na nemocenském pojištění",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/186-2026.md",
   "ucinnost_od": "0000-00-00",
@@ -49757,6 +49768,7 @@
  "187/2026 Sb.": {
   "dokument_id": "2078675",
   "nazev": "Nařízení vlády o stanovení některých podmínek poskytnutí mimořádné finanční podpory pro zemědělce postižené zvláštními problémy, které mají dopad na jejich hospodářskou životaschopnost a které vyplývají z krize na Blízkém východě",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/187-2026.md",
   "ucinnost_od": "2026-10-15",
@@ -50094,6 +50106,7 @@
  "188/2026 Sb.": {
   "dokument_id": "2078637",
   "nazev": "Sdělení Státní volební komise o vyhlášení celkových výsledků voleb do Senátu Parlamentu České republiky konaných ve dnech 9. a 10. října 2026 (I. kolo)",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/188-2026.md",
   "ucinnost_od": "0000-00-00",
@@ -50431,6 +50444,7 @@
  "189/2026 Sb.": {
   "dokument_id": "2078639",
   "nazev": "Sdělení Státní volební komise o vyhlášení celkových výsledků voleb do zastupitelstev obcí konaných ve dnech 9. a 10. října 2026",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/189-2026.md",
   "ucinnost_od": "0000-00-00",
@@ -51544,12 +51558,13 @@
   "zmena": "2025-06-18T12:18:50.304"
  },
  "190/2026 Sb.": {
-  "dokument_id": "2078711",
+  "dokument_id": "2078713",
   "nazev": "Vyhláška,  kterou se mění vyhláška č. 418/2003 Sb., kterou se stanoví podrobnější vymezení okruhu a výše příjmů a výdajů fondů veřejného zdravotního pojištění zdravotních pojišťoven, podmínky jejich tvorby, užití, přípustnosti vzájemných převodů finančních prostředků a hospodaření s nimi, limit nákladů na činnost zdravotních pojišťoven krytých ze zdrojů základního fondu včetně postupu propočtu tohoto limitu, ve znění pozdějších předpisů",
-  "pristi_zneni_od": "2027-01-01",
+  "pristi_dokument_id": "",
+  "pristi_zneni_od": "",
   "soubor": "zakony/2026/190-2026.md",
-  "ucinnost_od": "2026-10-14",
-  "zmena": "2026-10-16T13:10:00.864"
+  "ucinnost_od": "2027-01-01",
+  "zmena": "2026-10-16T13:16:08.319"
  },
  "191/1931 Sb.": {
   "dokument_id": "715",
@@ -51904,6 +51919,7 @@
  "191/2026 Sb.": {
   "dokument_id": "2078881",
   "nazev": "Sdělení Ministerstva vnitra o vyhlášení výše základny pro výpočet odměn členů zastupitelstev územních samosprávných celků podle zákona č. 128/2000 Sb., o obcích (obecní zřízení), ve znění pozdějších předpisů, zákona č. 129/2000 Sb., o krajích (krajské zřízení), ve znění pozdějších předpisů, a zákona č. 131/2000 Sb., o hlavním městě Praze, ve znění pozdějších předpisů",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/191-2026.md",
   "ucinnost_od": "0000-00-00",
@@ -52241,6 +52257,7 @@
  "192/2026 Sb.": {
   "dokument_id": "8826",
   "nazev": "Vyhláška o požadavcích na formu a způsob tísňové komunikace",
+  "pristi_dokument_id": "8828",
   "pristi_zneni_od": "2027-06-28",
   "soubor": "zakony/2026/192-2026.md",
   "ucinnost_od": "2026-10-20",
@@ -52578,6 +52595,7 @@
  "193/2026 Sb.": {
   "dokument_id": "2078877",
   "nazev": "Vyhláška, kterou se mění vyhláška č. 393/2020 Sb., o digitální technické mapě kraje, ve znění pozdějších předpisů",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/193-2026.md",
   "ucinnost_od": "0000-00-00",
@@ -52922,6 +52940,7 @@
  "194/2026 Sb.": {
   "dokument_id": "2078879",
   "nazev": "Sdělení Státní volební komise o vyhlášení celkových výsledků voleb do Senátu Parlamentu České republiky konaných ve dnech 9. a 10. října 2026 (I. kolo) a ve dnech 16. a 17. října 2026 (II. kolo)",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/194-2026.md",
   "ucinnost_od": "0000-00-00",
@@ -53260,6 +53279,7 @@
  "195/2026 Sb.": {
   "dokument_id": "2078963",
   "nazev": "Zákon o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/195-2026.md",
   "ucinnost_od": "0000-00-00",
@@ -53590,6 +53610,7 @@
  "196/2026 Sb.": {
   "dokument_id": "8840",
   "nazev": "Usnesení Poslanecké sněmovny Parlamentu České republiky o setrvání na zákonu o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích) ",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/196-2026.md",
   "ucinnost_od": "0000-00-00",
@@ -53941,6 +53962,7 @@
  "197/2026 Sb.": {
   "dokument_id": "2078965",
   "nazev": "Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/197-2026.md",
   "ucinnost_od": "0000-00-00",
@@ -54265,6 +54287,7 @@
  "198/2026 Sb.": {
   "dokument_id": "8842",
   "nazev": "Usnesení Poslanecké sněmovny Parlamentu České republiky o setrvání na zákonu, kterým se mění některé zákony v souvislosti s přijetím zákona o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2026/198-2026.md",
   "ucinnost_od": "0000-00-00",
@@ -69323,6 +69346,7 @@
  "235/2004 Sb.": {
   "dokument_id": "2078923",
   "nazev": "Zákon o dani z přidané hodnoty",
+  "pristi_dokument_id": "2078921",
   "pristi_zneni_od": "2027-01-01",
   "soubor": "zakony/2004/235-2004.md",
   "ucinnost_od": "2026-01-01",
@@ -73080,6 +73104,7 @@
  "245/2016 Sb.": {
   "dokument_id": "2078647",
   "nazev": "Vyhláška k provedení některých ustanovení celního zákona",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2016/245-2016.md",
   "ucinnost_od": "2026-01-01",
@@ -80162,6 +80187,7 @@
  "265/2024 Sb.": {
   "dokument_id": "2078959",
   "nazev": "Zákon, kterým se mění zákon č. 526/1990 Sb., o cenách, ve znění pozdějších předpisů, a další související zákony",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2024/265-2024.md",
   "ucinnost_od": "2025-01-01",
@@ -97653,6 +97679,7 @@
  "315/2014 Sb.": {
   "dokument_id": "2078689",
   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 432/2010 Sb., o kritériích pro určení prvku kritické infrastruktury",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2014/315-2014.md",
   "ucinnost_od": "2015-01-01",
@@ -126779,6 +126806,7 @@
  "418/2003 Sb.": {
   "dokument_id": "8804",
   "nazev": "Vyhláška, kterou se stanoví podrobnější vymezení okruhu a výše příjmů a výdajů fondů veřejného zdravotního pojištění zdravotních pojišťoven, podmínky jejich tvorby, užití, přípustnosti vzájemných převodů finančních prostředků a hospodaření s nimi, limit nákladů na činnost zdravotních pojišťoven krytých ze zdrojů základního fondu včetně postupu propočtu tohoto limitu",
+  "pristi_dokument_id": "8796",
   "pristi_zneni_od": "2027-01-01",
   "soubor": "zakony/2003/418-2003.md",
   "ucinnost_od": "2026-01-01",
@@ -130681,6 +130709,7 @@
  "432/2010 Sb.": {
   "dokument_id": "2078691",
   "nazev": "Nařízení vlády o kritériích pro určení prvku kritické infrastruktury",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2010/432-2010.md",
   "ucinnost_od": "2022-03-22",
@@ -161383,6 +161412,7 @@
  "61/2022 Sb.": {
   "dokument_id": "2078695",
   "nazev": "Nařízení vlády, kterým se mění nařízení vlády č. 432/2010 Sb., o kritériích pro určení prvku kritické infrastruktury, ve znění pozdějších předpisů",
+  "pristi_dokument_id": "",
   "pristi_zneni_od": "",
   "soubor": "zakony/2022/61-2022.md",
   "ucinnost_od": "2022-03-22",
