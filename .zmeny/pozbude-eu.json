@@ -82,6 +82,10 @@
   "pozbude_platnosti_k": "2026-12-04",
   "zrusi": "32024L2811"
  },
+ "32001L0040": {
+  "pozbude_platnosti_k": "2027-10-16",
+  "zrusi": "32026R2280"
+ },
  "32001R2580": {
   "pozbude_platnosti_k": "2027-02-22",
   "pozbude_zcasti": "true"
@@ -285,6 +289,10 @@
   "pozbude_platnosti_k": "2028-08-31",
   "pozbude_zcasti": "true",
   "zrusi": "32026R1738"
+ },
+ "32008L0115": {
+  "pozbude_platnosti_k": "2027-10-16",
+  "zrusi": "32026R2280"
  },
  "32008R0453": {
   "pozbude_platnosti_k": "2026-12-31",
@@ -695,14 +703,6 @@
   "pozbude_platnosti_k": "2026-12-31",
   "zrusi": "32026R1395"
  },
- "32015R2306": {
-  "pozbude_platnosti_k": "2026-10-14",
-  "zrusi": "32026R2129"
- },
- "32015R2307": {
-  "pozbude_platnosti_k": "2026-10-13",
-  "zrusi": "32026R2115"
- },
  "32016L0774": {
   "pozbude_platnosti_k": "2028-08-31",
   "zrusi": "32026R1738"
@@ -1049,9 +1049,6 @@
  "32021R1342": {
   "pozbude_platnosti_k": "2026-12-31",
   "pozbude_zcasti": "true"
- },
- "32021R1805": {
-  "pozbude_platnosti_k": "2026-10-14"
  },
  "32021R1840": {
   "pozbude_platnosti_k": "2027-05-20",
@@ -1570,10 +1567,6 @@
  },
  "32024R1475": {
   "pozbude_platnosti_k": "2029-06-01"
- },
- "32024R1481": {
-  "pozbude_platnosti_k": "2026-10-24",
-  "zrusi": "32026R2199"
  },
  "32024R1513": {
   "pozbude_platnosti_k": "2027-02-18"
@@ -2326,5 +2319,20 @@
  },
  "32026R2269": {
   "pozbude_platnosti_k": "2028-10-11"
+ },
+ "32026R2270": {
+  "pozbude_platnosti_k": "2028-11-17"
+ },
+ "32026R2311": {
+  "pozbude_platnosti_k": "2031-10-21"
+ },
+ "32026R2319": {
+  "pozbude_platnosti_k": "2028-02-11"
+ },
+ "32026R2327": {
+  "pozbude_platnosti_k": "2031-10-23"
+ },
+ "32026R2371": {
+  "pozbude_platnosti_k": "2028-04-20"
  }
 }

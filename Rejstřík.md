@@ -5,7 +5,7 @@ tags:
 
 # Rejstřík předpisů
 
-Celkem 27,085 předpisů, z toho 10,316 zrušených — ty jsou označené ~~přeškrtnutím~~ a datem. **Nepracuj s nimi jako s platným právem.**
+Celkem 27,101 předpisů, z toho 10,316 zrušených — ty jsou označené ~~přeškrtnutím~~ a datem. **Nepracuj s nimi jako s platným právem.**
 
 Generuje `tools/rejstrik.py`, needituj ručně.
 
@@ -195,6 +195,22 @@ Nejnovější změny jsou v [[CHANGELOG]].
 - [[180-2026|180/2026 Sb.]] Zákon o evidenci tržeb a o změně některých dalších zákonů
 - [[181-2026|181/2026 Sb.]] Nařízení vlády o zavedení letního času v letech 2027 až 2031
 - [[182-2026|182/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 356/2024 Sb., o náležitostech formulářů žádosti o opis nebo výpis z rejstříku trestů a žádosti o opis z evidence přestupků
+- [[183-2026|183/2026 Sb.]] Vyhláška o energetickém auditu a systému hospodaření s energií
+- [[184-2026|184/2026 Sb.]] Sdělení Ministerstva práce a sociálních věcí, kterým se vyhlašuje výše částky rozhodné pro účast zaměstnanců činných na základě dohody o provedení práce na nemocenském pojištění
+- [[185-2026|185/2026 Sb.]] Sdělení Ministerstva práce a sociálních věcí, kterým se vyhlašuje pro účely nemocenského pojištění výše redukčních hranic pro úpravu denního vyměřovacího základu platných v roce 2027
+- [[186-2026|186/2026 Sb.]] Sdělení Ministerstva práce a sociálních věcí, kterým se vyhlašuje zvýšení částky rozhodné pro účast zaměstnanců na nemocenském pojištění
+- [[187-2026|187/2026 Sb.]] Nařízení vlády o stanovení některých podmínek poskytnutí mimořádné finanční podpory pro zemědělce postižené zvláštními problémy, které mají dopad na jejich hospodářskou životaschopnost a které vyplývají z krize na Blízkém východě
+- [[188-2026|188/2026 Sb.]] Sdělení Státní volební komise o vyhlášení celkových výsledků voleb do Senátu Parlamentu České republiky konaných ve dnech 9. a 10. října 2026 (I. kolo)
+- [[189-2026|189/2026 Sb.]] Sdělení Státní volební komise o vyhlášení celkových výsledků voleb do zastupitelstev obcí konaných ve dnech 9. a 10. října 2026
+- [[190-2026|190/2026 Sb.]] Vyhláška,  kterou se mění vyhláška č. 418/2003 Sb., kterou se stanoví podrobnější vymezení okruhu a výše příjmů a výdajů fondů veřejného zdravotního pojištění zdravotních pojišťoven, podmínky jejich tvorby, užití, přípustnosti vzájemných převodů finančních prostředků a hospodaření s nimi, limit nákladů na činnost zdravotních pojišťoven krytých ze zdrojů základního fondu včetně postupu propočtu tohoto limitu, ve znění pozdějších předpisů
+- [[191-2026|191/2026 Sb.]] Sdělení Ministerstva vnitra o vyhlášení výše základny pro výpočet odměn členů zastupitelstev územních samosprávných celků podle zákona č. 128/2000 Sb., o obcích (obecní zřízení), ve znění pozdějších předpisů, zákona č. 129/2000 Sb., o krajích (krajské zřízení), ve znění pozdějších předpisů, a zákona č. 131/2000 Sb., o hlavním městě Praze, ve znění pozdějších předpisů
+- [[192-2026|192/2026 Sb.]] Vyhláška o požadavcích na formu a způsob tísňové komunikace
+- [[193-2026|193/2026 Sb.]] Vyhláška, kterou se mění vyhláška č. 393/2020 Sb., o digitální technické mapě kraje, ve znění pozdějších předpisů
+- [[194-2026|194/2026 Sb.]] Sdělení Státní volební komise o vyhlášení celkových výsledků voleb do Senátu Parlamentu České republiky konaných ve dnech 9. a 10. října 2026 (I. kolo) a ve dnech 16. a 17. října 2026 (II. kolo)
+- [[195-2026|195/2026 Sb.]] Zákon o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)
+- [[196-2026|196/2026 Sb.]] Usnesení Poslanecké sněmovny Parlamentu České republiky o setrvání na zákonu o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)
+- [[197-2026|197/2026 Sb.]] Zákon, kterým se mění některé zákony v souvislosti s přijetím zákona o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)
+- [[198-2026|198/2026 Sb.]] Usnesení Poslanecké sněmovny Parlamentu České republiky o setrvání na zákonu, kterým se mění některé zákony v souvislosti s přijetím zákona o právních poměrech státních zaměstnanců v ministerstvech a jiných správních úřadech (zákon o státních zaměstnancích)
 
 ## 2025
 
@@ -2493,7 +2509,7 @@ ke službě v bezpečnostních sborech
 - [[137-2021|137/2021 Sb.]] Nařízení vlády, kterým se mění nařízení vlády č. 86/2011 Sb., o technických požadavcích na hračky, ve znění pozdějších předpisů
 - [[138-2021|138/2021 Sb.]] Sdělení Státní volební komise o vyhlášení a uveřejnění celkových výsledků nových voleb do zastupitelstev obcí konaných dne 20. března 2021
 - [[139-2021|139/2021 Sb.]] Usnesení vlády České republiky č. 312 o přijetí krizového opatření
-- [[140-2021|140/2021 Sb.]] Vyhláška o energetickém auditu
+- [[140-2021|140/2021 Sb.]] Vyhláška o energetickém auditu — *platí jen do 2026-10-31*
 - [[141-2021|141/2021 Sb.]] Vyhláška o energetickém posudku a o údajích vedených v Systému monitoringu spotřeby energie
 - [[142-2021|142/2021 Sb.]] Sdělení Ministerstva práce a sociálních věcí o rozhodné částce pro určení celkové výše mzdových nároků vyplacených jednomu zaměstnanci podle zákona č. 118/2000 Sb., o ochraně zaměstnanců při platební neschopnosti zaměstnavatele a o změně některých zákonů
 - [[143-2021|143/2021 Sb.]] Sdělení Ministerstva práce a sociálních věcí o výši průměrné hrubé roční mzdy v České republice za rok 2020 pro účely vydávání modrých karet podle zákona č. 326/1999 Sb., o pobytu cizinců na území České republiky a o změně některých zákonů, ve znění pozdějších předpisů
